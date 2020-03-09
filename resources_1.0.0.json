@@ -115,7 +115,7 @@
     "default_md5": "be050f9e81b0e453afc8bd316c0d18ad",
     "lang_name": "Arabic"
   },
-  "Arabic": {
+  "arabic": {
     "alias": "ar"
   },
   "de": {
@@ -261,7 +261,7 @@
     "default_md5": "6d83a846cd1092ab84956b1fff9fad3a",
     "lang_name": "German"
   },
-  "German": {
+  "german": {
     "alias": "de"
   },
   "en": {
@@ -460,7 +460,7 @@
     "default_md5": "357ad5f0260cbeafe3c936a5a956e4c2",
     "lang_name": "English"
   },
-  "English": {
+  "english": {
     "alias": "en"
   },
   "es": {
@@ -609,7 +609,7 @@
     "default_md5": "04fff68f0ecd876f09baa6997b18ac86",
     "lang_name": "Spanish"
   },
-  "Spanish": {
+  "spanish": {
     "alias": "es"
   },
   "fr": {
@@ -805,7 +805,7 @@
     "default_md5": "2e4971e7944c7c4d4d121a191687be71",
     "lang_name": "French"
   },
-  "French": {
+  "french": {
     "alias": "fr"
   },
   "nl": {
@@ -945,7 +945,7 @@
     "default_md5": "4e1209d8ed6f067f6d10d68ae1f75c3a",
     "lang_name": "Dutch"
   },
-  "Dutch": {
+  "dutch": {
     "alias": "nl"
   },
   "ru": {
@@ -1099,7 +1099,7 @@
     "default_md5": "040cb4b3087d57e8b9cbdcc32f1e66b1",
     "lang_name": "Russian"
   },
-  "Russian": {
+  "russian": {
     "alias": "ru"
   },
   "zh": {
@@ -1199,7 +1199,7 @@
     "default_md5": "0ff72987f334b96b5a7d0a42f364b45c",
     "lang_name": "Chinese"
   },
-  "Chinese": {
+  "chinese": {
     "alias": "zh"
   },
   "af": {
@@ -1263,7 +1263,7 @@
     "default_md5": "91445a7d1fad1bc9ea04a806d3c9626d",
     "lang_name": "Afrikaans"
   },
-  "Afrikaans": {
+  "afrikaans": {
     "alias": "af"
   },
   "be": {
@@ -1327,7 +1327,7 @@
     "default_md5": "76a36df58f438a1f93dece7b76f85486",
     "lang_name": "Belarusian"
   },
-  "Belarusian": {
+  "belarusian": {
     "alias": "be"
   },
   "bg": {
@@ -1391,7 +1391,7 @@
     "default_md5": "e7400f122cb4cca2442fbc5b911e9dca",
     "lang_name": "Bulgarian"
   },
-  "Bulgarian": {
+  "bulgarian": {
     "alias": "bg"
   },
   "bxr": {
@@ -1455,7 +1455,7 @@
     "default_md5": "13334780ea37d3801714161a77134429",
     "lang_name": "Buryat"
   },
-  "Buryat": {
+  "buryat": {
     "alias": "bxr"
   },
   "ca": {
@@ -1525,7 +1525,7 @@
     "default_md5": "0b0e77631bb0627b4549dc4a40a94682",
     "lang_name": "Catalan"
   },
-  "Catalan": {
+  "catalan": {
     "alias": "ca"
   },
   "cop": {
@@ -1590,7 +1590,7 @@
     "default_md5": "fccc4bc40aa67adb1633f768a1a7faa4",
     "lang_name": "Coptic"
   },
-  "Coptic": {
+  "coptic": {
     "alias": "cop"
   },
   "cs": {
@@ -1750,7 +1750,7 @@
     "default_md5": "687b10e0ec30b09cd4a1d79d779df6e2",
     "lang_name": "Czech"
   },
-  "Czech": {
+  "czech": {
     "alias": "cs"
   },
   "cu": {
@@ -1814,7 +1814,7 @@
     "default_md5": "75ab6777625d9a73b70a98fc8850a0a1",
     "lang_name": "Old_Church_Slavonic"
   },
-  "Old_Church_Slavonic": {
+  "old_church_slavonic": {
     "alias": "cu"
   },
   "da": {
@@ -1878,7 +1878,7 @@
     "default_md5": "deb420962fcddda7968c103df64a7642",
     "lang_name": "Danish"
   },
-  "Danish": {
+  "danish": {
     "alias": "da"
   },
   "el": {
@@ -1948,7 +1948,7 @@
     "default_md5": "5b72591a327becc69184d2cb8c6d9ef6",
     "lang_name": "Greek"
   },
-  "Greek": {
+  "greek": {
     "alias": "el"
   },
   "et": {
@@ -2039,7 +2039,7 @@
     "default_md5": "b65962c9f8d17a91f5d63959c864bc80",
     "lang_name": "Estonian"
   },
-  "Estonian": {
+  "estonian": {
     "alias": "et"
   },
   "eu": {
@@ -2103,7 +2103,7 @@
     "default_md5": "86e7eec34258c7655e138324e9b06447",
     "lang_name": "Basque"
   },
-  "Basque": {
+  "basque": {
     "alias": "eu"
   },
   "fa": {
@@ -2173,7 +2173,7 @@
     "default_md5": "f8855d5a3546035bdf17a863819a2d11",
     "lang_name": "Persian"
   },
-  "Persian": {
+  "persian": {
     "alias": "fa"
   },
   "fi": {
@@ -2273,7 +2273,7 @@
     "default_md5": "6feb6bb20aa18bc709c6d4a77954c8ba",
     "lang_name": "Finnish"
   },
-  "Finnish": {
+  "finnish": {
     "alias": "fi"
   },
   "fro": {
@@ -2331,7 +2331,7 @@
     "default_md5": "a79be7f1a506d24374dc096272893578",
     "lang_name": "Old_French"
   },
-  "Old_French": {
+  "old_french": {
     "alias": "fro"
   },
   "ga": {
@@ -2395,7 +2395,7 @@
     "default_md5": "652cb28360fab063474aba6d79f4f53c",
     "lang_name": "Irish"
   },
-  "Irish": {
+  "irish": {
     "alias": "ga"
   },
   "gd": {
@@ -2459,7 +2459,7 @@
     "default_md5": "a6cee66731e606ff98dbb47219ef59e1",
     "lang_name": "Scottish_Gaelic"
   },
-  "Scottish_Gaelic": {
+  "scottish_gaelic": {
     "alias": "gd"
   },
   "gl": {
@@ -2559,7 +2559,7 @@
     "default_md5": "f086df5396f692b2faa6b1ff39791f09",
     "lang_name": "Galician"
   },
-  "Galician": {
+  "galician": {
     "alias": "gl"
   },
   "got": {
@@ -2623,7 +2623,7 @@
     "default_md5": "336ff4205c0a9a6b4b467f1dde372694",
     "lang_name": "Gothic"
   },
-  "Gothic": {
+  "gothic": {
     "alias": "got"
   },
   "grc": {
@@ -2714,7 +2714,7 @@
     "default_md5": "0985f5f267ba150b8957d07b93966c6a",
     "lang_name": "Ancient_Greek"
   },
-  "Ancient_Greek": {
+  "ancient_greek": {
     "alias": "grc"
   },
   "he": {
@@ -2784,7 +2784,7 @@
     "default_md5": "54720709c75386c7f93a04327ab4d70e",
     "lang_name": "Hebrew"
   },
-  "Hebrew": {
+  "hebrew": {
     "alias": "he"
   },
   "hi": {
@@ -2848,7 +2848,7 @@
     "default_md5": "1682efc0a4aeaadc2bc8ecf187ab24f5",
     "lang_name": "Hindi"
   },
-  "Hindi": {
+  "hindi": {
     "alias": "hi"
   },
   "hr": {
@@ -2912,7 +2912,7 @@
     "default_md5": "f335465dcea40fe7062eb1e505988ac3",
     "lang_name": "Croatian"
   },
-  "Croatian": {
+  "croatian": {
     "alias": "hr"
   },
   "hsb": {
@@ -2976,7 +2976,7 @@
     "default_md5": "d6b918e102f66f374d6675a94dcbf193",
     "lang_name": "Upper_Sorbian"
   },
-  "Upper_Sorbian": {
+  "upper_sorbian": {
     "alias": "hsb"
   },
   "hu": {
@@ -3040,7 +3040,7 @@
     "default_md5": "bc28aba8e5767e55e11808e12d9e5af2",
     "lang_name": "Hungarian"
   },
-  "Hungarian": {
+  "hungarian": {
     "alias": "hu"
   },
   "hy": {
@@ -3110,7 +3110,7 @@
     "default_md5": "1ad01f7261cac3c1cd239ec0b6e6df05",
     "lang_name": "Armenian"
   },
-  "Armenian": {
+  "armenian": {
     "alias": "hy"
   },
   "id": {
@@ -3174,7 +3174,7 @@
     "default_md5": "ebf47fbb9022f35afa65f4305d8e5ba8",
     "lang_name": "Indonesian"
   },
-  "Indonesian": {
+  "indonesian": {
     "alias": "id"
   },
   "it": {
@@ -3364,7 +3364,7 @@
     "default_md5": "7ca2c45c7162328f5e2a4f04956b50a6",
     "lang_name": "Italian"
   },
-  "Italian": {
+  "italian": {
     "alias": "it"
   },
   "ja": {
@@ -3428,7 +3428,7 @@
     "default_md5": "dfcf949f709b423d31c93a97b3a32b61",
     "lang_name": "Japanese"
   },
-  "Japanese": {
+  "japanese": {
     "alias": "ja"
   },
   "kk": {
@@ -3498,7 +3498,7 @@
     "default_md5": "410af1161d0fee815251c869b60ea304",
     "lang_name": "Kazakh"
   },
-  "Kazakh": {
+  "kazakh": {
     "alias": "kk"
   },
   "kmr": {
@@ -3562,7 +3562,7 @@
     "default_md5": "af4f2b8d53fdfcd9e10cf5cf88bef562",
     "lang_name": "Kurmanji"
   },
-  "Kurmanji": {
+  "kurmanji": {
     "alias": "kmr"
   },
   "ko": {
@@ -3653,7 +3653,7 @@
     "default_md5": "f1d79e52b2ab8d491f124e1d21207870",
     "lang_name": "Korean"
   },
-  "Korean": {
+  "korean": {
     "alias": "ko"
   },
   "la": {
@@ -3771,7 +3771,7 @@
     "default_md5": "ac0f069c64b7db8a84ccdc0a957adc73",
     "lang_name": "Latin"
   },
-  "Latin": {
+  "latin": {
     "alias": "la"
   },
   "lt": {
@@ -3862,7 +3862,7 @@
     "default_md5": "45fffb0c9b21493f6a03d68de3cd9485",
     "lang_name": "Lithuanian"
   },
-  "Lithuanian": {
+  "lithuanian": {
     "alias": "lt"
   },
   "lv": {
@@ -3926,7 +3926,7 @@
     "default_md5": "0ab81c27f46e4bd46159db7246c38cdc",
     "lang_name": "Latvian"
   },
-  "Latvian": {
+  "latvian": {
     "alias": "lv"
   },
   "lzh": {
@@ -3990,7 +3990,7 @@
     "default_md5": "5efbd94879d871dba3f71a1caf249b70",
     "lang_name": "Classical_Chinese"
   },
-  "Classical_Chinese": {
+  "classical_chinese": {
     "alias": "lzh"
   },
   "mr": {
@@ -4060,7 +4060,7 @@
     "default_md5": "b7f8df9fc82daf3fd4770a1a892f3c2c",
     "lang_name": "Marathi"
   },
-  "Marathi": {
+  "marathi": {
     "alias": "mr"
   },
   "mt": {
@@ -4124,7 +4124,7 @@
     "default_md5": "98067bd0f621502980c3b2fa36b2c500",
     "lang_name": "Maltese"
   },
-  "Maltese": {
+  "maltese": {
     "alias": "mt"
   },
   "nn": {
@@ -4215,7 +4215,7 @@
     "default_md5": "4a876d81310d122705a4520c9db9126f",
     "lang_name": "Norwegian_Nynorsk"
   },
-  "Norwegian_Nynorsk": {
+  "norwegian_nynorsk": {
     "alias": "nn"
   },
   "no": {
@@ -4279,7 +4279,7 @@
     "default_md5": "68af5ec1697cc1a68b229a9a1a682569",
     "lang_name": "Norwegian"
   },
-  "Norwegian": {
+  "norwegian": {
     "alias": "no"
   },
   "olo": {
@@ -4343,7 +4343,7 @@
     "default_md5": "2c21f5387496dd31190f28e6dfaf7cab",
     "lang_name": "Livvi"
   },
-  "Livvi": {
+  "livvi": {
     "alias": "olo"
   },
   "orv": {
@@ -4402,7 +4402,7 @@
     "default_md5": "026f769c1512c1ff7596c6627af420ad",
     "lang_name": "Old_Russian"
   },
-  "Old_Russian": {
+  "old_russian": {
     "alias": "orv"
   },
   "pl": {
@@ -4498,7 +4498,7 @@
     "default_md5": "14229f471fd3a2ca7d1eb86b903ec04a",
     "lang_name": "Polish"
   },
-  "Polish": {
+  "polish": {
     "alias": "pl"
   },
   "pt": {
@@ -4598,7 +4598,7 @@
     "default_md5": "920de8806662a131add2f6a84c9f8814",
     "lang_name": "Portuguese"
   },
-  "Portuguese": {
+  "portuguese": {
     "alias": "pt"
   },
   "ro": {
@@ -4689,7 +4689,7 @@
     "default_md5": "0d9541599d9502ec98fc22f26c4f6af6",
     "lang_name": "Romanian"
   },
-  "Romanian": {
+  "romanian": {
     "alias": "ro"
   },
   "sk": {
@@ -4753,7 +4753,7 @@
     "default_md5": "212ac7acefe1d5692cb16326e201a0e7",
     "lang_name": "Slovak"
   },
-  "Slovak": {
+  "slovak": {
     "alias": "sk"
   },
   "sl": {
@@ -4844,7 +4844,7 @@
     "default_md5": "13b7c4891e98afae7c985df7b1cfa6cb",
     "lang_name": "Slovenian"
   },
-  "Slovenian": {
+  "slovenian": {
     "alias": "sl"
   },
   "sme": {
@@ -4908,7 +4908,7 @@
     "default_md5": "7aacbd6c8ebfa576fc12843c28a54a5e",
     "lang_name": "North_Sami"
   },
-  "North_Sami": {
+  "north_sami": {
     "alias": "sme"
   },
   "sr": {
@@ -4972,7 +4972,7 @@
     "default_md5": "c266989b2ef55966530299b291140f0c",
     "lang_name": "Serbian"
   },
-  "Serbian": {
+  "serbian": {
     "alias": "sr"
   },
   "sv": {
@@ -5063,7 +5063,7 @@
     "default_md5": "4c76b4bf9a0f49f62b0e0c4174a09d7b",
     "lang_name": "Swedish"
   },
-  "Swedish": {
+  "swedish": {
     "alias": "sv"
   },
   "swl": {
@@ -5122,7 +5122,7 @@
     "default_md5": "704a0655d75af7e51f694171bbd0c6bb",
     "lang_name": "Swedish_Sign_Language"
   },
-  "Swedish_Sign_Language": {
+  "swedish_sign_language": {
     "alias": "swl"
   },
   "ta": {
@@ -5192,7 +5192,7 @@
     "default_md5": "842330efa81655768ccd69eed6227f02",
     "lang_name": "Tamil"
   },
-  "Tamil": {
+  "tamil": {
     "alias": "ta"
   },
   "te": {
@@ -5256,7 +5256,7 @@
     "default_md5": "394b5b1f59753401dfdb092bdaa41dff",
     "lang_name": "Telugu"
   },
-  "Telugu": {
+  "telugu": {
     "alias": "te"
   },
   "tr": {
@@ -5326,7 +5326,7 @@
     "default_md5": "2ebae08c3e9c8d6e102daa4c3de876ae",
     "lang_name": "Turkish"
   },
-  "Turkish": {
+  "turkish": {
     "alias": "tr"
   },
   "ug": {
@@ -5390,7 +5390,7 @@
     "default_md5": "ef3989d8bc49968e3b1e6c695236f47b",
     "lang_name": "Uyghur"
   },
-  "Uyghur": {
+  "uyghur": {
     "alias": "ug"
   },
   "uk": {
@@ -5460,7 +5460,7 @@
     "default_md5": "86f1a0262eb295c31fd15b9096d1bcea",
     "lang_name": "Ukrainian"
   },
-  "Ukrainian": {
+  "ukrainian": {
     "alias": "uk"
   },
   "ur": {
@@ -5524,7 +5524,7 @@
     "default_md5": "32a209c05add73f957173581ced5acab",
     "lang_name": "Urdu"
   },
-  "Urdu": {
+  "urdu": {
     "alias": "ur"
   },
   "vi": {
@@ -5582,7 +5582,7 @@
     "default_md5": "0ae93c3796cdff89902be26367c27c06",
     "lang_name": "Vietnamese"
   },
-  "Vietnamese": {
+  "vietnamese": {
     "alias": "vi"
   },
   "wo": {
@@ -5652,7 +5652,7 @@
     "default_md5": "ffba057abfb121003e034892be0d9fbf",
     "lang_name": "Wolof"
   },
-  "Wolof": {
+  "wolof": {
     "alias": "wo"
   },
   "zhs": {
@@ -5716,7 +5716,7 @@
     "default_md5": "f82a5129dac495ac5a45ffaba443d75f",
     "lang_name": "Simplified_Chinese"
   },
-  "Simplified_Chinese": {
+  "simplified_chinese": {
     "alias": "zhs"
   }
 }
