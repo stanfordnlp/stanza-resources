@@ -1102,17 +1102,7 @@
   "russian": {
     "alias": "ru"
   },
-  "zh": {
-    "backward_charlm": {
-      "gigaword": {
-        "md5": "9efba48c365d8ad4dfd62587578fa132"
-      }
-    },
-    "forward_charlm": {
-      "gigaword": {
-        "md5": "5e61ceea0d0672b02c3af723865d9d97"
-      }
-    },
+  "zh-hant": {
     "depparse": {
       "gsd": {
         "md5": "e95e0bcb62a34561f13c50f14b148016",
@@ -1127,21 +1117,6 @@
     "lemma": {
       "gsd": {
         "md5": "c5bf212985ebc3f28c1af327aad9bf3e"
-      }
-    },
-    "ner": {
-      "ontonotes": {
-        "md5": "702df19bf8c98c5831b4f67aed86e551",
-        "dependencies": [
-          {
-            "model": "backward_charlm",
-            "package": "gigaword"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "gigaword"
-          }
-        ]
       }
     },
     "pos": {
@@ -1169,8 +1144,7 @@
       "tokenize": "gsd",
       "lemma": "gsd",
       "pos": "gsd",
-      "depparse": "gsd",
-      "ner": "ontonotes"
+      "depparse": "gsd"
     },
     "default_dependencies": {
       "pos": [
@@ -1184,23 +1158,13 @@
           "model": "pretrain",
           "package": "gsd"
         }
-      ],
-      "ner": [
-        {
-          "model": "forward_charlm",
-          "package": "gigaword"
-        },
-        {
-          "model": "backward_charlm",
-          "package": "gigaword"
-        }
       ]
     },
-    "default_md5": "0ff72987f334b96b5a7d0a42f364b45c",
-    "lang_name": "Chinese"
+    "default_md5": "1d2adc1761d732292eaf048c7520a716",
+    "lang_name": "Traditional_Chinese"
   },
-  "chinese": {
-    "alias": "zh"
+  "traditional_chinese": {
+    "alias": "zh-hant"
   },
   "af": {
     "depparse": {
@@ -5655,7 +5619,32 @@
   "wolof": {
     "alias": "wo"
   },
-  "zhs": {
+  "zh-hans": {
+    "backward_charlm": {
+      "gigaword": {
+        "md5": "9efba48c365d8ad4dfd62587578fa132"
+      }
+    },
+    "forward_charlm": {
+      "gigaword": {
+        "md5": "5e61ceea0d0672b02c3af723865d9d97"
+      }
+    },
+    "ner": {
+      "ontonotes": {
+        "md5": "702df19bf8c98c5831b4f67aed86e551",
+        "dependencies": [
+          {
+            "model": "backward_charlm",
+            "package": "gigaword"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "gigaword"
+          }
+        ]
+      }
+    },
     "depparse": {
       "gsdsimp": {
         "md5": "e4ad1365acaa803ba325eebe23ef9282",
@@ -5697,7 +5686,8 @@
       "tokenize": "gsdsimp",
       "lemma": "gsdsimp",
       "pos": "gsdsimp",
-      "depparse": "gsdsimp"
+      "depparse": "gsdsimp",
+      "ner": "ontonotes"
     },
     "default_dependencies": {
       "pos": [
@@ -5711,12 +5701,25 @@
           "model": "pretrain",
           "package": "gsdsimp"
         }
+      ],
+      "ner": [
+        {
+          "model": "forward_charlm",
+          "package": "gigaword"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "gigaword"
+        }
       ]
     },
-    "default_md5": "f82a5129dac495ac5a45ffaba443d75f",
+    "default_md5": "677aa1bd438c72fc0276311349c310c4",
     "lang_name": "Simplified_Chinese"
   },
   "simplified_chinese": {
-    "alias": "zhs"
+    "alias": "zh-hans"
+  },
+  "zh": {
+    "alias": "zh-hans"
   }
 }
