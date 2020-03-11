@@ -5721,5 +5721,6 @@
   },
   "zh": {
     "alias": "zh-hans"
-  }
+  },
+  "url": "http://nlp.stanford.edu/software/stanza"
 }
