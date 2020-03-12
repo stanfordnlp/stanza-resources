@@ -4205,7 +4205,7 @@
   "norwegian_nynorsk": {
     "alias": "nn"
   },
-  "no": {
+  "nb": {
     "depparse": {
       "bokmaal": {
         "md5": "8cc47174844d85f27598ac908b5829bd",
@@ -4264,10 +4264,10 @@
       ]
     },
     "default_md5": "5b7330b45cafdb408b43d8c2d854c12b",
-    "lang_name": "Norwegian"
+    "lang_name": "Norwegian_Bokmaal"
   },
-  "norwegian": {
-    "alias": "no"
+  "norwegian_bokmaal": {
+    "alias": "nb"
   },
   "olo": {
     "depparse": {
@@ -5705,6 +5705,9 @@
   },
   "traditional_chinese": {
     "alias": "zh-hant"
+  },  
+  "no": {
+    "alias": "nb"
   },
   "zh": {
     "alias": "zh-hans"
