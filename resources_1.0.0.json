@@ -2298,6 +2298,7 @@
     },
     "default_processors": {
       "tokenize": "srcmf",
+      "lemma": "identity",
       "pos": "srcmf",
       "depparse": "srcmf"
     },
@@ -5549,6 +5550,7 @@
     },
     "default_processors": {
       "tokenize": "vtb",
+      "lemma": "identity",
       "pos": "vtb",
       "depparse": "vtb"
     },
