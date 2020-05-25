@@ -4464,26 +4464,27 @@
       }
     },
     "default_processors": {
-      "tokenize": "lfg",
-      "lemma": "lfg",
-      "pos": "lfg",
-      "depparse": "lfg"
+      "tokenize": "pdb",
+      "mwt": "pdb",
+      "lemma": "pdb",
+      "pos": "pdb",
+      "depparse": "pdb"
     },
     "default_dependencies": {
       "pos": [
         {
           "model": "pretrain",
-          "package": "lfg"
+          "package": "pdb"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "lfg"
+          "package": "pdb"
         }
       ]
     },
-    "default_md5": "4b4fd5f1579007ede1f879633b3d5650",
+    "default_md5": "ccc6a0378cf482b7df4a5061e9a457f3",
     "lang_name": "Polish"
   },
   "polish": {
