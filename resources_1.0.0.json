@@ -3619,26 +3619,26 @@
       }
     },
     "default_processors": {
-      "tokenize": "kaist",
-      "lemma": "kaist",
-      "pos": "kaist",
-      "depparse": "kaist"
+      "tokenize": "gsd",
+      "lemma": "gsd",
+      "pos": "gsd",
+      "depparse": "gsd"
     },
     "default_dependencies": {
       "pos": [
         {
           "model": "pretrain",
-          "package": "kaist"
+          "package": "gsd"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "kaist"
+          "package": "gsd"
         }
       ]
     },
-    "default_md5": "b36bf7e69791e6b7a6a668bb31b635f3",
+    "default_md5": "2804855d2bbea01c46700b4471404f3f",
     "lang_name": "Korean"
   },
   "korean": {
