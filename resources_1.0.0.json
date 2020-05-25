@@ -5424,6 +5424,11 @@
         "md5": "660098de81643fe2e2bc8db0767912a5"
       }
     },
+    "ner": {
+      "languk": {
+        "md5": "4dae2789d48724b7c70fc2507d04d0c1"
+      }
+    },
     "default_processors": {
       "tokenize": "iu",
       "mwt": "iu",
