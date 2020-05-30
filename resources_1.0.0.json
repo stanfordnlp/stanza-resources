@@ -298,6 +298,24 @@
             "package": "partut"
           }
         ]
+      },
+      "craft": {
+        "md5": "dbaf9835590dffe4e5c266f001e71728",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "craft"
+          }
+        ]
+      },
+      "genia": {
+        "md5": "355f192f5e0168408f6d77072203271f",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "genia"
+          }
+        ]
       }
     },
     "lemma": {
@@ -312,6 +330,12 @@
       },
       "partut": {
         "md5": "0d5c9b644783036077906ee2c3bde6f6"
+      },
+      "craft": {
+        "md5": "bb8de41b59049b6e0b9c8db36b108518"
+      },
+      "genia": {
+        "md5": "362fb01221fceec69f7c71d1b1e4b55c"
       }
     },
     "mwt": {
@@ -383,6 +407,24 @@
             "package": "partut"
           }
         ]
+      },
+      "craft": {
+        "md5": "d17da7b0366d239e12327c71a8fe1e9f",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "craft"
+          }
+        ]
+      },
+      "genia": {
+        "md5": "fe2704b0e3491c49a7c08f75c5e37478",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "genia"
+          }
+        ]
       }
     },
     "pretrain": {
@@ -397,6 +439,12 @@
       },
       "partut": {
         "md5": "26f061504460c46f5ee029b21e9eb4d6"
+      },
+      "craft": {
+        "md5": "9c7c9e3fd995b025f47f982d822e1ff7"
+      },
+      "genia": {
+        "md5": "9c7c9e3fd995b025f47f982d822e1ff7"
       }
     },
     "tokenize": {
@@ -411,6 +459,12 @@
       },
       "partut": {
         "md5": "9b90118b6774ae7658841b009154a04c"
+      },
+      "craft": {
+        "md5": "89f23915fb0446774ee2e0cc285d3304"
+      },
+      "genia": {
+        "md5": "00da654c9f094229c9b09b70eff92f39"
       }
     },
     "default_processors": {
