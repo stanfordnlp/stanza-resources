@@ -1518,13 +1518,7 @@
   "cop": {
     "depparse": {
       "scriptorium": {
-        "md5": "220899cfe651d2a103e02c4516c65040",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "scriptorium"
-          }
-        ]
+        "md5": "220899cfe651d2a103e02c4516c65040"
       }
     },
     "lemma": {
@@ -1539,13 +1533,7 @@
     },
     "pos": {
       "scriptorium": {
-        "md5": "a955103419450b88398c39bf8f095b1d",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "scriptorium"
-          }
-        ]
+        "md5": "a955103419450b88398c39bf8f095b1d"
       }
     },
     "tokenize": {
@@ -1561,18 +1549,6 @@
       "depparse": "scriptorium"
     },
     "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "scriptorium"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "scriptorium"
-        }
-      ]
     },
     "default_md5": "aa4c3b791bf271e300c0f2e34081f376",
     "lang_name": "Coptic"
@@ -4337,13 +4313,7 @@
   "orv": {
     "depparse": {
       "torot": {
-        "md5": "add1c84eaa2f8e009e657de2b5a281a4",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "torot"
-          }
-        ]
+        "md5": "add1c84eaa2f8e009e657de2b5a281a4"
       }
     },
     "lemma": {
@@ -4353,13 +4323,7 @@
     },
     "pos": {
       "torot": {
-        "md5": "c23a763ed78a1c9ec3ff904cf32fd05e",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "torot"
-          }
-        ]
+        "md5": "c23a763ed78a1c9ec3ff904cf32fd05e"
       }
     },
     "tokenize": {
@@ -4374,18 +4338,6 @@
       "depparse": "torot"
     },
     "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "torot"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "torot"
-        }
-      ]
     },
     "default_md5": "ab227f18e3a39a33131e457aecee9fe7",
     "lang_name": "Old_Russian"
@@ -5058,13 +5010,7 @@
   "swl": {
     "depparse": {
       "sslc": {
-        "md5": "a7314595a99437404d5ade0c6051755f",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "sslc"
-          }
-        ]
+        "md5": "a7314595a99437404d5ade0c6051755f"
       }
     },
     "lemma": {
@@ -5074,13 +5020,7 @@
     },
     "pos": {
       "sslc": {
-        "md5": "6a3133e4599bfd2e594dc6565bc8d3e6",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "sslc"
-          }
-        ]
+        "md5": "6a3133e4599bfd2e594dc6565bc8d3e6"
       }
     },
     "tokenize": {
@@ -5095,18 +5035,6 @@
       "depparse": "sslc"
     },
     "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "sslc"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "sslc"
-        }
-      ]
     },
     "default_md5": "14e97aab38537e91f2795de1831ed39c",
     "lang_name": "Swedish_Sign_Language"
