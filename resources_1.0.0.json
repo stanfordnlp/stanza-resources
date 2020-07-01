@@ -255,11 +255,23 @@
     "backward_charlm": {
       "1billion": {
         "md5": "1405948b125b4264fd17509d1b6175ca"
+      },
+      "mimic": {
+        "md5": "3a779ab63ef861fc32ff774007547089"
+      },
+      "pubmed": {
+        "md5": "100b9478bd223c756fd3bb209c3992cd"
       }
     },
     "forward_charlm": {
       "1billion": {
         "md5": "468b3377455fa0311565d46865f55afb"
+      },
+      "mimic": {
+        "md5": "31fd31ca83aa864bb1b7ef79299c7a5a"
+      },
+      "pubmed": {
+        "md5": "991e1cd50faf192e2cf855df004f990e"
       }
     },
     "depparse": {
@@ -367,6 +379,123 @@
           {
             "model": "backward_charlm",
             "package": "1billion"
+          }
+        ]
+      },
+      "anatem": {
+        "md5": "e1f7e7b0dfa9e6ad48360e92868c5f09",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "pubmed"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "pubmed"
+          }
+        ]
+      },
+      "bc4chemd": {
+        "md5": "9921d71d0bb016d2dc8e46611d74b71c",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "pubmed"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "pubmed"
+          }
+        ]
+      },
+      "bc5cdr": {
+        "md5": "f0d1f08d08c9e46961cd9c333b64269d",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "pubmed"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "pubmed"
+          }
+        ]
+      },
+      "bionlp13cg": {
+        "md5": "7b18faa9e273a05669a9a792114f75c6",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "pubmed"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "pubmed"
+          }
+        ]
+      },
+      "i2b2": {
+        "md5": "b9a0e6441419bac02ba24bc9dbee5c4c",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "mimic"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "mimic"
+          }
+        ]
+      },
+      "jnlpba": {
+        "md5": "e0522e136b2cd7354be39cc5ce00dcad",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "pubmed"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "pubmed"
+          }
+        ]
+      },
+      "linnaeus": {
+        "md5": "2568df47411b6ad2cd632b760e20717d",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "pubmed"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "pubmed"
+          }
+        ]
+      },
+      "ncbidisease": {
+        "md5": "ca5272af29b444b9c89590fef6c3be44",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "pubmed"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "pubmed"
+          }
+        ]
+      },
+      "radiology": {
+        "md5": "4c441652a5e3023f619b561f4261b114",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "mimic"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "mimic"
           }
         ]
       }
