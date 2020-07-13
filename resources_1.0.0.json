@@ -312,7 +312,7 @@
         ]
       },
       "craft": {
-        "md5": "dbaf9835590dffe4e5c266f001e71728",
+        "md5": "3a61776abee48804f339959a2b2d97b1",
         "dependencies": [
           {
             "model": "pretrain",
@@ -326,6 +326,15 @@
           {
             "model": "pretrain",
             "package": "genia"
+          }
+        ]
+      },
+      "mimic": {
+        "md5": "3dbebc70b9858b48d5fcf30e9bbd13ee",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "mimic"
           }
         ]
       }
@@ -344,10 +353,13 @@
         "md5": "0d5c9b644783036077906ee2c3bde6f6"
       },
       "craft": {
-        "md5": "bb8de41b59049b6e0b9c8db36b108518"
+        "md5": "fc449b233ddc2f40ee59382ae0182df4"
       },
       "genia": {
         "md5": "362fb01221fceec69f7c71d1b1e4b55c"
+      },
+      "mimic": {
+        "md5": "0c67f8acaefcf720e17d0ca6b94960f3"
       }
     },
     "mwt": {
@@ -473,7 +485,7 @@
           }
         ]
       },
-      "ncbidisease": {
+      "ncbi-disease": {
         "md5": "ca5272af29b444b9c89590fef6c3be44",
         "dependencies": [
           {
@@ -496,6 +508,19 @@
           {
             "model": "backward_charlm",
             "package": "mimic"
+          }
+        ]
+      },
+      "s800": {
+        "md5": "c32a4e97e40776772a9d2b23970920f9",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "pubmed"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "pubmed"
           }
         ]
       }
@@ -538,7 +563,7 @@
         ]
       },
       "craft": {
-        "md5": "d17da7b0366d239e12327c71a8fe1e9f",
+        "md5": "214a255ea985c8c59af69497cb40368f",
         "dependencies": [
           {
             "model": "pretrain",
@@ -552,6 +577,15 @@
           {
             "model": "pretrain",
             "package": "genia"
+          }
+        ]
+      },
+      "mimic": {
+        "md5": "f17631ef1a7a54ab8be3641259df811f",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "mimic"
           }
         ]
       }
@@ -574,6 +608,9 @@
       },
       "genia": {
         "md5": "9c7c9e3fd995b025f47f982d822e1ff7"
+      },
+      "mimic": {
+        "md5": "d80afb72910b6c98820b63adbb4fb39c"
       }
     },
     "tokenize": {
@@ -590,10 +627,13 @@
         "md5": "9b90118b6774ae7658841b009154a04c"
       },
       "craft": {
-        "md5": "89f23915fb0446774ee2e0cc285d3304"
+        "md5": "19b0214826fd18b51d83c6841ec50d57"
       },
       "genia": {
         "md5": "00da654c9f094229c9b09b70eff92f39"
+      },
+      "mimic": {
+        "md5": "115ae102154cf93093fceb750eaac019"
       }
     },
     "default_processors": {
