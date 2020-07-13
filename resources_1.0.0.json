@@ -485,7 +485,7 @@
           }
         ]
       },
-      "ncbi-disease": {
+      "ncbi_disease": {
         "md5": "ca5272af29b444b9c89590fef6c3be44",
         "dependencies": [
           {
