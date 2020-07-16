@@ -321,7 +321,7 @@
         ]
       },
       "genia": {
-        "md5": "355f192f5e0168408f6d77072203271f",
+        "md5": "2addf249e7a5b20433d1c8a1da172a45",
         "dependencies": [
           {
             "model": "pretrain",
@@ -356,7 +356,7 @@
         "md5": "fc449b233ddc2f40ee59382ae0182df4"
       },
       "genia": {
-        "md5": "362fb01221fceec69f7c71d1b1e4b55c"
+        "md5": "759111ba5befb7ae80985787cd911b70"
       },
       "mimic": {
         "md5": "0c67f8acaefcf720e17d0ca6b94960f3"
@@ -572,7 +572,7 @@
         ]
       },
       "genia": {
-        "md5": "fe2704b0e3491c49a7c08f75c5e37478",
+        "md5": "818c5bfc1f339725f8a0b56f6f80baac",
         "dependencies": [
           {
             "model": "pretrain",
@@ -630,7 +630,7 @@
         "md5": "19b0214826fd18b51d83c6841ec50d57"
       },
       "genia": {
-        "md5": "00da654c9f094229c9b09b70eff92f39"
+        "md5": "5b57803ca3a061a9a23e0a2872c113df"
       },
       "mimic": {
         "md5": "115ae102154cf93093fceb750eaac019"
