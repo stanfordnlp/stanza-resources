@@ -257,10 +257,10 @@
         "md5": "1405948b125b4264fd17509d1b6175ca"
       },
       "mimic": {
-        "md5": "3a779ab63ef861fc32ff774007547089"
+        "md5": "19a16ba4b8526e54ef8ab21ca33cc423"
       },
       "pubmed": {
-        "md5": "100b9478bd223c756fd3bb209c3992cd"
+        "md5": "f2c42f6b2f7205d2b254d6ab0fb13303"
       }
     },
     "forward_charlm": {
@@ -268,10 +268,10 @@
         "md5": "468b3377455fa0311565d46865f55afb"
       },
       "mimic": {
-        "md5": "31fd31ca83aa864bb1b7ef79299c7a5a"
+        "md5": "3d3863e27afd67bf356354a728b0fb76"
       },
       "pubmed": {
-        "md5": "991e1cd50faf192e2cf855df004f990e"
+        "md5": "3f734806be2c2f62c82fbb01421f78ec"
       }
     },
     "depparse": {
@@ -321,7 +321,7 @@
         ]
       },
       "genia": {
-        "md5": "2addf249e7a5b20433d1c8a1da172a45",
+        "md5": "1cee1e8d9465368de81d09619964211f",
         "dependencies": [
           {
             "model": "pretrain",
@@ -356,7 +356,7 @@
         "md5": "fc449b233ddc2f40ee59382ae0182df4"
       },
       "genia": {
-        "md5": "759111ba5befb7ae80985787cd911b70"
+        "md5": "a5b1c14afd97993417dc4ce3d740954f"
       },
       "mimic": {
         "md5": "0c67f8acaefcf720e17d0ca6b94960f3"
@@ -395,7 +395,7 @@
         ]
       },
       "anatem": {
-        "md5": "e1f7e7b0dfa9e6ad48360e92868c5f09",
+        "md5": "b50017ebd6dde9a1d1aeb563b69fb2db",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -408,7 +408,7 @@
         ]
       },
       "bc4chemd": {
-        "md5": "9921d71d0bb016d2dc8e46611d74b71c",
+        "md5": "1d8a4c89a8ffb85d0412109bce507484",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -421,7 +421,7 @@
         ]
       },
       "bc5cdr": {
-        "md5": "f0d1f08d08c9e46961cd9c333b64269d",
+        "md5": "51db84d31d5d14a5d537399022237133",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -434,7 +434,7 @@
         ]
       },
       "bionlp13cg": {
-        "md5": "7b18faa9e273a05669a9a792114f75c6",
+        "md5": "ca880e4ec8a648e83297939e81428fe2",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -447,7 +447,7 @@
         ]
       },
       "i2b2": {
-        "md5": "b9a0e6441419bac02ba24bc9dbee5c4c",
+        "md5": "ed4284ff62dac25755a3457e4ecfacd9",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -460,7 +460,7 @@
         ]
       },
       "jnlpba": {
-        "md5": "e0522e136b2cd7354be39cc5ce00dcad",
+        "md5": "077c62de06f8d43e3fae210894a310bd",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -473,7 +473,7 @@
         ]
       },
       "linnaeus": {
-        "md5": "2568df47411b6ad2cd632b760e20717d",
+        "md5": "63f32d28d8885a2f9715a4d534de0d38",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -486,7 +486,7 @@
         ]
       },
       "ncbi_disease": {
-        "md5": "ca5272af29b444b9c89590fef6c3be44",
+        "md5": "f6d7453438a61af28088803584dac52e",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -499,7 +499,7 @@
         ]
       },
       "radiology": {
-        "md5": "4c441652a5e3023f619b561f4261b114",
+        "md5": "3ac4c13d0a1f79b1566f602cea10727c",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -512,7 +512,7 @@
         ]
       },
       "s800": {
-        "md5": "c32a4e97e40776772a9d2b23970920f9",
+        "md5": "a48435ad6f6c31933a19758b9d931491",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -572,7 +572,7 @@
         ]
       },
       "genia": {
-        "md5": "818c5bfc1f339725f8a0b56f6f80baac",
+        "md5": "2ea024815b3e22d5b561cc74035e73de",
         "dependencies": [
           {
             "model": "pretrain",
@@ -630,7 +630,7 @@
         "md5": "19b0214826fd18b51d83c6841ec50d57"
       },
       "genia": {
-        "md5": "5b57803ca3a061a9a23e0a2872c113df"
+        "md5": "df205e0f55eb7d75553af0cdb065980c"
       },
       "mimic": {
         "md5": "115ae102154cf93093fceb750eaac019"
