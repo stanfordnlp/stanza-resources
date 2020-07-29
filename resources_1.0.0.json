@@ -4640,7 +4640,6 @@
     },
     "default_processors": {
       "tokenize": "lfg",
-      "mwt": "lfg",
       "lemma": "lfg",
       "pos": "lfg",
       "depparse": "lfg"
