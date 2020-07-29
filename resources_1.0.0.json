@@ -255,11 +255,23 @@
     "backward_charlm": {
       "1billion": {
         "md5": "1405948b125b4264fd17509d1b6175ca"
+      },
+      "mimic": {
+        "md5": "19a16ba4b8526e54ef8ab21ca33cc423"
+      },
+      "pubmed": {
+        "md5": "f2c42f6b2f7205d2b254d6ab0fb13303"
       }
     },
     "forward_charlm": {
       "1billion": {
         "md5": "468b3377455fa0311565d46865f55afb"
+      },
+      "mimic": {
+        "md5": "3d3863e27afd67bf356354a728b0fb76"
+      },
+      "pubmed": {
+        "md5": "3f734806be2c2f62c82fbb01421f78ec"
       }
     },
     "depparse": {
@@ -298,6 +310,33 @@
             "package": "partut"
           }
         ]
+      },
+      "craft": {
+        "md5": "3a61776abee48804f339959a2b2d97b1",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "craft"
+          }
+        ]
+      },
+      "genia": {
+        "md5": "1cee1e8d9465368de81d09619964211f",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "genia"
+          }
+        ]
+      },
+      "mimic": {
+        "md5": "3dbebc70b9858b48d5fcf30e9bbd13ee",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "mimic"
+          }
+        ]
       }
     },
     "lemma": {
@@ -312,6 +351,15 @@
       },
       "partut": {
         "md5": "0d5c9b644783036077906ee2c3bde6f6"
+      },
+      "craft": {
+        "md5": "fc449b233ddc2f40ee59382ae0182df4"
+      },
+      "genia": {
+        "md5": "a5b1c14afd97993417dc4ce3d740954f"
+      },
+      "mimic": {
+        "md5": "0c67f8acaefcf720e17d0ca6b94960f3"
       }
     },
     "mwt": {
@@ -343,6 +391,136 @@
           {
             "model": "backward_charlm",
             "package": "1billion"
+          }
+        ]
+      },
+      "anatem": {
+        "md5": "b560942be243b60874a9462738c31104",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "pubmed"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "pubmed"
+          }
+        ]
+      },
+      "bc4chemd": {
+        "md5": "3d4eed8d97e927267132d5d882407ebe",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "pubmed"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "pubmed"
+          }
+        ]
+      },
+      "bc5cdr": {
+        "md5": "8f975b92fd18041995463c5d8726dd61",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "pubmed"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "pubmed"
+          }
+        ]
+      },
+      "bionlp13cg": {
+        "md5": "bce026e6bf4ae408dcbe725b4f312f9f",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "pubmed"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "pubmed"
+          }
+        ]
+      },
+      "i2b2": {
+        "md5": "a68de5e76a5435a6ac53505471be8db2",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "mimic"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "mimic"
+          }
+        ]
+      },
+      "jnlpba": {
+        "md5": "cf33fc3a9ccb15d53d3d01266c235f0c",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "pubmed"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "pubmed"
+          }
+        ]
+      },
+      "linnaeus": {
+        "md5": "869547242015c937d1ab2f625c57c8f2",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "pubmed"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "pubmed"
+          }
+        ]
+      },
+      "ncbi_disease": {
+        "md5": "42f46edce4f5ae1b6369d1d45ecbb78e",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "pubmed"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "pubmed"
+          }
+        ]
+      },
+      "radiology": {
+        "md5": "e25662801e4db1ff961deef937999dd0",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "mimic"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "mimic"
+          }
+        ]
+      },
+      "s800": {
+        "md5": "d08f877d5e823cc163df6f033399d6c7",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "pubmed"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "pubmed"
           }
         ]
       }
@@ -383,6 +561,33 @@
             "package": "partut"
           }
         ]
+      },
+      "craft": {
+        "md5": "214a255ea985c8c59af69497cb40368f",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "craft"
+          }
+        ]
+      },
+      "genia": {
+        "md5": "2ea024815b3e22d5b561cc74035e73de",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "genia"
+          }
+        ]
+      },
+      "mimic": {
+        "md5": "f17631ef1a7a54ab8be3641259df811f",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "mimic"
+          }
+        ]
       }
     },
     "pretrain": {
@@ -397,6 +602,15 @@
       },
       "partut": {
         "md5": "26f061504460c46f5ee029b21e9eb4d6"
+      },
+      "craft": {
+        "md5": "9c7c9e3fd995b025f47f982d822e1ff7"
+      },
+      "genia": {
+        "md5": "9c7c9e3fd995b025f47f982d822e1ff7"
+      },
+      "mimic": {
+        "md5": "d80afb72910b6c98820b63adbb4fb39c"
       }
     },
     "tokenize": {
@@ -411,6 +625,15 @@
       },
       "partut": {
         "md5": "9b90118b6774ae7658841b009154a04c"
+      },
+      "craft": {
+        "md5": "19b0214826fd18b51d83c6841ec50d57"
+      },
+      "genia": {
+        "md5": "df205e0f55eb7d75553af0cdb065980c"
+      },
+      "mimic": {
+        "md5": "115ae102154cf93093fceb750eaac019"
       }
     },
     "default_processors": {
