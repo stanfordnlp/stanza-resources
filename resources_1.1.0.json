@@ -5398,6 +5398,26 @@
   "telugu": {
     "alias": "te"
   },
+  "th": {
+    "tokenize": {
+      "orchid": {
+        "md5": "bc2fda6ed72c4cca7f49563821fbe615"
+      },
+      "best": {
+        "md5": "0d08608705cb8404da04be7cac25fdaf"
+      }
+    },
+    "default_processors": {
+      "tokenize": "orchid"
+    },
+    "default_dependencies": {
+    },
+    "default_md5": "b8b974da46e8fcd70e018949262d59f0",
+    "lang_name": "Thai"
+  },
+  "thai": {
+    "alias": "th"
+  },
   "tr": {
     "depparse": {
       "imst": {
