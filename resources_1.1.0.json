@@ -205,6 +205,17 @@
         "md5": "bffed1afc8133eb84801a94dd9148f35"
       }
     },
+    "sentiment": {
+      "sb10k": {
+        "md5": "7fbc495a38f085c9127b5e7d18a8c4d6",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "gsd"
+          }
+        ]
+      }
+    },
     "tokenize": {
       "gsd": {
         "md5": "5ef04536e16d642b5357a63f4127e35e"
@@ -219,7 +230,8 @@
       "lemma": "gsd",
       "pos": "gsd",
       "depparse": "gsd",
-      "ner": "conll03"
+      "ner": "conll03",
+      "sentiment": "sb10k"
     },
     "default_dependencies": {
       "pos": [
@@ -229,6 +241,12 @@
         }
       ],
       "depparse": [
+        {
+          "model": "pretrain",
+          "package": "gsd"
+        }
+      ],
+      "sentiment": [
         {
           "model": "pretrain",
           "package": "gsd"
@@ -245,7 +263,7 @@
         }
       ]
     },
-    "default_md5": "90a3156a79a3edf8a6af0873a2cd4c20",
+    "default_md5": "62e68ebbdaf32bf4e03a38c180c093d3",
     "lang_name": "German"
   },
   "german": {
@@ -613,6 +631,17 @@
         "md5": "d80afb72910b6c98820b63adbb4fb39c"
       }
     },
+    "sentiment": {
+      "sstplus": {
+        "md5": "4379b22fe4c78ec79beaea463eaccea4",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "ewt"
+          }
+        ]
+      }
+    },
     "tokenize": {
       "ewt": {
         "md5": "1e38c8765911784be70d5f69c2fb5e8f"
@@ -641,7 +670,8 @@
       "lemma": "ewt",
       "pos": "ewt",
       "depparse": "ewt",
-      "ner": "ontonotes"
+      "ner": "ontonotes",
+      "sentiment": "sstplus"
     },
     "default_dependencies": {
       "pos": [
@@ -665,9 +695,15 @@
           "model": "backward_charlm",
           "package": "1billion"
         }
+      ],
+      "sentiment": [
+        {
+          "model": "pretrain",
+          "package": "ewt"
+        }
       ]
     },
-    "default_md5": "a5fbf74b170030b823b76e4ebb9a20e0",
+    "default_md5": "52640ee9c62f5d4c5a5312f7199fdaa1",
     "lang_name": "English"
   },
   "english": {
@@ -1375,12 +1411,24 @@
         "md5": "f685ace5414d60b5ca107190d0a9c889"
       }
     },
+    "sentiment": {
+      "ren": {
+        "md5": "fe5079c2834fbb322624cf490f1b649f",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "gsdsimp"
+          }
+        ]
+      }
+    },
     "default_processors": {
       "tokenize": "gsdsimp",
       "lemma": "gsdsimp",
       "pos": "gsdsimp",
       "depparse": "gsdsimp",
-      "ner": "ontonotes"
+      "ner": "ontonotes",
+      "sentiment": "ren"
     },
     "default_dependencies": {
       "pos": [
@@ -1390,6 +1438,12 @@
         }
       ],
       "depparse": [
+        {
+          "model": "pretrain",
+          "package": "gsdsimp"
+        }
+      ],
+      "sentiemnt": [
         {
           "model": "pretrain",
           "package": "gsdsimp"
@@ -1406,7 +1460,7 @@
         }
       ]
     },
-    "default_md5": "04de1a2f3af7cd9308ff1899046517e7",
+    "default_md5": "dc5727dd47e8ba4381e01729ff4187d6",
     "lang_name": "Simplified_Chinese"
   },
   "simplified_chinese": {
