@@ -4081,26 +4081,26 @@
       }
     },
     "default_processors": {
-      "tokenize": "hse",
-      "lemma": "hse",
-      "pos": "hse",
-      "depparse": "hse"
+      "tokenize": "alksnis",
+      "lemma": "alksnis",
+      "pos": "alksnis",
+      "depparse": "alksnis"
     },
     "default_dependencies": {
       "pos": [
         {
           "model": "pretrain",
-          "package": "hse"
+          "package": "alksnis"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "hse"
+          "package": "alksnis"
         }
       ]
     },
-    "default_md5": "3db243992f784399967421db710e714d",
+    "default_md5": "c51eb3a57510aaf188452285140a65f4",
     "lang_name": "Lithuanian"
   },
   "lithuanian": {
