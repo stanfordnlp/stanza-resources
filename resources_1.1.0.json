@@ -3872,26 +3872,26 @@
       }
     },
     "default_processors": {
-      "tokenize": "kaist",
-      "lemma": "kaist",
-      "pos": "kaist",
-      "depparse": "kaist"
+      "tokenize": "gsd",
+      "lemma": "gsd",
+      "pos": "gsd",
+      "depparse": "gsd"
     },
     "default_dependencies": {
       "pos": [
         {
           "model": "pretrain",
-          "package": "kaist"
+          "package": "gsd"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "kaist"
+          "package": "gsd"
         }
       ]
     },
-    "default_md5": "b36bf7e69791e6b7a6a668bb31b635f3",
+    "default_md5": "2804855d2bbea01c46700b4471404f3f",
     "lang_name": "Korean"
   },
   "korean": {
@@ -4693,26 +4693,26 @@
       }
     },
     "default_processors": {
-      "tokenize": "lfg",
-      "lemma": "lfg",
-      "pos": "lfg",
-      "depparse": "lfg"
+      "tokenize": "pdb",
+      "lemma": "pdb",
+      "pos": "pdb",
+      "depparse": "pdb"
     },
     "default_dependencies": {
       "pos": [
         {
           "model": "pretrain",
-          "package": "lfg"
+          "package": "pdb"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "lfg"
+          "package": "pdb"
         }
       ]
     },
-    "default_md5": "4b4fd5f1579007ede1f879633b3d5650",
+    "default_md5": "ccc6a0378cf482b7df4a5061e9a457f3",
     "lang_name": "Polish"
   },
   "polish": {
@@ -5647,6 +5647,11 @@
     "tokenize": {
       "iu": {
         "md5": "660098de81643fe2e2bc8db0767912a5"
+      }
+    },
+    "ner": {
+      "languk": {
+        "md5": "4dae2789d48724b7c70fc2507d04d0c1"
       }
     },
     "default_processors": {
