@@ -4694,6 +4694,7 @@
     },
     "default_processors": {
       "tokenize": "pdb",
+      "mwt": "pdb",  
       "lemma": "pdb",
       "pos": "pdb",
       "depparse": "pdb"
