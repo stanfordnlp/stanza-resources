@@ -5307,7 +5307,7 @@
     },
     "default_processors": {
       "tokenize": "sslc",
-      "lemma": "sslc",
+      "lemma": "identity",
       "pos": "sslc",
       "depparse": "sslc"
     },
@@ -5429,7 +5429,7 @@
     },
     "default_processors": {
       "tokenize": "mtg",
-      "lemma": "mtg",
+      "lemma": "identity",
       "pos": "mtg",
       "depparse": "mtg"
     },
