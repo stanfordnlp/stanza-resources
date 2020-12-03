@@ -2516,6 +2516,14 @@
   "finnish": {
     "alias": "fi"
   },
+  "fo": {
+    "default_processors": {
+      "lemma": "identity",
+    }
+  },
+  "faroese": {
+    "alias": "fo"
+  }
   "fro": {
     "depparse": {
       "srcmf": {
