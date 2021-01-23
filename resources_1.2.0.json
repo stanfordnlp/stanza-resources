@@ -99,7 +99,7 @@
         }
       ]
     },
-    "default_md5": "685f55024dc2a0786d7d796bacf9c635",
+    "default_md5": "8afc7c63565edc3a54b3cf94fe255771",
     "lang_name": "Arabic"
   },
   "arabic": {
@@ -263,7 +263,7 @@
         }
       ]
     },
-    "default_md5": "7d5283d87f79effedea1df5b1d4f918e",
+    "default_md5": "58379156e8d2750555a529e3c9682108",
     "lang_name": "German"
   },
   "german": {
@@ -733,7 +733,7 @@
         }
       ]
     },
-    "default_md5": "292ddc131f6f98134889064f59ebc2a1",
+    "default_md5": "0d1f04d6abefd6a0c19f3fbcdd97fc2f",
     "lang_name": "English"
   },
   "english": {
@@ -882,7 +882,7 @@
         }
       ]
     },
-    "default_md5": "6f696795bb7940936e3f3443f370c2fe",
+    "default_md5": "4b93e68ea7f1f516a29f254430cdae37",
     "lang_name": "Spanish"
   },
   "spanish": {
@@ -1078,7 +1078,7 @@
         }
       ]
     },
-    "default_md5": "ab0f79a39f2311ca68f3c3ea72ffa70c",
+    "default_md5": "ec7c5087cac883f45d884c0ccfbf39fc",
     "lang_name": "French"
   },
   "french": {
@@ -1218,7 +1218,7 @@
         }
       ]
     },
-    "default_md5": "bd259f87364b86b368bd28950cde69b0",
+    "default_md5": "fe6cea537a1e15233adc2ad9669e39f2",
     "lang_name": "Dutch"
   },
   "dutch": {
@@ -1372,7 +1372,7 @@
         }
       ]
     },
-    "default_md5": "bc28868f808e5740428ca04b82356a63",
+    "default_md5": "14fd17a6a04365f9972c58cc290f2732",
     "lang_name": "Russian"
   },
   "russian": {
@@ -1490,7 +1490,7 @@
         }
       ]
     },
-    "default_md5": "ef3d78b190d5f3fa6bf2dbbe661b2826",
+    "default_md5": "8cfad95324f2cfd290ce402f1671d302",
     "lang_name": "Simplified_Chinese"
   },
   "simplified_chinese": {
@@ -1554,7 +1554,7 @@
         }
       ]
     },
-    "default_md5": "577504c131dfca0e2b60de59d3eed1cb",
+    "default_md5": "289d9559bc7fdb691ff5f909572b5f22",
     "lang_name": "Afrikaans"
   },
   "afrikaans": {
@@ -1618,7 +1618,7 @@
         }
       ]
     },
-    "default_md5": "f62f60992b88f6af64f4dc29ef14afd4",
+    "default_md5": "7722a27359f7e9e5beed7c0438803e16",
     "lang_name": "Belarusian"
   },
   "belarusian": {
@@ -1682,7 +1682,7 @@
         }
       ]
     },
-    "default_md5": "24eec2f7d74d6355a37aec2a78eb5113",
+    "default_md5": "30e6e66d105668f86d28b522576a0f00",
     "lang_name": "Bulgarian"
   },
   "bulgarian": {
@@ -1752,7 +1752,7 @@
         }
       ]
     },
-    "default_md5": "fac252cba0c5b052cd1652607209abda",
+    "default_md5": "82965698da7494ecfd87f85e8e571213",
     "lang_name": "Catalan"
   },
   "catalan": {
@@ -1761,13 +1761,7 @@
   "cop": {
     "depparse": {
       "scriptorium": {
-        "md5": "64f18cb6c971a6bc6ba557293949d036",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "scriptorium"
-          }
-        ]
+        "md5": "64f18cb6c971a6bc6ba557293949d036"
       }
     },
     "lemma": {
@@ -1782,13 +1776,7 @@
     },
     "pos": {
       "scriptorium": {
-        "md5": "9548a2bfb56b59c81916f19da74ecbc8",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "scriptorium"
-          }
-        ]
+        "md5": "9548a2bfb56b59c81916f19da74ecbc8"
       }
     },
     "tokenize": {
@@ -1817,7 +1805,7 @@
         }
       ]
     },
-    "default_md5": "629d507abc53460c0b10e6f3b38f7557",
+    "default_md5": "73ac1343fc68e2bb3451a4e7ec07f48a",
     "lang_name": "Coptic"
   },
   "coptic": {
@@ -1977,7 +1965,7 @@
         }
       ]
     },
-    "default_md5": "36f5f8557382d0f2908545047d9f5c7d",
+    "default_md5": "7fa97e067295b1101751812dced7040d",
     "lang_name": "Czech"
   },
   "czech": {
@@ -2041,7 +2029,7 @@
         }
       ]
     },
-    "default_md5": "e6c870b2936a4a7738bbdd6d4f785003",
+    "default_md5": "df87a3ecd792c73ea3f9ffafb6aa85c1",
     "lang_name": "Old_Church_Slavonic"
   },
   "old_church_slavonic": {
@@ -2111,7 +2099,7 @@
         }
       ]
     },
-    "default_md5": "7672ef317607611604989f63ed097c29",
+    "default_md5": "4f6222558b074a2db58dfbf5dce30fcc",
     "lang_name": "Welsh"
   },
   "welsh": {
@@ -2175,7 +2163,7 @@
         }
       ]
     },
-    "default_md5": "4f5199f2b5af28e28227f1dc5501e089",
+    "default_md5": "8dece20b04867e485102e74fc430f7dd",
     "lang_name": "Danish"
   },
   "danish": {
@@ -2245,7 +2233,7 @@
         }
       ]
     },
-    "default_md5": "22be8fbc253ab1b9f153caca2e9a4412",
+    "default_md5": "2e90fc7e26958095da2efef2521b27d0",
     "lang_name": "Greek"
   },
   "greek": {
@@ -2336,7 +2324,7 @@
         }
       ]
     },
-    "default_md5": "c565fe28907a9c9cc46f7cbd6ab7859d",
+    "default_md5": "92a4deb329ec4d7d63b8bb2fd6dabd98",
     "lang_name": "Estonian"
   },
   "estonian": {
@@ -2400,7 +2388,7 @@
         }
       ]
     },
-    "default_md5": "c4453d8dfa17b20cc35962b57e800ff6",
+    "default_md5": "77b8b8dade2139d691411e86aa265dd3",
     "lang_name": "Basque"
   },
   "basque": {
@@ -2464,6 +2452,9 @@
       }
     },
     "pretrain": {
+      "perdt": {
+        "md5": "3a790922262ee59c24a3689603c94890"
+      },
       "seraji": {
         "md5": "3a790922262ee59c24a3689603c94890"
       }
@@ -2497,7 +2488,7 @@
         }
       ]
     },
-    "default_md5": "e1ab3876c23bd81429e1ceab35f93908",
+    "default_md5": "c70517ee53f1da0752fb5477cedaa723",
     "lang_name": "Persian"
   },
   "persian": {
@@ -2597,7 +2588,7 @@
         }
       ]
     },
-    "default_md5": "7a23714385dc696e30b3356eab3c587d",
+    "default_md5": "0958d56ec4350c6ffcc39375c7c90a5d",
     "lang_name": "Finnish"
   },
   "finnish": {
@@ -2662,7 +2653,7 @@
         }
       ]
     },
-    "default_md5": "d92db936ba218d59d647bcb32786eb50",
+    "default_md5": "34d7f91b29ae5239f1e241d265094f58",
     "lang_name": "Faroese"
   },
   "faroese": {
@@ -2721,7 +2712,7 @@
         }
       ]
     },
-    "default_md5": "2dee6288427cb4625485a651a32f31cb",
+    "default_md5": "ca2fc5c5c51cb83222660ff34517f21b",
     "lang_name": "Old_French"
   },
   "old_french": {
@@ -2785,7 +2776,7 @@
         }
       ]
     },
-    "default_md5": "08e7442c0a2cad1b316731382b7e9a30",
+    "default_md5": "3aed8477f384523b0de630a43e912563",
     "lang_name": "Irish"
   },
   "irish": {
@@ -2855,7 +2846,7 @@
         }
       ]
     },
-    "default_md5": "336ca1635c87a5a1c9df9b14ae212d27",
+    "default_md5": "55ba8597743674865170d915039fe311",
     "lang_name": "Scottish_Gaelic"
   },
   "scottish_gaelic": {
@@ -2955,7 +2946,7 @@
         }
       ]
     },
-    "default_md5": "eec820c8bcfcab49717bb24d04700b2c",
+    "default_md5": "9827c614d8c653e38b7e7f1e145f9286",
     "lang_name": "Galician"
   },
   "galician": {
@@ -3019,7 +3010,7 @@
         }
       ]
     },
-    "default_md5": "7dc0f7888f92aa6ac68f98e442ff3655",
+    "default_md5": "53e47029c08ca4dc39a0b6b6c58e184c",
     "lang_name": "Gothic"
   },
   "gothic": {
@@ -3110,7 +3101,7 @@
         }
       ]
     },
-    "default_md5": "03e8b370f02e214873b843650829803a",
+    "default_md5": "4eebade878578d3e48762e3ecdb280a8",
     "lang_name": "Ancient_Greek"
   },
   "ancient_greek": {
@@ -3180,7 +3171,7 @@
         }
       ]
     },
-    "default_md5": "152b05e6b1c4490e150d2a3eb5c862dd",
+    "default_md5": "d2762947f201ac3c92afe9fb0a595dc8",
     "lang_name": "Hebrew"
   },
   "hebrew": {
@@ -3244,7 +3235,7 @@
         }
       ]
     },
-    "default_md5": "aad189805d2701ad4768b3c71bcd72da",
+    "default_md5": "4148e60c63aebf417d94b2e82ed87f74",
     "lang_name": "Hindi"
   },
   "hindi": {
@@ -3308,7 +3299,7 @@
         }
       ]
     },
-    "default_md5": "6e5faad939bb2532815fa01bea288207",
+    "default_md5": "6a2ad01b839b63764cb297bba37a5cc0",
     "lang_name": "Croatian"
   },
   "croatian": {
@@ -3372,7 +3363,7 @@
         }
       ]
     },
-    "default_md5": "dbf72a038c9103314e4f9c92b3d3a270",
+    "default_md5": "0dd54583bdacc8196f5a861c15d52c4d",
     "lang_name": "Hungarian"
   },
   "hungarian": {
@@ -3442,7 +3433,7 @@
         }
       ]
     },
-    "default_md5": "f34559b4fa2cf3e2ea059fbe1b04e051",
+    "default_md5": "51e89980b8e9af245d325eecb6445c92",
     "lang_name": "Armenian"
   },
   "armenian": {
@@ -3503,6 +3494,9 @@
       }
     },
     "pretrain": {
+      "csui": {
+        "md5": "7d217465e7635c6571eab4c4ae29688c"
+      },
       "gsd": {
         "md5": "7d217465e7635c6571eab4c4ae29688c"
       }
@@ -3535,7 +3529,7 @@
         }
       ]
     },
-    "default_md5": "04438e12f8dceb9d94ef446ed931f7d4",
+    "default_md5": "fc10a12f3334c85c4f683f193f27f3d6",
     "lang_name": "Indonesian"
   },
   "indonesian": {
@@ -3605,7 +3599,7 @@
         }
       ]
     },
-    "default_md5": "3f858a114657ad68497231ec8445152c",
+    "default_md5": "30e750a846887944f1819d4482817bfd",
     "lang_name": "Icelandic"
   },
   "icelandic": {
@@ -3825,7 +3819,7 @@
         }
       ]
     },
-    "default_md5": "637b9cf6231ba7f96d7b419c581918d4",
+    "default_md5": "d40279322ef0cb1df0efd5d52f24bae4",
     "lang_name": "Italian"
   },
   "italian": {
@@ -3889,7 +3883,7 @@
         }
       ]
     },
-    "default_md5": "ac4b5fdcd40466a3767043686193f2e7",
+    "default_md5": "f8ae7d1ff6fd564c060779a4da8c793b",
     "lang_name": "Japanese"
   },
   "japanese": {
@@ -3980,7 +3974,7 @@
         }
       ]
     },
-    "default_md5": "7be887365d38893d28f586adac626881",
+    "default_md5": "8b2151685ad44cc1466c5513ef136f69",
     "lang_name": "Korean"
   },
   "korean": {
@@ -4081,6 +4075,9 @@
       "ittb": {
         "md5": "da1eda907b18f612f5ae831aacdced60"
       },
+      "llct": {
+        "md5": "da1eda907b18f612f5ae831aacdced60"
+      },
       "perseus": {
         "md5": "da1eda907b18f612f5ae831aacdced60"
       },
@@ -4122,7 +4119,7 @@
         }
       ]
     },
-    "default_md5": "1551aceb94120e2a9135c120a6121dd9",
+    "default_md5": "ca2b4ef7e8d890cff5d1e29d43587a37",
     "lang_name": "Latin"
   },
   "latin": {
@@ -4213,7 +4210,7 @@
         }
       ]
     },
-    "default_md5": "aa42c5c8adfb96c5eddd3471e38e92a6",
+    "default_md5": "9e7d8bbf50c02ec3e5304a485efa4a31",
     "lang_name": "Lithuanian"
   },
   "lithuanian": {
@@ -4277,7 +4274,7 @@
         }
       ]
     },
-    "default_md5": "29776bab1305b64cb653ca2f4b8d7873",
+    "default_md5": "10d89e54ed090dadcfa0c6aa2d7cd84d",
     "lang_name": "Latvian"
   },
   "latvian": {
@@ -4341,7 +4338,7 @@
         }
       ]
     },
-    "default_md5": "9982b42cccb9b38ad71a3c4bccf0d069",
+    "default_md5": "ef0871cc3569700fdc234bb932d65187",
     "lang_name": "Classical_Chinese"
   },
   "classical_chinese": {
@@ -4411,7 +4408,7 @@
         }
       ]
     },
-    "default_md5": "09e0c528459b18a7dad2d909cd37b4c4",
+    "default_md5": "cfd0954885350d961d501e05b8ac087d",
     "lang_name": "Marathi"
   },
   "marathi": {
@@ -4470,7 +4467,7 @@
         }
       ]
     },
-    "default_md5": "551904e2bec4e3eafb80c5fb0b6da930",
+    "default_md5": "36428c241bc5142cc100d801bfb71614",
     "lang_name": "Maltese"
   },
   "maltese": {
@@ -4534,7 +4531,7 @@
         }
       ]
     },
-    "default_md5": "dfe6f4530a8cbb819f56b6639bd62147",
+    "default_md5": "9f5ce217b0156db143f435dc35a47529",
     "lang_name": "Norwegian_Bokmaal"
   },
   "norwegian_bokmaal": {
@@ -4625,7 +4622,7 @@
         }
       ]
     },
-    "default_md5": "99b8cab421f40241a1f81ebe10dfb248",
+    "default_md5": "1db57c29505ac98a00ee3d3492f783b1",
     "lang_name": "Norwegian_Nynorsk"
   },
   "norwegian_nynorsk": {
@@ -4634,22 +4631,10 @@
   "orv": {
     "depparse": {
       "rnc": {
-        "md5": "0984e668bf096f8d75ca8c86b6b9f496",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "rnc"
-          }
-        ]
+        "md5": "0984e668bf096f8d75ca8c86b6b9f496"
       },
       "torot": {
-        "md5": "49d0f27963a62e3bda7766e003a8ba67",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "torot"
-          }
-        ]
+        "md5": "49d0f27963a62e3bda7766e003a8ba67"
       }
     },
     "lemma": {
@@ -4662,22 +4647,10 @@
     },
     "pos": {
       "rnc": {
-        "md5": "d6bc05a4d56bb2d73f5ef14b475fe8bd",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "rnc"
-          }
-        ]
+        "md5": "d6bc05a4d56bb2d73f5ef14b475fe8bd"
       },
       "torot": {
-        "md5": "e9d57c45dbc43a6cf5907f5ed9ad51d7",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "torot"
-          }
-        ]
+        "md5": "e9d57c45dbc43a6cf5907f5ed9ad51d7"
       }
     },
     "tokenize": {
@@ -4708,7 +4681,7 @@
         }
       ]
     },
-    "default_md5": "fdecb4247f75d80d57fc2ee6cf4758fc",
+    "default_md5": "8b3a36c97948f00ed10b5cb1e7c6c245",
     "lang_name": "Old_Russian"
   },
   "old_russian": {
@@ -4717,13 +4690,7 @@
   "pcm": {
     "depparse": {
       "nsc": {
-        "md5": "77f04862641d7bec027df73b49b6452f",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "nsc"
-          }
-        ]
+        "md5": "77f04862641d7bec027df73b49b6452f"
       }
     },
     "lemma": {
@@ -4733,13 +4700,7 @@
     },
     "pos": {
       "nsc": {
-        "md5": "75c9a8702a004eee30262aee5c4490ff",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "nsc"
-          }
-        ]
+        "md5": "75c9a8702a004eee30262aee5c4490ff"
       }
     },
     "tokenize": {
@@ -4767,7 +4728,7 @@
         }
       ]
     },
-    "default_md5": "5451885b9b603e2e520525c5df7b9e7f",
+    "default_md5": "dae7546ffe8a193dc292634ac52b5aa7",
     "lang_name": "Naija"
   },
   "naija": {
@@ -4864,7 +4825,7 @@
         }
       ]
     },
-    "default_md5": "2b1e791253dea8aa29119016e4b62f82",
+    "default_md5": "c243129e18cf6790bc09e0af6e339ed4",
     "lang_name": "Polish"
   },
   "polish": {
@@ -4964,7 +4925,7 @@
         }
       ]
     },
-    "default_md5": "6e7ea7b1cadf2dda9c76fad6c541e196",
+    "default_md5": "d992ba2fdfa41bafe1a845a4b513c848",
     "lang_name": "Portuguese"
   },
   "portuguese": {
@@ -4973,13 +4934,7 @@
   "qtd": {
     "depparse": {
       "sagt": {
-        "md5": "77cf9d148e3ab7a6d42429c9fe671354",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "sagt"
-          }
-        ]
+        "md5": "77cf9d148e3ab7a6d42429c9fe671354"
       }
     },
     "lemma": {
@@ -4994,13 +4949,7 @@
     },
     "pos": {
       "sagt": {
-        "md5": "0b18d5245518f2d2e86bb79dbe801654",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "sagt"
-          }
-        ]
+        "md5": "0b18d5245518f2d2e86bb79dbe801654"
       }
     },
     "tokenize": {
@@ -5029,7 +4978,7 @@
         }
       ]
     },
-    "default_md5": "7932957f03feacf4aefeac0d7012c63f",
+    "default_md5": "bc4ea59252861a3b04362feed02c54b1",
     "lang_name": "Turkish_German"
   },
   "turkish_german": {
@@ -5111,6 +5060,9 @@
       },
       "rrt": {
         "md5": "c1f923fa58f7301ae40ba297939966eb"
+      },
+      "simonero": {
+        "md5": "c1f923fa58f7301ae40ba297939966eb"
       }
     },
     "tokenize": {
@@ -5144,7 +5096,7 @@
         }
       ]
     },
-    "default_md5": "5c54605eb0da17235ed2194c76670f23",
+    "default_md5": "262781ae85dabf149ea1c1320a101057",
     "lang_name": "Romanian"
   },
   "romanian": {
@@ -5208,7 +5160,7 @@
         }
       ]
     },
-    "default_md5": "d1aa4057d51041fe51b3ee563ed22a5d",
+    "default_md5": "3d451dc08c6c300320d2a8ea27008d6e",
     "lang_name": "Sanskrit"
   },
   "sanskrit": {
@@ -5272,7 +5224,7 @@
         }
       ]
     },
-    "default_md5": "f7346632794e4addcb5d8d907d136912",
+    "default_md5": "a8e03a8e9cbb2b92347ab11d59759477",
     "lang_name": "Slovak"
   },
   "slovak": {
@@ -5363,7 +5315,7 @@
         }
       ]
     },
-    "default_md5": "21567340b3a636810f90688b1b839aff",
+    "default_md5": "fbe07e24dca782f765d6a10b9eca38f7",
     "lang_name": "Slovenian"
   },
   "slovenian": {
@@ -5427,7 +5379,7 @@
         }
       ]
     },
-    "default_md5": "77cd4df71dd83e235d36f05d21038f3a",
+    "default_md5": "c5368b9ed6df9d34afd7c280e05c6021",
     "lang_name": "North_Sami"
   },
   "north_sami": {
@@ -5491,7 +5443,7 @@
         }
       ]
     },
-    "default_md5": "2494c99a74943f77ca948936aeeea8c8",
+    "default_md5": "a5d262d86aa106c94ec8ef44422afacd",
     "lang_name": "Serbian"
   },
   "serbian": {
@@ -5582,7 +5534,7 @@
         }
       ]
     },
-    "default_md5": "fdc5a6ebe1c20e9e160b819c45424672",
+    "default_md5": "58b7607a97a04ecc02d80fed5cac915e",
     "lang_name": "Swedish"
   },
   "swedish": {
@@ -5591,24 +5543,12 @@
   "swl": {
     "depparse": {
       "sslc": {
-        "md5": "6a56b48e80b00c433689755a38bfc438",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "sslc"
-          }
-        ]
+        "md5": "6a56b48e80b00c433689755a38bfc438"
       }
     },
     "pos": {
       "sslc": {
-        "md5": "0279d7cd7188f41eb9d9377da276a1b8",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "sslc"
-          }
-        ]
+        "md5": "0279d7cd7188f41eb9d9377da276a1b8"
       }
     },
     "tokenize": {
@@ -5636,7 +5576,7 @@
         }
       ]
     },
-    "default_md5": "192cdf7937c56f3338b3fcaaf5032560",
+    "default_md5": "79782cfc17b68e629fbdde11355acea4",
     "lang_name": "Swedish_Sign_Language"
   },
   "swedish_sign_language": {
@@ -5706,7 +5646,7 @@
         }
       ]
     },
-    "default_md5": "6259d33ce40b3a66c6c658a82df0b4da",
+    "default_md5": "7d4c56e4125dcd6a89aca6978981a9a6",
     "lang_name": "Tamil"
   },
   "tamil": {
@@ -5765,7 +5705,7 @@
         }
       ]
     },
-    "default_md5": "c2cc3d27c7992208fdf0edea158ff152",
+    "default_md5": "30ce5a18f3ab1eb966858479db289d42",
     "lang_name": "Telugu"
   },
   "telugu": {
@@ -5829,6 +5769,9 @@
       }
     },
     "pretrain": {
+      "boun": {
+        "md5": "b236592be8bc2b88efeaf9e942f324cf"
+      },
       "imst": {
         "md5": "b236592be8bc2b88efeaf9e942f324cf"
       }
@@ -5862,7 +5805,7 @@
         }
       ]
     },
-    "default_md5": "771702f81cd9c42c0bd1e2e658704be4",
+    "default_md5": "0cd78665a032cceb0ed423b31910c45b",
     "lang_name": "Turkish"
   },
   "turkish": {
@@ -5926,7 +5869,7 @@
         }
       ]
     },
-    "default_md5": "b0a646a91601cf6e2054b4ee8437ede9",
+    "default_md5": "845b473ccad7c6bf548e057cf1d48659",
     "lang_name": "Uyghur"
   },
   "uyghur": {
@@ -6002,7 +5945,7 @@
         }
       ]
     },
-    "default_md5": "078170c35e0e09ebcc97d504ce7df103",
+    "default_md5": "ee6057c63dfff401be948057ab31fd0e",
     "lang_name": "Ukrainian"
   },
   "ukrainian": {
@@ -6066,7 +6009,7 @@
         }
       ]
     },
-    "default_md5": "55867af94d2c5e2807963227dc12d6a5",
+    "default_md5": "6ccd4c69fe8bca568dbd355d99975725",
     "lang_name": "Urdu"
   },
   "urdu": {
@@ -6143,7 +6086,7 @@
         }
       ]
     },
-    "default_md5": "f155037133550003b792bbf8fef08574",
+    "default_md5": "fa1c2a7a966acef9b035e5e5376b58e9",
     "lang_name": "Vietnamese"
   },
   "vietnamese": {
@@ -6213,7 +6156,7 @@
         }
       ]
     },
-    "default_md5": "a952a9933d22c1fc2ac4773da741ca01",
+    "default_md5": "65662482777e8972b5e508610ff6a923",
     "lang_name": "Wolof"
   },
   "wolof": {
@@ -6277,7 +6220,7 @@
         }
       ]
     },
-    "default_md5": "e902952627d19d9ab903a39a2b52e6eb",
+    "default_md5": "fbd36927cb3e60c2e2bf423662c2e30f",
     "lang_name": "Traditional_Chinese"
   },
   "traditional_chinese": {
@@ -6312,7 +6255,7 @@
         }
       ]
     },
-    "default_md5": "3f63afe917e1f472612a3d43a31521fe",
+    "default_md5": "b8c91b122930b94ad78f4bdb0ea8d82f",
     "lang_name": "Thai"
   },
   "thai": {
