@@ -7,7 +7,7 @@
     },
     "depparse": {
       "padt": {
-        "md5": "86a37ebee5a5c683ee4a5f108efac498",
+        "md5": "bc3e3cc62fc5b0855a961401e30e3a1a",
         "dependencies": [
           {
             "model": "pretrain",
@@ -23,12 +23,12 @@
     },
     "lemma": {
       "padt": {
-        "md5": "bd91ae602a96d38f16cb1bea4fcc7b9c"
+        "md5": "8febc4ad0048562235752afb9f87f360"
       }
     },
     "mwt": {
       "padt": {
-        "md5": "b149bd90dc1d6b132832845892c4f071"
+        "md5": "4842fe87f2f0eb57b93acdd2d6b203f4"
       }
     },
     "ner": {
@@ -48,7 +48,7 @@
     },
     "pos": {
       "padt": {
-        "md5": "2bceefaf3cd3ecbfc0313c9fd8339d10",
+        "md5": "51c826d0b58cdae6a9e78aa1fa5cdf87",
         "dependencies": [
           {
             "model": "pretrain",
@@ -64,7 +64,7 @@
     },
     "tokenize": {
       "padt": {
-        "md5": "a40704d38da8d08009f5365561f9616e"
+        "md5": "685c4ce2d6a85ac397a5b414ada560ac"
       }
     },
     "default_processors": {
@@ -99,7 +99,7 @@
         }
       ]
     },
-    "default_md5": "8afc7c63565edc3a54b3cf94fe255771",
+    "default_md5": "139fd628b1082cba59468027077cf57c",
     "lang_name": "Arabic"
   },
   "arabic": {
@@ -113,7 +113,7 @@
     },
     "depparse": {
       "gsd": {
-        "md5": "f803996e2957127711fe45ee1fd373a9",
+        "md5": "930310eccf99733ca74477af56595f40",
         "dependencies": [
           {
             "model": "pretrain",
@@ -122,7 +122,7 @@
         ]
       },
       "hdt": {
-        "md5": "62fb43d1d1be9d10e46e1fecff850e54",
+        "md5": "84fe008e2126385709c8dea43e962fa6",
         "dependencies": [
           {
             "model": "pretrain",
@@ -138,15 +138,15 @@
     },
     "lemma": {
       "gsd": {
-        "md5": "4e5d73ae1525229a717140e189bb3c41"
+        "md5": "0b260a1dbdeb772df0542e9b1309c466"
       },
       "hdt": {
-        "md5": "743f705ffe847ab7cab5410396bdc10e"
+        "md5": "1435894e5253fb70e6eee79d6491ae75"
       }
     },
     "mwt": {
       "gsd": {
-        "md5": "b7ccfbd73ce7f7845f7272f4621b130b"
+        "md5": "991c7a2c3691f957b6c829729d18b3f3"
       }
     },
     "ner": {
@@ -179,7 +179,7 @@
     },
     "pos": {
       "gsd": {
-        "md5": "d6a78e55ebd37028daef588d52233b4f",
+        "md5": "20cb41e8894a919ef3a47a4b8b8d9fd9",
         "dependencies": [
           {
             "model": "pretrain",
@@ -188,7 +188,7 @@
         ]
       },
       "hdt": {
-        "md5": "427e36189874335fa879b68ea0355c15",
+        "md5": "8a6acf6dd6a573b9aa46c8fabf69d0fc",
         "dependencies": [
           {
             "model": "pretrain",
@@ -218,10 +218,10 @@
     },
     "tokenize": {
       "gsd": {
-        "md5": "b8846bc0fff5c2b7d54e050b92407ba1"
+        "md5": "e79bc91fd3855603eaa72f91973b8395"
       },
       "hdt": {
-        "md5": "c80e4986dd6be1b3bb1eaa3671b243e6"
+        "md5": "94b103a9ac16a77fee351753bace2f29"
       }
     },
     "default_processors": {
@@ -263,7 +263,7 @@
         }
       ]
     },
-    "default_md5": "58379156e8d2750555a529e3c9682108",
+    "default_md5": "e397b6e490184584ca37df6559a5ccb4",
     "lang_name": "German"
   },
   "german": {
@@ -283,7 +283,7 @@
     },
     "depparse": {
       "combined": {
-        "md5": "535be694561ba55610da02b72ca3d07c",
+        "md5": "4a113ad1b76fbe8d87ab7e8f4b60c72e",
         "dependencies": [
           {
             "model": "pretrain",
@@ -292,7 +292,7 @@
         ]
       },
       "craft": {
-        "md5": "3a61776abee48804f339959a2b2d97b1",
+        "md5": "d98d891e43b217473d013c42aa18ed44",
         "dependencies": [
           {
             "model": "pretrain",
@@ -301,7 +301,7 @@
         ]
       },
       "ewt": {
-        "md5": "d211575dbf4fcc1e3bf31ee3a2937393",
+        "md5": "ade313d6a58b1ce6409b9ff4b5181e55",
         "dependencies": [
           {
             "model": "pretrain",
@@ -310,7 +310,7 @@
         ]
       },
       "genia": {
-        "md5": "1cee1e8d9465368de81d09619964211f",
+        "md5": "5c675bf97180c37ea6d503c69195ffc1",
         "dependencies": [
           {
             "model": "pretrain",
@@ -319,7 +319,7 @@
         ]
       },
       "gum": {
-        "md5": "3ad6cbf4045dee2c03a25386c92a2386",
+        "md5": "e931ffcfb998db7828a3ec24e6ba7607",
         "dependencies": [
           {
             "model": "pretrain",
@@ -328,7 +328,7 @@
         ]
       },
       "lines": {
-        "md5": "5581033e70589a0153021728dc8131f7",
+        "md5": "b31b871a8fc60a41a92d7b80fe1f3d48",
         "dependencies": [
           {
             "model": "pretrain",
@@ -337,7 +337,7 @@
         ]
       },
       "mimic": {
-        "md5": "3dbebc70b9858b48d5fcf30e9bbd13ee",
+        "md5": "f5c3b6d77239833859afe784dfe38240",
         "dependencies": [
           {
             "model": "pretrain",
@@ -346,7 +346,7 @@
         ]
       },
       "partut": {
-        "md5": "324126538e6cea11144e2bacabcddf7f",
+        "md5": "748f5ac2bdfbf13190507d04accf2563",
         "dependencies": [
           {
             "model": "pretrain",
@@ -368,36 +368,36 @@
     },
     "lemma": {
       "combined": {
-        "md5": "51dd2389b8b97cf95754ee55e0fd563f"
+        "md5": "9dab883fdd25d517aa6df9d6fd7ce4ec"
       },
       "craft": {
-        "md5": "fc449b233ddc2f40ee59382ae0182df4"
+        "md5": "fe602af4a87e923faf5d4ce597a8be08"
       },
       "ewt": {
-        "md5": "4f2b9fc10293c350565ea73457a3e09a"
+        "md5": "690fbe2197e1f945af6d966c34481120"
       },
       "genia": {
-        "md5": "a5b1c14afd97993417dc4ce3d740954f"
+        "md5": "b64c1c9433acaa7d14090ae07aa8eb08"
       },
       "gum": {
-        "md5": "b25d9789598b37012f2356b1e084f798"
+        "md5": "6ada1e2fa587294fe532823881f0bafd"
       },
       "lines": {
-        "md5": "c3562bed6aed38156ea61f192cb3ca72"
+        "md5": "e6de8aaacabd7ac6e6431893c153b32a"
       },
       "mimic": {
-        "md5": "0c67f8acaefcf720e17d0ca6b94960f3"
+        "md5": "4701f9523bad5ec916785387938deec4"
       },
       "partut": {
-        "md5": "64cdaa5ff75f81150d69fac3ae035428"
+        "md5": "ec17a9235a5512b8fe2080218d2c6721"
       }
     },
     "mwt": {
       "ewt": {
-        "md5": "0f507b20ab5c7f9ef88b4d469d085af8"
+        "md5": "822976c7ee54559d820d7d3b71e64b63"
       },
       "partut": {
-        "md5": "1ef00cb73f8e7c752ef4c310b7c971f6"
+        "md5": "075b8c450e4e051d44984fde542a645f"
       }
     },
     "ner": {
@@ -560,7 +560,7 @@
     },
     "pos": {
       "combined": {
-        "md5": "6dbbc3d9210342f390b95dd5eec25cda",
+        "md5": "e0c4c774bbb0f1d0145a1f6fce4e3eb4",
         "dependencies": [
           {
             "model": "pretrain",
@@ -569,7 +569,7 @@
         ]
       },
       "craft": {
-        "md5": "214a255ea985c8c59af69497cb40368f",
+        "md5": "4bf2f1a986f25e40c9f8311bd7007306",
         "dependencies": [
           {
             "model": "pretrain",
@@ -578,7 +578,7 @@
         ]
       },
       "ewt": {
-        "md5": "51b71ac009495c301a942a5bea522b9f",
+        "md5": "1a04e114c01442e5b6970f7b438bf5fe",
         "dependencies": [
           {
             "model": "pretrain",
@@ -587,7 +587,7 @@
         ]
       },
       "genia": {
-        "md5": "2ea024815b3e22d5b561cc74035e73de",
+        "md5": "63601e6d3bd5b52028d80d609b10701e",
         "dependencies": [
           {
             "model": "pretrain",
@@ -596,7 +596,7 @@
         ]
       },
       "gum": {
-        "md5": "3d3d8a6767d515ad17f74c00426d3eb9",
+        "md5": "3a4ea98b353e3ee03d44618ae8551d53",
         "dependencies": [
           {
             "model": "pretrain",
@@ -605,7 +605,7 @@
         ]
       },
       "lines": {
-        "md5": "a0cd74a79f59bea7233bf56abec604d3",
+        "md5": "bc0f0070a890ae0f37c0621f656bce1d",
         "dependencies": [
           {
             "model": "pretrain",
@@ -614,7 +614,7 @@
         ]
       },
       "mimic": {
-        "md5": "f17631ef1a7a54ab8be3641259df811f",
+        "md5": "ec1684778961db047434c2461e0d537d",
         "dependencies": [
           {
             "model": "pretrain",
@@ -623,7 +623,7 @@
         ]
       },
       "partut": {
-        "md5": "0102a5d69db525f483c5f6f79616c160",
+        "md5": "57dd485ef5d51c7f77fa5e59ce7b4a7b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -671,28 +671,28 @@
     },
     "tokenize": {
       "combined": {
-        "md5": "be09f3c69a48218af95c56ac8a18f483"
+        "md5": "c7e03e051f9ac5029a0a01786ee24e64"
       },
       "craft": {
-        "md5": "19b0214826fd18b51d83c6841ec50d57"
+        "md5": "8975ea0d464de8a1511b46894eaaadfc"
       },
       "ewt": {
-        "md5": "ea618d6574708a1d5b9e6c69192ff1b6"
+        "md5": "2eaa79dc62f2895d3bd02ccdad5f5333"
       },
       "genia": {
-        "md5": "df205e0f55eb7d75553af0cdb065980c"
+        "md5": "a78031d1c248c93d87f7be11e7cf6a11"
       },
       "gum": {
-        "md5": "ebca53e34ee851c10db945041d4328ed"
+        "md5": "dfdc5e5bdf516a94efee7277b80c9d6d"
       },
       "lines": {
-        "md5": "a51d81841ce3ed494f29b71733349446"
+        "md5": "a5ebb9de3af5e02ca70dfdc600a0d549"
       },
       "mimic": {
-        "md5": "115ae102154cf93093fceb750eaac019"
+        "md5": "ef07b7b377db068e56183514d93d7ba1"
       },
       "partut": {
-        "md5": "e8ed12debdff06bc87fcbdbf28706843"
+        "md5": "9a6d1dcc832b6d3cb0dbc0795b946828"
       }
     },
     "default_processors": {
@@ -733,7 +733,7 @@
         }
       ]
     },
-    "default_md5": "0d1f04d6abefd6a0c19f3fbcdd97fc2f",
+    "default_md5": "eca2f83c41c61935da00289ce9e7e7fd",
     "lang_name": "English"
   },
   "english": {
@@ -747,7 +747,7 @@
     },
     "depparse": {
       "ancora": {
-        "md5": "0de8dff18c92025890411bcbc83dc5b6",
+        "md5": "14694d282ebf77bfaf840e51585f70b1",
         "dependencies": [
           {
             "model": "pretrain",
@@ -756,7 +756,7 @@
         ]
       },
       "gsd": {
-        "md5": "09dfc059d51b286edd99a5de08fabb26",
+        "md5": "9280291dc8b2d9b721594bfde3884f27",
         "dependencies": [
           {
             "model": "pretrain",
@@ -772,18 +772,18 @@
     },
     "lemma": {
       "ancora": {
-        "md5": "31efce0bf8619a28ab1bcd8aca890db2"
+        "md5": "1613b5bae3068831c9dcddbcc5729874"
       },
       "gsd": {
-        "md5": "a6164119959df45be0c536e1be904b7d"
+        "md5": "5182d043babd52f4d190b77e2f744343"
       }
     },
     "mwt": {
       "ancora": {
-        "md5": "719f90cf19ed0644458ec05c93edb20d"
+        "md5": "a2bd33c9b8ce9cff4db134f0b06bd235"
       },
       "gsd": {
-        "md5": "c21122f5ab6c3e1fa89b23cc33c356e5"
+        "md5": "dc0df67d48f5a5d51ef5cdbd50580670"
       }
     },
     "ner": {
@@ -816,7 +816,7 @@
     },
     "pos": {
       "ancora": {
-        "md5": "3bb3347d1715de59764bf74943892aec",
+        "md5": "54a2d626cbbd3bf0db62a047eda7154f",
         "dependencies": [
           {
             "model": "pretrain",
@@ -825,7 +825,7 @@
         ]
       },
       "gsd": {
-        "md5": "4bee3a85b92464acf5c39faf6e0fc4e7",
+        "md5": "9daf0767af7336c32ceac2d1c6bd1828",
         "dependencies": [
           {
             "model": "pretrain",
@@ -844,10 +844,10 @@
     },
     "tokenize": {
       "ancora": {
-        "md5": "49193bc7f09dd442b22bd42a591d527f"
+        "md5": "f4572de8eae1a2028c11798a5cba5da8"
       },
       "gsd": {
-        "md5": "a92d93a6ca34789f22537580b451e95d"
+        "md5": "b458701633d243a9be337b8ccccedcf4"
       }
     },
     "default_processors": {
@@ -882,7 +882,7 @@
         }
       ]
     },
-    "default_md5": "4b93e68ea7f1f516a29f254430cdae37",
+    "default_md5": "07f7e85cb0459e281903183a55004b3c",
     "lang_name": "Spanish"
   },
   "spanish": {
@@ -896,7 +896,7 @@
     },
     "depparse": {
       "gsd": {
-        "md5": "8b9f0e59f793339734b0d6bd9faec4b0",
+        "md5": "91241bec9671def2d03aaf18e4274626",
         "dependencies": [
           {
             "model": "pretrain",
@@ -905,7 +905,7 @@
         ]
       },
       "partut": {
-        "md5": "adb3762249ad5fb31bf3aed3698de66e",
+        "md5": "03129f7c6252044f32f7b58e90c82096",
         "dependencies": [
           {
             "model": "pretrain",
@@ -914,7 +914,7 @@
         ]
       },
       "sequoia": {
-        "md5": "4139b1afa9abddbee7a78434fe252371",
+        "md5": "01c88aa3dbf9b9db3b5fe0b225d4e2b8",
         "dependencies": [
           {
             "model": "pretrain",
@@ -923,7 +923,7 @@
         ]
       },
       "spoken": {
-        "md5": "a65bb05bb68066dc869747d2cd39e15b",
+        "md5": "1ae1e50192e035534a62186589031f33",
         "dependencies": [
           {
             "model": "pretrain",
@@ -939,30 +939,30 @@
     },
     "lemma": {
       "gsd": {
-        "md5": "3ad36001fa7cef270c8e81dc18b3a381"
+        "md5": "d51215e39f3d1ebb12549bd37c951657"
       },
       "partut": {
-        "md5": "b8d345ccfdcf163017da7ea7b5d2a244"
+        "md5": "20482734ff62b63c2935b04b427b252b"
       },
       "sequoia": {
-        "md5": "b44bac4d3f69acdcdae559848b161e18"
+        "md5": "b1c44930286c48639ebc3fefe62b1454"
       },
       "spoken": {
-        "md5": "8f1d0669f918354e6d9d480b7bd2577c"
+        "md5": "8e1421d7b79b12dac04bb2ddec587359"
       }
     },
     "mwt": {
       "gsd": {
-        "md5": "b238d2a1425b98f8a62ce8e3ad68cf66"
+        "md5": "2005962f9a1c2696f3915d4edac7015a"
       },
       "partut": {
-        "md5": "ab32e62436ab635de9f6090f2c40a987"
+        "md5": "fb30111923863225cdd44ea19c4268b8"
       },
       "sequoia": {
-        "md5": "4a4129a1b0a3f05ddaf3f2f60f2eea47"
+        "md5": "350291012422184587a45e53f285dc83"
       },
       "spoken": {
-        "md5": "dcc73ebe11be7bbddc48e0081111f692"
+        "md5": "3909dbaf9d1e1ceccc27fbba1e0016a8"
       }
     },
     "ner": {
@@ -982,7 +982,7 @@
     },
     "pos": {
       "gsd": {
-        "md5": "e705ff9ad6b8de377299c9baf4234783",
+        "md5": "fd4827e923be16917bca39802af7b87f",
         "dependencies": [
           {
             "model": "pretrain",
@@ -991,7 +991,7 @@
         ]
       },
       "partut": {
-        "md5": "a56b2731204c6482afb85d590735105e",
+        "md5": "17a753f3b7f364906558aef412136c8c",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1000,7 +1000,7 @@
         ]
       },
       "sequoia": {
-        "md5": "e05ea6fbf125fefb36934eb44ea9a83f",
+        "md5": "507c9162977ba929ea6155f93850ce06",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1009,7 +1009,7 @@
         ]
       },
       "spoken": {
-        "md5": "c6b8ac72121ece5408053ea5722c6fb0",
+        "md5": "02dc0de4edc8e281ee30509d30e4e4ea",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1034,16 +1034,16 @@
     },
     "tokenize": {
       "gsd": {
-        "md5": "5580f03d280cf0862a6fcefeec7e9a0b"
+        "md5": "436f27a707fbeba57a04f4baad46191b"
       },
       "partut": {
-        "md5": "169514d77d659970249966cbbb1508cd"
+        "md5": "46aa9192903ac0a81980e6d206df1c3b"
       },
       "sequoia": {
-        "md5": "66cb97d303d638a85a0122f017201d87"
+        "md5": "5125336695b66420ace0332fb2651be8"
       },
       "spoken": {
-        "md5": "6883a0cc536ba89ffa28c538ee5edc87"
+        "md5": "978ea7f779854b36a4df5401ed450d1e"
       }
     },
     "default_processors": {
@@ -1078,7 +1078,7 @@
         }
       ]
     },
-    "default_md5": "ec7c5087cac883f45d884c0ccfbf39fc",
+    "default_md5": "194121643f1e6097454b10badf963543",
     "lang_name": "French"
   },
   "french": {
@@ -1092,7 +1092,7 @@
     },
     "depparse": {
       "alpino": {
-        "md5": "415fda396a5a1a45564feed1cb1b4120",
+        "md5": "994a33d89b9d7f66c8f840a45748d964",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1101,7 +1101,7 @@
         ]
       },
       "lassysmall": {
-        "md5": "aa760d14910b96cd11acd21b3707fa2e",
+        "md5": "8808f7b070f2926a27ddeb8b1e078864",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1117,10 +1117,10 @@
     },
     "lemma": {
       "alpino": {
-        "md5": "e3f3cb69a25f63149e181e65aef13887"
+        "md5": "7e9f217d7513817338415dc207e21d03"
       },
       "lassysmall": {
-        "md5": "5e1d6ad3fdea9d8fce5757ed65358d3b"
+        "md5": "c2e9fb46b6bcf6dbf3316867e0654bde"
       }
     },
     "ner": {
@@ -1153,7 +1153,7 @@
     },
     "pos": {
       "alpino": {
-        "md5": "aaabaad1f223ee204ca6270cd92e3c78",
+        "md5": "675e621179454bbdd217cb083f340d87",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1162,7 +1162,7 @@
         ]
       },
       "lassysmall": {
-        "md5": "8f28736b59386e5579e5f3ceaa722898",
+        "md5": "f47d7c6701d8b44a970afc220a6c8eda",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1181,10 +1181,10 @@
     },
     "tokenize": {
       "alpino": {
-        "md5": "0d701ffed5e4a51b4f64c194de923c56"
+        "md5": "4b1114477a0b48edc9e7fc69bea5ed18"
       },
       "lassysmall": {
-        "md5": "c64d560dadd5b1ef3a58fc738efa1108"
+        "md5": "15961507a4aa5d05201f257550dbed2f"
       }
     },
     "default_processors": {
@@ -1218,7 +1218,7 @@
         }
       ]
     },
-    "default_md5": "fe6cea537a1e15233adc2ad9669e39f2",
+    "default_md5": "667cf1286f5cbe67d500a4c073a6f89f",
     "lang_name": "Dutch"
   },
   "dutch": {
@@ -1232,7 +1232,7 @@
     },
     "depparse": {
       "gsd": {
-        "md5": "e63add0d163cac536e28bcd3e7bf7eac",
+        "md5": "29571dec0202b8a15817225a4c2cc675",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1241,7 +1241,7 @@
         ]
       },
       "syntagrus": {
-        "md5": "54f2e18f94feb6a3c5472afa83bea267",
+        "md5": "36a4eeab2481bab8b72df0f1dece18bb",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1250,7 +1250,7 @@
         ]
       },
       "taiga": {
-        "md5": "8b805e4f6fd9abb75e304b1ad6b29b53",
+        "md5": "67307c88283ac4cf69ea61c64cebd697",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1266,13 +1266,13 @@
     },
     "lemma": {
       "gsd": {
-        "md5": "731d81266e6336b7dd2937537500e5df"
+        "md5": "0b0af6d05e6fd2004aaea83af2b84453"
       },
       "syntagrus": {
-        "md5": "bba4951bcf4effa280d4a209baaa4f12"
+        "md5": "ffd999b2b1abbb77e063824d785d2e41"
       },
       "taiga": {
-        "md5": "aca5a1fba5baa630cf9dd155e04d24ff"
+        "md5": "7fe2b182ee4deb583e6155c2b5b026c4"
       }
     },
     "ner": {
@@ -1292,7 +1292,7 @@
     },
     "pos": {
       "gsd": {
-        "md5": "9667987f18fc9885cae1ee41bbdeff9a",
+        "md5": "cb79036c2a5f9f204b678dcb91845bf7",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1301,7 +1301,7 @@
         ]
       },
       "syntagrus": {
-        "md5": "1207392d6499be94529253f14c43aced",
+        "md5": "96312e2258635b68d464a545e0f655b5",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1310,7 +1310,7 @@
         ]
       },
       "taiga": {
-        "md5": "25546cba3d84fcbe16bc7cf1bde2fe2c",
+        "md5": "7c7c3c5b4de1126fdb1fe8d97ee18f44",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1332,13 +1332,13 @@
     },
     "tokenize": {
       "gsd": {
-        "md5": "8556cc1030e05bc078f9d5de1314549e"
+        "md5": "998952ce5f7831393ab2e25dc6fc19ef"
       },
       "syntagrus": {
-        "md5": "8bd59f31fae5743486fff183c550f5d7"
+        "md5": "a9faebe5b1f215b3b78e965a3089cb8f"
       },
       "taiga": {
-        "md5": "adc5e6044b04243c34e5dbb2f65e9428"
+        "md5": "f0e4ef950f807454d927b077d1888138"
       }
     },
     "default_processors": {
@@ -1372,7 +1372,7 @@
         }
       ]
     },
-    "default_md5": "14fd17a6a04365f9972c58cc290f2732",
+    "default_md5": "98305f1946824b673d16cec16f9f476d",
     "lang_name": "Russian"
   },
   "russian": {
@@ -1386,7 +1386,7 @@
     },
     "depparse": {
       "gsdsimp": {
-        "md5": "771395318db95a7e3aab9a0d97543803",
+        "md5": "549f529045736e8ac08451dad9fbe2c6",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1402,7 +1402,7 @@
     },
     "lemma": {
       "gsdsimp": {
-        "md5": "88adcac8c4dbe3e2ec115d68d46435f2"
+        "md5": "3390e9d4676026971c4e96f5b6e73399"
       }
     },
     "ner": {
@@ -1422,7 +1422,7 @@
     },
     "pos": {
       "gsdsimp": {
-        "md5": "d286891d7556d6260f6b968a077b849d",
+        "md5": "a5796bcf69004b4f5c1fb8b396bd5215",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1449,7 +1449,7 @@
     },
     "tokenize": {
       "gsdsimp": {
-        "md5": "ed08189778b5df72757e73ab285e5fdf"
+        "md5": "05e9ae16fa9d625f5d2df57ea6abda9b"
       }
     },
     "default_processors": {
@@ -1490,7 +1490,7 @@
         }
       ]
     },
-    "default_md5": "8cfad95324f2cfd290ce402f1671d302",
+    "default_md5": "1f9a067b601d13cb85da4960ad35c8af",
     "lang_name": "Simplified_Chinese"
   },
   "simplified_chinese": {
@@ -1499,7 +1499,7 @@
   "af": {
     "depparse": {
       "afribooms": {
-        "md5": "8fca4a43f4683da0e3a5e14451dfa5e0",
+        "md5": "be958ccc38a05d8d4ee910720ab4e61e",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1510,12 +1510,12 @@
     },
     "lemma": {
       "afribooms": {
-        "md5": "3e04b98de72e95a2043b1524fe8f612d"
+        "md5": "c3b15d6ce881fcc94fdaf99692fc4efc"
       }
     },
     "pos": {
       "afribooms": {
-        "md5": "e699ec1a35c371660a415b6da5bd2b29",
+        "md5": "e18960c9d744073802095f2428e7447b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1531,7 +1531,7 @@
     },
     "tokenize": {
       "afribooms": {
-        "md5": "920326b0fe509324ca67368745df48f5"
+        "md5": "f6df68ab4ad103671b82dc80a6645215"
       }
     },
     "default_processors": {
@@ -1554,7 +1554,7 @@
         }
       ]
     },
-    "default_md5": "289d9559bc7fdb691ff5f909572b5f22",
+    "default_md5": "e00c065baa8d57e379648735d7e7a2c5",
     "lang_name": "Afrikaans"
   },
   "afrikaans": {
@@ -1563,7 +1563,7 @@
   "be": {
     "depparse": {
       "hse": {
-        "md5": "8fd1f7fb29ea0257e5752bd2b01e1b60",
+        "md5": "3e4ec64c9312d98218612ffd46560dfc",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1574,12 +1574,12 @@
     },
     "lemma": {
       "hse": {
-        "md5": "c2ebad22e9532c81ebe14d7ab1de0b3a"
+        "md5": "9e1e93706baf0a3586d49f168f7fe0fe"
       }
     },
     "pos": {
       "hse": {
-        "md5": "fcc09f0ce72cbb5fbd8cc375a9061da1",
+        "md5": "10f75560f4db930c1d6dd54120ab2a19",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1595,7 +1595,7 @@
     },
     "tokenize": {
       "hse": {
-        "md5": "33b85c1636618385238156387635fdda"
+        "md5": "9704c721e97aea09463af838fee8e1f2"
       }
     },
     "default_processors": {
@@ -1618,7 +1618,7 @@
         }
       ]
     },
-    "default_md5": "7722a27359f7e9e5beed7c0438803e16",
+    "default_md5": "7ed052014d4d712c4ed879e2394bc062",
     "lang_name": "Belarusian"
   },
   "belarusian": {
@@ -1627,7 +1627,7 @@
   "bg": {
     "depparse": {
       "btb": {
-        "md5": "2aea5c12a18815119f4f89fcea2bb3b4",
+        "md5": "2dcaf37bef7c90c8391f11025d5c061b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1638,12 +1638,12 @@
     },
     "lemma": {
       "btb": {
-        "md5": "42cd2298008498a9b2ea9eec57f6fb82"
+        "md5": "ab7eae5ec504cf457ba3c82262f20741"
       }
     },
     "pos": {
       "btb": {
-        "md5": "ff3f6786166f21967ebc2396639f652b",
+        "md5": "361df1699fbd91b3a539b02813784fb9",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1659,7 +1659,7 @@
     },
     "tokenize": {
       "btb": {
-        "md5": "fa0fdfc934fc6ccffa1db32e24c78e66"
+        "md5": "a05615d310d1b07e75fc42bbc968963f"
       }
     },
     "default_processors": {
@@ -1682,7 +1682,7 @@
         }
       ]
     },
-    "default_md5": "30e6e66d105668f86d28b522576a0f00",
+    "default_md5": "15588acaf2abe2eff711962b55a63e82",
     "lang_name": "Bulgarian"
   },
   "bulgarian": {
@@ -1691,7 +1691,7 @@
   "ca": {
     "depparse": {
       "ancora": {
-        "md5": "7d68daa5a9da1414ee110c6448f7dcc8",
+        "md5": "60abedeaad7e96e0c8257dc3b05d566b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1702,17 +1702,17 @@
     },
     "lemma": {
       "ancora": {
-        "md5": "f3a22ca33c6bfe29d26441ed832ef6a3"
+        "md5": "19eeac7ac10df6f44c4c86afad1b768c"
       }
     },
     "mwt": {
       "ancora": {
-        "md5": "11d38731ac934a5f9d44c9f9c1394165"
+        "md5": "e42ce50e78991de7a52483676c184eeb"
       }
     },
     "pos": {
       "ancora": {
-        "md5": "0adf5a9448d1a87ec47ed24890cdc2f5",
+        "md5": "85ab3aa8e25ef1717dee3abadedd1a00",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1728,7 +1728,7 @@
     },
     "tokenize": {
       "ancora": {
-        "md5": "d581f0bc5780a7c94b35f401184f597e"
+        "md5": "3b8f98b4cee2d337fddb508a0f74d721"
       }
     },
     "default_processors": {
@@ -1752,7 +1752,7 @@
         }
       ]
     },
-    "default_md5": "82965698da7494ecfd87f85e8e571213",
+    "default_md5": "6b025685ec7ff305c967a9d30e0a1d53",
     "lang_name": "Catalan"
   },
   "catalan": {
@@ -1761,27 +1761,27 @@
   "cop": {
     "depparse": {
       "scriptorium": {
-        "md5": "64f18cb6c971a6bc6ba557293949d036"
+        "md5": "21abbc42515582b888393579a0e8cd88"
       }
     },
     "lemma": {
       "scriptorium": {
-        "md5": "d8d5d369d2b0c6abaa5c2748dd2d4e98"
+        "md5": "3dc8c6f021102bfdad7aad872ceb1210"
       }
     },
     "mwt": {
       "scriptorium": {
-        "md5": "137644d5f8d86265500ea2090a50c932"
+        "md5": "fcb900f5e79469014f45d732078b4672"
       }
     },
     "pos": {
       "scriptorium": {
-        "md5": "9548a2bfb56b59c81916f19da74ecbc8"
+        "md5": "f34574fdb756704849e041eecc9eb787"
       }
     },
     "tokenize": {
       "scriptorium": {
-        "md5": "141b363c595ea5d5ca95a18ac6d9c729"
+        "md5": "eebe70e7174a8affba81b25187ed301b"
       }
     },
     "default_processors": {
@@ -1791,21 +1791,8 @@
       "pos": "scriptorium",
       "depparse": "scriptorium"
     },
-    "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "scriptorium"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "scriptorium"
-        }
-      ]
-    },
-    "default_md5": "73ac1343fc68e2bb3451a4e7ec07f48a",
+    "default_dependencies": {},
+    "default_md5": "5d8ab6f03dbbeb13c7e5b884d904f266",
     "lang_name": "Coptic"
   },
   "coptic": {
@@ -1814,7 +1801,7 @@
   "cs": {
     "depparse": {
       "cac": {
-        "md5": "c8d52623083e483783980615f8ee3dd8",
+        "md5": "dac2e2161ba7ebd00d462b05aada0d1d",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1823,7 +1810,7 @@
         ]
       },
       "cltt": {
-        "md5": "d0b18faa4eb1a1cc08c6a1e9f584bf7b",
+        "md5": "8d36f6405944df3c570be2219405442d",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1832,7 +1819,7 @@
         ]
       },
       "fictree": {
-        "md5": "6b99b5b0d1584a98327bcc9fff4e4895",
+        "md5": "4f130538a66859417f3d1e018045ed3c",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1841,7 +1828,7 @@
         ]
       },
       "pdt": {
-        "md5": "94904ea64de25249e0e05070c9c3d690",
+        "md5": "42a0893ac7340531d866788add42e308",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1852,35 +1839,35 @@
     },
     "lemma": {
       "cac": {
-        "md5": "61ba65ced62f0e437a435f2ce68e7178"
+        "md5": "f0984325298dde43636abd0db3092bed"
       },
       "cltt": {
-        "md5": "ffa54bdab58b2102978e8d68217b953b"
+        "md5": "d6bdf4642bddccad43d84deb89a9b6f1"
       },
       "fictree": {
-        "md5": "1ce4ed352f57167b4717ea5d2927a05d"
+        "md5": "ef7ecd6c53520032b2749415df68c365"
       },
       "pdt": {
-        "md5": "f5deab9a3d581522d10feb4c60525013"
+        "md5": "9c94f1ac939987205e7810d4d7bdacaa"
       }
     },
     "mwt": {
       "cac": {
-        "md5": "078da2917cedf50a81d7da0d4f50f34f"
+        "md5": "358961603142a86258b55edac77888f3"
       },
       "cltt": {
-        "md5": "eceac00aed46ede40a3ff025e2850a72"
+        "md5": "cb36c0959e3cd9e4771c3aac90cec243"
       },
       "fictree": {
-        "md5": "c702a71735fe9267997ffa4ae860582c"
+        "md5": "e49fafdc6d94c6a429b8d092b2d5638d"
       },
       "pdt": {
-        "md5": "949ceb1918976c605218a9bb45e22a29"
+        "md5": "f0bde43f5b2dbd66fcb34f2c709c9770"
       }
     },
     "pos": {
       "cac": {
-        "md5": "ccc4deb6da923abb0df4b40917f3776e",
+        "md5": "735e6d0fcf4a1eb8bd1f52615a1742fb",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1889,7 +1876,7 @@
         ]
       },
       "cltt": {
-        "md5": "bd676760bc09e03efce0c451007c01f2",
+        "md5": "d480ec4c376ceb8fdefbd78b4d7c47eb",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1898,7 +1885,7 @@
         ]
       },
       "fictree": {
-        "md5": "3642a410616fb699cd63587b18bc348b",
+        "md5": "8667ae3a5ab22ac0a87b8e268b37cb36",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1907,7 +1894,7 @@
         ]
       },
       "pdt": {
-        "md5": "17540bdceb4340081ba67a4467e15fc2",
+        "md5": "79166633061531a5e4e8540415f42352",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1932,16 +1919,16 @@
     },
     "tokenize": {
       "cac": {
-        "md5": "25c22b117b470fdfca2abbcadab388db"
+        "md5": "7e833f45eca7becf4a1fad153d51bbce"
       },
       "cltt": {
-        "md5": "9b3f06bfe759f67f8db86e7fed9c0703"
+        "md5": "211a7d3b92fd859d55e77cf0d5f6ce64"
       },
       "fictree": {
-        "md5": "e924a834f1a025e888ce61189a43bac3"
+        "md5": "f107791d642d4d5be097b7d640630f07"
       },
       "pdt": {
-        "md5": "861528c4d2c5390fc3ee4dc11b9e994b"
+        "md5": "c731310569050f4f66a60e3914bc8f29"
       }
     },
     "default_processors": {
@@ -1965,7 +1952,7 @@
         }
       ]
     },
-    "default_md5": "7fa97e067295b1101751812dced7040d",
+    "default_md5": "299b30ef1bbc821c5da72bbf31671ddc",
     "lang_name": "Czech"
   },
   "czech": {
@@ -1974,7 +1961,7 @@
   "cu": {
     "depparse": {
       "proiel": {
-        "md5": "129562d466adf227dab94789618b113a",
+        "md5": "bc52d43fcb0e681769344df8ca8c87ab",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1985,12 +1972,12 @@
     },
     "lemma": {
       "proiel": {
-        "md5": "21f5459e1932710321c31386ac0c55f6"
+        "md5": "f3a144e6aee73f9041a0ad5d2eba2eef"
       }
     },
     "pos": {
       "proiel": {
-        "md5": "a3addba93af257821de73157f1a7a7f0",
+        "md5": "570112c9d38872b73be5ba44473e9304",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2006,7 +1993,7 @@
     },
     "tokenize": {
       "proiel": {
-        "md5": "54e6393c2607a211eb8ad1a0c18dbb8e"
+        "md5": "81945252144af28641d5511ab04619f3"
       }
     },
     "default_processors": {
@@ -2029,7 +2016,7 @@
         }
       ]
     },
-    "default_md5": "df87a3ecd792c73ea3f9ffafb6aa85c1",
+    "default_md5": "926d082bd8944a72624594bf3c8947bc",
     "lang_name": "Old_Church_Slavonic"
   },
   "old_church_slavonic": {
@@ -2038,7 +2025,7 @@
   "cy": {
     "depparse": {
       "ccg": {
-        "md5": "d431c1716eb4c7169d888b0bb2eb1c1d",
+        "md5": "27d25a0aaffe64f50925d5db252c0b68",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2049,17 +2036,17 @@
     },
     "lemma": {
       "ccg": {
-        "md5": "edc365f892d36d2c4cf82a9c50d3aaed"
+        "md5": "cf069335c669bfcb6f6e9fd9f743bf19"
       }
     },
     "mwt": {
       "ccg": {
-        "md5": "9fda654dd5932682f7df31a556726d0e"
+        "md5": "bc1f80dfff6a821086259fd87c4c6be9"
       }
     },
     "pos": {
       "ccg": {
-        "md5": "59f0840c961ce35418ca40c5dcfe8dd5",
+        "md5": "e45416f2c52eb9cee2435d1cfd1e23ce",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2070,12 +2057,12 @@
     },
     "pretrain": {
       "ccg": {
-        "md5": "e4056be90274aee17f9bd04275f286b9"
+        "md5": "9d119848f82a9792663b809479acfb6c"
       }
     },
     "tokenize": {
       "ccg": {
-        "md5": "10cca8ffc1bd50f8b9c51756cda2ad74"
+        "md5": "9c28d1fd4a32cd30cf564325d46c2b8c"
       }
     },
     "default_processors": {
@@ -2099,7 +2086,7 @@
         }
       ]
     },
-    "default_md5": "4f6222558b074a2db58dfbf5dce30fcc",
+    "default_md5": "9bcc40bcb4e31d5f06232d4803338dcb",
     "lang_name": "Welsh"
   },
   "welsh": {
@@ -2108,7 +2095,7 @@
   "da": {
     "depparse": {
       "ddt": {
-        "md5": "7ad8d8832a24b18f0d768f8480aa31f3",
+        "md5": "5100ce3eb3d38c066e762b1a11928285",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2119,12 +2106,12 @@
     },
     "lemma": {
       "ddt": {
-        "md5": "4195c0181522f332e8d4dffb653c960c"
+        "md5": "44bee9426f0e8aa4e9cd189315a79483"
       }
     },
     "pos": {
       "ddt": {
-        "md5": "0a31babb2b4c54180d450357534edf10",
+        "md5": "f7c271ba68a044718dba0b50fe555df7",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2140,7 +2127,7 @@
     },
     "tokenize": {
       "ddt": {
-        "md5": "8628ddbf9fec32df5ce4d87c7b5b437e"
+        "md5": "01101897c8b0fbb32a9dee677546fa5a"
       }
     },
     "default_processors": {
@@ -2163,7 +2150,7 @@
         }
       ]
     },
-    "default_md5": "8dece20b04867e485102e74fc430f7dd",
+    "default_md5": "88c49b21778505335f00e94261967979",
     "lang_name": "Danish"
   },
   "danish": {
@@ -2172,7 +2159,7 @@
   "el": {
     "depparse": {
       "gdt": {
-        "md5": "c38fda01a501d1e726606aaf329d9fc5",
+        "md5": "ca05092666b4e304bd1c4de06139253e",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2183,17 +2170,17 @@
     },
     "lemma": {
       "gdt": {
-        "md5": "1d3bc8689af47e1f8ee76f1798d13776"
+        "md5": "e22eaaadb88f5e0c3399ce1ea92886c1"
       }
     },
     "mwt": {
       "gdt": {
-        "md5": "25517841e4fa521f31292b7ed9c35247"
+        "md5": "46828fafe26db25124511497fda084b5"
       }
     },
     "pos": {
       "gdt": {
-        "md5": "e01d2f0c9850445756bd128d59c7710c",
+        "md5": "6269af07db46724860a2d684787b79f0",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2209,7 +2196,7 @@
     },
     "tokenize": {
       "gdt": {
-        "md5": "62f451289140da0d5fe8ad37faed128e"
+        "md5": "9134029b52099fed8f7421aa5e75c044"
       }
     },
     "default_processors": {
@@ -2233,7 +2220,7 @@
         }
       ]
     },
-    "default_md5": "2e90fc7e26958095da2efef2521b27d0",
+    "default_md5": "7094a16341be81ac0b294a48963ca571",
     "lang_name": "Greek"
   },
   "greek": {
@@ -2242,7 +2229,7 @@
   "et": {
     "depparse": {
       "edt": {
-        "md5": "3b5bd3346844ccd60316672738d14a50",
+        "md5": "415dc08be10144dd5e8e7b8e28bd8df5",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2251,7 +2238,7 @@
         ]
       },
       "ewt": {
-        "md5": "58592b33f36ffd64393870a6ee5d55c9",
+        "md5": "b2e8c4401adb68d81fbd613e784f60ed",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2262,15 +2249,15 @@
     },
     "lemma": {
       "edt": {
-        "md5": "2b28e77a94f72e162592fdfa89e921d5"
+        "md5": "1eafe6685e19d62b33739ebe937278dd"
       },
       "ewt": {
-        "md5": "980964668a834f4538b7bf92350bd5a5"
+        "md5": "ad40ce88a6c6324c7ca33d1ef9f484a1"
       }
     },
     "pos": {
       "edt": {
-        "md5": "9c5a74b5a08c6558713d0b7aab701b61",
+        "md5": "5af3acd7142705c83db525229ac2eca6",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2279,7 +2266,7 @@
         ]
       },
       "ewt": {
-        "md5": "702d92ce24bed0f4d0aaf67aa3b9533f",
+        "md5": "5545660e99860099900446a337b4d863",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2298,10 +2285,10 @@
     },
     "tokenize": {
       "edt": {
-        "md5": "ab7e673a97441f4fce9a068945c8c7c0"
+        "md5": "8d34b2da13a3168644d0e53f7b39ef5b"
       },
       "ewt": {
-        "md5": "9693fcb8ca47254b928f743eb17c038a"
+        "md5": "0239639ce757273a499c2d6cf9e62f3f"
       }
     },
     "default_processors": {
@@ -2324,7 +2311,7 @@
         }
       ]
     },
-    "default_md5": "92a4deb329ec4d7d63b8bb2fd6dabd98",
+    "default_md5": "af46fd291ca82f997b0ff044ff14d881",
     "lang_name": "Estonian"
   },
   "estonian": {
@@ -2333,7 +2320,7 @@
   "eu": {
     "depparse": {
       "bdt": {
-        "md5": "49a740b132601976570d077a1d152f2b",
+        "md5": "3f401522f4e1355d25d514d321cc9e95",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2344,12 +2331,12 @@
     },
     "lemma": {
       "bdt": {
-        "md5": "f8a8ebb06e0faaf25e0d84cfbf880d3e"
+        "md5": "9e67eab1de07580220d9ee5aa02e1b97"
       }
     },
     "pos": {
       "bdt": {
-        "md5": "8b82bd97c9f46967780ce55d767b4496",
+        "md5": "0a6dfda560a8759a13482bbf28455f0e",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2365,7 +2352,7 @@
     },
     "tokenize": {
       "bdt": {
-        "md5": "a91ccdb5fce95abb702360b11bf1c7e3"
+        "md5": "7cdb4e282d9d28bf0786f1c96963e293"
       }
     },
     "default_processors": {
@@ -2388,7 +2375,7 @@
         }
       ]
     },
-    "default_md5": "77b8b8dade2139d691411e86aa265dd3",
+    "default_md5": "fb2819abf7e69fe749fde5f2b1150732",
     "lang_name": "Basque"
   },
   "basque": {
@@ -2397,7 +2384,7 @@
   "fa": {
     "depparse": {
       "perdt": {
-        "md5": "832ee2cf5b41ef1e08b7ede866877ee3",
+        "md5": "7029f2e99bb21f5cad6f76e24a1b79cd",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2406,7 +2393,7 @@
         ]
       },
       "seraji": {
-        "md5": "31a5455a6ace4e4b04e0b6572e5e22e6",
+        "md5": "92c7f71aab3caf7686608c86d38cf085",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2417,23 +2404,23 @@
     },
     "lemma": {
       "perdt": {
-        "md5": "54d94e30812ff1a9aa9f1c241637a0c8"
+        "md5": "469bc56ccb1b23632b406301a7c56d6c"
       },
       "seraji": {
-        "md5": "2aa284016b6decb1e0020914cd19f958"
+        "md5": "3f11a5588be790808d4810c31d756fab"
       }
     },
     "mwt": {
       "perdt": {
-        "md5": "fe75acf0df6832df141793902231670b"
+        "md5": "13e79fdf110a32f8bf362b575c3e7e81"
       },
       "seraji": {
-        "md5": "645a68ada1382962c878357e9a896746"
+        "md5": "a304eec5de25f5a64a45b9c934ecdd7e"
       }
     },
     "pos": {
       "perdt": {
-        "md5": "2d9c7a98a3c8be6821c5c2d9d0295424",
+        "md5": "17f64189d9e1bee111493c8e84f3aa5a",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2442,7 +2429,7 @@
         ]
       },
       "seraji": {
-        "md5": "b7101f5ff3102cff49859b72d8736999",
+        "md5": "4d6851ab1e2e45d02fc85a5d3b28dd21",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2461,10 +2448,10 @@
     },
     "tokenize": {
       "perdt": {
-        "md5": "47c07412d867413d8066e3a953dde782"
+        "md5": "87de6bf76c508b932d506470cd8e6441"
       },
       "seraji": {
-        "md5": "9dbd976d9e4e4dc318fdc4a8187a9158"
+        "md5": "48348d0e8c33e869f4d070279947222b"
       }
     },
     "default_processors": {
@@ -2488,7 +2475,7 @@
         }
       ]
     },
-    "default_md5": "c70517ee53f1da0752fb5477cedaa723",
+    "default_md5": "fd385d5e992628a9bd85b1b08994d879",
     "lang_name": "Persian"
   },
   "persian": {
@@ -2497,7 +2484,7 @@
   "fi": {
     "depparse": {
       "ftb": {
-        "md5": "5d72c581658d52871f77933914109df4",
+        "md5": "43044d0fd94787d70ed8f5a8c19b0b27",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2506,7 +2493,7 @@
         ]
       },
       "tdt": {
-        "md5": "4390caa007b43dd74770046cd6c9c7c1",
+        "md5": "fdddebe64bae885caa23518cdc2ecffb",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2517,23 +2504,23 @@
     },
     "lemma": {
       "ftb": {
-        "md5": "a7a6ebe543e6fd0304bb12573a5b2481"
+        "md5": "9bcf34573bc37be2e325aa77ec7617b3"
       },
       "tdt": {
-        "md5": "25f507f3d5fbe5140844cb65a9d4d5e8"
+        "md5": "544e56febe6f8c9e1fcb0e12d7d9174c"
       }
     },
     "mwt": {
       "ftb": {
-        "md5": "daaa54c196cfb6edc527a86c49ba7ada"
+        "md5": "10a807b9c4f5fe3b8987152e6d09abef"
       },
       "tdt": {
-        "md5": "68d521f7998b1ad559d885d3d3f317cf"
+        "md5": "052414fd5ecce41407af0b5b8b8c4f2c"
       }
     },
     "pos": {
       "ftb": {
-        "md5": "06e7499e0d252c7dd0cd83fa69204fc8",
+        "md5": "6e6173706dd6ed548e81ccfe633502f5",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2542,7 +2529,7 @@
         ]
       },
       "tdt": {
-        "md5": "cfde0e1613059bcfe743f095dcaf0f42",
+        "md5": "6564898aecb461f7192b902598c3a8b0",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2561,10 +2548,10 @@
     },
     "tokenize": {
       "ftb": {
-        "md5": "71f9c3835a1f6579f4e2aebbf925e9e4"
+        "md5": "fa857688796de8eedab08d7588f87fa2"
       },
       "tdt": {
-        "md5": "1a7b7ecd83561f194c1d93b3af005189"
+        "md5": "69f30e47a5e9b92d21e93fcbe44e1f8f"
       }
     },
     "default_processors": {
@@ -2588,7 +2575,7 @@
         }
       ]
     },
-    "default_md5": "0958d56ec4350c6ffcc39375c7c90a5d",
+    "default_md5": "b98ea495c1bf93ca2780bd410001dc5f",
     "lang_name": "Finnish"
   },
   "finnish": {
@@ -2597,7 +2584,7 @@
   "fo": {
     "depparse": {
       "farpahc": {
-        "md5": "3d504fe14228e0150adc3e214649b53a",
+        "md5": "3dfed4c5e2a477a32d80a67bee108c88",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2608,12 +2595,12 @@
     },
     "mwt": {
       "farpahc": {
-        "md5": "04ee4c7dd1af8e0acedc42edfad381d7"
+        "md5": "de031b66e83ad1bbd66a7dfa2d4ba8ab"
       }
     },
     "pos": {
       "farpahc": {
-        "md5": "dd5e3c6f9003aa440943eb096c9f2f60",
+        "md5": "fa034afcaba062dfcdc125b260b33aaa",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2624,12 +2611,12 @@
     },
     "pretrain": {
       "farpahc": {
-        "md5": "664f3102d8b6db58ff01a200e8b657ab"
+        "md5": "ba8d30df228568fe1bad6447145a4a8f"
       }
     },
     "tokenize": {
       "farpahc": {
-        "md5": "c680bafeaae74a70806534337913ece5"
+        "md5": "81668ef366a638605b5e0656df53b1c6"
       }
     },
     "default_processors": {
@@ -2653,7 +2640,7 @@
         }
       ]
     },
-    "default_md5": "34d7f91b29ae5239f1e241d265094f58",
+    "default_md5": "d0075ba4eb90235bd121635e16f42a02",
     "lang_name": "Faroese"
   },
   "faroese": {
@@ -2662,7 +2649,7 @@
   "fro": {
     "depparse": {
       "srcmf": {
-        "md5": "74ffc91d1322d8ce5b05601819e5dc87",
+        "md5": "f80b10f4af25aeb84cd0220d8a81166e",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2673,7 +2660,7 @@
     },
     "pos": {
       "srcmf": {
-        "md5": "077b6b72c60ff6cb822d62afd267e7b3",
+        "md5": "9d8c2cf20d25f822e4ae1826721d9891",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2689,7 +2676,7 @@
     },
     "tokenize": {
       "srcmf": {
-        "md5": "a3b5dfebe901d26403557e1e50949688"
+        "md5": "f0b764ebc94b2b2dda72232feabf5c49"
       }
     },
     "default_processors": {
@@ -2712,7 +2699,7 @@
         }
       ]
     },
-    "default_md5": "ca2fc5c5c51cb83222660ff34517f21b",
+    "default_md5": "07ac3f56a8e017ca7d8e18b7c9d56e72",
     "lang_name": "Old_French"
   },
   "old_french": {
@@ -2721,7 +2708,7 @@
   "ga": {
     "depparse": {
       "idt": {
-        "md5": "a05a72db5b356796b9e53a0ee04e1522",
+        "md5": "9b11c8e708ef02462b53f3254176f0e4",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2732,12 +2719,12 @@
     },
     "lemma": {
       "idt": {
-        "md5": "9e7040a7f87046c2e3b3c35b21a4ff1a"
+        "md5": "7be0b3043c37e53a7002734853527819"
       }
     },
     "pos": {
       "idt": {
-        "md5": "2515b0d3782f05a78138c410497ae448",
+        "md5": "5165cb7105f4fe16d843169c9dc394c2",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2753,7 +2740,7 @@
     },
     "tokenize": {
       "idt": {
-        "md5": "2171b7ca6dc1e8f2d89cc36c1fd794ad"
+        "md5": "d66ec2073ca65fe9c84ddc138c5e30b3"
       }
     },
     "default_processors": {
@@ -2776,7 +2763,7 @@
         }
       ]
     },
-    "default_md5": "3aed8477f384523b0de630a43e912563",
+    "default_md5": "c01d71c5a352e027953b08b12f44e70e",
     "lang_name": "Irish"
   },
   "irish": {
@@ -2785,7 +2772,7 @@
   "gd": {
     "depparse": {
       "arcosg": {
-        "md5": "8d309d88ab0200a69d1f99b412bf16d2",
+        "md5": "3e4e91ee3ec70f32bdc550cf412f5a74",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2796,17 +2783,17 @@
     },
     "lemma": {
       "arcosg": {
-        "md5": "ee91796c58a45574a743c8002bd7f0dd"
+        "md5": "5f510aee44e98dfbb9952118cf588496"
       }
     },
     "mwt": {
       "arcosg": {
-        "md5": "87acf3bd7a931e3b211515d715182a92"
+        "md5": "8ee773e992002d69201103ccf447c683"
       }
     },
     "pos": {
       "arcosg": {
-        "md5": "025246a3ff2adf3d1a7f603afe5ff7ef",
+        "md5": "abc034b3334f4c4ff340061a11d9ba3b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2822,7 +2809,7 @@
     },
     "tokenize": {
       "arcosg": {
-        "md5": "d8eb6b41285fc924fb742c9c71e8cb52"
+        "md5": "2da0b869d3ed6d85153297545c70a2f6"
       }
     },
     "default_processors": {
@@ -2846,7 +2833,7 @@
         }
       ]
     },
-    "default_md5": "55ba8597743674865170d915039fe311",
+    "default_md5": "5b790da0e1415ab4721f903cba9de987",
     "lang_name": "Scottish_Gaelic"
   },
   "scottish_gaelic": {
@@ -2855,7 +2842,7 @@
   "gl": {
     "depparse": {
       "ctg": {
-        "md5": "b064963191472965d98921211ae5e0e8",
+        "md5": "485aacc337a1e7d9274209959dbdd226",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2864,7 +2851,7 @@
         ]
       },
       "treegal": {
-        "md5": "5e615269d3264ada4cb85eb84314a02d",
+        "md5": "def9ff3e96440517cb209fa88b0b8a18",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2875,23 +2862,23 @@
     },
     "lemma": {
       "ctg": {
-        "md5": "e61472a179131e49e78648c98cdf595d"
+        "md5": "f92bc1b6dd83865df76c35d322115bea"
       },
       "treegal": {
-        "md5": "e2963ff9ebff2412e3e4318cb4a18012"
+        "md5": "996279826dbd1db6a03565efb127a0e5"
       }
     },
     "mwt": {
       "ctg": {
-        "md5": "6521fafb2e08d53417e7b5d28a2011d6"
+        "md5": "80c59dd33f06db9948ed4972531a977c"
       },
       "treegal": {
-        "md5": "4363cc66c22cad3deb6944cddf0c747d"
+        "md5": "3e2f186de5c269b974ad188cbe40b983"
       }
     },
     "pos": {
       "ctg": {
-        "md5": "1587ea3d512aa5b1f237d98f4997ba42",
+        "md5": "b01617693aeeeb246a46bc546d9854af",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2900,7 +2887,7 @@
         ]
       },
       "treegal": {
-        "md5": "c3abc3d2429a84f0c1a60d1c818d8e25",
+        "md5": "fd96357fc5b7533345c3ffafa9ab75d7",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2919,10 +2906,10 @@
     },
     "tokenize": {
       "ctg": {
-        "md5": "128a177825a66d59bfa5a6044b6b9b40"
+        "md5": "ffbee989816ede137e2c9eda4de59e13"
       },
       "treegal": {
-        "md5": "f5e05275d1ea6495af0245b6ecb8395c"
+        "md5": "5cd061eaa8ab2fab6d7c0c8622f079ca"
       }
     },
     "default_processors": {
@@ -2946,7 +2933,7 @@
         }
       ]
     },
-    "default_md5": "9827c614d8c653e38b7e7f1e145f9286",
+    "default_md5": "b64989046423974cec942650f62905b1",
     "lang_name": "Galician"
   },
   "galician": {
@@ -2955,7 +2942,7 @@
   "got": {
     "depparse": {
       "proiel": {
-        "md5": "b893595221f0d45fdce88fd1cf5391c2",
+        "md5": "5ce43a30c6f1c5aadd30a7f81bb92622",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2966,12 +2953,12 @@
     },
     "lemma": {
       "proiel": {
-        "md5": "a46547338f8b4c2c919601132f20b2ca"
+        "md5": "92a02caae4f8c29b971aaa6f4d03f1e5"
       }
     },
     "pos": {
       "proiel": {
-        "md5": "8bf67dfbd051c53b4681928e4580a939",
+        "md5": "d64856be12edd06144c8af6300773073",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2987,7 +2974,7 @@
     },
     "tokenize": {
       "proiel": {
-        "md5": "20c9bc19015dda209fc9e1a7cb578d01"
+        "md5": "31a07bf666cd17d951315762f2254363"
       }
     },
     "default_processors": {
@@ -3010,7 +2997,7 @@
         }
       ]
     },
-    "default_md5": "53e47029c08ca4dc39a0b6b6c58e184c",
+    "default_md5": "175cedd5f559cac99e0973992417f0e0",
     "lang_name": "Gothic"
   },
   "gothic": {
@@ -3019,7 +3006,7 @@
   "grc": {
     "depparse": {
       "perseus": {
-        "md5": "79046cddea7930f05091f43b8671844d",
+        "md5": "298469fa5180999090186f804b121b20",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3028,7 +3015,7 @@
         ]
       },
       "proiel": {
-        "md5": "8e4602417bb22e33cd9351bc9bc4a6c4",
+        "md5": "614c0c596909fec8f30182745fb76100",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3039,15 +3026,15 @@
     },
     "lemma": {
       "perseus": {
-        "md5": "bc162397e042a76f894bff0071d0f37b"
+        "md5": "0062e546e6fbc9089a7a7ff7b042d240"
       },
       "proiel": {
-        "md5": "aa39de4329e618af6a884c9d7daf678c"
+        "md5": "2d09d44d39896047b4ac03ae2568a6b7"
       }
     },
     "pos": {
       "perseus": {
-        "md5": "9b7112f98bc8e8b065c3fdcf8be8cbde",
+        "md5": "724c6ed620d824ed2350661735f9c7a9",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3056,7 +3043,7 @@
         ]
       },
       "proiel": {
-        "md5": "f7c6a76bf61702b956183bd2d9b94129",
+        "md5": "4ce937a78338fe51a7dd134126425fbd",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3075,10 +3062,10 @@
     },
     "tokenize": {
       "perseus": {
-        "md5": "4c096094fdd4ef2b76fb36f0f95861eb"
+        "md5": "1d30079bb93e542dee48f583e9ef4d70"
       },
       "proiel": {
-        "md5": "3cace64158dfce12f7118f76b50a9f59"
+        "md5": "1535c25410f19ce9b58603d0bd6d4c72"
       }
     },
     "default_processors": {
@@ -3101,7 +3088,7 @@
         }
       ]
     },
-    "default_md5": "4eebade878578d3e48762e3ecdb280a8",
+    "default_md5": "3ced7a2974ec0889cdb50121520d2220",
     "lang_name": "Ancient_Greek"
   },
   "ancient_greek": {
@@ -3110,7 +3097,7 @@
   "he": {
     "depparse": {
       "htb": {
-        "md5": "5d7c8966313b48176f29fa77b7ae8d6e",
+        "md5": "7b3032303c63b1d75ce38c745de7339e",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3121,17 +3108,17 @@
     },
     "lemma": {
       "htb": {
-        "md5": "6162ba7f6c7d780b9d3363270a7e78a9"
+        "md5": "0a2774d0036a69514475e04a6077e9e3"
       }
     },
     "mwt": {
       "htb": {
-        "md5": "fb0295917486277ed351e6dfc4f21c0d"
+        "md5": "e4cd1be4b0edf0f419c8abf384fe5f53"
       }
     },
     "pos": {
       "htb": {
-        "md5": "50175e5db827e75d9b00ae96bec2dc85",
+        "md5": "890ee8c02f4ef177d49d191659d6d8f6",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3147,7 +3134,7 @@
     },
     "tokenize": {
       "htb": {
-        "md5": "ffe499f50a296a0bb8027f0a13708aa9"
+        "md5": "3c01908d1d47784d776adc29178396c2"
       }
     },
     "default_processors": {
@@ -3171,7 +3158,7 @@
         }
       ]
     },
-    "default_md5": "d2762947f201ac3c92afe9fb0a595dc8",
+    "default_md5": "f55537e3cfe95bca394641d4311499eb",
     "lang_name": "Hebrew"
   },
   "hebrew": {
@@ -3180,7 +3167,7 @@
   "hi": {
     "depparse": {
       "hdtb": {
-        "md5": "cb31c51d88f8ff71667eaa1ba16d9a03",
+        "md5": "f7b969ad63d5c02d25b2c47f707caf62",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3191,12 +3178,12 @@
     },
     "lemma": {
       "hdtb": {
-        "md5": "55cbf0f28f5e256290449cfd22bba170"
+        "md5": "ce18913bcb724729d02564fc115beb29"
       }
     },
     "pos": {
       "hdtb": {
-        "md5": "b34beaeb7dcf932948e1a7de8ea1b218",
+        "md5": "ee90e685e516d2653eb1dd528a71cab2",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3212,7 +3199,7 @@
     },
     "tokenize": {
       "hdtb": {
-        "md5": "d47665ca25b61ec76097b07c070e4090"
+        "md5": "def2cb525f19e7fa42060d2870d03b7d"
       }
     },
     "default_processors": {
@@ -3235,7 +3222,7 @@
         }
       ]
     },
-    "default_md5": "4148e60c63aebf417d94b2e82ed87f74",
+    "default_md5": "16678e45a0746f16115fe3d2b6b0933c",
     "lang_name": "Hindi"
   },
   "hindi": {
@@ -3244,7 +3231,7 @@
   "hr": {
     "depparse": {
       "set": {
-        "md5": "8a37b9db8c8bcd257f75c906caca9090",
+        "md5": "6fdcb1a4b84d24760d3545339926f009",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3255,12 +3242,12 @@
     },
     "lemma": {
       "set": {
-        "md5": "39c6a17fc5ebe346e3a181426c30187e"
+        "md5": "438132f6cdf66fd2215ccd6b30a92170"
       }
     },
     "pos": {
       "set": {
-        "md5": "89f061383c08806cbc8eea7b9a687223",
+        "md5": "5d722986e03f028429838737e0ac97f5",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3276,7 +3263,7 @@
     },
     "tokenize": {
       "set": {
-        "md5": "4dcb06cef1f7c5a8d07d0cbbe89e0af3"
+        "md5": "146e4a2ff0d670e8ff934631ed315412"
       }
     },
     "default_processors": {
@@ -3299,7 +3286,7 @@
         }
       ]
     },
-    "default_md5": "6a2ad01b839b63764cb297bba37a5cc0",
+    "default_md5": "d0f1d9400c399430e362a9303c790e8a",
     "lang_name": "Croatian"
   },
   "croatian": {
@@ -3308,7 +3295,7 @@
   "hu": {
     "depparse": {
       "szeged": {
-        "md5": "c2c9774e8840f0abae3ef7eef53e6c5d",
+        "md5": "f20a0493a42f0720287b1263f26b56f6",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3319,12 +3306,12 @@
     },
     "lemma": {
       "szeged": {
-        "md5": "6c2c0909082bf72280a8e8292dbf8019"
+        "md5": "7c45fc48ebae3899a9a6c8aa34d876f1"
       }
     },
     "pos": {
       "szeged": {
-        "md5": "1ac3061b86a5657a9daf69367a2ac7cf",
+        "md5": "a8bab733ff62faf2ce92e6ae70142e29",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3340,7 +3327,7 @@
     },
     "tokenize": {
       "szeged": {
-        "md5": "3ccef6b93d87c689601597358cee7bd4"
+        "md5": "89a8694e1438fb6ba0ad589d9e09746b"
       }
     },
     "default_processors": {
@@ -3363,7 +3350,7 @@
         }
       ]
     },
-    "default_md5": "0dd54583bdacc8196f5a861c15d52c4d",
+    "default_md5": "910084f5a145e0addcf6a75947e445c1",
     "lang_name": "Hungarian"
   },
   "hungarian": {
@@ -3372,7 +3359,7 @@
   "hy": {
     "depparse": {
       "armtdp": {
-        "md5": "cb3c94257f87ffd257abde26802cf250",
+        "md5": "64af6d40800f68fea086224f8e014b7e",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3383,17 +3370,17 @@
     },
     "lemma": {
       "armtdp": {
-        "md5": "62a60d3d148c29b014729280d7fe6395"
+        "md5": "811d9345f288a6fed77f779bbba87efb"
       }
     },
     "mwt": {
       "armtdp": {
-        "md5": "80071a4ece0ad9f005692b6a10c33749"
+        "md5": "a50c22e61e6d5c923cb7df0d8260e883"
       }
     },
     "pos": {
       "armtdp": {
-        "md5": "1245875ab3c28527a3c75c0f7e98fbed",
+        "md5": "118605a5ad421234fe02fbbba4aadc5c",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3409,7 +3396,7 @@
     },
     "tokenize": {
       "armtdp": {
-        "md5": "76dc60a8ad6225c90572a6bc24ec008d"
+        "md5": "c33430ba8c813b46e5d329fbe23d5fa7"
       }
     },
     "default_processors": {
@@ -3433,7 +3420,7 @@
         }
       ]
     },
-    "default_md5": "51e89980b8e9af245d325eecb6445c92",
+    "default_md5": "57938cfc70009d03b6c4ef1f393879cd",
     "lang_name": "Armenian"
   },
   "armenian": {
@@ -3442,7 +3429,7 @@
   "id": {
     "depparse": {
       "csui": {
-        "md5": "de8311945e8025980372d6e4984fdea7",
+        "md5": "7e92a91c4078a01506f1702d735efcd3",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3451,7 +3438,7 @@
         ]
       },
       "gsd": {
-        "md5": "e8bcf0a5fa7f9b8edac91ef458216336",
+        "md5": "b78e9db31305caaa8bb51c6ffc4d776b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3462,20 +3449,20 @@
     },
     "lemma": {
       "csui": {
-        "md5": "6db76c23755efc1ea7e4305667344b0a"
+        "md5": "e5e7e99cecfedbbcb3a02767bf9286b4"
       },
       "gsd": {
-        "md5": "08ce7a69558f07b6c63b9ec82c19a119"
+        "md5": "4e6924b667c010def59d7d61043cd7f9"
       }
     },
     "mwt": {
       "csui": {
-        "md5": "02aad496c1f50adab2fc6a6f1a745fa2"
+        "md5": "67b483e10558061a8e7f1044da1ad4c0"
       }
     },
     "pos": {
       "csui": {
-        "md5": "2bbfe79580932ee160c7b3ebaf4eefcd",
+        "md5": "4638d33732c0c2cd3c77f46b65d9c15e",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3484,7 +3471,7 @@
         ]
       },
       "gsd": {
-        "md5": "2df5d5d9ca42e37a47e5065e4fdc3b68",
+        "md5": "4e0b2d29ea230340d7feee4af8fa0536",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3503,10 +3490,10 @@
     },
     "tokenize": {
       "csui": {
-        "md5": "a1944dc3673b66be0e8eb4aa43c43b90"
+        "md5": "f74e7f2a095042704499f4cf6da21e33"
       },
       "gsd": {
-        "md5": "fbb04497ec0cfb9ccd043049df80aa8c"
+        "md5": "c8b032cbea370cf6ec0c7aa90233d37e"
       }
     },
     "default_processors": {
@@ -3529,7 +3516,7 @@
         }
       ]
     },
-    "default_md5": "fc10a12f3334c85c4f683f193f27f3d6",
+    "default_md5": "ece428d9fbacf5e7c13a5a00b416d2fd",
     "lang_name": "Indonesian"
   },
   "indonesian": {
@@ -3538,7 +3525,7 @@
   "is": {
     "depparse": {
       "icepahc": {
-        "md5": "8c7c4ebfcd0e2823fbe2a450003e6b97",
+        "md5": "3867f347c585bce23193bca305782cca",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3549,17 +3536,17 @@
     },
     "lemma": {
       "icepahc": {
-        "md5": "811ad77cc35a981f2384569f8965f511"
+        "md5": "dfd9353899304ff6ef8b8bea92186916"
       }
     },
     "mwt": {
       "icepahc": {
-        "md5": "f3f4a007b1368f19b59c060e6e116ca0"
+        "md5": "c638b571fb248415a6c155d0ffbc4604"
       }
     },
     "pos": {
       "icepahc": {
-        "md5": "6ae017831f057b668fb4d677bc27fe7e",
+        "md5": "1e9ee3a53afa563070b9a5820865eff3",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3570,12 +3557,12 @@
     },
     "pretrain": {
       "icepahc": {
-        "md5": "a6e8b8ff368cb7cf43fd0c6c6f0ca66c"
+        "md5": "0f248b1ff4af7e080be40e7bbd989f16"
       }
     },
     "tokenize": {
       "icepahc": {
-        "md5": "d984d34b769e066a90c2f84d7af8e616"
+        "md5": "b9fde94e4f50a88dab71afc4541e3c13"
       }
     },
     "default_processors": {
@@ -3599,7 +3586,7 @@
         }
       ]
     },
-    "default_md5": "30e750a846887944f1819d4482817bfd",
+    "default_md5": "ab5dcca6dc2fd23141160a4c813ef31d",
     "lang_name": "Icelandic"
   },
   "icelandic": {
@@ -3608,7 +3595,7 @@
   "it": {
     "depparse": {
       "combined": {
-        "md5": "707835d82ff97aedbfdafcb6befc9063",
+        "md5": "721a17469b69da36aa611355ff8ffc7a",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3617,7 +3604,7 @@
         ]
       },
       "isdt": {
-        "md5": "2ce56c1b7406d53d2d5d24633eaf1bd4",
+        "md5": "869bd9fb8af7c9bc1f353f80654824a7",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3626,7 +3613,7 @@
         ]
       },
       "partut": {
-        "md5": "1c293c91a84107ece48ee573aca3f95f",
+        "md5": "c735d4931f8a1d0604002d220b53d87c",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3635,7 +3622,7 @@
         ]
       },
       "postwita": {
-        "md5": "5ba0f0e397d9184645d8294b252544f1",
+        "md5": "2fd53d40ab6059cc7d0775510b609e36",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3644,7 +3631,7 @@
         ]
       },
       "twittiro": {
-        "md5": "1502a5a57d4bb3a14c85013df57a9422",
+        "md5": "461a30088d18aec449a79c5414a3f55e",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3653,7 +3640,7 @@
         ]
       },
       "vit": {
-        "md5": "5bc44ee190a217d0a5037854355029ca",
+        "md5": "af90e4a5b45a398a7a5bd680117a7590",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3664,47 +3651,47 @@
     },
     "lemma": {
       "combined": {
-        "md5": "6e09c28b07588138f20c09b4f17c539e"
+        "md5": "3f013b463505a4c602e080cfa915bafc"
       },
       "isdt": {
-        "md5": "b262807e5771bcc8d8708712d202e251"
+        "md5": "be930449a077edc1efa628d1dd698454"
       },
       "partut": {
-        "md5": "a944f00102cc455a36835bf0d5a0d6ef"
+        "md5": "7aadb458f4b836d1cdd10fd30096b170"
       },
       "postwita": {
-        "md5": "997f222c497e4a87641a519b6c5ea988"
+        "md5": "84180e258bd90854ab463a7611180c8d"
       },
       "twittiro": {
-        "md5": "34c041d8bd2974569b34b04c11e24261"
+        "md5": "670c11dcf7319a1e6b3fa34410f01935"
       },
       "vit": {
-        "md5": "1cbb7f8974ddce53bf3464e0077788e0"
+        "md5": "c50a2d265ba6e95704d2e0931189d761"
       }
     },
     "mwt": {
       "combined": {
-        "md5": "06a4f92f87b903694320210cb4015ff2"
+        "md5": "60c453445a9458ca2178fde507ba850f"
       },
       "isdt": {
-        "md5": "d525c074c15bb4e24c032e8f90919c6a"
+        "md5": "93d3b128b63dcbe90e722b5368078a91"
       },
       "partut": {
-        "md5": "14a8fdca9fd8a58c6eca07c42aee24d7"
+        "md5": "37ed8614001a4a570077b7b6ed00a5e4"
       },
       "postwita": {
-        "md5": "94ef165abbbaf918de9ecd69a84d243b"
+        "md5": "7301520c41e19697f402368857de2d45"
       },
       "twittiro": {
-        "md5": "31948a4438eb03b02907daae5848a6ed"
+        "md5": "7f7b09715fc3fe553dffd1280792def9"
       },
       "vit": {
-        "md5": "ccfbe0f85ee3bbd741860076117ce2e8"
+        "md5": "8dd56e94df22424166e707f75abfc3cc"
       }
     },
     "pos": {
       "combined": {
-        "md5": "6ab36a1b000af408d96d6202a3f91f86",
+        "md5": "82c51fca5704c49cb1a25c2af2e42c67",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3713,7 +3700,7 @@
         ]
       },
       "isdt": {
-        "md5": "f1dc901d9f50630bcff6969da02e8385",
+        "md5": "3311d5ed5d48e5c74afd00586e5d0a84",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3722,7 +3709,7 @@
         ]
       },
       "partut": {
-        "md5": "b7a9f09b820490738b795ee74cd4ac30",
+        "md5": "28d0423531323acd86b771fc8479cbcb",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3731,7 +3718,7 @@
         ]
       },
       "postwita": {
-        "md5": "46e25d6aade3cc81ae603b809e4aa833",
+        "md5": "ab3aab314aff308c9fa2215534e42039",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3740,7 +3727,7 @@
         ]
       },
       "twittiro": {
-        "md5": "900b9b6ac32de815f5cc99061ccdf30a",
+        "md5": "61c8079e90ba0043598f7e867ba49f8b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3749,7 +3736,7 @@
         ]
       },
       "vit": {
-        "md5": "6d045f9638afc2f6a6be3a550f7cdf5a",
+        "md5": "8e38ff61356a465d21f8c0a390b4d9a4",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3780,22 +3767,22 @@
     },
     "tokenize": {
       "combined": {
-        "md5": "24e72d2617f6817dea29ac0836a1ab8c"
+        "md5": "fa4d37cf9d555e69c7d0934098fd9a78"
       },
       "isdt": {
-        "md5": "b91b5c22b0c4b00930317d36e8b29c79"
+        "md5": "cb9df834905f8d778f15e0ef3fc92637"
       },
       "partut": {
-        "md5": "aba7036fc403c0c6dbdf00edd2310c53"
+        "md5": "ce81c9476f71d756eb8c02132a9cf5b7"
       },
       "postwita": {
-        "md5": "0496ed71ef1b90a73ca8e857c6c78c96"
+        "md5": "20dca0152ac7dc68aa351eba97f49264"
       },
       "twittiro": {
-        "md5": "2bb1e9a5283af7f17438e8c5bc35d714"
+        "md5": "ebd7dca5827e593c8048b8df6b850397"
       },
       "vit": {
-        "md5": "1fcffc58e77f79709e5986b401af7ea1"
+        "md5": "0cdc0818b68347edef7ab9e00350373c"
       }
     },
     "default_processors": {
@@ -3819,7 +3806,7 @@
         }
       ]
     },
-    "default_md5": "d40279322ef0cb1df0efd5d52f24bae4",
+    "default_md5": "26ee4c02136a68b351fa01b1eb6d0eba",
     "lang_name": "Italian"
   },
   "italian": {
@@ -3828,7 +3815,7 @@
   "ja": {
     "depparse": {
       "gsd": {
-        "md5": "0e49c0abd23ce8b8be71a6c4871e9cb0",
+        "md5": "73f262aabad9080d22c7f7cade18125c",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3839,12 +3826,12 @@
     },
     "lemma": {
       "gsd": {
-        "md5": "e7f65d11667194b72a21af3dfea50043"
+        "md5": "38830fc6f9e0c3a3a67ffaa5a8916f60"
       }
     },
     "pos": {
       "gsd": {
-        "md5": "528119f278affbf9c3a0d3c6d67b261b",
+        "md5": "64760525ca9aaa935fe258031b6107f5",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3860,7 +3847,7 @@
     },
     "tokenize": {
       "gsd": {
-        "md5": "687f232c32a88ce3115e24084bd5661f"
+        "md5": "331dd348d8bc4133bb9bb5309b937219"
       }
     },
     "default_processors": {
@@ -3883,7 +3870,7 @@
         }
       ]
     },
-    "default_md5": "f8ae7d1ff6fd564c060779a4da8c793b",
+    "default_md5": "e2a362ffe977239e527bb912126f815c",
     "lang_name": "Japanese"
   },
   "japanese": {
@@ -3892,7 +3879,7 @@
   "ko": {
     "depparse": {
       "gsd": {
-        "md5": "f11e58f580d56f6bbd74dc5c2793baf5",
+        "md5": "40e7a4bc40f207af2f49f42635946176",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3901,7 +3888,7 @@
         ]
       },
       "kaist": {
-        "md5": "225c4e17273c0cd01efa204de2c520c4",
+        "md5": "eb15671e38074348b25930efa87786c1",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3912,15 +3899,15 @@
     },
     "lemma": {
       "gsd": {
-        "md5": "dbc88e3998435664a0932e9114cb1351"
+        "md5": "40ce2cacf518f95e51313f8c2478fc8d"
       },
       "kaist": {
-        "md5": "c90b4e14a70032cabad0d72115258438"
+        "md5": "681f6c94a8be54f17361d160eda33c4c"
       }
     },
     "pos": {
       "gsd": {
-        "md5": "df227188000d4be7edcbeb396c51c8f9",
+        "md5": "0cd81e9eabd88f5b29787ebb4762c11d",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3929,7 +3916,7 @@
         ]
       },
       "kaist": {
-        "md5": "f1c4f484cc5b5937f4af665fb34a7278",
+        "md5": "176ca5fe7cac9db2d413ebb5b9ec2b1e",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3948,10 +3935,10 @@
     },
     "tokenize": {
       "gsd": {
-        "md5": "2cbe12ffb4890feecc9859aaea96f5f6"
+        "md5": "81241c3a0f3e60bf5b621f4ef02786ae"
       },
       "kaist": {
-        "md5": "d66cc09b4ae518725fbc35e7105c3058"
+        "md5": "c383f460fce5dadd855443ec9cc2abe8"
       }
     },
     "default_processors": {
@@ -3974,7 +3961,7 @@
         }
       ]
     },
-    "default_md5": "8b2151685ad44cc1466c5513ef136f69",
+    "default_md5": "22e68f56ef69450bd7ac3165f6ad7cda",
     "lang_name": "Korean"
   },
   "korean": {
@@ -3983,7 +3970,7 @@
   "la": {
     "depparse": {
       "ittb": {
-        "md5": "8abaf0993b977fb66652202e79267065",
+        "md5": "ba3fb2798f1a32eed9d5f058090947a1",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3992,7 +3979,7 @@
         ]
       },
       "llct": {
-        "md5": "440be2d993d58f7a46a298ac99fa88d7",
+        "md5": "6cf3f80ae0b9b01062a9467c81fa0e29",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4001,7 +3988,7 @@
         ]
       },
       "perseus": {
-        "md5": "655fbdb09f35505fa2f26e615bc21b21",
+        "md5": "1aabf7aacb0e21139cd023ff894cafb4",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4010,7 +3997,7 @@
         ]
       },
       "proiel": {
-        "md5": "4114de10280e233e0a8c0a63451959eb",
+        "md5": "59737c0f9304725452cecc7ac7873303",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4021,21 +4008,21 @@
     },
     "lemma": {
       "ittb": {
-        "md5": "896a58a77a36ed23ef12de65a9e1334f"
+        "md5": "e8c398dcf299842b89ba5e6fb73b3577"
       },
       "llct": {
-        "md5": "faee57ffa6b3fa015cb066106bc7551b"
+        "md5": "d3510401021f62ebb1ef13f0d9015307"
       },
       "perseus": {
-        "md5": "c24e1d1726d2191e4edc0295a97b6a73"
+        "md5": "16147b0c6d25ce7f660ab28b30c1dce2"
       },
       "proiel": {
-        "md5": "b9113678756aeb67b144ba199269dca1"
+        "md5": "a8b676a1bb56b0f930bd6265b2f0790a"
       }
     },
     "pos": {
       "ittb": {
-        "md5": "3354ffac5cd9a06079a16b65dc6246b4",
+        "md5": "79d501c918396f179e10aa52e570f2c2",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4044,7 +4031,7 @@
         ]
       },
       "llct": {
-        "md5": "14bfade7d79337d6b1e4dcc0126afe7c",
+        "md5": "ab1817064b0d3038ed5dce52c2be128b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4053,7 +4040,7 @@
         ]
       },
       "perseus": {
-        "md5": "f8fb7ae703827a31df55b7628cfbcc41",
+        "md5": "cad4db0e533e87329d3d553714e6369d",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4062,7 +4049,7 @@
         ]
       },
       "proiel": {
-        "md5": "2c8246cfee4ac95c479e0f92ec055f69",
+        "md5": "53acaad2131d033cdd7b6cf15abb1373",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4087,16 +4074,16 @@
     },
     "tokenize": {
       "ittb": {
-        "md5": "deb20a83e1a78496751d357b93b96b16"
+        "md5": "eab5f8e58f51c7a8a81415032d53911b"
       },
       "llct": {
-        "md5": "89241727ad49bc2695ed719bea57dda3"
+        "md5": "f8c2a9bf8dbf5727dc42f9e9e9e85d52"
       },
       "perseus": {
-        "md5": "224e928f8bace1f94ed283f53573f550"
+        "md5": "26ead5e4fb9651641acc9749a2799ba6"
       },
       "proiel": {
-        "md5": "660cc13a6d07581c6c91faf6a6dc150d"
+        "md5": "ed981670a418573c6991c893eff49e82"
       }
     },
     "default_processors": {
@@ -4119,7 +4106,7 @@
         }
       ]
     },
-    "default_md5": "ca2b4ef7e8d890cff5d1e29d43587a37",
+    "default_md5": "5a7a2b970943001decea36191de04c83",
     "lang_name": "Latin"
   },
   "latin": {
@@ -4128,7 +4115,7 @@
   "lt": {
     "depparse": {
       "alksnis": {
-        "md5": "0c994a4e10b13e616a19ad9d48b45b69",
+        "md5": "e4efba8a383e83e56f66c17951ae0d51",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4137,7 +4124,7 @@
         ]
       },
       "hse": {
-        "md5": "70014a580552419eed8def7d1858b005",
+        "md5": "9efe2219fa8a07942a374131777e7508",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4148,15 +4135,15 @@
     },
     "lemma": {
       "alksnis": {
-        "md5": "23d5d9c0e478e4d8b9e7ad01dc415cb3"
+        "md5": "5f42ef32caa380947c405f5beabaaa77"
       },
       "hse": {
-        "md5": "73bc36b93b2269c4451f0f74da4b85dc"
+        "md5": "f9c6a7286a3d8c2a80ade126a0806407"
       }
     },
     "pos": {
       "alksnis": {
-        "md5": "c5272a7e08aae7bdf6f0cc39b88eb409",
+        "md5": "3d5502bc4b76a6dd137d32a2c9f43176",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4165,7 +4152,7 @@
         ]
       },
       "hse": {
-        "md5": "595e739d98be42990e17bfbc08750d73",
+        "md5": "e5aa494100247d0b04d022ec63a8b11b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4184,10 +4171,10 @@
     },
     "tokenize": {
       "alksnis": {
-        "md5": "480d39ec77b25dc8f9346a0f1ed40cc3"
+        "md5": "d357df6f00be1001d1f09609f7a71953"
       },
       "hse": {
-        "md5": "83a99a1695f3eecfeac504e55cc7af6e"
+        "md5": "b50fa6efa95a4d428cd5721af0c062e7"
       }
     },
     "default_processors": {
@@ -4210,7 +4197,7 @@
         }
       ]
     },
-    "default_md5": "9e7d8bbf50c02ec3e5304a485efa4a31",
+    "default_md5": "40e699bb62e2db9fc3e5d2718e6358ac",
     "lang_name": "Lithuanian"
   },
   "lithuanian": {
@@ -4219,7 +4206,7 @@
   "lv": {
     "depparse": {
       "lvtb": {
-        "md5": "5b02b64145a5ae0bd07057cbb7666a5a",
+        "md5": "e3b915b665e08293f61499f147e1bf9a",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4230,12 +4217,12 @@
     },
     "lemma": {
       "lvtb": {
-        "md5": "f9e0b07083b5e7c8e4e76d63034c002e"
+        "md5": "cff85fe6b75f1884a870e49ca4f34597"
       }
     },
     "pos": {
       "lvtb": {
-        "md5": "97b5ed99b29cc617238a925921e76cf3",
+        "md5": "5b8865637fb334b979c7ea38baac068e",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4251,7 +4238,7 @@
     },
     "tokenize": {
       "lvtb": {
-        "md5": "685f42d9485f58551b8a4b5820733c0d"
+        "md5": "da66c514bbe3b781e89341e91a550138"
       }
     },
     "default_processors": {
@@ -4274,7 +4261,7 @@
         }
       ]
     },
-    "default_md5": "10d89e54ed090dadcfa0c6aa2d7cd84d",
+    "default_md5": "e2f69a552540bed4b7d5792aaef39cdf",
     "lang_name": "Latvian"
   },
   "latvian": {
@@ -4283,7 +4270,7 @@
   "lzh": {
     "depparse": {
       "kyoto": {
-        "md5": "89b998cb1e98752f9b9f5863feb9b3e2",
+        "md5": "68d5c37ea4e34722871170f691227955",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4294,12 +4281,12 @@
     },
     "lemma": {
       "kyoto": {
-        "md5": "7fd915f1b353d69e81f8c4bcefbba098"
+        "md5": "1b1d7ec0962ff84ff5b417b4083a5906"
       }
     },
     "pos": {
       "kyoto": {
-        "md5": "53df9ea43bac48f1080cf61714e3e726",
+        "md5": "8a748ded34c8390891801a0cbb8e53d1",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4315,7 +4302,7 @@
     },
     "tokenize": {
       "kyoto": {
-        "md5": "3c6fffc0533ea905fc4e3b4f84371b6e"
+        "md5": "fa0605d1243d9ddc38948c0f3cd569ae"
       }
     },
     "default_processors": {
@@ -4338,7 +4325,7 @@
         }
       ]
     },
-    "default_md5": "ef0871cc3569700fdc234bb932d65187",
+    "default_md5": "ab2085c9d5d24ca68ac94c92b63a1306",
     "lang_name": "Classical_Chinese"
   },
   "classical_chinese": {
@@ -4347,7 +4334,7 @@
   "mr": {
     "depparse": {
       "ufal": {
-        "md5": "8bd8a405328ea755274027178a5442ec",
+        "md5": "b61d31881420cd3c745ca7e3d5e044cd",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4358,17 +4345,17 @@
     },
     "lemma": {
       "ufal": {
-        "md5": "f2266fdcc5d6fa19dd47b79af20facf7"
+        "md5": "b864f79ff682c91341e03cd7e69bbe40"
       }
     },
     "mwt": {
       "ufal": {
-        "md5": "db37ac3b3e725ebc3f6c1983f42e4b09"
+        "md5": "a86cf97f7ce136c4b9822232adb784ea"
       }
     },
     "pos": {
       "ufal": {
-        "md5": "2e4dcb0a7a2dbcefc82bb6e650f84df8",
+        "md5": "085e6fbb0de57b7cdd686cf6b40c65e6",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4384,7 +4371,7 @@
     },
     "tokenize": {
       "ufal": {
-        "md5": "6a3e10e7ec9d4206cceee45dd1955304"
+        "md5": "a13c1f37b8715fe79971b00b1d0dbb8b"
       }
     },
     "default_processors": {
@@ -4408,7 +4395,7 @@
         }
       ]
     },
-    "default_md5": "cfd0954885350d961d501e05b8ac087d",
+    "default_md5": "41a4a41eebc8f70035841aefcf7817f9",
     "lang_name": "Marathi"
   },
   "marathi": {
@@ -4417,7 +4404,7 @@
   "mt": {
     "depparse": {
       "mudt": {
-        "md5": "a96dbf1b5be766a70130ae52a6d140a9",
+        "md5": "fa0eeeb4fd66a86813f2662fe0aa8e3b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4428,7 +4415,7 @@
     },
     "pos": {
       "mudt": {
-        "md5": "e18b52fe38181bbf5098879e1a5e5976",
+        "md5": "2561b25585aa0ef513ee3f382e9d49aa",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4444,7 +4431,7 @@
     },
     "tokenize": {
       "mudt": {
-        "md5": "f9977b33d93f8d023227b6bcc62a9a1a"
+        "md5": "af8a2bca8212de03ce4dc742526886e9"
       }
     },
     "default_processors": {
@@ -4467,7 +4454,7 @@
         }
       ]
     },
-    "default_md5": "36428c241bc5142cc100d801bfb71614",
+    "default_md5": "eea01edd979e0c50ca7ffed88067a960",
     "lang_name": "Maltese"
   },
   "maltese": {
@@ -4476,7 +4463,7 @@
   "nb": {
     "depparse": {
       "bokmaal": {
-        "md5": "066d93fc061ad24c98a74368fa0d43b5",
+        "md5": "8427573403e9bdc8a94a3cbadc1179ff",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4487,12 +4474,12 @@
     },
     "lemma": {
       "bokmaal": {
-        "md5": "22bd816ed7eafdc3d8f57955a3eca7e4"
+        "md5": "4590a0c8739432a12339d5f07c01e644"
       }
     },
     "pos": {
       "bokmaal": {
-        "md5": "1a78627a2db70c668500c6a24375a348",
+        "md5": "43f82103d487161f7aa65a1b774b2265",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4508,7 +4495,7 @@
     },
     "tokenize": {
       "bokmaal": {
-        "md5": "d87b3ee20b67cd0bb1f88ff120caa276"
+        "md5": "59cda2ff3664eb55fd978c8732f51483"
       }
     },
     "default_processors": {
@@ -4531,7 +4518,7 @@
         }
       ]
     },
-    "default_md5": "9f5ce217b0156db143f435dc35a47529",
+    "default_md5": "557713150db21d6da9bea580958c0674",
     "lang_name": "Norwegian_Bokmaal"
   },
   "norwegian_bokmaal": {
@@ -4540,7 +4527,7 @@
   "nn": {
     "depparse": {
       "nynorsk": {
-        "md5": "0b0178c62891f807da6c477d34d1e8c3",
+        "md5": "cfbfea3eb883cead6c9855ef6ff6d837",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4549,7 +4536,7 @@
         ]
       },
       "nynorsklia": {
-        "md5": "1519d754215db673d01774f8315ced1c",
+        "md5": "bc3ae41d32e60ea2172b38853c27a712",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4560,15 +4547,15 @@
     },
     "lemma": {
       "nynorsk": {
-        "md5": "e192328c7fe75cd28006a55bc380fcba"
+        "md5": "1935f692ea442ac50ec4d793f61f28c1"
       },
       "nynorsklia": {
-        "md5": "6307441027dba525cc9bf19bcdd2cd37"
+        "md5": "ecd03bf6827bea6bc4ae21d15dde1223"
       }
     },
     "pos": {
       "nynorsk": {
-        "md5": "8b65457856d64b121bb5d405626351e4",
+        "md5": "2ead2e10f673401c767187c8951ce38b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4577,7 +4564,7 @@
         ]
       },
       "nynorsklia": {
-        "md5": "5229d59d9634a0d669b179b63951327b",
+        "md5": "bb1fed13f97ea916fb61c9e8fcb42a7d",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4596,10 +4583,10 @@
     },
     "tokenize": {
       "nynorsk": {
-        "md5": "f9e2ab8e0983a8b67ceea305ead903b8"
+        "md5": "1f1c845a940db3772d27c41a6ea5b67d"
       },
       "nynorsklia": {
-        "md5": "6086cba89ffa441701672966f530000e"
+        "md5": "95c6828edf3b4f915c18fbeb6fcb1eb3"
       }
     },
     "default_processors": {
@@ -4622,7 +4609,7 @@
         }
       ]
     },
-    "default_md5": "1db57c29505ac98a00ee3d3492f783b1",
+    "default_md5": "482d86ab7211259cedd758f5189a4a3a",
     "lang_name": "Norwegian_Nynorsk"
   },
   "norwegian_nynorsk": {
@@ -4631,34 +4618,34 @@
   "orv": {
     "depparse": {
       "rnc": {
-        "md5": "0984e668bf096f8d75ca8c86b6b9f496"
+        "md5": "4512a278a94d353e01e5c5e97c49ec56"
       },
       "torot": {
-        "md5": "49d0f27963a62e3bda7766e003a8ba67"
+        "md5": "591a0bc87228e350e9431f33f1bd21b5"
       }
     },
     "lemma": {
       "rnc": {
-        "md5": "48be85976c12d2414845d1a42de5a4df"
+        "md5": "8a01e187b269e5ef7129bd8f485bd88e"
       },
       "torot": {
-        "md5": "9219cc81bf1b9f22cc9d0d8a4136290a"
+        "md5": "413e1a151f21267781d8c0b65e4990be"
       }
     },
     "pos": {
       "rnc": {
-        "md5": "d6bc05a4d56bb2d73f5ef14b475fe8bd"
+        "md5": "bd23228e1d5cde9bba3b06a22ecc6ed6"
       },
       "torot": {
-        "md5": "e9d57c45dbc43a6cf5907f5ed9ad51d7"
+        "md5": "5c77241a810bc99784a2c0f7beebde02"
       }
     },
     "tokenize": {
       "rnc": {
-        "md5": "3b83fc9d0c2bc7de7ecae57becc47f16"
+        "md5": "ebcd0de495eeef4f511c0f33e8373dae"
       },
       "torot": {
-        "md5": "2f23fc16fd4f74e39a515f047d13a802"
+        "md5": "dac661871141a8d3e8aafb5a2f8b96cb"
       }
     },
     "default_processors": {
@@ -4667,21 +4654,8 @@
       "pos": "torot",
       "depparse": "torot"
     },
-    "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "torot"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "torot"
-        }
-      ]
-    },
-    "default_md5": "8b3a36c97948f00ed10b5cb1e7c6c245",
+    "default_dependencies": {},
+    "default_md5": "32037bfee3594a5e904d23842e18ea9d",
     "lang_name": "Old_Russian"
   },
   "old_russian": {
@@ -4690,22 +4664,22 @@
   "pcm": {
     "depparse": {
       "nsc": {
-        "md5": "77f04862641d7bec027df73b49b6452f"
+        "md5": "1de3ea434174144482b1805d59b812ec"
       }
     },
     "lemma": {
       "nsc": {
-        "md5": "e5f62ad7eb07aa97f19405210e8b18b5"
+        "md5": "862ba57c99ed6a6335771aed6d45268e"
       }
     },
     "pos": {
       "nsc": {
-        "md5": "75c9a8702a004eee30262aee5c4490ff"
+        "md5": "43de55eb72bba5f04806816b5532944e"
       }
     },
     "tokenize": {
       "nsc": {
-        "md5": "aef4a69b1a05c16097c236269f61d22b"
+        "md5": "14a082ac9a46f38811832bf0e6dc3504"
       }
     },
     "default_processors": {
@@ -4714,21 +4688,8 @@
       "pos": "nsc",
       "depparse": "nsc"
     },
-    "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "nsc"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "nsc"
-        }
-      ]
-    },
-    "default_md5": "dae7546ffe8a193dc292634ac52b5aa7",
+    "default_dependencies": {},
+    "default_md5": "9e543ee7fee3630eb99a5018b7a7a2a7",
     "lang_name": "Naija"
   },
   "naija": {
@@ -4737,7 +4698,7 @@
   "pl": {
     "depparse": {
       "lfg": {
-        "md5": "eecbc609aa8fb52acd9111446a8e5d4a",
+        "md5": "838e1f9ea78b94058ddf9d0c86fc8434",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4746,7 +4707,7 @@
         ]
       },
       "pdb": {
-        "md5": "39d85a44197bdcedd1697aca16346b0d",
+        "md5": "a3485076ccd3fc900036b7b8ba3c01e1",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4757,20 +4718,20 @@
     },
     "lemma": {
       "lfg": {
-        "md5": "f62e2caf5620d8aa0a7911ae83c39189"
+        "md5": "09afdcfbeec605ef740036d7258745f2"
       },
       "pdb": {
-        "md5": "3b832c4497eca239703d59b37c9fd31f"
+        "md5": "cacd228fb2897d2e5e5fd1fdc58e8cfa"
       }
     },
     "mwt": {
       "pdb": {
-        "md5": "284ea4366c01480a8805e0b4c115b12e"
+        "md5": "3c1b64f1dd5797f0911ca6b57d4c4fd8"
       }
     },
     "pos": {
       "lfg": {
-        "md5": "640de4517bdc4f619ec46e204d9bd0ad",
+        "md5": "062e94a2cb8fc02d6764f544e2d0e30a",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4779,7 +4740,7 @@
         ]
       },
       "pdb": {
-        "md5": "e42adb6d1528b7ec853249f3acdd96fc",
+        "md5": "1bec9ae16aafc0527a81e68f3f45ba07",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4798,10 +4759,10 @@
     },
     "tokenize": {
       "lfg": {
-        "md5": "b34918c432acf502cf91c98ade6c940a"
+        "md5": "73fcfdd4f0f6a007dd52f21a46e406b2"
       },
       "pdb": {
-        "md5": "de20c14616545728a1668f6027ea1fe6"
+        "md5": "56eb37d3d4b011762c1c488d711f2ecd"
       }
     },
     "default_processors": {
@@ -4825,7 +4786,7 @@
         }
       ]
     },
-    "default_md5": "c243129e18cf6790bc09e0af6e339ed4",
+    "default_md5": "ceca68847bc8e9fcc462b76bbad48746",
     "lang_name": "Polish"
   },
   "polish": {
@@ -4834,7 +4795,7 @@
   "pt": {
     "depparse": {
       "bosque": {
-        "md5": "4500005d0d6e4bbbc4173ee88a5bdb4c",
+        "md5": "8b7f560e2800d4b4b414ab786d62ebf9",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4843,7 +4804,7 @@
         ]
       },
       "gsd": {
-        "md5": "25d146b5f6fa2f17bfb7aeb7a6f0cd0b",
+        "md5": "228a032b4a81898b96824db548a294f5",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4854,23 +4815,23 @@
     },
     "lemma": {
       "bosque": {
-        "md5": "0adc8c85176456ae3da3971c23a76b3c"
+        "md5": "e99c97cd8a72b43d709e278a74da6a62"
       },
       "gsd": {
-        "md5": "e50919704051b3cb11034235e5f0d424"
+        "md5": "a425bde6cd4e70b335672a2bf24e02fd"
       }
     },
     "mwt": {
       "bosque": {
-        "md5": "88df6c3365533a3ef3c9082d63c57132"
+        "md5": "19068db9af85cedd864e9ea4e516b073"
       },
       "gsd": {
-        "md5": "1fdb0dec4f125c123a579fefa1d9d9c1"
+        "md5": "a90bcf30bfa23113d80628a8a4c34917"
       }
     },
     "pos": {
       "bosque": {
-        "md5": "fd626ac3c498efd2913aae62cb3a0840",
+        "md5": "9ccbcd8c0f18125d30dd6a62cf0886de",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4879,7 +4840,7 @@
         ]
       },
       "gsd": {
-        "md5": "af63116d847bd0e22c9ca102e47b891b",
+        "md5": "4e7ad32df2779481456a6958057fc3fb",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4898,10 +4859,10 @@
     },
     "tokenize": {
       "bosque": {
-        "md5": "2904ce9f22a42f3579d2c188ff651eab"
+        "md5": "9150f16dc7b8e4c19c97134b640a2c6f"
       },
       "gsd": {
-        "md5": "9d59cab40c88be089c84d04daf002f3c"
+        "md5": "3f0accdf4aa3f39c264d6d82b8ee596f"
       }
     },
     "default_processors": {
@@ -4925,7 +4886,7 @@
         }
       ]
     },
-    "default_md5": "d992ba2fdfa41bafe1a845a4b513c848",
+    "default_md5": "00fa20f5a094a209a7bb319b7151af2e",
     "lang_name": "Portuguese"
   },
   "portuguese": {
@@ -4934,27 +4895,27 @@
   "qtd": {
     "depparse": {
       "sagt": {
-        "md5": "77cf9d148e3ab7a6d42429c9fe671354"
+        "md5": "7f9fac525a594888f8c703887845ff0e"
       }
     },
     "lemma": {
       "sagt": {
-        "md5": "91458eaeecafc3eb7ea79196ca891e43"
+        "md5": "f62d2902f8eb9ea8977fe3588e8dd499"
       }
     },
     "mwt": {
       "sagt": {
-        "md5": "02f92068cd37f00475c8a4312099a291"
+        "md5": "4f0e1fa97285b7d03c2d69e73b1d39db"
       }
     },
     "pos": {
       "sagt": {
-        "md5": "0b18d5245518f2d2e86bb79dbe801654"
+        "md5": "6786efdc73bf1f84ef8c27802206d13b"
       }
     },
     "tokenize": {
       "sagt": {
-        "md5": "72beadc5f1aaa571151cd6acc651762c"
+        "md5": "7285d2e112d00e6e61da30b65cf27337"
       }
     },
     "default_processors": {
@@ -4964,21 +4925,8 @@
       "pos": "sagt",
       "depparse": "sagt"
     },
-    "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "sagt"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "sagt"
-        }
-      ]
-    },
-    "default_md5": "bc4ea59252861a3b04362feed02c54b1",
+    "default_dependencies": {},
+    "default_md5": "b8f5394f88423cde7ec1c127b9b47746",
     "lang_name": "Turkish_German"
   },
   "turkish_german": {
@@ -4987,7 +4935,7 @@
   "ro": {
     "depparse": {
       "nonstandard": {
-        "md5": "7fa0cfb26fafcbe0a601f1a8b45a9545",
+        "md5": "6efe66e7c7db94249818f2893a5a8832",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4996,7 +4944,7 @@
         ]
       },
       "rrt": {
-        "md5": "45e1c893c7d149846a999ff171cc3467",
+        "md5": "52494b2b18857534a5638d9bc96dae21",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5005,7 +4953,7 @@
         ]
       },
       "simonero": {
-        "md5": "c6b4a8e029ecccd4428ffdec8eab0118",
+        "md5": "984797f4fc75988189d0367ce0675e9c",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5016,18 +4964,18 @@
     },
     "lemma": {
       "nonstandard": {
-        "md5": "2bdf0bc0915ac67816c6ba855cf3bfa7"
+        "md5": "88a21f5c0e6d3ce14504f10fdbf9ed78"
       },
       "rrt": {
-        "md5": "a9058d12263aafddc8d9625b45fa6e7b"
+        "md5": "53a80aeb5c65a3ca2d8eaebac37a2f57"
       },
       "simonero": {
-        "md5": "74f7d2af7689775a6a3507bb5b3bee60"
+        "md5": "6e15702b07537f40eb60019daa30581b"
       }
     },
     "pos": {
       "nonstandard": {
-        "md5": "5c9ad2228ce53187c0f3a64ff9b23b1b",
+        "md5": "4f4420f9dde200e3faa594489d5b1112",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5036,7 +4984,7 @@
         ]
       },
       "rrt": {
-        "md5": "9f210bd6f55f4d8f819d3dfef289389b",
+        "md5": "c38a5ad835fef06e86248bf481d9269f",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5045,7 +4993,7 @@
         ]
       },
       "simonero": {
-        "md5": "ec2ce9930be973cc2a8340608a7d6fe2",
+        "md5": "4e979b2c5027cf7f55e3568a1fcac0bd",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5067,13 +5015,13 @@
     },
     "tokenize": {
       "nonstandard": {
-        "md5": "30dffe9fc1a7f2db309e11e24c3299d5"
+        "md5": "eb3c25fcdbe0020aedab9f7511cd1e78"
       },
       "rrt": {
-        "md5": "6084888dd192a0715ddc5436e783a37f"
+        "md5": "221ba9c00f245b09e135ef64b72c3a79"
       },
       "simonero": {
-        "md5": "01670285e457c347ce2ec3ab6a01b400"
+        "md5": "396a1c2841969edf2afdd3545ff6e487"
       }
     },
     "default_processors": {
@@ -5096,7 +5044,7 @@
         }
       ]
     },
-    "default_md5": "262781ae85dabf149ea1c1320a101057",
+    "default_md5": "ac866cd2e36f939b713489e31548f30b",
     "lang_name": "Romanian"
   },
   "romanian": {
@@ -5105,7 +5053,7 @@
   "sa": {
     "depparse": {
       "vedic": {
-        "md5": "d05d272d25f05d8dc320c9aaa1c2c2ff",
+        "md5": "b0975fd66d9459c6972f62fb9d8b759f",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5116,12 +5064,12 @@
     },
     "lemma": {
       "vedic": {
-        "md5": "aee6b35d70f4018db74b044506723cb4"
+        "md5": "3bf94d07f660f870f2bb5b256151e7f6"
       }
     },
     "pos": {
       "vedic": {
-        "md5": "6898c17fb7d2e7f22c20ff0690800c9a",
+        "md5": "fefc2291216d873b81376896814541f4",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5132,12 +5080,12 @@
     },
     "pretrain": {
       "vedic": {
-        "md5": "bc08bdbae818675b2352022f5787d48b"
+        "md5": "d749b84da5cf73ffe42040e42a0a34ae"
       }
     },
     "tokenize": {
       "vedic": {
-        "md5": "08493501ac5fe3f6f65af5522aad4206"
+        "md5": "74e623cf6e9ac2910507520e17b8e944"
       }
     },
     "default_processors": {
@@ -5160,7 +5108,7 @@
         }
       ]
     },
-    "default_md5": "3d451dc08c6c300320d2a8ea27008d6e",
+    "default_md5": "fc01a7a18055fc8655477005757ba3d7",
     "lang_name": "Sanskrit"
   },
   "sanskrit": {
@@ -5169,7 +5117,7 @@
   "sk": {
     "depparse": {
       "snk": {
-        "md5": "21ecd9bc1a1c025976d64781c72ef9cb",
+        "md5": "00cc8ba6c9537df8595cb7ccb4cd9102",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5180,12 +5128,12 @@
     },
     "lemma": {
       "snk": {
-        "md5": "835cab8a3bcff8a7c2d5a1f4dd2a1ff6"
+        "md5": "c18305d16ddc81ef90ab687346a03540"
       }
     },
     "pos": {
       "snk": {
-        "md5": "1f2cea097c4dea1188f004ef6d182d38",
+        "md5": "714f4b4103d2c4b389c8eac2c9207512",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5201,7 +5149,7 @@
     },
     "tokenize": {
       "snk": {
-        "md5": "fb34948530209eb6e00749b2b04b2d93"
+        "md5": "d4c956eda9fc95d3b8207b5e947429b0"
       }
     },
     "default_processors": {
@@ -5224,7 +5172,7 @@
         }
       ]
     },
-    "default_md5": "a8e03a8e9cbb2b92347ab11d59759477",
+    "default_md5": "62cc6a360535c9739f4eda80ff6acf5a",
     "lang_name": "Slovak"
   },
   "slovak": {
@@ -5233,7 +5181,7 @@
   "sl": {
     "depparse": {
       "ssj": {
-        "md5": "acbc00ccf747b39535826076d7f0d6d3",
+        "md5": "f90265e37b36d82880456698e88cc0fd",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5242,7 +5190,7 @@
         ]
       },
       "sst": {
-        "md5": "685d29a0f00b372b586e227676cf78fe",
+        "md5": "3d867ffbc5119a31c5a4e5e797ee17f0",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5253,15 +5201,15 @@
     },
     "lemma": {
       "ssj": {
-        "md5": "17aae2430d95ae6b8a3ecaf0ce78a1e6"
+        "md5": "c3fdb3f74232ef6b55172825601c06c4"
       },
       "sst": {
-        "md5": "022a1bc858ec36f6040113cede4dfb6c"
+        "md5": "48ef14bef304963a5dcd19cb4bd50f7c"
       }
     },
     "pos": {
       "ssj": {
-        "md5": "8856c65ea75c6f1aa3fe1faa22e96ffc",
+        "md5": "f8d2e057f3888b0a18d39cc495d812c2",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5270,7 +5218,7 @@
         ]
       },
       "sst": {
-        "md5": "c01bc6fca844ee2410293b74cee9edf1",
+        "md5": "6b13ec80d39fd6b4efc5590d3aca53b8",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5289,10 +5237,10 @@
     },
     "tokenize": {
       "ssj": {
-        "md5": "b9fbfcb6a91eaa3eaad01216a330e70f"
+        "md5": "e137827b353d339163198c6b7c3b7da3"
       },
       "sst": {
-        "md5": "bdef5ad673dc7d28b23957ed98b240c8"
+        "md5": "0699faa2a5c28ab55ed71c2a26e93fd4"
       }
     },
     "default_processors": {
@@ -5315,7 +5263,7 @@
         }
       ]
     },
-    "default_md5": "fbe07e24dca782f765d6a10b9eca38f7",
+    "default_md5": "10504160c0a1e40f01f71ba93bd3dab3",
     "lang_name": "Slovenian"
   },
   "slovenian": {
@@ -5324,7 +5272,7 @@
   "sme": {
     "depparse": {
       "giella": {
-        "md5": "a47db18db745e7416137cc99d6f6369b",
+        "md5": "67cc2ec3c6c14a04f4006b30df9d0ce8",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5335,12 +5283,12 @@
     },
     "lemma": {
       "giella": {
-        "md5": "74b4dbd9c5af64d65c3d31361c301ef4"
+        "md5": "a2ac3130b1cf200524a416169bd2997b"
       }
     },
     "pos": {
       "giella": {
-        "md5": "f67c823f19812691b812ba836ce73670",
+        "md5": "767a4c4e15b6f8ff9b8c7ca869376ade",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5356,7 +5304,7 @@
     },
     "tokenize": {
       "giella": {
-        "md5": "92e8c1bc4b19576c3f1bb9fd4ff0bc04"
+        "md5": "2ff58f8bef414be0bdd710437c655a04"
       }
     },
     "default_processors": {
@@ -5379,7 +5327,7 @@
         }
       ]
     },
-    "default_md5": "c5368b9ed6df9d34afd7c280e05c6021",
+    "default_md5": "5a939f61d603d2acd19f2318fe6175f9",
     "lang_name": "North_Sami"
   },
   "north_sami": {
@@ -5388,7 +5336,7 @@
   "sr": {
     "depparse": {
       "set": {
-        "md5": "def327acd53e76c6ac7e185aec2a163a",
+        "md5": "7cf76769bd30e359d2bae14a80c5b4ab",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5399,12 +5347,12 @@
     },
     "lemma": {
       "set": {
-        "md5": "e105f5cb26c0d68bcb9e8f5c3cbc4caa"
+        "md5": "1761b778272fe9a91d3986b32f74f26f"
       }
     },
     "pos": {
       "set": {
-        "md5": "94a0279c447d44f86e5d369c5490f405",
+        "md5": "0fddea460e2932c1c47522d32835611a",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5420,7 +5368,7 @@
     },
     "tokenize": {
       "set": {
-        "md5": "1cfdb260882a3d6795086a262416b29b"
+        "md5": "d0f62ae37e0ffc647ef5427e60dcc567"
       }
     },
     "default_processors": {
@@ -5443,7 +5391,7 @@
         }
       ]
     },
-    "default_md5": "a5d262d86aa106c94ec8ef44422afacd",
+    "default_md5": "483822797f97238c60fb967d7c6879c1",
     "lang_name": "Serbian"
   },
   "serbian": {
@@ -5452,7 +5400,7 @@
   "sv": {
     "depparse": {
       "lines": {
-        "md5": "c5575b9da40d23af2210fe42cbb81a6e",
+        "md5": "62f11ac6605ee1549133d524dc01817f",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5461,7 +5409,7 @@
         ]
       },
       "talbanken": {
-        "md5": "185d194b1102ef7e9beaaba0de437c7b",
+        "md5": "2aebf4873558ccff8edd6a9e03fa9c2b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5472,15 +5420,15 @@
     },
     "lemma": {
       "lines": {
-        "md5": "6836380c0c22338b1edb9154c6326c80"
+        "md5": "a9d2f7e03c066c9ecc839cf5f3bb3dbd"
       },
       "talbanken": {
-        "md5": "5e6c45d65def8c8a79bbe37127f7f0bd"
+        "md5": "da1d54f58bd8600122b8dc9e048a0565"
       }
     },
     "pos": {
       "lines": {
-        "md5": "db3fb73b1f2fb6bd748aa1064ac328cf",
+        "md5": "dc2bbe24b0d9e18a4f02120ceaf3027d",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5489,7 +5437,7 @@
         ]
       },
       "talbanken": {
-        "md5": "c52eb561843969ae6fd903ddd19e345e",
+        "md5": "46c7ddc6788f9732b816bafe4faca30a",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5508,10 +5456,10 @@
     },
     "tokenize": {
       "lines": {
-        "md5": "3c433dfecd303cd824fac0542adbf695"
+        "md5": "3000692f951262bed7027cb373ffddb0"
       },
       "talbanken": {
-        "md5": "ccfa542e9e58fe4dc29a18ff95896385"
+        "md5": "3e41adabac878fdeaf1fc2239bd4a93d"
       }
     },
     "default_processors": {
@@ -5534,7 +5482,7 @@
         }
       ]
     },
-    "default_md5": "58b7607a97a04ecc02d80fed5cac915e",
+    "default_md5": "e6388d5bb7a3b1ebef08803006f2366c",
     "lang_name": "Swedish"
   },
   "swedish": {
@@ -5543,17 +5491,17 @@
   "swl": {
     "depparse": {
       "sslc": {
-        "md5": "6a56b48e80b00c433689755a38bfc438"
+        "md5": "36e526508cb62b7cfe12f140d00ec1b3"
       }
     },
     "pos": {
       "sslc": {
-        "md5": "0279d7cd7188f41eb9d9377da276a1b8"
+        "md5": "8e9ddd66411c2b5c7dd38071956120c4"
       }
     },
     "tokenize": {
       "sslc": {
-        "md5": "30186663274ab50c347d4c07baf71574"
+        "md5": "712ef42c51a7ec374ea99490670fbfec"
       }
     },
     "default_processors": {
@@ -5562,21 +5510,8 @@
       "pos": "sslc",
       "depparse": "sslc"
     },
-    "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "sslc"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "sslc"
-        }
-      ]
-    },
-    "default_md5": "79782cfc17b68e629fbdde11355acea4",
+    "default_dependencies": {},
+    "default_md5": "48e1bd9697ce7723aebb87d65499f8df",
     "lang_name": "Swedish_Sign_Language"
   },
   "swedish_sign_language": {
@@ -5585,7 +5520,7 @@
   "ta": {
     "depparse": {
       "ttb": {
-        "md5": "a911b6966f2d3b643345d2d3dc59c0d7",
+        "md5": "ed0eade33be9653e63195f72930b9315",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5596,17 +5531,17 @@
     },
     "lemma": {
       "ttb": {
-        "md5": "c052b1e3aa7b952d57d9c7a36858121b"
+        "md5": "b11838b394cbe46e14f4f472dfa98d9e"
       }
     },
     "mwt": {
       "ttb": {
-        "md5": "3f32cafdb096fc83b9cecab1464fc7b4"
+        "md5": "b655f2f7641d8363e5d7bfb3dddc9971"
       }
     },
     "pos": {
       "ttb": {
-        "md5": "78d44296597765c68b4db7cfa6d24572",
+        "md5": "f9aaa58c41c22b6c2ddcfbf87333ec02",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5622,7 +5557,7 @@
     },
     "tokenize": {
       "ttb": {
-        "md5": "5b40d4f3ae9fcdda39c31d469057f59c"
+        "md5": "465f429ab33ce54a4849f02e121486f8"
       }
     },
     "default_processors": {
@@ -5646,7 +5581,7 @@
         }
       ]
     },
-    "default_md5": "7d4c56e4125dcd6a89aca6978981a9a6",
+    "default_md5": "f4cf46a62c8709b1a12d2f6fc03d59b9",
     "lang_name": "Tamil"
   },
   "tamil": {
@@ -5655,7 +5590,7 @@
   "te": {
     "depparse": {
       "mtg": {
-        "md5": "36892b6e48d81b56ec5cfb2d42f9fe50",
+        "md5": "2a080d72a28ea82c9fd8a2f01e1f83c0",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5666,7 +5601,7 @@
     },
     "pos": {
       "mtg": {
-        "md5": "c6192b46b9b5b5d3cf073a65fc98a7b1",
+        "md5": "f186b44d8269466510695b5a0c067beb",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5682,7 +5617,7 @@
     },
     "tokenize": {
       "mtg": {
-        "md5": "aafe8f05b7e2c107c41666fe373439c3"
+        "md5": "fd8dbe965efc37883b21a6da9f92e1cd"
       }
     },
     "default_processors": {
@@ -5705,7 +5640,7 @@
         }
       ]
     },
-    "default_md5": "30ce5a18f3ab1eb966858479db289d42",
+    "default_md5": "1f71b6a6fcc7479a8be4223e704d449e",
     "lang_name": "Telugu"
   },
   "telugu": {
@@ -5714,7 +5649,7 @@
   "tr": {
     "depparse": {
       "boun": {
-        "md5": "c903bf5a03d818148de98ccf57583794",
+        "md5": "7da30a2e9c922eb1ba6607dc3da75314",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5723,7 +5658,7 @@
         ]
       },
       "imst": {
-        "md5": "93f49a889ceba89cc0c6b04cf292e2d1",
+        "md5": "510c192f1cbe53c78d0635d1c444a643",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5734,23 +5669,23 @@
     },
     "lemma": {
       "boun": {
-        "md5": "7a508a2c8b3fc22a47fbfee199d6d2ce"
+        "md5": "e6bae0cda20525ddee89854052b5022d"
       },
       "imst": {
-        "md5": "86da8074d0ffd895b2fa8e72135afd26"
+        "md5": "bb3d94c118b691082ba314a0ed003dd9"
       }
     },
     "mwt": {
       "boun": {
-        "md5": "334bd6d05431306a139a3dc6e2a453c9"
+        "md5": "a8b5f538ed2c7f95296a2cea958bfc86"
       },
       "imst": {
-        "md5": "5485e611fa36480b961d67b649bc4835"
+        "md5": "f31c05dc92ce7aeafa47261e1baa3d6e"
       }
     },
     "pos": {
       "boun": {
-        "md5": "925dd1888fa734c9d961110d72de4566",
+        "md5": "6665f11854039a6a133b01cf47869e44",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5759,7 +5694,7 @@
         ]
       },
       "imst": {
-        "md5": "455ba4927ff398f75bfc0a4150cadc06",
+        "md5": "1ded2a015b63b1688b8dae943d79e29e",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5778,10 +5713,10 @@
     },
     "tokenize": {
       "boun": {
-        "md5": "129af103a1f6ab56055fef79edb30b40"
+        "md5": "698b5eec84ba91428a53f2f33de3b514"
       },
       "imst": {
-        "md5": "89c179ded1b197d944c7d463e3dae2f6"
+        "md5": "2143120032f2121baca1e4092978e5aa"
       }
     },
     "default_processors": {
@@ -5805,7 +5740,7 @@
         }
       ]
     },
-    "default_md5": "0cd78665a032cceb0ed423b31910c45b",
+    "default_md5": "9d4d7c595d80f3114694445cec7cf9e5",
     "lang_name": "Turkish"
   },
   "turkish": {
@@ -5814,7 +5749,7 @@
   "ug": {
     "depparse": {
       "udt": {
-        "md5": "e3724d1f1101dce6f721797ed7be76cb",
+        "md5": "06437aa0c569972f658ef5e836fa9ffc",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5825,12 +5760,12 @@
     },
     "lemma": {
       "udt": {
-        "md5": "172eb921307e34c88376f2de662657a7"
+        "md5": "28374cf8564ca6ad9c70108c993c69f7"
       }
     },
     "pos": {
       "udt": {
-        "md5": "886e09d7eb1c63da1cd3269b47e0d3f2",
+        "md5": "57e14ed705ac4d82341f97977174127f",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5846,7 +5781,7 @@
     },
     "tokenize": {
       "udt": {
-        "md5": "8e0697cd25566c4f207ea21ede0c6ea3"
+        "md5": "7553b5a5c08bd158e1fc7843f911bdb4"
       }
     },
     "default_processors": {
@@ -5869,7 +5804,7 @@
         }
       ]
     },
-    "default_md5": "845b473ccad7c6bf548e057cf1d48659",
+    "default_md5": "231523c21600a7f3cbd7bc67450f6f6d",
     "lang_name": "Uyghur"
   },
   "uyghur": {
@@ -5878,7 +5813,7 @@
   "uk": {
     "depparse": {
       "iu": {
-        "md5": "f5848635f1f1df9bf6b620a86be4e0f8",
+        "md5": "b7f458baae95f8697a9d5299a6e9542f",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5889,12 +5824,12 @@
     },
     "lemma": {
       "iu": {
-        "md5": "88dcdaf5e405184c745812523562cb1c"
+        "md5": "f8e5edf3185f9b6e9b2c06ddc103a70c"
       }
     },
     "mwt": {
       "iu": {
-        "md5": "29beb7218b297a915c5c7306429472d9"
+        "md5": "9aa07cb0c599f43467dcedf456ebb88a"
       }
     },
     "ner": {
@@ -5904,7 +5839,7 @@
     },
     "pos": {
       "iu": {
-        "md5": "cfb546097a4472fd815e273087923315",
+        "md5": "fe345239dcc2ce7376bc86d365f2fb44",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5920,7 +5855,7 @@
     },
     "tokenize": {
       "iu": {
-        "md5": "1032108763958ec7b1b0366a7aed623d"
+        "md5": "5e52deade4fee092967bf02d32e0c34c"
       }
     },
     "default_processors": {
@@ -5945,7 +5880,7 @@
         }
       ]
     },
-    "default_md5": "ee6057c63dfff401be948057ab31fd0e",
+    "default_md5": "c1930982b7adb8037d6702bbc69778ea",
     "lang_name": "Ukrainian"
   },
   "ukrainian": {
@@ -5954,7 +5889,7 @@
   "ur": {
     "depparse": {
       "udtb": {
-        "md5": "9c35c2379a26b6d4a0afb7fe57bf0d13",
+        "md5": "53ea6b0707dd0caa3ccab0728abc1529",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5965,12 +5900,12 @@
     },
     "lemma": {
       "udtb": {
-        "md5": "59b5bd4642f32e292b10e3a61338b410"
+        "md5": "ea0709e89fa0344275c71f77ba1ae21a"
       }
     },
     "pos": {
       "udtb": {
-        "md5": "88c34958edc11bbc980d587e9c5f0121",
+        "md5": "2c22fd9a4b6ec770d58c5dfb1a5f9906",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5986,7 +5921,7 @@
     },
     "tokenize": {
       "udtb": {
-        "md5": "6774ec747ee3dbc3f1dc9c011a2d2868"
+        "md5": "f324c524ce1f5538cfc7c2aead36c51b"
       }
     },
     "default_processors": {
@@ -6009,7 +5944,7 @@
         }
       ]
     },
-    "default_md5": "6ccd4c69fe8bca568dbd355d99975725",
+    "default_md5": "8571de17c88d4d96c72343b83d2411bb",
     "lang_name": "Urdu"
   },
   "urdu": {
@@ -6018,7 +5953,7 @@
   "vi": {
     "depparse": {
       "vtb": {
-        "md5": "63590e168e2c6dbd1b789f8fc58703b5",
+        "md5": "dfc2e836056a7c25e0d9fd70f6590ab6",
         "dependencies": [
           {
             "model": "pretrain",
@@ -6029,7 +5964,7 @@
     },
     "pos": {
       "vtb": {
-        "md5": "6cb80c69bd360621b48d3c682ae008f5",
+        "md5": "9c7881e022eab9a7817b263d6bd2e40f",
         "dependencies": [
           {
             "model": "pretrain",
@@ -6045,7 +5980,7 @@
     },
     "sentiment": {
       "vsfc": {
-        "md5": "40a87870050593ef2da573a8e3952671",
+        "md5": "7e2f9f951156d8e0d78f6f4ef326e95f",
         "dependencies": [
           {
             "model": "pretrain",
@@ -6056,7 +5991,7 @@
     },
     "tokenize": {
       "vtb": {
-        "md5": "e6aa3742fff1702fabee992ed150edc7"
+        "md5": "01d73f5d066d41fde263efa53310b60b"
       }
     },
     "default_processors": {
@@ -6086,7 +6021,7 @@
         }
       ]
     },
-    "default_md5": "fa1c2a7a966acef9b035e5e5376b58e9",
+    "default_md5": "dae3d8e62ce3e2272d684be1338e06ed",
     "lang_name": "Vietnamese"
   },
   "vietnamese": {
@@ -6095,7 +6030,7 @@
   "wo": {
     "depparse": {
       "wtb": {
-        "md5": "c1b4a83e1bb78ba81b7cae442470aa61",
+        "md5": "206620d7b0b85d8e659f9ff52b06fda7",
         "dependencies": [
           {
             "model": "pretrain",
@@ -6106,17 +6041,17 @@
     },
     "lemma": {
       "wtb": {
-        "md5": "88b0de6fdfe1fd1ecab9e53843808f03"
+        "md5": "94c8858571a12c639b8195c4303b6897"
       }
     },
     "mwt": {
       "wtb": {
-        "md5": "b97eb7f7aad5ee8f115c34514e8fd591"
+        "md5": "84ae5fc0f8fd21f7a9849d0bb543ca1d"
       }
     },
     "pos": {
       "wtb": {
-        "md5": "17061f5549a0389e62468266af6396d7",
+        "md5": "a6de874058e3437858345974aa704ef5",
         "dependencies": [
           {
             "model": "pretrain",
@@ -6132,7 +6067,7 @@
     },
     "tokenize": {
       "wtb": {
-        "md5": "2d17788e501baa4218b2bc66520c327a"
+        "md5": "107a4934ee93937433968bf1f55f0d3a"
       }
     },
     "default_processors": {
@@ -6156,7 +6091,7 @@
         }
       ]
     },
-    "default_md5": "65662482777e8972b5e508610ff6a923",
+    "default_md5": "a20088f67c76adfe0b105bf8b596caf8",
     "lang_name": "Wolof"
   },
   "wolof": {
@@ -6165,7 +6100,7 @@
   "zh-hant": {
     "depparse": {
       "gsd": {
-        "md5": "2d347a13e904aff006fd7ee2050cf7da",
+        "md5": "ee8db65018df2ab87277bdb40ee163b3",
         "dependencies": [
           {
             "model": "pretrain",
@@ -6176,12 +6111,12 @@
     },
     "lemma": {
       "gsd": {
-        "md5": "59331b5f0fe34caad2fb35c5ec5567ab"
+        "md5": "045ec603c78d0e00aa45341774499ca3"
       }
     },
     "pos": {
       "gsd": {
-        "md5": "a1be962a2e0f10166c6a181a2a2b1066",
+        "md5": "9bfbd67571af4037b6d25275d19ad317",
         "dependencies": [
           {
             "model": "pretrain",
@@ -6197,7 +6132,7 @@
     },
     "tokenize": {
       "gsd": {
-        "md5": "2a9eb621572d7a7e971220d4d539efcb"
+        "md5": "ce239f53eacd2ebe63c64aefec6981b0"
       }
     },
     "default_processors": {
@@ -6220,7 +6155,7 @@
         }
       ]
     },
-    "default_md5": "fbd36927cb3e60c2e2bf423662c2e30f",
+    "default_md5": "3dbcfd342cfb891a5ce0c168c8199070",
     "lang_name": "Traditional_Chinese"
   },
   "traditional_chinese": {
@@ -6229,33 +6164,20 @@
   "th": {
     "tokenize": {
       "best": {
-        "md5": "0d08608705cb8404da04be7cac25fdaf"
+        "md5": "1f44033fcd3fd0d023a1f815edd36674"
       },
       "lst20": {
-        "md5": "6a8b4a2b9edda0330405f14634025c52"
+        "md5": "9c2512ffd6730ac01458c2679fd7316d"
       },
       "orchid": {
-        "md5": "bc2fda6ed72c4cca7f49563821fbe615"
+        "md5": "1478e8913b36aeac4dfa60f9f8034ff7"
       }
     },
     "default_processors": {
       "tokenize": "orchid"
     },
-    "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "orchid"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "orchid"
-        }
-      ]
-    },
-    "default_md5": "b8c91b122930b94ad78f4bdb0ea8d82f",
+    "default_dependencies": {},
+    "default_md5": "b32474c5a61a3da533148739082e74a3",
     "lang_name": "Thai"
   },
   "thai": {
