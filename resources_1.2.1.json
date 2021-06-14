@@ -6409,6 +6409,11 @@
     "alias": "ur"
   },
   "vi": {
+    "backward_charlm": {
+      "conll17": {
+        "md5": "9be2d6e390c1165340b656f953710fb3"
+      }
+    },
     "depparse": {
       "vtb": {
         "md5": "dfc2e836056a7c25e0d9fd70f6590ab6",
@@ -6416,6 +6421,26 @@
           {
             "model": "pretrain",
             "package": "vtb"
+          }
+        ]
+      }
+    },
+    "forward_charlm": {
+      "conll17": {
+        "md5": "8231887a96e8221fd1d395e617566791"
+      }
+    },
+    "ner": {
+      "vlsp": {
+        "md5": "3881ac498f97de574c8fa18d0a692969",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
           }
         ]
       }
@@ -6457,6 +6482,7 @@
       "lemma": "identity",
       "pos": "vtb",
       "depparse": "vtb",
+      "ner": "vlsp",
       "sentiment": "vsfc"
     },
     "default_dependencies": {
@@ -6472,6 +6498,16 @@
           "package": "vtb"
         }
       ],
+      "ner": [
+        {
+          "model": "forward_charlm",
+          "package": "conll17"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "conll17"
+        }
+      ],
       "sentiment": [
         {
           "model": "pretrain",
@@ -6479,7 +6515,7 @@
         }
       ]
     },
-    "default_md5": "70f7ed13a58e091eacd277ef5e6f6e10",
+    "default_md5": "e02a590359142adc3716f45c3d91c655",
     "lang_name": "Vietnamese"
   },
   "vietnamese": {
