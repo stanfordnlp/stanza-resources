@@ -134,7 +134,7 @@
     },
     "ner": {
       "bsnlp19": {
-        "md5": "59afc89e9c98ecba0f07ef040247166c",
+        "md5": "2ad9dd5189d871922dae6f621b975721",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -199,7 +199,7 @@
         }
       ]
     },
-    "default_md5": "4d55d4abcf4828c0267da4f9a2dcf1d7",
+    "default_md5": "c4da084ef85d2d86dbde9677a399c5f2",
     "lang_name": "Bulgarian"
   },
   "bulgarian": {
