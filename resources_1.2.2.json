@@ -3537,7 +3537,7 @@
     },
     "ner": {
       "combined": {
-        "md5": "4f5a8e483ae5427dcc0ce4495047bec6"
+        "md5": "c1094c4667ac8e714c5aaf6ceb401c15"
       }
     },
     "pos": {
@@ -3582,7 +3582,7 @@
         }
       ]
     },
-    "default_md5": "ab25c62c4832e02ed4010295c6c34be4",
+    "default_md5": "72b633bf242946ab58a80e5039787fa7",
     "lang_name": "Hungarian"
   },
   "hungarian": {
