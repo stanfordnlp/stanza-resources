@@ -1862,6 +1862,11 @@
     "alias": "zh-hans"
   },
   "af": {
+    "backward_charlm": {
+      "oscar": {
+        "md5": "af65d719157609173ed04bd6208fc2ae"
+      }
+    },
     "depparse": {
       "afribooms": {
         "md5": "ccc9a85b894912e14457b925b3244d06",
@@ -1873,9 +1878,29 @@
         ]
       }
     },
+    "forward_charlm": {
+      "oscar": {
+        "md5": "954045782ad30a033119280c48d4740e"
+      }
+    },
     "lemma": {
       "afribooms": {
         "md5": "eba94b6943dfbb57e425ff9755c213e7"
+      }
+    },
+    "ner": {
+      "nchlt": {
+        "md5": "0af88a97300eb2a0b98db16c159825d8",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
       }
     },
     "pos": {
@@ -1903,7 +1928,8 @@
       "tokenize": "afribooms",
       "lemma": "afribooms",
       "pos": "afribooms",
-      "depparse": "afribooms"
+      "depparse": "afribooms",
+      "ner": "nchlt"
     },
     "default_dependencies": {
       "pos": [
@@ -1917,9 +1943,19 @@
           "model": "pretrain",
           "package": "afribooms"
         }
+      ],
+      "ner": [
+        {
+          "model": "forward_charlm",
+          "package": "oscar"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "oscar"
+        }
       ]
     },
-    "default_md5": "9fc88e3d629a1edd0b57ded0086ae4d6",
+    "default_md5": "043c08cbe3b557f5fb1561fef409a6d7",
     "lang_name": "Afrikaans"
   },
   "afrikaans": {
@@ -3925,6 +3961,11 @@
     "alias": "is"
   },
   "it": {
+    "backward_charlm": {
+      "conll17": {
+        "md5": "f75c508b3fb05e24352524ec1ad31f07"
+      }
+    },
     "depparse": {
       "combined": {
         "md5": "f52ef2707246104a4b5e4affca04f0f8",
@@ -3981,6 +4022,11 @@
         ]
       }
     },
+    "forward_charlm": {
+      "conll17": {
+        "md5": "41f84ddf7ca5942493e28642c01a44e4"
+      }
+    },
     "lemma": {
       "combined": {
         "md5": "2e37657e6dd90b8e9eb00e0332209aee"
@@ -4019,6 +4065,21 @@
       },
       "vit": {
         "md5": "831dec6a14ae076970705f95ffc2b7c9"
+      }
+    },
+    "ner": {
+      "fbk": {
+        "md5": "3c5b59ee0d0bfd437be0d7a339835629",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       }
     },
     "pos": {
@@ -4122,7 +4183,8 @@
       "mwt": "combined",
       "lemma": "combined",
       "pos": "combined",
-      "depparse": "combined"
+      "depparse": "combined",
+      "ner": "fbk"
     },
     "default_dependencies": {
       "pos": [
@@ -4136,9 +4198,19 @@
           "model": "pretrain",
           "package": "combined"
         }
+      ],
+      "ner": [
+        {
+          "model": "forward_charlm",
+          "package": "conll17"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "conll17"
+        }
       ]
     },
-    "default_md5": "c4a5264efe2e602f0216eca1fa9c11d0",
+    "default_md5": "ea692fdd89ca9f5b991501b360879f02",
     "lang_name": "Italian"
   },
   "italian": {
