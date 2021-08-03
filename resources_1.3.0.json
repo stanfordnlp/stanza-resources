@@ -9,7 +9,107 @@
       "langid": "ud"
     },
     "default_dependencies": {},
-    "default_md5": "e898cc2ede0124e74fbb8dbc32d09748"
+    "default_md5": "1a95132fc1b577c6abc3d55fa6bf7639"
+  },
+  "af": {
+    "backward_charlm": {
+      "oscar": {
+        "md5": "af65d719157609173ed04bd6208fc2ae"
+      }
+    },
+    "depparse": {
+      "afribooms": {
+        "md5": "ccc9a85b894912e14457b925b3244d06",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "afribooms"
+          }
+        ]
+      }
+    },
+    "forward_charlm": {
+      "oscar": {
+        "md5": "954045782ad30a033119280c48d4740e"
+      }
+    },
+    "lemma": {
+      "afribooms": {
+        "md5": "eba94b6943dfbb57e425ff9755c213e7"
+      }
+    },
+    "ner": {
+      "nchlt": {
+        "md5": "0af88a97300eb2a0b98db16c159825d8",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
+      }
+    },
+    "pos": {
+      "afribooms": {
+        "md5": "8d97913003389bd241f82999b5ea500c",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "afribooms"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "afribooms": {
+        "md5": "3cebc7b7d224b30c5dca9fc8260cedb2"
+      }
+    },
+    "tokenize": {
+      "afribooms": {
+        "md5": "735bc21f95af28342f37a32596b56639"
+      }
+    },
+    "default_processors": {
+      "tokenize": "afribooms",
+      "lemma": "afribooms",
+      "pos": "afribooms",
+      "depparse": "afribooms",
+      "ner": "nchlt"
+    },
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "afribooms"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "afribooms"
+        }
+      ],
+      "ner": [
+        {
+          "model": "forward_charlm",
+          "package": "oscar"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "oscar"
+        }
+      ]
+    },
+    "default_md5": "d2b48d405dbb63288db29d31dd04f694",
+    "lang_name": "Afrikaans"
+  },
+  "afrikaans": {
+    "alias": "af"
   },
   "ar": {
     "backward_charlm": {
@@ -111,7 +211,7 @@
         }
       ]
     },
-    "default_md5": "6559bc64782b10eb3ecaf19b53e74bbf",
+    "default_md5": "ec77761574247724c43a6826801f6f06",
     "lang_name": "Arabic"
   },
   "arabic": {
@@ -146,6 +246,19 @@
     },
     "ner": {
       "bsnlp19": {
+        "md5": "59afc89e9c98ecba0f07ef040247166c",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
+      "bsnlp": {
         "md5": "2ad9dd5189d871922dae6f621b975721",
         "dependencies": [
           {
@@ -211,7 +324,7 @@
         }
       ]
     },
-    "default_md5": "c4da084ef85d2d86dbde9677a399c5f2",
+    "default_md5": "c5134b493fbc89e3f4803cffd98c03c9",
     "lang_name": "Bulgarian"
   },
   "bulgarian": {
@@ -375,7 +488,7 @@
         }
       ]
     },
-    "default_md5": "a633dad4985504f3a8f5f956730104c3",
+    "default_md5": "41a0927f25bd679b3d51b90799b21422",
     "lang_name": "German"
   },
   "german": {
@@ -848,7 +961,7 @@
         }
       ]
     },
-    "default_md5": "fb944912d491947616ce143669c31f14",
+    "default_md5": "940a4a0f463737ac0e827690cdb2f46f",
     "lang_name": "English"
   },
   "english": {
@@ -997,7 +1110,7 @@
         }
       ]
     },
-    "default_md5": "e832b7f3b8b70e242efd430b438e907c",
+    "default_md5": "94c88f03da547ff47af3fa79b46746cc",
     "lang_name": "Spanish"
   },
   "spanish": {
@@ -1133,7 +1246,7 @@
         }
       ]
     },
-    "default_md5": "c8f9fcc1480c2c55181c1e563c119331",
+    "default_md5": "fdbd23b52441dc545fe88d5a0afa5e41",
     "lang_name": "Finnish"
   },
   "finnish": {
@@ -1329,11 +1442,267 @@
         }
       ]
     },
-    "default_md5": "d448c07f1768e5f20ac77a3afc6d0bf5",
+    "default_md5": "b0bb4e84df9c2fe71141635c97d66581",
     "lang_name": "French"
   },
   "french": {
     "alias": "fr"
+  },
+  "it": {
+    "backward_charlm": {
+      "conll17": {
+        "md5": "f75c508b3fb05e24352524ec1ad31f07"
+      }
+    },
+    "depparse": {
+      "combined": {
+        "md5": "f52ef2707246104a4b5e4affca04f0f8",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "combined"
+          }
+        ]
+      },
+      "isdt": {
+        "md5": "d2e872a3a0a5f6ab43496aaa86cd545b",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "isdt"
+          }
+        ]
+      },
+      "partut": {
+        "md5": "4f1f0847f6918400a47d4a91bb5c1843",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "partut"
+          }
+        ]
+      },
+      "postwita": {
+        "md5": "2f9055126d92a43eb356fc9a9f9fe667",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "postwita"
+          }
+        ]
+      },
+      "twittiro": {
+        "md5": "320ab7457e3d3bfbe96a57e23a75e3d7",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "twittiro"
+          }
+        ]
+      },
+      "vit": {
+        "md5": "f01c40b91aba8da419b9d9f3da97006b",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "vit"
+          }
+        ]
+      }
+    },
+    "forward_charlm": {
+      "conll17": {
+        "md5": "41f84ddf7ca5942493e28642c01a44e4"
+      }
+    },
+    "lemma": {
+      "combined": {
+        "md5": "2e37657e6dd90b8e9eb00e0332209aee"
+      },
+      "isdt": {
+        "md5": "b9f753f770ebac80fde19afb514a034e"
+      },
+      "partut": {
+        "md5": "7463bf07304d80cfe33163305ef36488"
+      },
+      "postwita": {
+        "md5": "cebac7c0bf1d32d2540d07dd62d4cb7e"
+      },
+      "twittiro": {
+        "md5": "0ef53393635866a20a4e84ea0ab60383"
+      },
+      "vit": {
+        "md5": "5e322006fe594836f9beb8beb0bf96db"
+      }
+    },
+    "mwt": {
+      "combined": {
+        "md5": "be1cc033517cbb4ac2599668f83015d5"
+      },
+      "isdt": {
+        "md5": "9aec3ea73254ce23564e9635270c22f9"
+      },
+      "partut": {
+        "md5": "82a4074ded26944944c0d8ed7282a3c7"
+      },
+      "postwita": {
+        "md5": "ab6788679be0bf2a3561ab37c211fae0"
+      },
+      "twittiro": {
+        "md5": "bd91f28345bf160287cae7d617474c8a"
+      },
+      "vit": {
+        "md5": "831dec6a14ae076970705f95ffc2b7c9"
+      }
+    },
+    "ner": {
+      "fbk": {
+        "md5": "3c5b59ee0d0bfd437be0d7a339835629",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      }
+    },
+    "pos": {
+      "combined": {
+        "md5": "6813a3690b3f7c172c79734c039509c1",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "combined"
+          }
+        ]
+      },
+      "isdt": {
+        "md5": "d54fc8d4786d96f965b0cb619c134cfe",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "isdt"
+          }
+        ]
+      },
+      "partut": {
+        "md5": "8089d9866d036105eb38400038b098f9",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "partut"
+          }
+        ]
+      },
+      "postwita": {
+        "md5": "0db17a0ca47a6c3607c7bb991706cb54",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "postwita"
+          }
+        ]
+      },
+      "twittiro": {
+        "md5": "d297a30ce177d1bd8e3165cf64cb8182",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "twittiro"
+          }
+        ]
+      },
+      "vit": {
+        "md5": "420227a02d166e6f2cafbf910833344f",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "vit"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "combined": {
+        "md5": "2f943c498d445acc071f5a0f45613b2c"
+      },
+      "isdt": {
+        "md5": "2f943c498d445acc071f5a0f45613b2c"
+      },
+      "partut": {
+        "md5": "2f943c498d445acc071f5a0f45613b2c"
+      },
+      "postwita": {
+        "md5": "2f943c498d445acc071f5a0f45613b2c"
+      },
+      "twittiro": {
+        "md5": "2f943c498d445acc071f5a0f45613b2c"
+      },
+      "vit": {
+        "md5": "2f943c498d445acc071f5a0f45613b2c"
+      }
+    },
+    "tokenize": {
+      "combined": {
+        "md5": "8366172c0a9850b1e06b9de5f01ca9f4"
+      },
+      "isdt": {
+        "md5": "e9395941b87d339fe43e0570298457dc"
+      },
+      "partut": {
+        "md5": "6b4732f331c4ea463ff1c6a6a587855d"
+      },
+      "postwita": {
+        "md5": "52a2c930bde746bfcb4388260a319a18"
+      },
+      "twittiro": {
+        "md5": "5d9c5e7e7fd36f89ee206fc28f3a8ab6"
+      },
+      "vit": {
+        "md5": "6e428e659ad6d7ae882dfb268638d395"
+      }
+    },
+    "default_processors": {
+      "tokenize": "combined",
+      "mwt": "combined",
+      "lemma": "combined",
+      "pos": "combined",
+      "depparse": "combined",
+      "ner": "fbk"
+    },
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "combined"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "combined"
+        }
+      ],
+      "ner": [
+        {
+          "model": "forward_charlm",
+          "package": "conll17"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "conll17"
+        }
+      ]
+    },
+    "default_md5": "f28a379173828fb0ecefa6ddd0ae112b",
+    "lang_name": "Italian"
+  },
+  "italian": {
+    "alias": "it"
   },
   "nl": {
     "backward_charlm": {
@@ -1469,7 +1838,7 @@
         }
       ]
     },
-    "default_md5": "be3e7c364357255da8e9638267fc8005",
+    "default_md5": "b793818ddb6c150f9a21e9bd1d802c60",
     "lang_name": "Dutch"
   },
   "dutch": {
@@ -1623,7 +1992,7 @@
         }
       ]
     },
-    "default_md5": "8ea6bf18fd78e58b5b01ffa02212e473",
+    "default_md5": "5d498e22950ac30343cdb97af9f8f9e7",
     "lang_name": "Russian"
   },
   "russian": {
@@ -1632,7 +2001,7 @@
   "vi": {
     "backward_charlm": {
       "conll17": {
-        "md5": "9be2d6e390c1165340b656f953710fb3"
+        "md5": "0dee056219b271cf5e155b57fceee296"
       }
     },
     "depparse": {
@@ -1648,12 +2017,12 @@
     },
     "forward_charlm": {
       "conll17": {
-        "md5": "8231887a96e8221fd1d395e617566791"
+        "md5": "d8f043c3c69ea850329e7335c95df8db"
       }
     },
     "ner": {
       "vlsp": {
-        "md5": "3881ac498f97de574c8fa18d0a692969",
+        "md5": "6ad40e765dd13060529e856a6c4e4285",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -1736,7 +2105,7 @@
         }
       ]
     },
-    "default_md5": "4cd7a6f70a8aac4d5e3e85cc5883ff93",
+    "default_md5": "044d86d15287f0560f1581a71162a716",
     "lang_name": "Vietnamese"
   },
   "vietnamese": {
@@ -1854,75 +2223,11 @@
         }
       ]
     },
-    "default_md5": "c93f0b058f1072080ccd256382a7c459",
+    "default_md5": "2a3e0dafa902a430f9ca1b0c7daade6e",
     "lang_name": "Simplified_Chinese"
   },
   "simplified_chinese": {
     "alias": "zh-hans"
-  },
-  "af": {
-    "depparse": {
-      "afribooms": {
-        "md5": "ccc9a85b894912e14457b925b3244d06",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "afribooms"
-          }
-        ]
-      }
-    },
-    "lemma": {
-      "afribooms": {
-        "md5": "eba94b6943dfbb57e425ff9755c213e7"
-      }
-    },
-    "pos": {
-      "afribooms": {
-        "md5": "8d97913003389bd241f82999b5ea500c",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "afribooms"
-          }
-        ]
-      }
-    },
-    "pretrain": {
-      "afribooms": {
-        "md5": "3cebc7b7d224b30c5dca9fc8260cedb2"
-      }
-    },
-    "tokenize": {
-      "afribooms": {
-        "md5": "735bc21f95af28342f37a32596b56639"
-      }
-    },
-    "default_processors": {
-      "tokenize": "afribooms",
-      "lemma": "afribooms",
-      "pos": "afribooms",
-      "depparse": "afribooms"
-    },
-    "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "afribooms"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "afribooms"
-        }
-      ]
-    },
-    "default_md5": "44257e1b092224ec3ee7e8f702ca85cf",
-    "lang_name": "Afrikaans"
-  },
-  "afrikaans": {
-    "alias": "af"
   },
   "be": {
     "depparse": {
@@ -1982,7 +2287,7 @@
         }
       ]
     },
-    "default_md5": "a9fb8df9232aa45f82ab696d6220c49e",
+    "default_md5": "fc8869594aef83b44b56f3548aa5870d",
     "lang_name": "Belarusian"
   },
   "belarusian": {
@@ -2052,7 +2357,7 @@
         }
       ]
     },
-    "default_md5": "07709c98b064e75e0c42759b6630852e",
+    "default_md5": "fa1702e4ee2d219fd2429d5a6f5a5194",
     "lang_name": "Catalan"
   },
   "catalan": {
@@ -2117,7 +2422,7 @@
         }
       ]
     },
-    "default_md5": "97be22e9c5cbefd27176310697081b78",
+    "default_md5": "7e9149f9a69e7d20f32630d78f9874af",
     "lang_name": "Coptic"
   },
   "coptic": {
@@ -2277,7 +2582,7 @@
         }
       ]
     },
-    "default_md5": "2546ff457f5284e2d63cf4ec67696281",
+    "default_md5": "25ce7566aed1a7d302b0c04093bd3231",
     "lang_name": "Czech"
   },
   "czech": {
@@ -2341,7 +2646,7 @@
         }
       ]
     },
-    "default_md5": "0e8bb36923c1c9e0b5ce79bd555f8c1a",
+    "default_md5": "b9dc599a53edbc30e94543f7fe809b69",
     "lang_name": "Old_Church_Slavonic"
   },
   "old_church_slavonic": {
@@ -2411,7 +2716,7 @@
         }
       ]
     },
-    "default_md5": "5ee861a533f47e0abf6d51318a67707a",
+    "default_md5": "477efb141ffa032d501b62881e31ae83",
     "lang_name": "Welsh"
   },
   "welsh": {
@@ -2475,7 +2780,7 @@
         }
       ]
     },
-    "default_md5": "37a2b5aa90bb467cccb38eefeb9b4fb1",
+    "default_md5": "b4c0aa5ef88323c21c129e041caee1b9",
     "lang_name": "Danish"
   },
   "danish": {
@@ -2545,7 +2850,7 @@
         }
       ]
     },
-    "default_md5": "b10504145a865d61262379f087942159",
+    "default_md5": "cba0b629154d5abc9fc69f17dc4f23c0",
     "lang_name": "Greek"
   },
   "greek": {
@@ -2636,7 +2941,7 @@
         }
       ]
     },
-    "default_md5": "086bc756f6408ac03f731fc7218b817a",
+    "default_md5": "158e1eb10c5b5977a06fbdd40b6acfc8",
     "lang_name": "Estonian"
   },
   "estonian": {
@@ -2700,7 +3005,7 @@
         }
       ]
     },
-    "default_md5": "5ace9f8473dd69ebe648c284a05ec198",
+    "default_md5": "c69b710cd648feb9b3b7b51004490f8b",
     "lang_name": "Basque"
   },
   "basque": {
@@ -2800,7 +3105,7 @@
         }
       ]
     },
-    "default_md5": "210859ec0b50b885f3ac85a354a2ad5a",
+    "default_md5": "bfae7f888fe11e6ae77835ec268aeaf9",
     "lang_name": "Persian"
   },
   "persian": {
@@ -2865,7 +3170,7 @@
         }
       ]
     },
-    "default_md5": "89e7413894b93df7aba32a7f96565500",
+    "default_md5": "84b88d3e612ed55dd2372db7322fff6b",
     "lang_name": "Faroese"
   },
   "faroese": {
@@ -2924,7 +3229,7 @@
         }
       ]
     },
-    "default_md5": "f03f6a5c67fefb3ac62aeaccd9e82ba1",
+    "default_md5": "dba9a76c05e3cbd25994d6d296d57f2e",
     "lang_name": "Old_French"
   },
   "old_french": {
@@ -2988,7 +3293,7 @@
         }
       ]
     },
-    "default_md5": "8520909b864a172adb347e81f53d4118",
+    "default_md5": "83a0a5d3470db74a840f945b611c9d38",
     "lang_name": "Irish"
   },
   "irish": {
@@ -3058,7 +3363,7 @@
         }
       ]
     },
-    "default_md5": "ab49b0147b9acd0974deecf018c43a94",
+    "default_md5": "0e7059cf82bed0e62b29c5d5ba9128d2",
     "lang_name": "Scottish_Gaelic"
   },
   "scottish_gaelic": {
@@ -3158,7 +3463,7 @@
         }
       ]
     },
-    "default_md5": "a208182544f0d9050c0bcd447cab7ab9",
+    "default_md5": "359aba5e84a6fb3f7bad9002b4a310db",
     "lang_name": "Galician"
   },
   "galician": {
@@ -3222,7 +3527,7 @@
         }
       ]
     },
-    "default_md5": "70b977b3e847273c97c5cc9310805762",
+    "default_md5": "ca0446c979600f84344d5efc143d6cbe",
     "lang_name": "Gothic"
   },
   "gothic": {
@@ -3313,7 +3618,7 @@
         }
       ]
     },
-    "default_md5": "a5137ea6e1a9826ea15d47bdef6eea35",
+    "default_md5": "c87d1233f5fba574af30337eebaadb2c",
     "lang_name": "Ancient_Greek"
   },
   "ancient_greek": {
@@ -3383,7 +3688,7 @@
         }
       ]
     },
-    "default_md5": "fc2a99f1368ec14be4745903044c4dfe",
+    "default_md5": "47dbc5189133a0081a2122c5aa423eac",
     "lang_name": "Hebrew"
   },
   "hebrew": {
@@ -3447,7 +3752,7 @@
         }
       ]
     },
-    "default_md5": "3d3e0830e1bfcb830a2dbaf67baecf71",
+    "default_md5": "9e5b281e45a30fdd16d28b1068fd3028",
     "lang_name": "Hindi"
   },
   "hindi": {
@@ -3511,7 +3816,7 @@
         }
       ]
     },
-    "default_md5": "2e29b663b16899af801c4bd2527bf777",
+    "default_md5": "7c7f0ee770325508d1c355152f9d7065",
     "lang_name": "Croatian"
   },
   "croatian": {
@@ -3536,7 +3841,7 @@
     },
     "ner": {
       "combined": {
-        "md5": "4f5a8e483ae5427dcc0ce4495047bec6"
+        "md5": "c1094c4667ac8e714c5aaf6ceb401c15"
       }
     },
     "pos": {
@@ -3581,7 +3886,7 @@
         }
       ]
     },
-    "default_md5": "cf5e8f15dc8ba8d509ef19fd67ded584",
+    "default_md5": "45ae7bd47825dd959206cfbc620acfd6",
     "lang_name": "Hungarian"
   },
   "hungarian": {
@@ -3651,7 +3956,7 @@
         }
       ]
     },
-    "default_md5": "732e4ed44e1a670eb70d848b433f0ac3",
+    "default_md5": "ad29bd4933bbafd31a550107f021c901",
     "lang_name": "Armenian"
   },
   "armenian": {
@@ -3721,7 +4026,7 @@
         }
       ]
     },
-    "default_md5": "fa3d955146a57896e218a48b327e491e",
+    "default_md5": "bd3c002b1aabb56c769b12020ac047b9",
     "lang_name": "Western_Armenian"
   },
   "western_armenian": {
@@ -3817,7 +4122,7 @@
         }
       ]
     },
-    "default_md5": "9eec80f4f1eb938a6688e5137bbcb545",
+    "default_md5": "a3e2bd1f2a4e47c12b8974f9d5ee9e56",
     "lang_name": "Indonesian"
   },
   "indonesian": {
@@ -3917,231 +4222,11 @@
         }
       ]
     },
-    "default_md5": "82469276da3e05b6ba9e1026864878c9",
+    "default_md5": "6e251e46669db2908b7ff965da346820",
     "lang_name": "Icelandic"
   },
   "icelandic": {
     "alias": "is"
-  },
-  "it": {
-    "depparse": {
-      "combined": {
-        "md5": "f52ef2707246104a4b5e4affca04f0f8",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "combined"
-          }
-        ]
-      },
-      "isdt": {
-        "md5": "d2e872a3a0a5f6ab43496aaa86cd545b",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "isdt"
-          }
-        ]
-      },
-      "partut": {
-        "md5": "4f1f0847f6918400a47d4a91bb5c1843",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "partut"
-          }
-        ]
-      },
-      "postwita": {
-        "md5": "2f9055126d92a43eb356fc9a9f9fe667",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "postwita"
-          }
-        ]
-      },
-      "twittiro": {
-        "md5": "320ab7457e3d3bfbe96a57e23a75e3d7",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "twittiro"
-          }
-        ]
-      },
-      "vit": {
-        "md5": "f01c40b91aba8da419b9d9f3da97006b",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "vit"
-          }
-        ]
-      }
-    },
-    "lemma": {
-      "combined": {
-        "md5": "2e37657e6dd90b8e9eb00e0332209aee"
-      },
-      "isdt": {
-        "md5": "b9f753f770ebac80fde19afb514a034e"
-      },
-      "partut": {
-        "md5": "7463bf07304d80cfe33163305ef36488"
-      },
-      "postwita": {
-        "md5": "cebac7c0bf1d32d2540d07dd62d4cb7e"
-      },
-      "twittiro": {
-        "md5": "0ef53393635866a20a4e84ea0ab60383"
-      },
-      "vit": {
-        "md5": "5e322006fe594836f9beb8beb0bf96db"
-      }
-    },
-    "mwt": {
-      "combined": {
-        "md5": "be1cc033517cbb4ac2599668f83015d5"
-      },
-      "isdt": {
-        "md5": "9aec3ea73254ce23564e9635270c22f9"
-      },
-      "partut": {
-        "md5": "82a4074ded26944944c0d8ed7282a3c7"
-      },
-      "postwita": {
-        "md5": "ab6788679be0bf2a3561ab37c211fae0"
-      },
-      "twittiro": {
-        "md5": "bd91f28345bf160287cae7d617474c8a"
-      },
-      "vit": {
-        "md5": "831dec6a14ae076970705f95ffc2b7c9"
-      }
-    },
-    "pos": {
-      "combined": {
-        "md5": "6813a3690b3f7c172c79734c039509c1",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "combined"
-          }
-        ]
-      },
-      "isdt": {
-        "md5": "d54fc8d4786d96f965b0cb619c134cfe",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "isdt"
-          }
-        ]
-      },
-      "partut": {
-        "md5": "8089d9866d036105eb38400038b098f9",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "partut"
-          }
-        ]
-      },
-      "postwita": {
-        "md5": "0db17a0ca47a6c3607c7bb991706cb54",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "postwita"
-          }
-        ]
-      },
-      "twittiro": {
-        "md5": "d297a30ce177d1bd8e3165cf64cb8182",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "twittiro"
-          }
-        ]
-      },
-      "vit": {
-        "md5": "420227a02d166e6f2cafbf910833344f",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "vit"
-          }
-        ]
-      }
-    },
-    "pretrain": {
-      "combined": {
-        "md5": "2f943c498d445acc071f5a0f45613b2c"
-      },
-      "isdt": {
-        "md5": "2f943c498d445acc071f5a0f45613b2c"
-      },
-      "partut": {
-        "md5": "2f943c498d445acc071f5a0f45613b2c"
-      },
-      "postwita": {
-        "md5": "2f943c498d445acc071f5a0f45613b2c"
-      },
-      "twittiro": {
-        "md5": "2f943c498d445acc071f5a0f45613b2c"
-      },
-      "vit": {
-        "md5": "2f943c498d445acc071f5a0f45613b2c"
-      }
-    },
-    "tokenize": {
-      "combined": {
-        "md5": "8366172c0a9850b1e06b9de5f01ca9f4"
-      },
-      "isdt": {
-        "md5": "e9395941b87d339fe43e0570298457dc"
-      },
-      "partut": {
-        "md5": "6b4732f331c4ea463ff1c6a6a587855d"
-      },
-      "postwita": {
-        "md5": "52a2c930bde746bfcb4388260a319a18"
-      },
-      "twittiro": {
-        "md5": "5d9c5e7e7fd36f89ee206fc28f3a8ab6"
-      },
-      "vit": {
-        "md5": "6e428e659ad6d7ae882dfb268638d395"
-      }
-    },
-    "default_processors": {
-      "tokenize": "combined",
-      "mwt": "combined",
-      "lemma": "combined",
-      "pos": "combined",
-      "depparse": "combined"
-    },
-    "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "combined"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "combined"
-        }
-      ]
-    },
-    "default_md5": "735e0244cd7dddbf5a4908d82cb1300e",
-    "lang_name": "Italian"
-  },
-  "italian": {
-    "alias": "it"
   },
   "ja": {
     "depparse": {
@@ -4201,7 +4286,7 @@
         }
       ]
     },
-    "default_md5": "4f7837199bd3d25cef1c6d80626669a6",
+    "default_md5": "e1cc8f343cea906206d3ffd1ac4bbd45",
     "lang_name": "Japanese"
   },
   "japanese": {
@@ -4292,7 +4377,7 @@
         }
       ]
     },
-    "default_md5": "16dd3217ff07e63815059b49533d0784",
+    "default_md5": "e4cd96a2a9e08e39e967999978f50f0a",
     "lang_name": "Korean"
   },
   "korean": {
@@ -4469,7 +4554,7 @@
         }
       ]
     },
-    "default_md5": "c7756029e934aae8e15b9230a2588802",
+    "default_md5": "04c2e82e22a55bae318db3ec3002c897",
     "lang_name": "Latin"
   },
   "latin": {
@@ -4560,7 +4645,7 @@
         }
       ]
     },
-    "default_md5": "b9fcd8e9f8fcc1748168f8b97da6ddb8",
+    "default_md5": "1c0f0c7e844210384b9ae5e553d50baa",
     "lang_name": "Lithuanian"
   },
   "lithuanian": {
@@ -4624,7 +4709,7 @@
         }
       ]
     },
-    "default_md5": "4535ad49b0230124498483a5e07c9f3c",
+    "default_md5": "26225956a84f0137ece85ce792abac98",
     "lang_name": "Latvian"
   },
   "latvian": {
@@ -4688,7 +4773,7 @@
         }
       ]
     },
-    "default_md5": "9dc8d52ca7fd29dd3aad23c02262df0a",
+    "default_md5": "3f56ad0026d5d98098fcc1cd94379169",
     "lang_name": "Classical_Chinese"
   },
   "classical_chinese": {
@@ -4758,7 +4843,7 @@
         }
       ]
     },
-    "default_md5": "4d7b69b3304a61e2adaee010d2273340",
+    "default_md5": "9eef94f7a9c0469c5c781044dbef9622",
     "lang_name": "Marathi"
   },
   "marathi": {
@@ -4817,7 +4902,7 @@
         }
       ]
     },
-    "default_md5": "3dabc08899dcf30503fa0fe4dae947a8",
+    "default_md5": "7b3b3397ea28b6626b2777767aea013c",
     "lang_name": "Maltese"
   },
   "maltese": {
@@ -4881,7 +4966,7 @@
         }
       ]
     },
-    "default_md5": "afaeca43080ffb77915be16a355f5db8",
+    "default_md5": "501e084153caaa44104df89825279ec6",
     "lang_name": "Norwegian_Bokmaal"
   },
   "norwegian_bokmaal": {
@@ -4972,7 +5057,7 @@
         }
       ]
     },
-    "default_md5": "e5c7f4e1cc102671f9e7d384760c6f51",
+    "default_md5": "dd3ec81db8b4ceab777cddf1c72924e0",
     "lang_name": "Norwegian_Nynorsk"
   },
   "norwegian_nynorsk": {
@@ -5055,7 +5140,7 @@
         }
       ]
     },
-    "default_md5": "3697c8bc8dfd2ae34f75c1f3bf947812",
+    "default_md5": "4b878b0acb6207733c8ab82bf4fae2ba",
     "lang_name": "Old_East_Slavic"
   },
   "old_east_slavic": {
@@ -5114,7 +5199,7 @@
         }
       ]
     },
-    "default_md5": "d026d7dbdd395a4cddc61678ab3b0b4f",
+    "default_md5": "d5ec8779d7c3c02e42b58d3417ad260e",
     "lang_name": "Naija"
   },
   "naija": {
@@ -5211,7 +5296,7 @@
         }
       ]
     },
-    "default_md5": "1fee920f6579d58f54aa164582c45839",
+    "default_md5": "8b6c1b0a58e5aacbd43db9f97bd2e833",
     "lang_name": "Polish"
   },
   "polish": {
@@ -5311,7 +5396,7 @@
         }
       ]
     },
-    "default_md5": "12d006a0d05975944fd4dc84c297df69",
+    "default_md5": "9854240d1263df7e0d1a2a0e1670987b",
     "lang_name": "Portuguese"
   },
   "portuguese": {
@@ -5376,7 +5461,7 @@
         }
       ]
     },
-    "default_md5": "4554dbde5e90c196a48f6ca3bbf17a55",
+    "default_md5": "5d906df170bb435157d9ddea31792ee6",
     "lang_name": "Turkish_German"
   },
   "turkish_german": {
@@ -5494,7 +5579,7 @@
         }
       ]
     },
-    "default_md5": "ad0bd415192fe550b909a2b5f95d42ac",
+    "default_md5": "97727081b63b5f27d0db1128d4914432",
     "lang_name": "Romanian"
   },
   "romanian": {
@@ -5558,7 +5643,7 @@
         }
       ]
     },
-    "default_md5": "f649c16edaf1501f466be4d3e23f665a",
+    "default_md5": "926660b8ca00c0b97e919bbf6ffe89a2",
     "lang_name": "Sanskrit"
   },
   "sanskrit": {
@@ -5622,7 +5707,7 @@
         }
       ]
     },
-    "default_md5": "7d1e1ba6f018cd4b66fce3c0e858c180",
+    "default_md5": "fba8ea25e1aacd73dfd0fad828f1e8b5",
     "lang_name": "Slovak"
   },
   "slovak": {
@@ -5713,7 +5798,7 @@
         }
       ]
     },
-    "default_md5": "8ea8225a0a6cbf8b56e648e4eed2f0fb",
+    "default_md5": "8d2d4b8bf05b70675724a8c87d0d713a",
     "lang_name": "Slovenian"
   },
   "slovenian": {
@@ -5777,7 +5862,7 @@
         }
       ]
     },
-    "default_md5": "bf4145347e0bf479182b7884bebe7c65",
+    "default_md5": "87264559044cb05073354a8804c3e929",
     "lang_name": "North_Sami"
   },
   "north_sami": {
@@ -5841,7 +5926,7 @@
         }
       ]
     },
-    "default_md5": "9087277273c40f33d7f8433b397b0f69",
+    "default_md5": "c976b1e958b239b33095f895e1e3290c",
     "lang_name": "Serbian"
   },
   "serbian": {
@@ -5932,7 +6017,7 @@
         }
       ]
     },
-    "default_md5": "d0c94efa2a913a8d8bd85289d5282bc0",
+    "default_md5": "1b3d26b7f51b9a47963b8d03d8ec8964",
     "lang_name": "Swedish"
   },
   "swedish": {
@@ -5986,7 +6071,7 @@
         }
       ]
     },
-    "default_md5": "0ebe9edcdfef8aec4d34abc8cc9f0465",
+    "default_md5": "58ca6b9eb5cdb0c07c90cd15d387adde",
     "lang_name": "Swedish_Sign_Language"
   },
   "swedish_sign_language": {
@@ -6056,7 +6141,7 @@
         }
       ]
     },
-    "default_md5": "3678a62f4a96e687c28d0e6a59585e62",
+    "default_md5": "195d2f0fc3532ff5f911704d46142750",
     "lang_name": "Tamil"
   },
   "tamil": {
@@ -6115,7 +6200,7 @@
         }
       ]
     },
-    "default_md5": "4b5fdcda3f3ad7062d2bf6bae12da5fa",
+    "default_md5": "e684f2956d938261b3f863781ed32148",
     "lang_name": "Telugu"
   },
   "telugu": {
@@ -6323,7 +6408,7 @@
         }
       ]
     },
-    "default_md5": "f15c4ce4d1dd9261c5f6472087a9203b",
+    "default_md5": "692de3cdcc0007fb0a9dbf4bc55aeecf",
     "lang_name": "Turkish"
   },
   "turkish": {
@@ -6387,7 +6472,7 @@
         }
       ]
     },
-    "default_md5": "7721c7914e337e83c97ec485bee2b56d",
+    "default_md5": "bfff9f73840db818ca6d51cbf3367aa6",
     "lang_name": "Uyghur"
   },
   "uyghur": {
@@ -6463,7 +6548,7 @@
         }
       ]
     },
-    "default_md5": "9fc9807442699982cd6bb472c9afc9f6",
+    "default_md5": "0787b668cec56ff3989a76762bbba868",
     "lang_name": "Ukrainian"
   },
   "ukrainian": {
@@ -6527,7 +6612,7 @@
         }
       ]
     },
-    "default_md5": "5f8f39642a7fef671f7fbfd0478301da",
+    "default_md5": "fb18fae24244c2f0037102ccb3c3b243",
     "lang_name": "Urdu"
   },
   "urdu": {
@@ -6597,7 +6682,7 @@
         }
       ]
     },
-    "default_md5": "1d59861bbf1973f6f1091082511d6b32",
+    "default_md5": "02cdd0b332dba7fea9b1ab498808b3be",
     "lang_name": "Wolof"
   },
   "wolof": {
@@ -6661,7 +6746,7 @@
         }
       ]
     },
-    "default_md5": "c12e9724ff5d3f64a6706c1f247b0c0c",
+    "default_md5": "6975edf0e9aa33f08ebb579a2565bfa5",
     "lang_name": "Traditional_Chinese"
   },
   "traditional_chinese": {
@@ -6696,7 +6781,7 @@
         }
       ]
     },
-    "default_md5": "2fec12d68827c0487c49387b983ba952",
+    "default_md5": "01b05e549c211aa8e6cddbe9106db661",
     "lang_name": "Thai"
   },
   "thai": {
