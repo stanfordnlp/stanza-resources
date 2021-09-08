@@ -6749,5 +6749,5 @@
   "zh": {
     "alias": "zh-hans"
   },
-  "url": "http://nlp.stanford.edu/software/stanza"
+  "url": "https://huggingface.co/stanfordnlp/stanza-{lang}/resolve/v{resources_version}/models/{filename}"
 }
