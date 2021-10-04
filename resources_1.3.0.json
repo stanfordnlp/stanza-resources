@@ -2055,7 +2055,7 @@
     },
     "tokenize": {
       "vtb": {
-        "md5": "e8ba2e6c18888351076a5607a1a10c47"
+        "md5": "08567bf2dac0e25347f734a6dcebdf25"
       }
     },
     "default_processors": {
@@ -2096,7 +2096,7 @@
         }
       ]
     },
-    "default_md5": "30fa63c47c7f6305b568ee593e75578e",
+    "default_md5": "121167dc1e9ddbbdad312d77c8ead108",
     "lang_name": "Vietnamese"
   },
   "vietnamese": {
@@ -2173,7 +2173,7 @@
     },
     "tokenize": {
       "gsdsimp": {
-        "md5": "a2c324c51d4310a3ad196fd6dfe8cf3c"
+        "md5": "266b06127d4d5b14adbbcf4f55534ce4"
       }
     },
     "default_processors": {
@@ -2214,7 +2214,7 @@
         }
       ]
     },
-    "default_md5": "04630bbd866463966e080b4e9101fecd",
+    "default_md5": "d0932e0915111865249cc1d2002f829e",
     "lang_name": "Simplified_Chinese"
   },
   "simplified_chinese": {
@@ -6714,7 +6714,7 @@
     },
     "tokenize": {
       "gsd": {
-        "md5": "e77faf1612021d92feb493723a9a7253"
+        "md5": "4001dec9e5299db7c24ac965381abfbc"
       }
     },
     "default_processors": {
@@ -6737,11 +6737,40 @@
         }
       ]
     },
-    "default_md5": "971f38a6c03e13a4c9d47ab3a2521acf",
+    "default_md5": "43b567f2554023c57c0b529cf2046306",
     "lang_name": "Traditional_Chinese"
   },
   "traditional_chinese": {
     "alias": "zh-hant"
+  },
+  "th": {
+    "tokenize": {
+      "orchid": {
+        "md5": "251f3e6a1a54b432e92ccc0b11eaabcd"
+      }
+    },
+    "default_processors": {
+      "tokenize": "orchid"
+    },
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "orchid"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "orchid"
+        }
+      ]
+    },
+    "default_md5": "5f9b22b1a693e272f354b032a74656fb",
+    "lang_name": "Thai"
+  },
+  "thai": {
+    "alias": "th"
   },
   "no": {
     "alias": "nb"
