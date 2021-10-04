@@ -931,7 +931,8 @@
       "pos": "combined",
       "depparse": "combined",
       "ner": "ontonotes",
-      "sentiment": "sstplus"
+      "sentiment": "sstplus",
+      "constituency": "wsj"
     },
     "default_dependencies": {
       "pos": [
@@ -969,7 +970,7 @@
         }
       ]
     },
-    "default_md5": "fbb82800cbb4d2b069f5ec6211efc2e8",
+    "default_md5": "0638cd9e6b1ee0c175d348357fb203c7",
     "lang_name": "English"
   },
   "english": {
