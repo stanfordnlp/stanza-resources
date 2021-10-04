@@ -506,6 +506,17 @@
         "md5": "f2c42f6b2f7205d2b254d6ab0fb13303"
       }
     },
+    "constituency": {
+      "wsj": {
+        "md5": "9734e262c6206b2958aa264fe3e61c4f",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "combined"
+          }
+        ]
+      }
+    },
     "depparse": {
       "combined": {
         "md5": "8201dd74124768459bd07ab3df98c78c",
@@ -946,6 +957,12 @@
         }
       ],
       "sentiment": [
+        {
+          "model": "pretrain",
+          "package": "combined"
+        }
+      ],
+      "constituency": [
         {
           "model": "pretrain",
           "package": "combined"
