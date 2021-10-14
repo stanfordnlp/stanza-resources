@@ -1722,6 +1722,64 @@
   "italian": {
     "alias": "it"
   },
+  "my": {
+    "backward_charlm": {
+      "oscar": {
+        "md5": "e8af9844996d4c4ede386afd43ff7904"
+      }
+    },
+    "forward_charlm": {
+      "oscar": {
+        "md5": "4257cf7920e22e0b6dc86d217455becb"
+      }
+    },
+    "ner": {
+      "ucsy": {
+        "md5": "434495096f4fe7819f472eff4a41ccfe",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "ucsy": {
+        "md5": "7ad512db7951d34c84579e94e1ff0a0e"
+      }
+    },
+    "tokenize": {
+      "alt": {
+        "md5": "c46c056fe2e5951e2cd07c3968481459"
+      }
+    },
+    "default_processors": {
+      "tokenize": "alt",
+      "ner": "ucsy"
+    },
+    "default_dependencies": {
+      "ner": [
+        {
+          "model": "forward_charlm",
+          "package": "oscar"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "oscar"
+        }
+      ]
+    },
+    "default_md5": "8ad87775e06cf5f3b760595c7cf1fa25",
+    "lang_name": "Myanmar"
+  },
+  "myanmar": {
+    "alias": "my"
+  },
   "nl": {
     "backward_charlm": {
       "ccwiki": {
@@ -6779,20 +6837,7 @@
     "default_processors": {
       "tokenize": "orchid"
     },
-    "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "orchid"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "orchid"
-        }
-      ]
-    },
+    "default_dependencies": {},
     "default_md5": "5f9b22b1a693e272f354b032a74656fb",
     "lang_name": "Thai"
   },
