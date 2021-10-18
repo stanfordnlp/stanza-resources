@@ -1490,7 +1490,7 @@
     },
     "constituency": {
       "turin-inorder": {
-        "md5": "4268b9adab02507eb6d7a419527f328c",
+        "md5": "5a5e65a3441053676bf68f1df2227973",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -1507,7 +1507,7 @@
         ]
       },
       "turin-top": {
-        "md5": "e86f3b12022d78ab982c20e8da064b50",
+        "md5": "44b69e791f2be1588caeec7b6bcf2e0b",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -1783,7 +1783,7 @@
         }
       ]
     },
-    "default_md5": "de5b2921719888ef0f8741021f01dafd",
+    "default_md5": "9253d03c041283147091961f00b014d7",
     "lang_name": "Italian"
   },
   "italian": {
