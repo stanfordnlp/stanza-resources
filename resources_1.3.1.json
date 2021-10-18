@@ -951,20 +951,50 @@
       "sentiment": "sstplus",
       "constituency": "wsj"
     },
-    "default_dependencies": [
-      {
-        "model": "forward_charlm",
-        "package": "1billion"
-      },
-      {
-        "model": "backward_charlm",
-        "package": "1billion"
-      },
-      {
-        "model": "pretrain",
-        "package": "combined"
-      }
-    ],
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "combined"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "combined"
+        }
+      ],
+      "ner": [
+        {
+          "model": "forward_charlm",
+          "package": "1billion"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "1billion"
+        }
+      ],
+      "sentiment": [
+        {
+          "model": "pretrain",
+          "package": "combined"
+        }
+      ],
+      "constituency": [
+        {
+          "model": "forward_charlm",
+          "package": "1billion"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "1billion"
+        },
+        {
+          "model": "pretrain",
+          "package": "combined"
+        }
+      ]
+    },
     "default_md5": "2966fc6a8d6bf682d323adcff9a011ca",
     "lang_name": "English"
   },
@@ -1715,20 +1745,44 @@
       "ner": "fbk",
       "constituency": "turin-inorder"
     },
-    "default_dependencies": [
-      {
-        "model": "forward_charlm",
-        "package": "conll17"
-      },
-      {
-        "model": "backward_charlm",
-        "package": "conll17"
-      },
-      {
-        "model": "pretrain",
-        "package": "combined"
-      }
-    ],
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "combined"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "combined"
+        }
+      ],
+      "ner": [
+        {
+          "model": "forward_charlm",
+          "package": "conll17"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "conll17"
+        }
+      ],
+      "constituency": [
+        {
+          "model": "forward_charlm",
+          "package": "conll17"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "conll17"
+        },
+        {
+          "model": "pretrain",
+          "package": "combined"
+        }
+      ]
+    }
     "default_md5": "de5b2921719888ef0f8741021f01dafd",
     "lang_name": "Italian"
   },
