@@ -508,7 +508,7 @@
     },
     "constituency": {
       "wsj": {
-        "md5": "246f5ad63d408ddb8f221a8d7d178bb8",
+        "md5": "64dbfc65473db99082217f72cd1b036a",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -995,7 +995,7 @@
         }
       ]
     },
-    "default_md5": "2966fc6a8d6bf682d323adcff9a011ca",
+    "default_md5": "9e3b9b959edb1580e5699372873296be",
     "lang_name": "English"
   },
   "english": {
@@ -1626,7 +1626,7 @@
     },
     "constituency": {
       "turin-inorder": {
-        "md5": "ed5c783baadcdaa2eb7c4090de4c4d8c",
+        "md5": "341735d34333a916776006b1201af498",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -1643,7 +1643,7 @@
         ]
       },
       "turin-top": {
-        "md5": "44b69e791f2be1588caeec7b6bcf2e0b",
+        "md5": "edafaefa7500df1d4a5f22e6786c5ae3",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -1919,7 +1919,7 @@
         }
       ]
     },
-    "default_md5": "20392d86643be7f60db32c881331494a",
+    "default_md5": "2f8a1f1c0fc9ce24b9ecf7b5a7ff0b53",
     "lang_name": "Italian"
   },
   "italian": {
