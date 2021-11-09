@@ -508,7 +508,7 @@
     },
     "constituency": {
       "wsj": {
-        "md5": "64dbfc65473db99082217f72cd1b036a",
+        "md5": "77569ab4341b4c7e1aaf99716fda0e2b",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -995,7 +995,7 @@
         }
       ]
     },
-    "default_md5": "9e3b9b959edb1580e5699372873296be",
+    "default_md5": "d1bd4c549ad72012a45ff5080753502a",
     "lang_name": "English"
   },
   "english": {
@@ -1626,7 +1626,7 @@
     },
     "constituency": {
       "turin-inorder": {
-        "md5": "341735d34333a916776006b1201af498",
+        "md5": "b56f48d1f5f038896fca36bc230a0eb3",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -1919,7 +1919,7 @@
         }
       ]
     },
-    "default_md5": "2f8a1f1c0fc9ce24b9ecf7b5a7ff0b53",
+    "default_md5": "542ceef655b3c9df4a5eefff5f36d5c8",
     "lang_name": "Italian"
   },
   "italian": {
@@ -2523,6 +2523,25 @@
         "md5": "9efba48c365d8ad4dfd62587578fa132"
       }
     },
+    "constituency": {
+      "ctb7": {
+        "md5": "879b9c7fb0a708377d852da1c31c1e28",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "gigaword"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "gigaword"
+          },
+          {
+            "model": "pretrain",
+            "package": "gsdsimp"
+          }
+        ]
+      }
+    },
     "depparse": {
       "gsdsimp": {
         "md5": "0583357a0832873f53f4f7f4a085e589",
@@ -2597,7 +2616,8 @@
       "pos": "gsdsimp",
       "depparse": "gsdsimp",
       "ner": "ontonotes",
-      "sentiment": "ren"
+      "sentiment": "ren",
+      "constituency": "ctb7"
     },
     "default_dependencies": {
       "pos": [
@@ -2627,9 +2647,23 @@
           "model": "pretrain",
           "package": "gsdsimp"
         }
+      ],
+      "constituency": [
+        {
+          "model": "forward_charlm",
+          "package": "gigaword"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "gigaword"
+        },
+        {
+          "model": "pretrain",
+          "package": "gsdsimp"
+        }
       ]
     },
-    "default_md5": "d0932e0915111865249cc1d2002f829e",
+    "default_md5": "5e9f83bc08af356f287b5d12c4c468a1",
     "lang_name": "Simplified_Chinese"
   },
   "simplified_chinese": {
