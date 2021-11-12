@@ -2404,6 +2404,92 @@
   "swedish": {
     "alias": "sv"
   },
+  "uk": {
+    "backward_charlm": {
+      "conll17": {
+        "md5": "eb7f7081ff8f6afea4d0caebbeacacd5"
+      }
+    },
+    "depparse": {
+      "iu": {
+        "md5": "a4359f9d371c33151ab404e86f8d50e2",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "iu"
+          }
+        ]
+      }
+    },
+    "forward_charlm": {
+      "conll17": {
+        "md5": "6971ebe224908d3253f0b4292b03e777"
+      }
+    },
+    "lemma": {
+      "iu": {
+        "md5": "90496cf60a91a37eeb3090f9d9b470be"
+      }
+    },
+    "mwt": {
+      "iu": {
+        "md5": "e08ae83fdf4a6aed2088953b415b04a0"
+      }
+    },
+    "ner": {
+      "languk": {
+        "md5": "4f0eca7164f8ae5d8c63940b3a5b1746"
+      }
+    },
+    "pos": {
+      "iu": {
+        "md5": "113da1d7ba359288f600422d7e0fd1ae",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "iu"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "iu": {
+        "md5": "1e5782c86ae68c3acf0cf1f28ff05286"
+      }
+    },
+    "tokenize": {
+      "iu": {
+        "md5": "d95af4762702d9ba8e11c93e8d42f1f7"
+      }
+    },
+    "default_processors": {
+      "tokenize": "iu",
+      "mwt": "iu",
+      "lemma": "iu",
+      "pos": "iu",
+      "depparse": "iu",
+      "ner": "languk"
+    },
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "iu"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "iu"
+        }
+      ]
+    },
+    "default_md5": "b8a268fe9a575e129e2803a9047d27b5",
+    "lang_name": "Ukrainian"
+  },
+  "ukrainian": {
+    "alias": "uk"
+  },
   "vi": {
     "backward_charlm": {
       "conll17": {
@@ -6726,82 +6812,6 @@
   },
   "uyghur": {
     "alias": "ug"
-  },
-  "uk": {
-    "depparse": {
-      "iu": {
-        "md5": "a4359f9d371c33151ab404e86f8d50e2",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "iu"
-          }
-        ]
-      }
-    },
-    "lemma": {
-      "iu": {
-        "md5": "90496cf60a91a37eeb3090f9d9b470be"
-      }
-    },
-    "mwt": {
-      "iu": {
-        "md5": "e08ae83fdf4a6aed2088953b415b04a0"
-      }
-    },
-    "ner": {
-      "languk": {
-        "md5": "4dae2789d48724b7c70fc2507d04d0c1"
-      }
-    },
-    "pos": {
-      "iu": {
-        "md5": "113da1d7ba359288f600422d7e0fd1ae",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "iu"
-          }
-        ]
-      }
-    },
-    "pretrain": {
-      "iu": {
-        "md5": "1e5782c86ae68c3acf0cf1f28ff05286"
-      }
-    },
-    "tokenize": {
-      "iu": {
-        "md5": "d95af4762702d9ba8e11c93e8d42f1f7"
-      }
-    },
-    "default_processors": {
-      "tokenize": "iu",
-      "mwt": "iu",
-      "lemma": "iu",
-      "pos": "iu",
-      "depparse": "iu",
-      "ner": "languk"
-    },
-    "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "iu"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "iu"
-        }
-      ]
-    },
-    "default_md5": "86d52e8dc7ecc7f618fbba2116b1fbb2",
-    "lang_name": "Ukrainian"
-  },
-  "ukrainian": {
-    "alias": "uk"
   },
   "ur": {
     "depparse": {
