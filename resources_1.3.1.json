@@ -2369,6 +2369,19 @@
     },
     "ner": {
       "suc3": {
+        "md5": "d19523adc307e69db84bd2533f1a6ca9",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
+      "suc3shuffle": {
         "md5": "272fd94fd208116037a29ccd2eca01e4",
         "dependencies": [
           {
@@ -2449,7 +2462,7 @@
         }
       ]
     },
-    "default_md5": "3f74ccc485bebad6f7ce32bd89f45e48",
+    "default_md5": "38d3f2922d221ce6f656af264affefbf",
     "lang_name": "Swedish"
   },
   "swedish": {
