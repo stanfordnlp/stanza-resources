@@ -2034,6 +2034,106 @@
   "myanmar": {
     "alias": "my"
   },
+  "nb": {
+    "backward_charlm": {
+      "conll17": {
+        "md5": "6c4f371018e68d049a4a474fecad9c22"
+      }
+    },
+    "depparse": {
+      "bokmaal": {
+        "md5": "ba3e54f3aff4ddc13d8cd0c394191716",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "bokmaal"
+          }
+        ]
+      }
+    },
+    "forward_charlm": {
+      "conll17": {
+        "md5": "b31dcec5f1b5245aaf8718949f14e823"
+      }
+    },
+    "lemma": {
+      "bokmaal": {
+        "md5": "f1fb6946959ca16924d558e753d5393b"
+      }
+    },
+    "ner": {
+      "norne": {
+        "md5": "bd3bff4b662c6ad678555d323359931d",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      }
+    },
+    "pos": {
+      "bokmaal": {
+        "md5": "a124d87bf4f4e336c464d7401d3f8c71",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "bokmaal"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "bokmaal": {
+        "md5": "0644a6035c6e2000e6e7b8bc12600744"
+      }
+    },
+    "tokenize": {
+      "bokmaal": {
+        "md5": "decf0a298a7faf119fb16788e105d642"
+      }
+    },
+    "default_processors": {
+      "tokenize": "bokmaal",
+      "lemma": "bokmaal",
+      "pos": "bokmaal",
+      "depparse": "bokmaal",
+      "ner": "norne"
+    },
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "bokmaal"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "bokmaal"
+        }
+      ],
+      "ner": [
+        {
+          "model": "forward_charlm",
+          "package": "conll17"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "conll17"
+        }
+      ]
+    },
+    "default_md5": "e2e7636fbe11d0da6e338e0cd27d3a9f",
+    "lang_name": "Norwegian"
+  },
+  "norwegian": {
+    "alias": "nb"
+  },
   "nl": {
     "backward_charlm": {
       "ccwiki": {
@@ -3346,6 +3446,11 @@
         "md5": "f35e7999cd1ffe91602efa5420d33c02"
       }
     },
+    "ner": {
+      "ddt": {
+        "md5": "8e9e0e15c1799724467fd8bd1ba55797"
+      }
+    },
     "pos": {
       "ddt": {
         "md5": "735db3fa651f6bd3e4c2a9e07eedc260",
@@ -3371,7 +3476,8 @@
       "tokenize": "ddt",
       "lemma": "ddt",
       "pos": "ddt",
-      "depparse": "ddt"
+      "depparse": "ddt",
+      "ner": "ddt"
     },
     "default_dependencies": {
       "pos": [
@@ -3387,7 +3493,7 @@
         }
       ]
     },
-    "default_md5": "9089f01580ef407881ed7fbabb4c733a",
+    "default_md5": "f048af5a1e361a3b19691a7330c78fcd",
     "lang_name": "Danish"
   },
   "danish": {
@@ -5415,70 +5521,6 @@
   "maltese": {
     "alias": "mt"
   },
-  "nb": {
-    "depparse": {
-      "bokmaal": {
-        "md5": "ba3e54f3aff4ddc13d8cd0c394191716",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "bokmaal"
-          }
-        ]
-      }
-    },
-    "lemma": {
-      "bokmaal": {
-        "md5": "f1fb6946959ca16924d558e753d5393b"
-      }
-    },
-    "pos": {
-      "bokmaal": {
-        "md5": "a124d87bf4f4e336c464d7401d3f8c71",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "bokmaal"
-          }
-        ]
-      }
-    },
-    "pretrain": {
-      "bokmaal": {
-        "md5": "0644a6035c6e2000e6e7b8bc12600744"
-      }
-    },
-    "tokenize": {
-      "bokmaal": {
-        "md5": "decf0a298a7faf119fb16788e105d642"
-      }
-    },
-    "default_processors": {
-      "tokenize": "bokmaal",
-      "lemma": "bokmaal",
-      "pos": "bokmaal",
-      "depparse": "bokmaal"
-    },
-    "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "bokmaal"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "bokmaal"
-        }
-      ]
-    },
-    "default_md5": "ec2b7b150a65d0324ae6df62ca49903a",
-    "lang_name": "Norwegian"
-  },
-  "norwegian": {
-    "alias": "nb"
-  },
   "nn": {
     "depparse": {
       "nynorsk": {
@@ -5506,6 +5548,11 @@
       },
       "nynorsklia": {
         "md5": "6f64798467c6cb6f86d5e08c3b50c826"
+      }
+    },
+    "ner": {
+      "norne": {
+        "md5": "66c50fc773818384e81741422250c4cc"
       }
     },
     "pos": {
@@ -5548,7 +5595,8 @@
       "tokenize": "nynorsk",
       "lemma": "nynorsk",
       "pos": "nynorsk",
-      "depparse": "nynorsk"
+      "depparse": "nynorsk",
+      "ner": "norne"
     },
     "default_dependencies": {
       "pos": [
@@ -5564,7 +5612,7 @@
         }
       ]
     },
-    "default_md5": "2ee14dd0f9c51a2e3fae91ace381f5e9",
+    "default_md5": "84adbb2f654cb29274fb45a2a0cf37d1",
     "lang_name": "Norwegian_Nynorsk"
   },
   "norwegian_nynorsk": {
