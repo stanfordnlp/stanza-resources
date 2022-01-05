@@ -508,7 +508,7 @@
     },
     "constituency": {
       "wsj-inorder-bert": {
-        "md5": "23f2a2bef8426518069fa4b10fc5996b",
+        "md5": "339577df47b21d200c7032247e3cc4ff",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -525,7 +525,7 @@
         ]
       },
       "wsj-topdown-bert": {
-        "md5": "db72076fcf92297fe4edda960b56feff",
+        "md5": "11d433be56f06d8aecada243992a7dc1",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -542,7 +542,7 @@
         ]
       },
       "wsj": {
-        "md5": "49ece3479051042fa3cf63c9a1b716c5",
+        "md5": "535b762428ee3692583f9b46d51d14f7",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -1029,7 +1029,7 @@
         }
       ]
     },
-    "default_md5": "2762d9ae14ae8640eedfa046bfd74c2c",
+    "default_md5": "dcd48a3631a6d712ed0ed78325a41e75",
     "lang_name": "English"
   },
   "english": {
@@ -1660,7 +1660,7 @@
     },
     "constituency": {
       "turin-inorder-bert": {
-        "md5": "fae5d55ddb2fa1395fa6b1a5419c69dd",
+        "md5": "975af65ea5237baeeb3b8ecaf765d139",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -1677,7 +1677,7 @@
         ]
       },
       "turin-inorder": {
-        "md5": "321a6f86bb117f61955a46744862c3e2",
+        "md5": "2d030b8d3ea1aedf560e80cc07e7db0e",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -1694,7 +1694,7 @@
         ]
       },
       "turin-topdown-bert": {
-        "md5": "260d6eaf9c87cc04bba469f79a2f255c",
+        "md5": "d4a63ae8a0c3847096dd47e10687167f",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -1970,7 +1970,7 @@
         }
       ]
     },
-    "default_md5": "78406216b5050d5d544262bcb02805b6",
+    "default_md5": "089a56241adc36dba22400800faabcb5",
     "lang_name": "Italian"
   },
   "italian": {
@@ -2775,7 +2775,7 @@
     },
     "constituency": {
       "ctb-inorder-bert": {
-        "md5": "dc1b20bb461b17a23b0c0f27ff0c8831",
+        "md5": "9f86da8a6788c06649fcb3ece38e98ca",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -2792,7 +2792,7 @@
         ]
       },
       "ctb7": {
-        "md5": "365d1054645fcb5aa4e94a45df72cd20",
+        "md5": "b903d2508e227990922416af33880fe0",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -2930,7 +2930,7 @@
         }
       ]
     },
-    "default_md5": "853a8b14a9e5a25b7c3aa6a652237034",
+    "default_md5": "0efc2a5e1ed9524ad75054ddce99c89c",
     "lang_name": "Simplified_Chinese"
   },
   "simplified_chinese": {
