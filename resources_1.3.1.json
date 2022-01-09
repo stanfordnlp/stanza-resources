@@ -330,6 +330,106 @@
   "bulgarian": {
     "alias": "bg"
   },
+  "da": {
+    "backward_charlm": {
+      "oscar": {
+        "md5": "f446ee44f26a0d66b9fce46cd974800d"
+      }
+    },
+    "depparse": {
+      "ddt": {
+        "md5": "1a6d789bf71cc701e9c2a8a751d4df0b",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "ddt"
+          }
+        ]
+      }
+    },
+    "forward_charlm": {
+      "oscar": {
+        "md5": "89c5945f7ecf8e6cdc94265b3d31d61e"
+      }
+    },
+    "lemma": {
+      "ddt": {
+        "md5": "f35e7999cd1ffe91602efa5420d33c02"
+      }
+    },
+    "ner": {
+      "ddt": {
+        "md5": "7bb7ec044d0dfc8b3f817f640ea82607",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
+      }
+    },
+    "pos": {
+      "ddt": {
+        "md5": "735db3fa651f6bd3e4c2a9e07eedc260",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "ddt"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "ddt": {
+        "md5": "7bf1b816717aa4d98dbd8ca9992bbc76"
+      }
+    },
+    "tokenize": {
+      "ddt": {
+        "md5": "4d5ff36558bb3a4c97cae4cb968c7d92"
+      }
+    },
+    "default_processors": {
+      "tokenize": "ddt",
+      "lemma": "ddt",
+      "pos": "ddt",
+      "depparse": "ddt",
+      "ner": "ddt"
+    },
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "ddt"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "ddt"
+        }
+      ],
+      "ner": [
+        {
+          "model": "forward_charlm",
+          "package": "oscar"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "oscar"
+        }
+      ]
+    },
+    "default_md5": "abb9d77c92aa06e9f3021fa87d1d4758",
+    "lang_name": "Danish"
+  },
+  "danish": {
+    "alias": "da"
+  },
   "de": {
     "backward_charlm": {
       "newswiki": {
@@ -2602,7 +2702,17 @@
     },
     "ner": {
       "languk": {
-        "md5": "4f0eca7164f8ae5d8c63940b3a5b1746"
+        "md5": "922fa9fcbd24b7fd885b8727ce5df132",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       }
     },
     "pos": {
@@ -2646,9 +2756,19 @@
           "model": "pretrain",
           "package": "iu"
         }
+      ],
+      "ner": [
+        {
+          "model": "forward_charlm",
+          "package": "conll17"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "conll17"
+        }
       ]
     },
-    "default_md5": "a389e5ddd9fb45d081af4da90678813f",
+    "default_md5": "5143e5ef576b0af41dac0adc020a9e4b",
     "lang_name": "Ukrainian"
   },
   "ukrainian": {
@@ -3428,76 +3548,6 @@
   },
   "welsh": {
     "alias": "cy"
-  },
-  "da": {
-    "depparse": {
-      "ddt": {
-        "md5": "1a6d789bf71cc701e9c2a8a751d4df0b",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "ddt"
-          }
-        ]
-      }
-    },
-    "lemma": {
-      "ddt": {
-        "md5": "f35e7999cd1ffe91602efa5420d33c02"
-      }
-    },
-    "ner": {
-      "ddt": {
-        "md5": "8e9e0e15c1799724467fd8bd1ba55797"
-      }
-    },
-    "pos": {
-      "ddt": {
-        "md5": "735db3fa651f6bd3e4c2a9e07eedc260",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "ddt"
-          }
-        ]
-      }
-    },
-    "pretrain": {
-      "ddt": {
-        "md5": "7bf1b816717aa4d98dbd8ca9992bbc76"
-      }
-    },
-    "tokenize": {
-      "ddt": {
-        "md5": "4d5ff36558bb3a4c97cae4cb968c7d92"
-      }
-    },
-    "default_processors": {
-      "tokenize": "ddt",
-      "lemma": "ddt",
-      "pos": "ddt",
-      "depparse": "ddt",
-      "ner": "ddt"
-    },
-    "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "ddt"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "ddt"
-        }
-      ]
-    },
-    "default_md5": "f048af5a1e361a3b19691a7330c78fcd",
-    "lang_name": "Danish"
-  },
-  "danish": {
-    "alias": "da"
   },
   "el": {
     "depparse": {
