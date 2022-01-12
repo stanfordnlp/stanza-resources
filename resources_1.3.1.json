@@ -336,6 +336,25 @@
         "md5": "f446ee44f26a0d66b9fce46cd974800d"
       }
     },
+    "constituency": {
+      "arboretum": {
+        "md5": "7007715717371a09b2be0a1660663325",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "pretrain",
+            "package": "ddt"
+          }
+        ]
+      }
+    },
     "depparse": {
       "ddt": {
         "md5": "1a6d789bf71cc701e9c2a8a751d4df0b",
@@ -398,7 +417,8 @@
       "lemma": "ddt",
       "pos": "ddt",
       "depparse": "ddt",
-      "ner": "ddt"
+      "ner": "ddt",
+      "constituency": "arboretum"
     },
     "default_dependencies": {
       "pos": [
@@ -422,9 +442,23 @@
           "model": "backward_charlm",
           "package": "oscar"
         }
+      ],
+      "constituency": [
+        {
+          "model": "forward_charlm",
+          "package": "oscar"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "oscar"
+        },
+        {
+          "model": "pretrain",
+          "package": "ddt"
+        }
       ]
     },
-    "default_md5": "abb9d77c92aa06e9f3021fa87d1d4758",
+    "default_md5": "e9dcd2c9af88fe1193c9a486076cf067",
     "lang_name": "Danish"
   },
   "danish": {
