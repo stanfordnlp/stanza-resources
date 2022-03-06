@@ -2702,6 +2702,250 @@
   "swedish": {
     "alias": "sv"
   },
+  "tr": {
+    "backward_charlm": {
+      "conll17": {
+        "md5": "a847973bdfad4acfa7e58b826bcecea0"
+      }
+    },
+    "depparse": {
+      "boun": {
+        "md5": "c09d29d258a58a171ce97598ba152fd2",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "boun"
+          }
+        ]
+      },
+      "framenet": {
+        "md5": "134aa9f2d8e735cc4574685a1d10592e",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "framenet"
+          }
+        ]
+      },
+      "imst": {
+        "md5": "02a7a4b98cf508eecf6891ca5122c065",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "imst"
+          }
+        ]
+      },
+      "kenet": {
+        "md5": "398640edadcf4c560a0034be7232d9b6",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "kenet"
+          }
+        ]
+      },
+      "penn": {
+        "md5": "3ec42024f83361e6ea715a7ef0e42a43",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "penn"
+          }
+        ]
+      },
+      "tourism": {
+        "md5": "889e794987fd16b29db65b958943c66b",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "tourism"
+          }
+        ]
+      }
+    },
+    "forward_charlm": {
+      "conll17": {
+        "md5": "51cb3c60bd81be35cdf011099a152435"
+      }
+    },
+    "lemma": {
+      "boun": {
+        "md5": "e74fa2552d3d3f2133f18abac6077b00"
+      },
+      "framenet": {
+        "md5": "e3c40da853ae495f04ce81b05edb9a65"
+      },
+      "imst": {
+        "md5": "431fe92a997ac7e975000d8a6f7498a5"
+      },
+      "kenet": {
+        "md5": "d6859148df44f9e5911031bed5ef2fb0"
+      },
+      "penn": {
+        "md5": "22b0ad836cac243a4735f7eb2dcceb52"
+      },
+      "tourism": {
+        "md5": "e55e14db3981069e689804cdb19e60c7"
+      }
+    },
+    "mwt": {
+      "boun": {
+        "md5": "3f2ac225bb11b598a123d0638cfc4573"
+      },
+      "imst": {
+        "md5": "b708b6e858e113450f831bb447c14b2c"
+      }
+    },
+    "ner": {
+      "starlang": {
+        "md5": "f4de4677222fa9f56c277dd57f96f80c",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      }
+    },
+    "pos": {
+      "boun": {
+        "md5": "bc0cb64c7c8f962136cc77dc94244776",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "boun"
+          }
+        ]
+      },
+      "framenet": {
+        "md5": "a85c89cbf2b40b5dfa609c55d210f3c4",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "framenet"
+          }
+        ]
+      },
+      "imst": {
+        "md5": "1038b69c52096345c4053573d87a19e9",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "imst"
+          }
+        ]
+      },
+      "kenet": {
+        "md5": "5cda4f3bae4d063d1b58d31c19c05998",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "kenet"
+          }
+        ]
+      },
+      "penn": {
+        "md5": "a21a598620bf773aa9136fc7a433141e",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "penn"
+          }
+        ]
+      },
+      "tourism": {
+        "md5": "d0c025f5bcf3eda6f0c330b107b46f18",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "tourism"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "boun": {
+        "md5": "100b967c7423a65d00d97b53905b15b3"
+      },
+      "framenet": {
+        "md5": "100b967c7423a65d00d97b53905b15b3"
+      },
+      "imst": {
+        "md5": "100b967c7423a65d00d97b53905b15b3"
+      },
+      "kenet": {
+        "md5": "100b967c7423a65d00d97b53905b15b3"
+      },
+      "penn": {
+        "md5": "100b967c7423a65d00d97b53905b15b3"
+      },
+      "tourism": {
+        "md5": "100b967c7423a65d00d97b53905b15b3"
+      }
+    },
+    "tokenize": {
+      "boun": {
+        "md5": "971f13d8bed6dc0181da5524b660050b"
+      },
+      "framenet": {
+        "md5": "02cd845b62c9eb5abd0ad7bace3ec92f"
+      },
+      "imst": {
+        "md5": "90bed25ac7d8921315db5d177d7e75e7"
+      },
+      "kenet": {
+        "md5": "de5321e675e8053b15c3717b87d4c819"
+      },
+      "penn": {
+        "md5": "3d55ac193a3de01749085d3e4f16ca3a"
+      },
+      "tourism": {
+        "md5": "1bb297c82d99ad042396120fef91ef61"
+      }
+    },
+    "default_processors": {
+      "tokenize": "imst",
+      "mwt": "imst",
+      "lemma": "imst",
+      "pos": "imst",
+      "depparse": "imst",
+      "ner": "starlang"
+    },
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "imst"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "imst"
+        }
+      ],
+      "ner": [
+        {
+          "model": "forward_charlm",
+          "package": "conll17"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "conll17"
+        }
+      ]
+    },
+    "default_md5": "08505a2eac871efd73878a076d5e2777",
+    "lang_name": "Turkish"
+  },
+  "turkish": {
+    "alias": "tr"
+  },
   "uk": {
     "backward_charlm": {
       "conll17": {
@@ -6305,6 +6549,11 @@
         "md5": "9353df289a7db584c876296ac127953e"
       }
     },
+    "mwt": {
+      "snk": {
+        "md5": "ecd7390a7951750cae3b3c413a158c85"
+      }
+    },
     "pos": {
       "snk": {
         "md5": "1475a272cf047e61c19a28451c62556d",
@@ -6328,6 +6577,7 @@
     },
     "default_processors": {
       "tokenize": "snk",
+      "mwt": "snk",
       "lemma": "snk",
       "pos": "snk",
       "depparse": "snk"
@@ -6346,7 +6596,7 @@
         }
       ]
     },
-    "default_md5": "fad5c751bfdd2282b748b6fbc41b049c",
+    "default_md5": "a46683ed45961b57da6cbdc428b0f515",
     "lang_name": "Slovak"
   },
   "slovak": {
@@ -6753,214 +7003,6 @@
   },
   "telugu": {
     "alias": "te"
-  },
-  "tr": {
-    "depparse": {
-      "boun": {
-        "md5": "c09d29d258a58a171ce97598ba152fd2",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "boun"
-          }
-        ]
-      },
-      "framenet": {
-        "md5": "134aa9f2d8e735cc4574685a1d10592e",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "framenet"
-          }
-        ]
-      },
-      "imst": {
-        "md5": "02a7a4b98cf508eecf6891ca5122c065",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "imst"
-          }
-        ]
-      },
-      "kenet": {
-        "md5": "398640edadcf4c560a0034be7232d9b6",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "kenet"
-          }
-        ]
-      },
-      "penn": {
-        "md5": "3ec42024f83361e6ea715a7ef0e42a43",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "penn"
-          }
-        ]
-      },
-      "tourism": {
-        "md5": "889e794987fd16b29db65b958943c66b",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "tourism"
-          }
-        ]
-      }
-    },
-    "lemma": {
-      "boun": {
-        "md5": "e74fa2552d3d3f2133f18abac6077b00"
-      },
-      "framenet": {
-        "md5": "e3c40da853ae495f04ce81b05edb9a65"
-      },
-      "imst": {
-        "md5": "431fe92a997ac7e975000d8a6f7498a5"
-      },
-      "kenet": {
-        "md5": "d6859148df44f9e5911031bed5ef2fb0"
-      },
-      "penn": {
-        "md5": "22b0ad836cac243a4735f7eb2dcceb52"
-      },
-      "tourism": {
-        "md5": "e55e14db3981069e689804cdb19e60c7"
-      }
-    },
-    "mwt": {
-      "boun": {
-        "md5": "3f2ac225bb11b598a123d0638cfc4573"
-      },
-      "imst": {
-        "md5": "b708b6e858e113450f831bb447c14b2c"
-      }
-    },
-    "pos": {
-      "boun": {
-        "md5": "bc0cb64c7c8f962136cc77dc94244776",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "boun"
-          }
-        ]
-      },
-      "framenet": {
-        "md5": "a85c89cbf2b40b5dfa609c55d210f3c4",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "framenet"
-          }
-        ]
-      },
-      "imst": {
-        "md5": "1038b69c52096345c4053573d87a19e9",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "imst"
-          }
-        ]
-      },
-      "kenet": {
-        "md5": "5cda4f3bae4d063d1b58d31c19c05998",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "kenet"
-          }
-        ]
-      },
-      "penn": {
-        "md5": "a21a598620bf773aa9136fc7a433141e",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "penn"
-          }
-        ]
-      },
-      "tourism": {
-        "md5": "d0c025f5bcf3eda6f0c330b107b46f18",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "tourism"
-          }
-        ]
-      }
-    },
-    "pretrain": {
-      "boun": {
-        "md5": "100b967c7423a65d00d97b53905b15b3"
-      },
-      "framenet": {
-        "md5": "100b967c7423a65d00d97b53905b15b3"
-      },
-      "imst": {
-        "md5": "100b967c7423a65d00d97b53905b15b3"
-      },
-      "kenet": {
-        "md5": "100b967c7423a65d00d97b53905b15b3"
-      },
-      "penn": {
-        "md5": "100b967c7423a65d00d97b53905b15b3"
-      },
-      "tourism": {
-        "md5": "100b967c7423a65d00d97b53905b15b3"
-      }
-    },
-    "tokenize": {
-      "boun": {
-        "md5": "971f13d8bed6dc0181da5524b660050b"
-      },
-      "framenet": {
-        "md5": "02cd845b62c9eb5abd0ad7bace3ec92f"
-      },
-      "imst": {
-        "md5": "90bed25ac7d8921315db5d177d7e75e7"
-      },
-      "kenet": {
-        "md5": "de5321e675e8053b15c3717b87d4c819"
-      },
-      "penn": {
-        "md5": "3d55ac193a3de01749085d3e4f16ca3a"
-      },
-      "tourism": {
-        "md5": "1bb297c82d99ad042396120fef91ef61"
-      }
-    },
-    "default_processors": {
-      "tokenize": "imst",
-      "mwt": "imst",
-      "lemma": "imst",
-      "pos": "imst",
-      "depparse": "imst"
-    },
-    "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "imst"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "imst"
-        }
-      ]
-    },
-    "default_md5": "f8127d6c0d68b2214aa029273ac9050a",
-    "lang_name": "Turkish"
-  },
-  "turkish": {
-    "alias": "tr"
   },
   "ug": {
     "depparse": {
