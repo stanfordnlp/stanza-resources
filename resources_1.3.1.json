@@ -377,6 +377,19 @@
       }
     },
     "ner": {
+      "ddt_bert": {
+        "md5": "c4c23a770460cd9b598d10fba24b2998",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
+      },
       "ddt": {
         "md5": "7bb7ec044d0dfc8b3f817f640ea82607",
         "dependencies": [
@@ -1502,6 +1515,19 @@
       }
     },
     "ner": {
+      "turku_bert": {
+        "md5": "a85e7f309fb4234f670bab3635009830",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
       "turku": {
         "md5": "da9ef26bfe251da3f479a6614ab28954",
         "dependencies": [
@@ -1947,6 +1973,19 @@
       }
     },
     "ner": {
+      "fbk_bert": {
+        "md5": "a9b364eb8cc92e6fd793f6032703375a",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
       "fbk": {
         "md5": "3c5b59ee0d0bfd437be0d7a339835629",
         "dependencies": [
