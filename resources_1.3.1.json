@@ -337,9 +337,13 @@
       }
     },
     "constituency": {
-      "arboretum": {
-        "md5": "7007715717371a09b2be0a1660663325",
+      "arboretum_bert": {
+        "md5": "3e221369495f69a51502da5be8835227",
         "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "ddt"
+          },
           {
             "model": "forward_charlm",
             "package": "oscar"
@@ -347,10 +351,23 @@
           {
             "model": "backward_charlm",
             "package": "oscar"
-          },
+          }
+        ]
+      },
+      "arboretum": {
+        "md5": "04a63296aa572eee87a440431d642d3e",
+        "dependencies": [
           {
             "model": "pretrain",
             "package": "ddt"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
           }
         ]
       }
@@ -458,20 +475,20 @@
       ],
       "constituency": [
         {
+          "model": "pretrain",
+          "package": "ddt"
+        },
+        {
           "model": "forward_charlm",
           "package": "oscar"
         },
         {
           "model": "backward_charlm",
           "package": "oscar"
-        },
-        {
-          "model": "pretrain",
-          "package": "ddt"
         }
       ]
     },
-    "default_md5": "e9dcd2c9af88fe1193c9a486076cf067",
+    "default_md5": "f5468e5a27edea483b3b1a0a35fef08b",
     "lang_name": "Danish"
   },
   "danish": {
@@ -654,9 +671,13 @@
       }
     },
     "constituency": {
-      "wsj-inorder-bert": {
-        "md5": "339577df47b21d200c7032247e3cc4ff",
+      "wsj_bert": {
+        "md5": "46cf00224c20dc780f5d6b428e0dde0a",
         "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "combined"
+          },
           {
             "model": "forward_charlm",
             "package": "1billion"
@@ -664,33 +685,16 @@
           {
             "model": "backward_charlm",
             "package": "1billion"
-          },
-          {
-            "model": "pretrain",
-            "package": "combined"
-          }
-        ]
-      },
-      "wsj-topdown-bert": {
-        "md5": "11d433be56f06d8aecada243992a7dc1",
-        "dependencies": [
-          {
-            "model": "forward_charlm",
-            "package": "1billion"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "1billion"
-          },
-          {
-            "model": "pretrain",
-            "package": "combined"
           }
         ]
       },
       "wsj": {
-        "md5": "535b762428ee3692583f9b46d51d14f7",
+        "md5": "9f3792111527464cbf407208b31bddaf",
         "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "combined"
+          },
           {
             "model": "forward_charlm",
             "package": "1billion"
@@ -698,10 +702,6 @@
           {
             "model": "backward_charlm",
             "package": "1billion"
-          },
-          {
-            "model": "pretrain",
-            "package": "combined"
           }
         ]
       }
@@ -881,6 +881,19 @@
           }
         ]
       },
+      "conll03_bert": {
+        "md5": "f1fa59b721638e1159ac990e32619a04",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "1billion"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "1billion"
+          }
+        ]
+      },
       "conll03": {
         "md5": "de98d1c9be065a9f518f3ec6c7d43c81",
         "dependencies": [
@@ -943,6 +956,19 @@
           {
             "model": "backward_charlm",
             "package": "pubmed"
+          }
+        ]
+      },
+      "ontonotes_bert": {
+        "md5": "62865488622f6d7578c7028515bf669e",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "1billion"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "1billion"
           }
         ]
       },
@@ -1163,20 +1189,20 @@
       ],
       "constituency": [
         {
+          "model": "pretrain",
+          "package": "combined"
+        },
+        {
           "model": "forward_charlm",
           "package": "1billion"
         },
         {
           "model": "backward_charlm",
           "package": "1billion"
-        },
-        {
-          "model": "pretrain",
-          "package": "combined"
         }
       ]
     },
-    "default_md5": "dcd48a3631a6d712ed0ed78325a41e75",
+    "default_md5": "4630fc7aacd2d27efe7ccb9f21c8b4f1",
     "lang_name": "English"
   },
   "english": {
@@ -1819,9 +1845,13 @@
       }
     },
     "constituency": {
-      "turin-inorder-bert": {
-        "md5": "975af65ea5237baeeb3b8ecaf765d139",
+      "turin_bert": {
+        "md5": "5b90e229c16d09849dc161229859cafe",
         "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "combined"
+          },
           {
             "model": "forward_charlm",
             "package": "conll17"
@@ -1829,16 +1859,16 @@
           {
             "model": "backward_charlm",
             "package": "conll17"
-          },
-          {
-            "model": "pretrain",
-            "package": "combined"
           }
         ]
       },
-      "turin-inorder": {
-        "md5": "2d030b8d3ea1aedf560e80cc07e7db0e",
+      "turin": {
+        "md5": "6b4f79d60ab8260788c9d1f48263c7bc",
         "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "combined"
+          },
           {
             "model": "forward_charlm",
             "package": "conll17"
@@ -1846,27 +1876,6 @@
           {
             "model": "backward_charlm",
             "package": "conll17"
-          },
-          {
-            "model": "pretrain",
-            "package": "combined"
-          }
-        ]
-      },
-      "turin-topdown-bert": {
-        "md5": "d4a63ae8a0c3847096dd47e10687167f",
-        "dependencies": [
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "pretrain",
-            "package": "combined"
           }
         ]
       }
@@ -2103,7 +2112,7 @@
       "pos": "combined",
       "depparse": "combined",
       "ner": "fbk",
-      "constituency": "turin-inorder"
+      "constituency": "turin"
     },
     "default_dependencies": {
       "pos": [
@@ -2130,20 +2139,20 @@
       ],
       "constituency": [
         {
+          "model": "pretrain",
+          "package": "combined"
+        },
+        {
           "model": "forward_charlm",
           "package": "conll17"
         },
         {
           "model": "backward_charlm",
           "package": "conll17"
-        },
-        {
-          "model": "pretrain",
-          "package": "combined"
         }
       ]
     },
-    "default_md5": "089a56241adc36dba22400800faabcb5",
+    "default_md5": "58b58316f7c7adedf95d37e7f6563595",
     "lang_name": "Italian"
   },
   "italian": {
@@ -2747,6 +2756,42 @@
         "md5": "a847973bdfad4acfa7e58b826bcecea0"
       }
     },
+    "constituency": {
+      "starlang_bert": {
+        "md5": "5ca5ab8fa7156432c34a953be3dc85bf",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "imst"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
+      "starlang": {
+        "md5": "29faaf140833037f851813f163d5ff24",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "imst"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      }
+    },
     "depparse": {
       "boun": {
         "md5": "c09d29d258a58a171ce97598ba152fd2",
@@ -2953,7 +2998,8 @@
       "lemma": "imst",
       "pos": "imst",
       "depparse": "imst",
-      "ner": "starlang"
+      "ner": "starlang",
+      "constituency": "starlang"
     },
     "default_dependencies": {
       "pos": [
@@ -2977,9 +3023,23 @@
           "model": "backward_charlm",
           "package": "conll17"
         }
+      ],
+      "constituency": [
+        {
+          "model": "pretrain",
+          "package": "imst"
+        },
+        {
+          "model": "forward_charlm",
+          "package": "conll17"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "conll17"
+        }
       ]
     },
-    "default_md5": "08505a2eac871efd73878a076d5e2777",
+    "default_md5": "c2941ec94ea58499875be13264439c37",
     "lang_name": "Turkish"
   },
   "turkish": {
@@ -3114,6 +3174,19 @@
       }
     },
     "ner": {
+      "vlsp_bert": {
+        "md5": "d7a8ccccdbbe1d97e60af8528341082a",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
       "vlsp": {
         "md5": "6ad40e765dd13060529e856a6c4e4285",
         "dependencies": [
@@ -3211,9 +3284,13 @@
       }
     },
     "constituency": {
-      "ctb-inorder-bert": {
-        "md5": "9f86da8a6788c06649fcb3ece38e98ca",
+      "ctb_bert": {
+        "md5": "40624ffddb4bbda6abd1a569d9d10e8f",
         "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "gsdsimp"
+          },
           {
             "model": "forward_charlm",
             "package": "gigaword"
@@ -3221,16 +3298,16 @@
           {
             "model": "backward_charlm",
             "package": "gigaword"
-          },
-          {
-            "model": "pretrain",
-            "package": "gsdsimp"
           }
         ]
       },
-      "ctb7": {
-        "md5": "b903d2508e227990922416af33880fe0",
+      "ctb": {
+        "md5": "faf75bf90e940a88c7831f7b8c3005ba",
         "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "gsdsimp"
+          },
           {
             "model": "forward_charlm",
             "package": "gigaword"
@@ -3238,10 +3315,6 @@
           {
             "model": "backward_charlm",
             "package": "gigaword"
-          },
-          {
-            "model": "pretrain",
-            "package": "gsdsimp"
           }
         ]
       }
@@ -3321,7 +3394,7 @@
       "depparse": "gsdsimp",
       "ner": "ontonotes",
       "sentiment": "ren",
-      "constituency": "ctb7"
+      "constituency": "ctb"
     },
     "default_dependencies": {
       "pos": [
@@ -3354,24 +3427,233 @@
       ],
       "constituency": [
         {
+          "model": "pretrain",
+          "package": "gsdsimp"
+        },
+        {
           "model": "forward_charlm",
           "package": "gigaword"
         },
         {
           "model": "backward_charlm",
           "package": "gigaword"
-        },
-        {
-          "model": "pretrain",
-          "package": "gsdsimp"
         }
       ]
     },
-    "default_md5": "0efc2a5e1ed9524ad75054ddce99c89c",
+    "default_md5": "5b420a1c026c4ba5e605f571bf294612",
     "lang_name": "Simplified_Chinese"
   },
   "simplified_chinese": {
     "alias": "zh-hans"
+  },
+  "ja": {
+    "constituency": {
+      "alt": {
+        "md5": "5e57392d95a506932b86abbbff416114",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "gsd"
+          }
+        ]
+      }
+    },
+    "depparse": {
+      "gsd": {
+        "md5": "4b5dd44454976a4f3aed5c54af603225",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "gsd"
+          }
+        ]
+      }
+    },
+    "lemma": {
+      "gsd": {
+        "md5": "43fa9f9ebb548ba77fe66f216e200241"
+      }
+    },
+    "pos": {
+      "gsd": {
+        "md5": "cb20941978476b2aecd0008028698bfe",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "gsd"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "gsd": {
+        "md5": "0beeefcf5de352e0072f9c3b317f9046"
+      }
+    },
+    "tokenize": {
+      "gsd": {
+        "md5": "e457c3c27f9c7d5ea6740f563fd8ed6e"
+      }
+    },
+    "default_processors": {
+      "tokenize": "gsd",
+      "lemma": "gsd",
+      "pos": "gsd",
+      "depparse": "gsd",
+      "constituency": "alt"
+    },
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "gsd"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "gsd"
+        }
+      ],
+      "constituency": [
+        {
+          "model": "pretrain",
+          "package": "gsd"
+        }
+      ]
+    },
+    "default_md5": "2852d25c1899cbead2b8425be9faef31",
+    "lang_name": "Japanese"
+  },
+  "japanese": {
+    "alias": "ja"
+  },
+  "pt": {
+    "constituency": {
+      "cintil_bert": {
+        "md5": "506cb85e431152d5b94fb3116d2c2264",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "bosque"
+          }
+        ]
+      },
+      "cintil": {
+        "md5": "b03b123ebe4640eaa6d551b80866a74e",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "bosque"
+          }
+        ]
+      }
+    },
+    "depparse": {
+      "bosque": {
+        "md5": "56d1f31f33e770143058a2e3d2bf3870",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "bosque"
+          }
+        ]
+      },
+      "gsd": {
+        "md5": "489af192b63e94973ea51b567f598bbc",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "gsd"
+          }
+        ]
+      }
+    },
+    "lemma": {
+      "bosque": {
+        "md5": "6c1acad78b8ab4dbed49dd73b343701e"
+      },
+      "gsd": {
+        "md5": "077cdf4a76c80e8bb7d72b572044f1d3"
+      }
+    },
+    "mwt": {
+      "bosque": {
+        "md5": "80662abfacb851c637eefef30e6110a7"
+      },
+      "gsd": {
+        "md5": "cd7be351576dc0b66590d74557c85fb9"
+      }
+    },
+    "pos": {
+      "bosque": {
+        "md5": "58e391110787d839af9da4bd671db66d",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "bosque"
+          }
+        ]
+      },
+      "gsd": {
+        "md5": "d8adad478bb4638033e5daeb81c814c7",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "gsd"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "bosque": {
+        "md5": "824f0b77cc8581fa278264a10d5daf5c"
+      },
+      "gsd": {
+        "md5": "824f0b77cc8581fa278264a10d5daf5c"
+      }
+    },
+    "tokenize": {
+      "bosque": {
+        "md5": "9d5623747c0e284d910dadf85dddc29d"
+      },
+      "gsd": {
+        "md5": "3dd8c4f567d083013744c258c5cd90c1"
+      }
+    },
+    "default_processors": {
+      "tokenize": "bosque",
+      "mwt": "bosque",
+      "lemma": "bosque",
+      "pos": "bosque",
+      "depparse": "bosque",
+      "constituency": "cintil"
+    },
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "bosque"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "bosque"
+        }
+      ],
+      "constituency": [
+        {
+          "model": "pretrain",
+          "package": "bosque"
+        }
+      ]
+    },
+    "default_md5": "b4aecf63ba868f88b500b332bbb77f95",
+    "lang_name": "Portuguese"
+  },
+  "portuguese": {
+    "alias": "pt"
   },
   "be": {
     "depparse": {
@@ -5208,70 +5490,6 @@
   "icelandic": {
     "alias": "is"
   },
-  "ja": {
-    "depparse": {
-      "gsd": {
-        "md5": "4b5dd44454976a4f3aed5c54af603225",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "gsd"
-          }
-        ]
-      }
-    },
-    "lemma": {
-      "gsd": {
-        "md5": "43fa9f9ebb548ba77fe66f216e200241"
-      }
-    },
-    "pos": {
-      "gsd": {
-        "md5": "cb20941978476b2aecd0008028698bfe",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "gsd"
-          }
-        ]
-      }
-    },
-    "pretrain": {
-      "gsd": {
-        "md5": "0beeefcf5de352e0072f9c3b317f9046"
-      }
-    },
-    "tokenize": {
-      "gsd": {
-        "md5": "e457c3c27f9c7d5ea6740f563fd8ed6e"
-      }
-    },
-    "default_processors": {
-      "tokenize": "gsd",
-      "lemma": "gsd",
-      "pos": "gsd",
-      "depparse": "gsd"
-    },
-    "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "gsd"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "gsd"
-        }
-      ]
-    },
-    "default_md5": "aa3171eb59620d10033fbf7d4336c288",
-    "lang_name": "Japanese"
-  },
-  "japanese": {
-    "alias": "ja"
-  },
   "ko": {
     "depparse": {
       "gsd": {
@@ -6223,106 +6441,6 @@
   },
   "polish": {
     "alias": "pl"
-  },
-  "pt": {
-    "depparse": {
-      "bosque": {
-        "md5": "56d1f31f33e770143058a2e3d2bf3870",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "bosque"
-          }
-        ]
-      },
-      "gsd": {
-        "md5": "489af192b63e94973ea51b567f598bbc",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "gsd"
-          }
-        ]
-      }
-    },
-    "lemma": {
-      "bosque": {
-        "md5": "6c1acad78b8ab4dbed49dd73b343701e"
-      },
-      "gsd": {
-        "md5": "077cdf4a76c80e8bb7d72b572044f1d3"
-      }
-    },
-    "mwt": {
-      "bosque": {
-        "md5": "80662abfacb851c637eefef30e6110a7"
-      },
-      "gsd": {
-        "md5": "cd7be351576dc0b66590d74557c85fb9"
-      }
-    },
-    "pos": {
-      "bosque": {
-        "md5": "58e391110787d839af9da4bd671db66d",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "bosque"
-          }
-        ]
-      },
-      "gsd": {
-        "md5": "d8adad478bb4638033e5daeb81c814c7",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "gsd"
-          }
-        ]
-      }
-    },
-    "pretrain": {
-      "bosque": {
-        "md5": "824f0b77cc8581fa278264a10d5daf5c"
-      },
-      "gsd": {
-        "md5": "824f0b77cc8581fa278264a10d5daf5c"
-      }
-    },
-    "tokenize": {
-      "bosque": {
-        "md5": "9d5623747c0e284d910dadf85dddc29d"
-      },
-      "gsd": {
-        "md5": "3dd8c4f567d083013744c258c5cd90c1"
-      }
-    },
-    "default_processors": {
-      "tokenize": "bosque",
-      "mwt": "bosque",
-      "lemma": "bosque",
-      "pos": "bosque",
-      "depparse": "bosque"
-    },
-    "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "bosque"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "bosque"
-        }
-      ]
-    },
-    "default_md5": "fc0f923c07a634d77ac685a0d66b57f4",
-    "lang_name": "Portuguese"
-  },
-  "portuguese": {
-    "alias": "pt"
   },
   "qtd": {
     "depparse": {
