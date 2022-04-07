@@ -338,7 +338,7 @@
     },
     "constituency": {
       "arboretum_bert": {
-        "md5": "3e221369495f69a51502da5be8835227",
+        "md5": "83660d7690a33d112d1d7bbfae977df0",
         "dependencies": [
           {
             "model": "pretrain",
@@ -355,7 +355,7 @@
         ]
       },
       "arboretum": {
-        "md5": "04a63296aa572eee87a440431d642d3e",
+        "md5": "44e3d07ddb13e813d586e88fd9787f50",
         "dependencies": [
           {
             "model": "pretrain",
@@ -488,7 +488,7 @@
         }
       ]
     },
-    "default_md5": "f5468e5a27edea483b3b1a0a35fef08b",
+    "default_md5": "4c74fe73223b20ba297df61c7c1349e7",
     "lang_name": "Danish"
   },
   "danish": {
@@ -672,7 +672,7 @@
     },
     "constituency": {
       "wsj_bert": {
-        "md5": "46cf00224c20dc780f5d6b428e0dde0a",
+        "md5": "816b3e8a365e7882126c2b1c3cff5686",
         "dependencies": [
           {
             "model": "pretrain",
@@ -689,7 +689,7 @@
         ]
       },
       "wsj": {
-        "md5": "9f3792111527464cbf407208b31bddaf",
+        "md5": "4034a47b9e2427be64c5151bc360885e",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1202,7 +1202,7 @@
         }
       ]
     },
-    "default_md5": "4630fc7aacd2d27efe7ccb9f21c8b4f1",
+    "default_md5": "3fe0b937566f14000ce90cc300db25ac",
     "lang_name": "English"
   },
   "english": {
@@ -1846,7 +1846,7 @@
     },
     "constituency": {
       "turin_bert": {
-        "md5": "5b90e229c16d09849dc161229859cafe",
+        "md5": "1e7248319007cd60f167a385b312829b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1863,7 +1863,7 @@
         ]
       },
       "turin": {
-        "md5": "6b4f79d60ab8260788c9d1f48263c7bc",
+        "md5": "90eaa9b4b0887be61eab2a0e87e7092b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2152,7 +2152,7 @@
         }
       ]
     },
-    "default_md5": "58b58316f7c7adedf95d37e7f6563595",
+    "default_md5": "75ff38cb67a67b06abd059c615baaf6d",
     "lang_name": "Italian"
   },
   "italian": {
@@ -2758,7 +2758,7 @@
     },
     "constituency": {
       "starlang_bert": {
-        "md5": "5ca5ab8fa7156432c34a953be3dc85bf",
+        "md5": "1ac7cd4b366b0f733b043f7096026e0a",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2775,7 +2775,7 @@
         ]
       },
       "starlang": {
-        "md5": "29faaf140833037f851813f163d5ff24",
+        "md5": "205671003d1b190c8f4fa1b7b070f9e6",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3039,7 +3039,7 @@
         }
       ]
     },
-    "default_md5": "c2941ec94ea58499875be13264439c37",
+    "default_md5": "e2e51746e2ac1028efef2e6ded1d7c4f",
     "lang_name": "Turkish"
   },
   "turkish": {
@@ -3285,7 +3285,7 @@
     },
     "constituency": {
       "ctb_bert": {
-        "md5": "40624ffddb4bbda6abd1a569d9d10e8f",
+        "md5": "f7ebf397cac9f304d17849d1a6537715",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3302,7 +3302,7 @@
         ]
       },
       "ctb": {
-        "md5": "faf75bf90e940a88c7831f7b8c3005ba",
+        "md5": "cdc86827403c14b2fa36c8f2e30a69cd",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3440,7 +3440,7 @@
         }
       ]
     },
-    "default_md5": "5b420a1c026c4ba5e605f571bf294612",
+    "default_md5": "5d2e680bab6b3d78a47513f6834f334d",
     "lang_name": "Simplified_Chinese"
   },
   "simplified_chinese": {
@@ -3449,7 +3449,7 @@
   "ja": {
     "constituency": {
       "alt": {
-        "md5": "5e57392d95a506932b86abbbff416114",
+        "md5": "2ea46946ba4ad6510bb665f64db47705",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3522,7 +3522,7 @@
         }
       ]
     },
-    "default_md5": "2852d25c1899cbead2b8425be9faef31",
+    "default_md5": "f3afed515db6b3187e9e5767398d5540",
     "lang_name": "Japanese"
   },
   "japanese": {
@@ -3531,7 +3531,7 @@
   "pt": {
     "constituency": {
       "cintil_bert": {
-        "md5": "506cb85e431152d5b94fb3116d2c2264",
+        "md5": "b9eb34b3c3036c9f8eb1f1874c5d179b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3540,7 +3540,7 @@
         ]
       },
       "cintil": {
-        "md5": "b03b123ebe4640eaa6d551b80866a74e",
+        "md5": "b3098c9f2a4bfad6d61724c369189145",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3649,7 +3649,7 @@
         }
       ]
     },
-    "default_md5": "b4aecf63ba868f88b500b332bbb77f95",
+    "default_md5": "a64cd4ec3515a4a9591ddf03770b81f1",
     "lang_name": "Portuguese"
   },
   "portuguese": {
