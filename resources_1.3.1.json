@@ -5306,7 +5306,7 @@
         ]
       },
       "gsd": {
-        "md5": "da4d85494719ea4e9cdb0635ab7ecf90",
+        "md5": "b59bbdbd80d7faf0aedc4f480e49c6bc",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5320,12 +5320,15 @@
         "md5": "024a521a640bd501fecc7d3dbcbf64cb"
       },
       "gsd": {
-        "md5": "8f11f51729a41a2c3c781d0c7a202876"
+        "md5": "83f648abfa3e47446da50dd2a67f6805"
       }
     },
     "mwt": {
       "csui": {
         "md5": "8d086374c4e8fc81f59aece5192d10bd"
+      },
+      "gsd": {
+        "md5": "48fa98a40b405e40089672e6ddefee89"
       }
     },
     "pos": {
@@ -5339,7 +5342,7 @@
         ]
       },
       "gsd": {
-        "md5": "5dc33858a307888a9c4b1d926bf177c5",
+        "md5": "7bf2f4917c50575710cce2539c878574",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5361,11 +5364,12 @@
         "md5": "8b4006bbd72b5bf14c15d250640ac6b1"
       },
       "gsd": {
-        "md5": "8302f38adcd44121e393d8349c5f1ea6"
+        "md5": "1cb2a8498359f8317d7d311ef9b8ef2a"
       }
     },
     "default_processors": {
       "tokenize": "gsd",
+      "mwt": "gsd",
       "lemma": "gsd",
       "pos": "gsd",
       "depparse": "gsd"
@@ -5384,7 +5388,7 @@
         }
       ]
     },
-    "default_md5": "2feeca40a309b6b8bedb2ef889367e1a",
+    "default_md5": "17d48f03989afd7e26f3472bc04f84e0",
     "lang_name": "Indonesian"
   },
   "indonesian": {
