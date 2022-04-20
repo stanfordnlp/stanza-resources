@@ -708,7 +708,7 @@
     },
     "depparse": {
       "combined": {
-        "md5": "8201dd74124768459bd07ab3df98c78c",
+        "md5": "f55c5e39508829b05d6624d1f48806aa",
         "dependencies": [
           {
             "model": "pretrain",
@@ -793,7 +793,7 @@
     },
     "lemma": {
       "combined": {
-        "md5": "97d80e127d5ab2f8eba484c9873d7ae1"
+        "md5": "97f342ed45cd2eb4b6f759446cb30fd1"
       },
       "craft": {
         "md5": "fe602af4a87e923faf5d4ce597a8be08"
@@ -1014,7 +1014,7 @@
     },
     "pos": {
       "combined": {
-        "md5": "32d9ed5b26212b65ab124d11ca5de38d",
+        "md5": "58e1fc4bc531c3bb601983fe9acb5c0b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1125,7 +1125,7 @@
     },
     "tokenize": {
       "combined": {
-        "md5": "896a7546856e58e69443e42eee9a2bb2"
+        "md5": "7cd36d9b96c42f388c53fa92618a524d"
       },
       "craft": {
         "md5": "fc95d998b9ad6c94e4d683a2e22f4b83"
@@ -1202,7 +1202,7 @@
         }
       ]
     },
-    "default_md5": "3fe0b937566f14000ce90cc300db25ac",
+    "default_md5": "fd2a2fbfb955795ea0616ae7bf0f5416",
     "lang_name": "English"
   },
   "english": {
