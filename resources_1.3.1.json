@@ -1882,7 +1882,7 @@
     },
     "depparse": {
       "combined": {
-        "md5": "f52ef2707246104a4b5e4affca04f0f8",
+        "md5": "10c9bfaaabb570485c594b28c1972fd3",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1943,7 +1943,7 @@
     },
     "lemma": {
       "combined": {
-        "md5": "5e1047750adb1a789bb0b33aa6d38a4e"
+        "md5": "971885049cad2cb1f6b47a42ae8cdd13"
       },
       "isdt": {
         "md5": "b9f753f770ebac80fde19afb514a034e"
@@ -1963,7 +1963,7 @@
     },
     "mwt": {
       "combined": {
-        "md5": "be1cc033517cbb4ac2599668f83015d5"
+        "md5": "d343f0aa2f1b857f6284cf17b8c18863"
       },
       "isdt": {
         "md5": "9aec3ea73254ce23564e9635270c22f9"
@@ -2011,7 +2011,7 @@
     },
     "pos": {
       "combined": {
-        "md5": "6813a3690b3f7c172c79734c039509c1",
+        "md5": "721e55e2b0769beab33ce292185b6e95",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2087,7 +2087,7 @@
     },
     "tokenize": {
       "combined": {
-        "md5": "89dd17df9dcb6486b01fc637c8b83496"
+        "md5": "906f883009a7dd1f28abbd881f9b4e1d"
       },
       "isdt": {
         "md5": "c3546b72abe31c0fc50cad124c5ecde3"
@@ -2152,11 +2152,119 @@
         }
       ]
     },
-    "default_md5": "75ff38cb67a67b06abd059c615baaf6d",
+    "default_md5": "56252812b18387c6b75e49043f15a820",
     "lang_name": "Italian"
   },
   "italian": {
     "alias": "it"
+  },
+  "ja": {
+    "backward_charlm": {
+      "conll17": {
+        "md5": "c630aae82cff91b7b58923065183bd42"
+      }
+    },
+    "constituency": {
+      "alt": {
+        "md5": "981289fc3cb8c8ffbba11396231c000c",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "gsd"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      }
+    },
+    "depparse": {
+      "gsd": {
+        "md5": "4b5dd44454976a4f3aed5c54af603225",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "gsd"
+          }
+        ]
+      }
+    },
+    "forward_charlm": {
+      "conll17": {
+        "md5": "9c9efddaf104083a10c9f5fd043ea864"
+      }
+    },
+    "lemma": {
+      "gsd": {
+        "md5": "43fa9f9ebb548ba77fe66f216e200241"
+      }
+    },
+    "pos": {
+      "gsd": {
+        "md5": "cb20941978476b2aecd0008028698bfe",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "gsd"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "gsd": {
+        "md5": "0beeefcf5de352e0072f9c3b317f9046"
+      }
+    },
+    "tokenize": {
+      "gsd": {
+        "md5": "e457c3c27f9c7d5ea6740f563fd8ed6e"
+      }
+    },
+    "default_processors": {
+      "tokenize": "gsd",
+      "lemma": "gsd",
+      "pos": "gsd",
+      "depparse": "gsd",
+      "constituency": "alt"
+    },
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "gsd"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "gsd"
+        }
+      ],
+      "constituency": [
+        {
+          "model": "pretrain",
+          "package": "gsd"
+        },
+        {
+          "model": "forward_charlm",
+          "package": "conll17"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "conll17"
+        }
+      ]
+    },
+    "default_md5": "4db897a124da7a3aef7d3ca666e3b095",
+    "lang_name": "Japanese"
+  },
+  "japanese": {
+    "alias": "ja"
   },
   "my": {
     "backward_charlm": {
@@ -3445,88 +3553,6 @@
   },
   "simplified_chinese": {
     "alias": "zh-hans"
-  },
-  "ja": {
-    "constituency": {
-      "alt": {
-        "md5": "2ea46946ba4ad6510bb665f64db47705",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "gsd"
-          }
-        ]
-      }
-    },
-    "depparse": {
-      "gsd": {
-        "md5": "4b5dd44454976a4f3aed5c54af603225",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "gsd"
-          }
-        ]
-      }
-    },
-    "lemma": {
-      "gsd": {
-        "md5": "43fa9f9ebb548ba77fe66f216e200241"
-      }
-    },
-    "pos": {
-      "gsd": {
-        "md5": "cb20941978476b2aecd0008028698bfe",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "gsd"
-          }
-        ]
-      }
-    },
-    "pretrain": {
-      "gsd": {
-        "md5": "0beeefcf5de352e0072f9c3b317f9046"
-      }
-    },
-    "tokenize": {
-      "gsd": {
-        "md5": "e457c3c27f9c7d5ea6740f563fd8ed6e"
-      }
-    },
-    "default_processors": {
-      "tokenize": "gsd",
-      "lemma": "gsd",
-      "pos": "gsd",
-      "depparse": "gsd",
-      "constituency": "alt"
-    },
-    "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "gsd"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "gsd"
-        }
-      ],
-      "constituency": [
-        {
-          "model": "pretrain",
-          "package": "gsd"
-        }
-      ]
-    },
-    "default_md5": "f3afed515db6b3187e9e5767398d5540",
-    "lang_name": "Japanese"
-  },
-  "japanese": {
-    "alias": "ja"
   },
   "pt": {
     "constituency": {
