@@ -708,7 +708,7 @@
     },
     "depparse": {
       "combined": {
-        "md5": "f55c5e39508829b05d6624d1f48806aa",
+        "md5": "86b52d82023a818aa054a7782e5da318",
         "dependencies": [
           {
             "model": "pretrain",
@@ -793,7 +793,7 @@
     },
     "lemma": {
       "combined": {
-        "md5": "97f342ed45cd2eb4b6f759446cb30fd1"
+        "md5": "c3045bf5cdf946eb5b23ebc28858cbfd"
       },
       "craft": {
         "md5": "fe602af4a87e923faf5d4ce597a8be08"
@@ -1014,7 +1014,7 @@
     },
     "pos": {
       "combined": {
-        "md5": "58e1fc4bc531c3bb601983fe9acb5c0b",
+        "md5": "f4f1ffa7ae5ecc0cfd76d625e1a8b64b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1125,7 +1125,7 @@
     },
     "tokenize": {
       "combined": {
-        "md5": "7cd36d9b96c42f388c53fa92618a524d"
+        "md5": "ba418adac5f81e13ba17df7fc446880d"
       },
       "craft": {
         "md5": "fc95d998b9ad6c94e4d683a2e22f4b83"
@@ -1202,7 +1202,7 @@
         }
       ]
     },
-    "default_md5": "fd2a2fbfb955795ea0616ae7bf0f5416",
+    "default_md5": "f1a3644a233447f6bb619a733a6e1b03",
     "lang_name": "English"
   },
   "english": {
@@ -2166,7 +2166,7 @@
     },
     "constituency": {
       "alt": {
-        "md5": "981289fc3cb8c8ffbba11396231c000c",
+        "md5": "9a0c4f6ce20aa451d2771c2ea17a6c96",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2260,7 +2260,7 @@
         }
       ]
     },
-    "default_md5": "4db897a124da7a3aef7d3ca666e3b095",
+    "default_md5": "4c211b635a7bc48e74ded969a2955186",
     "lang_name": "Japanese"
   },
   "japanese": {
