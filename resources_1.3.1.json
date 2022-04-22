@@ -708,7 +708,7 @@
     },
     "depparse": {
       "combined": {
-        "md5": "86b52d82023a818aa054a7782e5da318",
+        "md5": "4591f90709c54752a92138b5fa36d3c0",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1202,7 +1202,7 @@
         }
       ]
     },
-    "default_md5": "f1a3644a233447f6bb619a733a6e1b03",
+    "default_md5": "4a3c0ebeb590c9b65cea454459a80d6d",
     "lang_name": "English"
   },
   "english": {
