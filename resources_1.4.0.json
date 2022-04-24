@@ -1405,6 +1405,19 @@
       }
     },
     "ner": {
+      "arman_bert": {
+        "md5": "c9c03a7d6b769ec56350f43f813c27cd",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
       "arman": {
         "md5": "b165d4b9ba58479229b9f5aba96c9e4a",
         "dependencies": [
