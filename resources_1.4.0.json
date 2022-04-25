@@ -2174,12 +2174,12 @@
   "ja": {
     "backward_charlm": {
       "conll17": {
-        "md5": "c630aae82cff91b7b58923065183bd42"
+        "md5": "dd087f7c6229dc1513a54f37cf68ef6e"
       }
     },
     "constituency": {
       "alt": {
-        "md5": "9a0c4f6ce20aa451d2771c2ea17a6c96",
+        "md5": "d75c979ba4164d1112c4b527391a0d69",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2209,7 +2209,7 @@
     },
     "forward_charlm": {
       "conll17": {
-        "md5": "9c9efddaf104083a10c9f5fd043ea864"
+        "md5": "1a35abd8e848582adb9d6c9054aa1ee4"
       }
     },
     "lemma": {
@@ -2273,7 +2273,7 @@
         }
       ]
     },
-    "default_md5": "4c211b635a7bc48e74ded969a2955186",
+    "default_md5": "9ce685e5b5dbba77867bb11c32857be4",
     "lang_name": "Japanese"
   },
   "japanese": {
