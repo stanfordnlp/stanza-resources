@@ -1406,7 +1406,7 @@
     },
     "ner": {
       "arman_bert": {
-        "md5": "c9c03a7d6b769ec56350f43f813c27cd",
+        "md5": "949bc35b1d68cfcdf42996b85ba87b49",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -2179,7 +2179,7 @@
     },
     "constituency": {
       "alt": {
-        "md5": "d75c979ba4164d1112c4b527391a0d69",
+        "md5": "3a9d3b8bd3075e7575de58a939a8b6cf",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2273,7 +2273,7 @@
         }
       ]
     },
-    "default_md5": "9ce685e5b5dbba77867bb11c32857be4",
+    "default_md5": "76fa8271cc1267b30762e1bc2cd63910",
     "lang_name": "Japanese"
   },
   "japanese": {
