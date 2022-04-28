@@ -552,6 +552,19 @@
           }
         ]
       },
+      "germeval2014_bert": {
+        "md5": "2e2406285de2e836934c614dfeaaa764",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
+      },
       "germeval2014": {
         "md5": "f1c9bca4ac22dfc67e30bbf08311a719",
         "dependencies": [
