@@ -3844,13 +3844,7 @@
   "cop": {
     "depparse": {
       "scriptorium": {
-        "md5": "af676bd53feed711a263729ae6489478",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "scriptorium"
-          }
-        ]
+        "md5": "af676bd53feed711a263729ae6489478"
       }
     },
     "lemma": {
@@ -3865,13 +3859,7 @@
     },
     "pos": {
       "scriptorium": {
-        "md5": "2c68e2099f18a933aaed0cabc48984c8",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "scriptorium"
-          }
-        ]
+        "md5": "2c68e2099f18a933aaed0cabc48984c8"
       }
     },
     "tokenize": {
@@ -3886,20 +3874,7 @@
       "pos": "scriptorium",
       "depparse": "scriptorium"
     },
-    "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "scriptorium"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "scriptorium"
-        }
-      ]
-    },
+    "default_dependencies": {},
     "default_md5": "605018c746f0867b5e69d4c131639ac3",
     "lang_name": "Coptic"
   },
@@ -6262,22 +6237,10 @@
   "orv": {
     "depparse": {
       "rnc": {
-        "md5": "19dcb5eb80959c0e8d4e104f571920d8",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "rnc"
-          }
-        ]
+        "md5": "19dcb5eb80959c0e8d4e104f571920d8"
       },
       "torot": {
-        "md5": "b588e8323d9d0998488eb86e078b0872",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "torot"
-          }
-        ]
+        "md5": "b588e8323d9d0998488eb86e078b0872"
       }
     },
     "lemma": {
@@ -6290,22 +6253,10 @@
     },
     "pos": {
       "rnc": {
-        "md5": "80b3742b157f93b53c61da2fa385415e",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "rnc"
-          }
-        ]
+        "md5": "80b3742b157f93b53c61da2fa385415e"
       },
       "torot": {
-        "md5": "acdc3dc73dc73f04abbda90163d0f12f",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "torot"
-          }
-        ]
+        "md5": "acdc3dc73dc73f04abbda90163d0f12f"
       }
     },
     "tokenize": {
@@ -6322,20 +6273,7 @@
       "pos": "torot",
       "depparse": "torot"
     },
-    "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "torot"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "torot"
-        }
-      ]
-    },
+    "default_dependencies": {},
     "default_md5": "d091d6f5520fe380be1adc33e407f9b4",
     "lang_name": "Old_East_Slavic"
   },
@@ -6345,13 +6283,7 @@
   "pcm": {
     "depparse": {
       "nsc": {
-        "md5": "6a8d576500725ff19d908f38f2451d49",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "nsc"
-          }
-        ]
+        "md5": "6a8d576500725ff19d908f38f2451d49"
       }
     },
     "lemma": {
@@ -6361,13 +6293,7 @@
     },
     "pos": {
       "nsc": {
-        "md5": "2507431ed1a3a5feedd139cb82c01b1e",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "nsc"
-          }
-        ]
+        "md5": "2507431ed1a3a5feedd139cb82c01b1e"
       }
     },
     "tokenize": {
@@ -6381,20 +6307,7 @@
       "pos": "nsc",
       "depparse": "nsc"
     },
-    "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "nsc"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "nsc"
-        }
-      ]
-    },
+    "default_dependencies": {},
     "default_md5": "5a0db804cc7bcdb15dbe5832c7a5c9d7",
     "lang_name": "Naija"
   },
@@ -6501,13 +6414,7 @@
   "qtd": {
     "depparse": {
       "sagt": {
-        "md5": "e76e4ff2f67bce72cd778f3355297b72",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "sagt"
-          }
-        ]
+        "md5": "e76e4ff2f67bce72cd778f3355297b72"
       }
     },
     "lemma": {
@@ -6522,13 +6429,7 @@
     },
     "pos": {
       "sagt": {
-        "md5": "79f39631fd6f092752169a73f9f354e3",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "sagt"
-          }
-        ]
+        "md5": "79f39631fd6f092752169a73f9f354e3"
       }
     },
     "tokenize": {
@@ -6543,20 +6444,7 @@
       "pos": "sagt",
       "depparse": "sagt"
     },
-    "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "sagt"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "sagt"
-        }
-      ]
-    },
+    "default_dependencies": {},
     "default_md5": "e60501e6a9e3e0b673897851b8fe5a7e",
     "lang_name": "Turkish_German"
   },
@@ -7037,24 +6925,12 @@
   "swl": {
     "depparse": {
       "sslc": {
-        "md5": "df7f3a7bb6f39815f1d337bde62becd3",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "sslc"
-          }
-        ]
+        "md5": "df7f3a7bb6f39815f1d337bde62becd3"
       }
     },
     "pos": {
       "sslc": {
-        "md5": "7f4842c011be9c95ca303c07d2ce32df",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "sslc"
-          }
-        ]
+        "md5": "7f4842c011be9c95ca303c07d2ce32df"
       }
     },
     "tokenize": {
@@ -7068,20 +6944,7 @@
       "pos": "sslc",
       "depparse": "sslc"
     },
-    "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "sslc"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "sslc"
-        }
-      ]
-    },
+    "default_dependencies": {},
     "default_md5": "3256da6150b705e1d6e4b7784f0a35b8",
     "lang_name": "Swedish_Sign_Language"
   },
