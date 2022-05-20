@@ -246,19 +246,6 @@
     },
     "ner": {
       "bsnlp19": {
-        "md5": "59afc89e9c98ecba0f07ef040247166c",
-        "dependencies": [
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "conll17"
-          }
-        ]
-      },
-      "bsnlp": {
         "md5": "2ad9dd5189d871922dae6f621b975721",
         "dependencies": [
           {
