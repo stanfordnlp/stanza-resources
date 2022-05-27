@@ -2258,7 +2258,8 @@
       "lemma": "gsd",
       "pos": "gsd",
       "depparse": "gsd",
-      "constituency": "alt"
+      "constituency": "alt",
+      "ner": "gsd"
     },
     "default_dependencies": {
       "pos": [
@@ -2278,6 +2279,16 @@
           "model": "pretrain",
           "package": "gsd"
         },
+        {
+          "model": "forward_charlm",
+          "package": "conll17"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "conll17"
+        }
+      ],
+      "dependencies": [
         {
           "model": "forward_charlm",
           "package": "conll17"
