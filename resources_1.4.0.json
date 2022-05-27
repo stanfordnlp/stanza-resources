@@ -2217,6 +2217,21 @@
         "md5": "43fa9f9ebb548ba77fe66f216e200241"
       }
     },
+    "ner": {
+      "gsd": {
+        "md5": "25da077d3b8cedfc588edcb100dc262b",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      }
+    },
     "pos": {
       "gsd": {
         "md5": "cb20941978476b2aecd0008028698bfe",
@@ -2273,7 +2288,7 @@
         }
       ]
     },
-    "default_md5": "76fa8271cc1267b30762e1bc2cd63910",
+    "default_md5": "b85926f7ee82750a7f1224f56a05c6d8",
     "lang_name": "Japanese"
   },
   "japanese": {
