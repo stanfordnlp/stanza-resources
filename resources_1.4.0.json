@@ -6024,7 +6024,7 @@
   "mr": {
     "depparse": {
       "ufal": {
-        "md5": "d4a88edc1f554f8b3b70a4e97bc880f8",
+        "md5": "4b3bdf49307bb817e1c66f190e214d9b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -6085,7 +6085,7 @@
         }
       ]
     },
-    "default_md5": "7800c4a3ed71b747cb059a6e6eff5ed5",
+    "default_md5": "7cc2cd34caa99dfec303b28c3869b693",
     "lang_name": "Marathi"
   },
   "marathi": {
