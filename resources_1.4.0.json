@@ -6024,7 +6024,7 @@
   "mr": {
     "depparse": {
       "ufal": {
-        "md5": "c2a416a07edd1ba7db27cee4c4dfc5f4",
+        "md5": "d4a88edc1f554f8b3b70a4e97bc880f8",
         "dependencies": [
           {
             "model": "pretrain",
@@ -6035,17 +6035,17 @@
     },
     "lemma": {
       "ufal": {
-        "md5": "7615cd96812a321be03f9d64f5c96b8f"
+        "md5": "66594603dec0f6d1c70ddcfe2446fe00"
       }
     },
     "mwt": {
       "ufal": {
-        "md5": "4fb700905f92d526c404bffda6210007"
+        "md5": "db01d867cde7f8c1bedec79cd8f8adf5"
       }
     },
     "pos": {
       "ufal": {
-        "md5": "889a8a4cbc2de53b24f7a8ad999bf825",
+        "md5": "1ec775612ec3244399e004d0141b85bc",
         "dependencies": [
           {
             "model": "pretrain",
@@ -6061,7 +6061,7 @@
     },
     "tokenize": {
       "ufal": {
-        "md5": "48cfbd0a2d8935f0eedce80465e0f458"
+        "md5": "bf4d3ff859b6085231a25d029b490bb6"
       }
     },
     "default_processors": {
@@ -6085,7 +6085,7 @@
         }
       ]
     },
-    "default_md5": "efc5f9b75d3fe45644eabf037f4d61be",
+    "default_md5": "7800c4a3ed71b747cb059a6e6eff5ed5",
     "lang_name": "Marathi"
   },
   "marathi": {
