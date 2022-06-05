@@ -2499,6 +2499,120 @@
   "japanese": {
     "alias": "ja"
   },
+  "mr": {
+    "backward_charlm": {
+      "l3cube": {
+        "md5": "bdc9ec63287a1b36d52a4a48a0b08986"
+      }
+    },
+    "depparse": {
+      "ufal": {
+        "md5": "c2a416a07edd1ba7db27cee4c4dfc5f4",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "ufal"
+          }
+        ]
+      }
+    },
+    "forward_charlm": {
+      "l3cube": {
+        "md5": "811598acb261ba70015a0dc531372125"
+      }
+    },
+    "lemma": {
+      "ufal": {
+        "md5": "7615cd96812a321be03f9d64f5c96b8f"
+      }
+    },
+    "mwt": {
+      "ufal": {
+        "md5": "4fb700905f92d526c404bffda6210007"
+      }
+    },
+    "ner": {
+      "l3cube": {
+        "md5": "aa63d929d41866fc92515f98afa49ed4",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "ufal"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "l3cube"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "l3cube"
+          }
+        ]
+      }
+    },
+    "pos": {
+      "ufal": {
+        "md5": "889a8a4cbc2de53b24f7a8ad999bf825",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "ufal"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "ufal": {
+        "md5": "d441a66702b42d407d8699f3b06c8749"
+      }
+    },
+    "tokenize": {
+      "ufal": {
+        "md5": "48cfbd0a2d8935f0eedce80465e0f458"
+      }
+    },
+    "default_processors": {
+      "tokenize": "ufal",
+      "mwt": "ufal",
+      "lemma": "ufal",
+      "pos": "ufal",
+      "depparse": "ufal",
+      "ner": "l3cube"
+    },
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "ufal"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "ufal"
+        }
+      ],
+      "ner": [
+        {
+          "model": "pretrain",
+          "package": "ufal"
+        },
+        {
+          "model": "forward_charlm",
+          "package": "l3cube"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "l3cube"
+        }
+      ]
+    },
+    "default_md5": "2cb048993c236dfab83e96e26847440d",
+    "lang_name": "Marathi"
+  },
+  "marathi": {
+    "alias": "mr"
+  },
   "my": {
     "backward_charlm": {
       "oscar": {
@@ -6313,76 +6427,6 @@
   },
   "classical_chinese": {
     "alias": "lzh"
-  },
-  "mr": {
-    "depparse": {
-      "ufal": {
-        "md5": "c2a416a07edd1ba7db27cee4c4dfc5f4",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "ufal"
-          }
-        ]
-      }
-    },
-    "lemma": {
-      "ufal": {
-        "md5": "7615cd96812a321be03f9d64f5c96b8f"
-      }
-    },
-    "mwt": {
-      "ufal": {
-        "md5": "4fb700905f92d526c404bffda6210007"
-      }
-    },
-    "pos": {
-      "ufal": {
-        "md5": "889a8a4cbc2de53b24f7a8ad999bf825",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "ufal"
-          }
-        ]
-      }
-    },
-    "pretrain": {
-      "ufal": {
-        "md5": "d441a66702b42d407d8699f3b06c8749"
-      }
-    },
-    "tokenize": {
-      "ufal": {
-        "md5": "48cfbd0a2d8935f0eedce80465e0f458"
-      }
-    },
-    "default_processors": {
-      "tokenize": "ufal",
-      "mwt": "ufal",
-      "lemma": "ufal",
-      "pos": "ufal",
-      "depparse": "ufal"
-    },
-    "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "ufal"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "ufal"
-        }
-      ]
-    },
-    "default_md5": "efc5f9b75d3fe45644eabf037f4d61be",
-    "lang_name": "Marathi"
-  },
-  "marathi": {
-    "alias": "mr"
   },
   "mt": {
     "depparse": {
