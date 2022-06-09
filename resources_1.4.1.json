@@ -1338,6 +1338,25 @@
         "md5": "acd1d5f0acc5ef8ccbac8576f1676503"
       }
     },
+    "constituency": {
+      "combined": {
+        "md5": "a77c11c43d3dda952583cf476848ea3b",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "ancora"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
+      }
+    },
     "depparse": {
       "ancora": {
         "md5": "6f28bb2f70c2be77529ecadf131f13a5",
@@ -1460,7 +1479,8 @@
       "lemma": "ancora",
       "pos": "ancora",
       "depparse": "ancora",
-      "ner": "conll02"
+      "ner": "conll02",
+      "constituency": "combined"
     },
     "default_dependencies": {
       "pos": [
@@ -1488,9 +1508,23 @@
           "model": "backward_charlm",
           "package": "newswiki"
         }
+      ],
+      "constituency": [
+        {
+          "model": "pretrain",
+          "package": "ancora"
+        },
+        {
+          "model": "forward_charlm",
+          "package": "newswiki"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "newswiki"
+        }
       ]
     },
-    "default_md5": "c9a57609a7d57c64ea00716f0cda8664",
+    "default_md5": "210d0a99fa516d73057d7da2eeb5ba83",
     "lang_name": "Spanish"
   },
   "spanish": {
