@@ -1417,7 +1417,7 @@
         ]
       },
       "conll02": {
-        "md5": "1bd8af1562219e022ed2046754176400",
+        "md5": "ba3889a3195e27ee196ce8e920e6672f",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1524,7 +1524,7 @@
         }
       ]
     },
-    "default_md5": "210d0a99fa516d73057d7da2eeb5ba83",
+    "default_md5": "8cab6eb384882163f1366f4d049e50c1",
     "lang_name": "Spanish"
   },
   "spanish": {
@@ -2862,7 +2862,7 @@
     },
     "ner": {
       "conll02": {
-        "md5": "817288a36a729d265c73350403ac4078",
+        "md5": "552d66373c947ffce76eeb90f23b6d5a",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2970,7 +2970,7 @@
         }
       ]
     },
-    "default_md5": "6aa48173fac8e86b2a468367d4c8440a",
+    "default_md5": "644ad02661126c45ecd06ce3073255b9",
     "lang_name": "Dutch"
   },
   "dutch": {
