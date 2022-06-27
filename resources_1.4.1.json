@@ -604,7 +604,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "gsd"
+            "package": "fasttextwiki"
           },
           {
             "model": "forward_charlm",
@@ -692,7 +692,7 @@
       "ner": [
         {
           "model": "pretrain",
-          "package": "gsd"
+          "package": "fasttextwiki"
         },
         {
           "model": "forward_charlm",
