@@ -1216,7 +1216,7 @@
     },
     "pos": {
       "combined": {
-        "md5": "9c2bd2a69a322badb577075bc13b55e7",
+        "md5": "18d655eae1ef7cd6cd51f24107f43c52",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1470,7 +1470,7 @@
         }
       ]
     },
-    "default_md5": "2cd1df6820515a07e239c4d3d286d53a",
+    "default_md5": "80c1be93a301afca5fbea6ef2986b1aa",
     "lang_name": "English"
   },
   "english": {
