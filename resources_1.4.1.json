@@ -2826,12 +2826,12 @@
   "mr": {
     "backward_charlm": {
       "l3cube": {
-        "md5": "bdc9ec63287a1b36d52a4a48a0b08986"
+        "md5": "b0a9faedeaacb8a2b86af116e2d0b89d"
       }
     },
     "depparse": {
       "ufal": {
-        "md5": "c2a416a07edd1ba7db27cee4c4dfc5f4",
+        "md5": "daff36dd1363d51f1195c3f06b045892",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2842,22 +2842,22 @@
     },
     "forward_charlm": {
       "l3cube": {
-        "md5": "811598acb261ba70015a0dc531372125"
+        "md5": "a957e40c3063d1c99c9ef3b37e244dfd"
       }
     },
     "lemma": {
       "ufal": {
-        "md5": "7615cd96812a321be03f9d64f5c96b8f"
+        "md5": "1772d1d204fa8cf1551b37c214d194ed"
       }
     },
     "mwt": {
       "ufal": {
-        "md5": "4fb700905f92d526c404bffda6210007"
+        "md5": "c13e6a96fe2fa7cfde8c65ab865921fd"
       }
     },
     "ner": {
       "l3cube": {
-        "md5": "aa63d929d41866fc92515f98afa49ed4",
+        "md5": "93d6df7430a1ad165c9c55e1246ecaa7",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2876,7 +2876,7 @@
     },
     "pos": {
       "ufal": {
-        "md5": "b07dd97cdfb515887aa20b2a89c9a3dd",
+        "md5": "97a3fc32519c48dd28fdd6e3e736aef6",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2900,7 +2900,7 @@
     },
     "tokenize": {
       "ufal": {
-        "md5": "48cfbd0a2d8935f0eedce80465e0f458"
+        "md5": "ab2215480ff2cb863051faf9b84c453c"
       }
     },
     "default_processors": {
@@ -2947,7 +2947,7 @@
         }
       ]
     },
-    "default_md5": "5a4fdf517c6a8951d4e437b68aa4c24d",
+    "default_md5": "1f7b5bcba465ad8f9ec483302863757c",
     "lang_name": "Marathi"
   },
   "marathi": {
@@ -3694,6 +3694,72 @@
   },
   "swedish": {
     "alias": "sv"
+  },
+  "th": {
+    "backward_charlm": {
+      "oscar": {
+        "md5": "9fdf26a3480cc97e9e6564954c467f7f"
+      }
+    },
+    "forward_charlm": {
+      "oscar": {
+        "md5": "e9188e8942a4d8dafa1e2339973915d7"
+      }
+    },
+    "ner": {
+      "lst20": {
+        "md5": "df126a7be4387557d56295af7761bb46",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttext"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "fasttext": {
+        "md5": "4033c4fb493e1c89ce2459e10e29d651"
+      }
+    },
+    "tokenize": {
+      "orchid": {
+        "md5": "251f3e6a1a54b432e92ccc0b11eaabcd"
+      }
+    },
+    "default_processors": {
+      "tokenize": "orchid",
+      "ner": "lst20"
+    },
+    "default_dependencies": {
+      "ner": [
+        {
+          "model": "pretrain",
+          "package": "fasttext"
+        },
+        {
+          "model": "forward_charlm",
+          "package": "oscar"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "oscar"
+        }
+      ]
+    },
+    "default_md5": "773ef640f1c3bd47a3f05d881896d245",
+    "lang_name": "Thai"
+  },
+  "thai": {
+    "alias": "th"
   },
   "tr": {
     "backward_charlm": {
@@ -8229,22 +8295,6 @@
   },
   "traditional_chinese": {
     "alias": "zh-hant"
-  },
-  "th": {
-    "tokenize": {
-      "orchid": {
-        "md5": "251f3e6a1a54b432e92ccc0b11eaabcd"
-      }
-    },
-    "default_processors": {
-      "tokenize": "orchid"
-    },
-    "default_dependencies": {},
-    "default_md5": "c4ff2c0e8c66418ac17187d812c2062c",
-    "lang_name": "Thai"
-  },
-  "thai": {
-    "alias": "th"
   },
   "no": {
     "alias": "nb"
