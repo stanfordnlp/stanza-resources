@@ -2151,7 +2151,7 @@
     },
     "pos": {
       "gsd": {
-        "md5": "e726ae3e26c1476d64a2074ff1793389",
+        "md5": "9952bdcd307a5b627cda8fa0fd606395",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2271,7 +2271,7 @@
         }
       ]
     },
-    "default_md5": "bb686e69e0dd48b6a307b1aad785842e",
+    "default_md5": "d443072749cf7b1c71204e8b93606d39",
     "lang_name": "French"
   },
   "french": {
