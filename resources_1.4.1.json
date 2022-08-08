@@ -4783,6 +4783,70 @@
   "belarusian": {
     "alias": "be"
   },
+  "bxr": {
+    "depparse": {
+      "bdt": {
+        "md5": "f6fe9cec6fcd5a8ac6ab8ea48d4664da",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "bdt"
+          }
+        ]
+      }
+    },
+    "lemma": {
+      "bdt": {
+        "md5": "b2a03e9e5dbedcf793d6e0521ff58b5e"
+      }
+    },
+    "pos": {
+      "bdt": {
+        "md5": "d9adc8b065bbaa15e41a2e6e97034682",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "bdt"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "bdt": {
+        "md5": "6c11a27a56e71f84b851be10c38edf93"
+      }
+    },
+    "tokenize": {
+      "bdt": {
+        "md5": "d68708911a5911bc646cac9f0230fc57"
+      }
+    },
+    "default_processors": {
+      "tokenize": "bdt",
+      "lemma": "bdt",
+      "pos": "bdt",
+      "depparse": "bdt"
+    },
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "bdt"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "bdt"
+        }
+      ]
+    },
+    "default_md5": "33b1614c81ecf3ed9c3c415b277ffad2",
+    "lang_name": "Buryat"
+  },
+  "buryat": {
+    "alias": "bxr"
+  },
   "ca": {
     "depparse": {
       "ancora": {
@@ -6123,6 +6187,70 @@
   "croatian": {
     "alias": "hr"
   },
+  "hsb": {
+    "depparse": {
+      "ufal": {
+        "md5": "7cbcdc06c64bea7c21c775557441bb06",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "ufal"
+          }
+        ]
+      }
+    },
+    "lemma": {
+      "ufal": {
+        "md5": "12f7b2ec6fdf597bdc813effe85ba535"
+      }
+    },
+    "pos": {
+      "ufal": {
+        "md5": "57ccc044ed1ae402972afd0fb0ebb1fb",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "ufal"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "ufal": {
+        "md5": "26816abd910a8c27f1abe815241cb9b8"
+      }
+    },
+    "tokenize": {
+      "ufal": {
+        "md5": "5db0a24ffb15111d38339729d0479a45"
+      }
+    },
+    "default_processors": {
+      "tokenize": "ufal",
+      "lemma": "ufal",
+      "pos": "ufal",
+      "depparse": "ufal"
+    },
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "ufal"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "ufal"
+        }
+      ]
+    },
+    "default_md5": "d9cbb2fb159069b806de3e735f0d7414",
+    "lang_name": "Upper_Sorbian"
+  },
+  "upper_sorbian": {
+    "alias": "hsb"
+  },
   "hu": {
     "depparse": {
       "szeged": {
@@ -6539,6 +6667,146 @@
   "icelandic": {
     "alias": "is"
   },
+  "kk": {
+    "depparse": {
+      "ktb": {
+        "md5": "d0ed470119138302e095135d095ef4e0",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "ktb"
+          }
+        ]
+      }
+    },
+    "lemma": {
+      "ktb": {
+        "md5": "d96e2afc47412f42f5998f61691f5e7e"
+      }
+    },
+    "mwt": {
+      "ktb": {
+        "md5": "9194296c6b34e71893b4f86d7fb02350"
+      }
+    },
+    "pos": {
+      "ktb": {
+        "md5": "5f18a8751757e28e2ea69cb094146273",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "ktb"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "ktb": {
+        "md5": "44963a29fb30ca13687fd3a38ea58d50"
+      }
+    },
+    "tokenize": {
+      "ktb": {
+        "md5": "7d91c61d576ea066fd0c050e6bafa1b0"
+      }
+    },
+    "default_processors": {
+      "tokenize": "ktb",
+      "mwt": "ktb",
+      "lemma": "ktb",
+      "pos": "ktb",
+      "depparse": "ktb"
+    },
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "ktb"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "ktb"
+        }
+      ]
+    },
+    "default_md5": "0a02afb317a7093b80ad7ecc22784b66",
+    "lang_name": "Kazakh"
+  },
+  "kazakh": {
+    "alias": "kk"
+  },
+  "kmr": {
+    "depparse": {
+      "mg": {
+        "md5": "aa803f8d1985aa42a66a4ca0aed6e2c2",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "mg"
+          }
+        ]
+      }
+    },
+    "lemma": {
+      "mg": {
+        "md5": "0829239967b43235dc3206caa06ab874"
+      }
+    },
+    "mwt": {
+      "mg": {
+        "md5": "f50e6564d520dce28fa4b2284dcdaa7f"
+      }
+    },
+    "pos": {
+      "mg": {
+        "md5": "ae421002f65ff1f4d6e5097636136a28",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "mg"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "mg": {
+        "md5": "62fcf68adefdbfe07e8ef12a0db376a7"
+      }
+    },
+    "tokenize": {
+      "mg": {
+        "md5": "181267c0a83c89aeaa061eadfe128409"
+      }
+    },
+    "default_processors": {
+      "tokenize": "mg",
+      "mwt": "mg",
+      "lemma": "mg",
+      "pos": "mg",
+      "depparse": "mg"
+    },
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "mg"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "mg"
+        }
+      ]
+    },
+    "default_md5": "c4e2a81f349a0e80507ca389bf622b04",
+    "lang_name": "Kurmanji"
+  },
+  "kurmanji": {
+    "alias": "kmr"
+  },
   "ko": {
     "depparse": {
       "gsd": {
@@ -6806,6 +7074,76 @@
   },
   "latin": {
     "alias": "la"
+  },
+  "lij": {
+    "depparse": {
+      "glt": {
+        "md5": "8a2d54d8831b813b501f05c9b8a52e93",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "glt"
+          }
+        ]
+      }
+    },
+    "lemma": {
+      "glt": {
+        "md5": "b328829a68a7bed482bdfa525fd8bf2d"
+      }
+    },
+    "mwt": {
+      "glt": {
+        "md5": "e41e02e41ef9eefe2bb3359894bd84ca"
+      }
+    },
+    "pos": {
+      "glt": {
+        "md5": "35d7f3a63656068d1700e93b0bf7a06f",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "glt"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "glt": {
+        "md5": "3d08342f3c6e7719c9f72ce58197afed"
+      }
+    },
+    "tokenize": {
+      "glt": {
+        "md5": "ff53778f355977bff7ee2f4ab707c525"
+      }
+    },
+    "default_processors": {
+      "tokenize": "glt",
+      "mwt": "glt",
+      "lemma": "glt",
+      "pos": "glt",
+      "depparse": "glt"
+    },
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "glt"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "glt"
+        }
+      ]
+    },
+    "default_md5": "cb8ce2a572ae1f1e691fdc8863aafe36",
+    "lang_name": "Ligurian"
+  },
+  "ligurian": {
+    "alias": "lij"
   },
   "lt": {
     "depparse": {
