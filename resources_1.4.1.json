@@ -2823,6 +2823,136 @@
   "japanese": {
     "alias": "ja"
   },
+  "kk": {
+    "backward_charlm": {
+      "oscar": {
+        "md5": "51862a217c1d44f05ecb569f7af95176"
+      }
+    },
+    "depparse": {
+      "ktb": {
+        "md5": "d0ed470119138302e095135d095ef4e0",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "ktb"
+          }
+        ]
+      }
+    },
+    "forward_charlm": {
+      "oscar": {
+        "md5": "537169ca6702c216a2b1d621c609e817"
+      }
+    },
+    "lemma": {
+      "ktb": {
+        "md5": "d96e2afc47412f42f5998f61691f5e7e"
+      }
+    },
+    "mwt": {
+      "ktb": {
+        "md5": "9194296c6b34e71893b4f86d7fb02350"
+      }
+    },
+    "ner": {
+      "kazNERD": {
+        "md5": "88736231d5fd6496799f313b3c8d2e2d",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "ktb"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
+      }
+    },
+    "pos": {
+      "ktb": {
+        "md5": "1a1170d3f657692c1fb267c7c0d3f2c5",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "ktb"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "ktb": {
+        "md5": "44963a29fb30ca13687fd3a38ea58d50"
+      }
+    },
+    "tokenize": {
+      "ktb": {
+        "md5": "7d91c61d576ea066fd0c050e6bafa1b0"
+      }
+    },
+    "default_processors": {
+      "tokenize": "ktb",
+      "mwt": "ktb",
+      "lemma": "ktb",
+      "pos": "ktb",
+      "depparse": "ktb",
+      "ner": "kazNERD"
+    },
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "ktb"
+        },
+        {
+          "model": "forward_charlm",
+          "package": "oscar"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "oscar"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "ktb"
+        }
+      ],
+      "ner": [
+        {
+          "model": "pretrain",
+          "package": "ktb"
+        },
+        {
+          "model": "forward_charlm",
+          "package": "oscar"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "oscar"
+        }
+      ]
+    },
+    "default_md5": "af699f4d517a39c54a8c79d8449a6e42",
+    "lang_name": "Kazakh"
+  },
+  "kazakh": {
+    "alias": "kk"
+  },
   "mr": {
     "backward_charlm": {
       "l3cube": {
@@ -6666,76 +6796,6 @@
   },
   "icelandic": {
     "alias": "is"
-  },
-  "kk": {
-    "depparse": {
-      "ktb": {
-        "md5": "d0ed470119138302e095135d095ef4e0",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "ktb"
-          }
-        ]
-      }
-    },
-    "lemma": {
-      "ktb": {
-        "md5": "d96e2afc47412f42f5998f61691f5e7e"
-      }
-    },
-    "mwt": {
-      "ktb": {
-        "md5": "9194296c6b34e71893b4f86d7fb02350"
-      }
-    },
-    "pos": {
-      "ktb": {
-        "md5": "5f18a8751757e28e2ea69cb094146273",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "ktb"
-          }
-        ]
-      }
-    },
-    "pretrain": {
-      "ktb": {
-        "md5": "44963a29fb30ca13687fd3a38ea58d50"
-      }
-    },
-    "tokenize": {
-      "ktb": {
-        "md5": "7d91c61d576ea066fd0c050e6bafa1b0"
-      }
-    },
-    "default_processors": {
-      "tokenize": "ktb",
-      "mwt": "ktb",
-      "lemma": "ktb",
-      "pos": "ktb",
-      "depparse": "ktb"
-    },
-    "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "ktb"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "ktb"
-        }
-      ]
-    },
-    "default_md5": "0a02afb317a7093b80ad7ecc22784b66",
-    "lang_name": "Kazakh"
-  },
-  "kazakh": {
-    "alias": "kk"
   },
   "kmr": {
     "depparse": {
