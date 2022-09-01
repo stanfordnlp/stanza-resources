@@ -6121,6 +6121,15 @@
   },
   "he": {
     "depparse": {
+      "combined": {
+        "md5": "650782697e4f7f830a186cbdb522c0e3",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "combined"
+          }
+        ]
+      },
       "htb": {
         "md5": "0c1702f2a5e1e3f251b95aa01455586c",
         "dependencies": [
@@ -6132,16 +6141,31 @@
       }
     },
     "lemma": {
+      "combined": {
+        "md5": "ea8643eb7c6fc0d94023735bdd3d8e5c"
+      },
       "htb": {
         "md5": "9c5396f2467fef24f9aae947860af240"
       }
     },
     "mwt": {
+      "combined": {
+        "md5": "36f9da17ef001581541674b1472d98bc"
+      },
       "htb": {
         "md5": "8710348a7aeff996819fc3708fc9d6b7"
       }
     },
     "pos": {
+      "combined": {
+        "md5": "169c18600d2c9777b5b1781373b0b197",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "combined"
+          }
+        ]
+      },
       "htb": {
         "md5": "84b592f15e494915cb1c8d2b091278d3",
         "dependencies": [
@@ -6153,37 +6177,43 @@
       }
     },
     "pretrain": {
+      "combined": {
+        "md5": "deb4c9173f245686291eaab2eba04893"
+      },
       "htb": {
         "md5": "deb4c9173f245686291eaab2eba04893"
       }
     },
     "tokenize": {
+      "combined": {
+        "md5": "94e54a9937af22ba7fbbe2be4772615d"
+      },
       "htb": {
         "md5": "0622ad6dd0edfa2900b27ed5c4c7eb10"
       }
     },
     "default_processors": {
-      "tokenize": "htb",
-      "mwt": "htb",
-      "lemma": "htb",
-      "pos": "htb",
-      "depparse": "htb"
+      "tokenize": "combined",
+      "mwt": "combined",
+      "lemma": "combined",
+      "pos": "combined",
+      "depparse": "combined"
     },
     "default_dependencies": {
       "pos": [
         {
           "model": "pretrain",
-          "package": "htb"
+          "package": "combined"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "htb"
+          "package": "combined"
         }
       ]
     },
-    "default_md5": "94852c8cb07742372dcbef6175f523fc",
+    "default_md5": "44a7e4512568e8f932d1c3c787a042c6",
     "lang_name": "Hebrew"
   },
   "hebrew": {
