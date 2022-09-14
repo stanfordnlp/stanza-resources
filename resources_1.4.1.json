@@ -1516,7 +1516,7 @@
     },
     "constituency": {
       "combined_bert": {
-        "md5": "69972cced8dd86af13ac6c7dd8d007d8",
+        "md5": "7dc5fd3e11708054c8c8ea93446383cc",
         "dependencies": [
           {
             "model": "pretrain",
