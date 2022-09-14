@@ -3685,20 +3685,36 @@
     },
     "pos": {
       "lfg": {
-        "md5": "9a76ea295a2b1809a6d26b9c70bc9cbb",
+        "md5": "0ff55dab50964d4e39e5f17a88e36626",
         "dependencies": [
           {
             "model": "pretrain",
             "package": "lfg"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
           }
         ]
       },
       "pdb": {
-        "md5": "9c82718b8343aacb486fcfd409a45c9a",
+        "md5": "b86341fb92b7ee1bb53eeb424a568761",
         "dependencies": [
           {
             "model": "pretrain",
             "package": "pdb"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
           }
         ]
       }
@@ -3732,6 +3748,14 @@
         {
           "model": "pretrain",
           "package": "pdb"
+        },
+        {
+          "model": "forward_charlm",
+          "package": "oscar"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "oscar"
         }
       ],
       "depparse": [
@@ -3755,7 +3779,7 @@
         }
       ]
     },
-    "default_md5": "d44e917bdacc9e4c5c2722bda64ffb80",
+    "default_md5": "1c18c11583660ef0cce683f4a94cddd3",
     "lang_name": "Polish"
   },
   "polish": {
