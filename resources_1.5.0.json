@@ -1253,7 +1253,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "combined_bert"
+            "package": "combined"
           },
           {
             "model": "forward_charlm",
