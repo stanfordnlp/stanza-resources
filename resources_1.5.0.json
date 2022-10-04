@@ -392,6 +392,22 @@
   "bulgarian": {
     "alias": "bg"
   },
+  "bn": {
+    "backward_charlm": {
+      "oscar": {
+        "md5": "1f84f1f7c5ecd50f666dacd8b0cbfaa2"
+      }
+    },
+    "forward_charlm": {
+      "oscar": {
+        "md5": "548ea247287e6c64fc75ea6d25efe961"
+      }
+    },
+    "lang_name": "Bengali"
+  },
+  "bengali": {
+    "alias": "bn"
+  },
   "da": {
     "backward_charlm": {
       "oscar": {
@@ -3238,6 +3254,22 @@
   "kazakh": {
     "alias": "kk"
   },
+  "ml": {
+    "backward_charlm": {
+      "oscar2022": {
+        "md5": "81415e41c36cc3146dcb47e25e4524f9"
+      }
+    },
+    "forward_charlm": {
+      "oscar2022": {
+        "md5": "4baf311f8055441ca2223cbd20a50c48"
+      }
+    },
+    "lang_name": "Malayalam"
+  },
+  "malayalam": {
+    "alias": "ml"
+  },
   "mr": {
     "backward_charlm": {
       "l3cube": {
@@ -4150,6 +4182,38 @@
   "russian": {
     "alias": "ru"
   },
+  "sd": {
+    "backward_charlm": {
+      "isra": {
+        "md5": "beba826c5a1888df8af3acbe2f209552"
+      }
+    },
+    "forward_charlm": {
+      "isra": {
+        "md5": "82ea2209256276ed5bbc2903308c5b2e"
+      }
+    },
+    "lang_name": "Sindhi"
+  },
+  "sindhi": {
+    "alias": "sd"
+  },
+  "si": {
+    "backward_charlm": {
+      "oscar2022": {
+        "md5": "99e34261c18244dfa1288ccf651a345d"
+      }
+    },
+    "forward_charlm": {
+      "oscar2022": {
+        "md5": "d56433f936dfd8922ca81e66787c198f"
+      }
+    },
+    "lang_name": "Sinhala"
+  },
+  "sinhala": {
+    "alias": "si"
+  },
   "sv": {
     "backward_charlm": {
       "conll17": {
@@ -4325,6 +4389,75 @@
   },
   "swedish": {
     "alias": "sv"
+  },
+  "te": {
+    "backward_charlm": {
+      "oscar2022": {
+        "md5": "961396c7b0e3105abccf7823a7868983"
+      }
+    },
+    "depparse": {
+      "mtg": {
+        "md5": "bb15c88c59573abd257cc40e45cf98b5",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "mtg"
+          }
+        ]
+      }
+    },
+    "forward_charlm": {
+      "oscar2022": {
+        "md5": "eaf462080813e22309746b5c21f1588b"
+      }
+    },
+    "pos": {
+      "mtg": {
+        "md5": "920bdb71574efad5d4101dcc92e73ad7",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "mtg"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "mtg": {
+        "md5": "1eb74f3bb37919e379adf0ef19cf1944"
+      }
+    },
+    "tokenize": {
+      "mtg": {
+        "md5": "39aeab890d12d65e673edb7babe88ee0"
+      }
+    },
+    "default_processors": {
+      "tokenize": "mtg",
+      "lemma": "identity",
+      "pos": "mtg",
+      "depparse": "mtg"
+    },
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "mtg"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "mtg"
+        }
+      ]
+    },
+    "default_md5": "619e7f111c0d9019be69dc5b26da9b4c",
+    "lang_name": "Telugu"
+  },
+  "telugu": {
+    "alias": "te"
   },
   "th": {
     "backward_charlm": {
@@ -8738,65 +8871,6 @@
   },
   "tamil": {
     "alias": "ta"
-  },
-  "te": {
-    "depparse": {
-      "mtg": {
-        "md5": "bb15c88c59573abd257cc40e45cf98b5",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "mtg"
-          }
-        ]
-      }
-    },
-    "pos": {
-      "mtg": {
-        "md5": "920bdb71574efad5d4101dcc92e73ad7",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "mtg"
-          }
-        ]
-      }
-    },
-    "pretrain": {
-      "mtg": {
-        "md5": "1eb74f3bb37919e379adf0ef19cf1944"
-      }
-    },
-    "tokenize": {
-      "mtg": {
-        "md5": "39aeab890d12d65e673edb7babe88ee0"
-      }
-    },
-    "default_processors": {
-      "tokenize": "mtg",
-      "lemma": "identity",
-      "pos": "mtg",
-      "depparse": "mtg"
-    },
-    "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "mtg"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "mtg"
-        }
-      ]
-    },
-    "default_md5": "619e7f111c0d9019be69dc5b26da9b4c",
-    "lang_name": "Telugu"
-  },
-  "telugu": {
-    "alias": "te"
   },
   "ug": {
     "depparse": {
