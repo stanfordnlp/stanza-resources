@@ -746,7 +746,7 @@
     },
     "sentiment": {
       "sb10k": {
-        "md5": "bc7d1f59446af44e160513f966cefb6d",
+        "md5": "181cee2ac8a86630c5b3e8cf174e342e",
         "dependencies": [
           {
             "model": "pretrain",
@@ -830,7 +830,7 @@
         }
       ]
     },
-    "default_md5": "116657ab0fa9b1492d7d9cb8dbfc6997",
+    "default_md5": "7cd265d6bace04bb79322f1dd7e52dff",
     "lang_name": "German"
   },
   "german": {
@@ -1436,7 +1436,7 @@
     },
     "sentiment": {
       "sstplus": {
-        "md5": "42d1e10b70cd6aa6e5fc8c6d85698895",
+        "md5": "db45fe148d9702c7cf937663dc75d706",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1552,7 +1552,7 @@
         }
       ]
     },
-    "default_md5": "63bf5f133345ff1c05ab5b332dcea2b5",
+    "default_md5": "4ab855d8e8cc74bf09c8e27f0790d43f",
     "lang_name": "English"
   },
   "english": {
@@ -1726,7 +1726,7 @@
     },
     "sentiment": {
       "tass2020": {
-        "md5": "c1a16cf9bc17a8703a790f1f4f324b24",
+        "md5": "cc3ab068d084bf2cfc6bdd9abb17bb6f",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1825,7 +1825,7 @@
         }
       ]
     },
-    "default_md5": "9a89c8e73bba2a02eae41accdeb0d96e",
+    "default_md5": "ae04864677eef2dc49268ec4b951d03f",
     "lang_name": "Spanish"
   },
   "spanish": {
@@ -3347,7 +3347,7 @@
     },
     "sentiment": {
       "l3cube": {
-        "md5": "bd558ef138dcd01e88101ca66338298a",
+        "md5": "d10a972e35b2e881fd9b95948cb6d5f7",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3428,7 +3428,7 @@
         }
       ]
     },
-    "default_md5": "7bd491b35a25ec988f4e1133aef05e3f",
+    "default_md5": "f52d0480c6738e3c6bbcedef51e355e7",
     "lang_name": "Marathi"
   },
   "marathi": {
@@ -5090,7 +5090,7 @@
     },
     "sentiment": {
       "vsfc": {
-        "md5": "e8ac2769664c0e233494cc4183fc6490",
+        "md5": "2e1631900545b30f2eada5ea16d6d55e",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5170,7 +5170,7 @@
         }
       ]
     },
-    "default_md5": "f76ae78d5e66ad6b1ee0f7105079de9a",
+    "default_md5": "713dfdb14bb4670b33ecda4425ca4a14",
     "lang_name": "Vietnamese"
   },
   "vietnamese": {
@@ -5287,7 +5287,7 @@
     },
     "sentiment": {
       "ren": {
-        "md5": "22def01d295163e80fd4e4e1fe00a950",
+        "md5": "e668c46b7e19c5d748e212c1ad69ff6d",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5382,7 +5382,7 @@
         }
       ]
     },
-    "default_md5": "faa63f2d298ac064bc03e05456fe7134",
+    "default_md5": "a8da47626fb3f28f43e99ab52a8ffbfb",
     "lang_name": "Simplified_Chinese"
   },
   "simplified_chinese": {
