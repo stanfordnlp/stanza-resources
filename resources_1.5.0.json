@@ -2758,6 +2758,23 @@
       }
     },
     "pos": {
+      "combined_bert": {
+        "md5": "2f99bb80b51d8433c32673c34f5020f3",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "combined_bert"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
       "combined": {
         "md5": "e065e9608b408dbbe2852f06f51f40fb",
         "dependencies": [
@@ -2832,6 +2849,23 @@
           {
             "model": "pretrain",
             "package": "twittiro"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
+      "vit_bert": {
+        "md5": "6ae815f1add9316581682f259b087f40",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "vit_bert"
           },
           {
             "model": "forward_charlm",
@@ -5071,6 +5105,23 @@
           {
             "model": "pretrain",
             "package": "vtb_phobert_base"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
+      "vtb_phobert_large": {
+        "md5": "14681023f81a8cb5d18ed68f268ce888",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "vtb_phobert_large"
           },
           {
             "model": "forward_charlm",
