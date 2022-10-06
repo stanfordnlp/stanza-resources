@@ -5065,6 +5065,23 @@
       }
     },
     "pos": {
+      "vtb_phobert_base": {
+        "md5": "3ae2ce7efe2efa0b3a066f97c52207ad",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "vtb_phobert_base"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
       "vtb": {
         "md5": "d0823488c5698cfa1179209140256a74",
         "dependencies": [
