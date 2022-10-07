@@ -416,7 +416,7 @@
     },
     "constituency": {
       "arboretum_bert": {
-        "md5": "064739d4decbc0bea926b4b891ba955b",
+        "md5": "54e167d3575b36636fa475f673dc310e",
         "dependencies": [
           {
             "model": "pretrain",
@@ -433,7 +433,7 @@
         ]
       },
       "arboretum": {
-        "md5": "364736130841e3064c8c9b1c867581a0",
+        "md5": "b79de9fca8a1d94f8b2ec73412682069",
         "dependencies": [
           {
             "model": "pretrain",
@@ -594,7 +594,7 @@
         }
       ]
     },
-    "default_md5": "e21ab52f7cfeabb149adbf2f00c3b5e4",
+    "default_md5": "120a1b502bf110c24e9971bbb30dedf8",
     "lang_name": "Danish"
   },
   "danish": {
@@ -850,7 +850,7 @@
     },
     "constituency": {
       "ptb3_bert": {
-        "md5": "62bf23f1bf75547745edc53d8e64ac2f",
+        "md5": "dbfddfd4174f838e50426e6d04c4ccbd",
         "dependencies": [
           {
             "model": "pretrain",
@@ -867,7 +867,7 @@
         ]
       },
       "wsj_bert": {
-        "md5": "ff559de01c177627f0ec9c4f63885329",
+        "md5": "ad0f352e3917bd346ef66d1437002268",
         "dependencies": [
           {
             "model": "pretrain",
@@ -884,7 +884,7 @@
         ]
       },
       "wsj": {
-        "md5": "aae64eef32bf07101ee074dc3b4d4699",
+        "md5": "c45dda8db73b10c89aa9c6dc51934e1d",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1552,7 +1552,7 @@
         }
       ]
     },
-    "default_md5": "4ab855d8e8cc74bf09c8e27f0790d43f",
+    "default_md5": "f40cf10de2d46bdb62c36a472f42bac8",
     "lang_name": "English"
   },
   "english": {
@@ -1566,7 +1566,7 @@
     },
     "constituency": {
       "combined_bert": {
-        "md5": "7dc5fd3e11708054c8c8ea93446383cc",
+        "md5": "530660a7cbe18249dc264436889199e8",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1583,7 +1583,7 @@
         ]
       },
       "combined": {
-        "md5": "d33f93d4daf63dba22800a725ccd3b4b",
+        "md5": "d6ac9001b4210653d83294b4ba79d13b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1825,7 +1825,7 @@
         }
       ]
     },
-    "default_md5": "ae04864677eef2dc49268ec4b951d03f",
+    "default_md5": "41e4b3a9cb3fed9f057dff7c2c214acf",
     "lang_name": "Spanish"
   },
   "spanish": {
@@ -2552,7 +2552,7 @@
     },
     "constituency": {
       "turin_bert": {
-        "md5": "054c53f96f1ce9c58a15a1c019c316d5",
+        "md5": "e35776332d3d4ade4362e395039c5662",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2569,7 +2569,7 @@
         ]
       },
       "turin": {
-        "md5": "5dbb18ee5e90865706c9fef84934fca2",
+        "md5": "4775b0ef73e4f44217abaaa429e162cc",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2586,7 +2586,7 @@
         ]
       },
       "vit_bert": {
-        "md5": "ded3df2de20581776996e807b6bfdfd9",
+        "md5": "3b740594c3bf1112b9f1d47aede6ee9d",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2603,7 +2603,7 @@
         ]
       },
       "vit": {
-        "md5": "a7db68514037ae0b9db6fbe7a25b048d",
+        "md5": "6ec786a7ce7ac8b69d3096afdea1cc20",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2994,7 +2994,7 @@
         }
       ]
     },
-    "default_md5": "41fb9ed6f38dbc7ed78a809c83fde7b2",
+    "default_md5": "cd14f301a26d10d2234d05f63ebd9ec9",
     "lang_name": "Italian"
   },
   "italian": {
@@ -3008,7 +3008,7 @@
     },
     "constituency": {
       "alt": {
-        "md5": "53a1aea8372444b18e62be7539f30733",
+        "md5": "a0ddbc37f68ac59ae749767e6b9fb32c",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3152,7 +3152,7 @@
         }
       ]
     },
-    "default_md5": "045372bbe64c138e430aa3c5b1abca45",
+    "default_md5": "47ffd6a3e35f97dc839aec5d91d60845",
     "lang_name": "Japanese"
   },
   "japanese": {
@@ -4567,7 +4567,7 @@
     },
     "constituency": {
       "starlang_bert": {
-        "md5": "661cdf39d5de749c8f873e46488ae55d",
+        "md5": "13b4170770c692421b98ac4fefcb78c1",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4584,7 +4584,7 @@
         ]
       },
       "starlang": {
-        "md5": "7f11585e21f4cbe07a22aa58a3dd72a6",
+        "md5": "bf24310257d2191564b8fbf00c8c4b89",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4904,7 +4904,7 @@
         }
       ]
     },
-    "default_md5": "5bdb1dea9ce443003bba09aab5bed9f2",
+    "default_md5": "9de0ba30a7378c5982d48cfa088adab1",
     "lang_name": "Turkish"
   },
   "turkish": {
@@ -5252,7 +5252,7 @@
     },
     "constituency": {
       "ctb_bert": {
-        "md5": "0e73e819ae62693e986a36d813490320",
+        "md5": "cc802c7271824fcaa1ececd6497e83cf",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5269,7 +5269,7 @@
         ]
       },
       "ctb": {
-        "md5": "909463788565743baf297e05c7406f9a",
+        "md5": "763f80941d0ab3a10fdcb8083daeace0",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5450,7 +5450,7 @@
         }
       ]
     },
-    "default_md5": "a8da47626fb3f28f43e99ab52a8ffbfb",
+    "default_md5": "eabf7df15b996913ce53e66ce750dfa2",
     "lang_name": "Simplified_Chinese"
   },
   "simplified_chinese": {
@@ -5459,7 +5459,7 @@
   "pt": {
     "constituency": {
       "cintil_bert": {
-        "md5": "c60781aeaeadc0e457cfe4802decb1df",
+        "md5": "6a8dab5d63413340b633c7b6e48d307a",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5468,7 +5468,7 @@
         ]
       },
       "cintil": {
-        "md5": "d4aaa6c3d2ea897e800c432da2f61661",
+        "md5": "1782dca30263e1e0baac3df09f93b5ac",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5577,7 +5577,7 @@
         }
       ]
     },
-    "default_md5": "182f93ec9648ea101f09d61ae49a89cc",
+    "default_md5": "fbbddfa9d91bbca62f68a9ab8e445ae1",
     "lang_name": "Portuguese"
   },
   "portuguese": {
