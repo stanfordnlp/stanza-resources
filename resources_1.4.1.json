@@ -1569,7 +1569,7 @@
     },
     "depparse": {
       "ancora": {
-        "md5": "6f28bb2f70c2be77529ecadf131f13a5",
+        "md5": "cb6b4b3b8ae414dfa846007cce1d3ca1",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1578,7 +1578,7 @@
         ]
       },
       "gsd": {
-        "md5": "b46d5ee8c1f8b31eda3d33e679a5764d",
+        "md5": "7f3359d9822714ea6508707ef606f56b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1792,7 +1792,7 @@
         }
       ]
     },
-    "default_md5": "9a89c8e73bba2a02eae41accdeb0d96e",
+    "default_md5": "757fd75826a9a7f655f333bf6f4da7e7",
     "lang_name": "Spanish"
   },
   "spanish": {
