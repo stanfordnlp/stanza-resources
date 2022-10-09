@@ -2763,7 +2763,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "combined_bert"
+            "package": "combined"
           },
           {
             "model": "forward_charlm",
@@ -2865,7 +2865,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "vit_bert"
+            "package": "vit"
           },
           {
             "model": "forward_charlm",
@@ -5104,7 +5104,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "vtb_phobert_base"
+            "package": "vtb"
           },
           {
             "model": "forward_charlm",
@@ -5121,7 +5121,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "vtb_phobert_large"
+            "package": "vtb"
           },
           {
             "model": "forward_charlm",
