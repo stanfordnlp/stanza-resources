@@ -2544,6 +2544,96 @@
   "hebrew": {
     "alias": "he"
   },
+  "hi": {
+    "backward_charlm": {
+      "oscar": {
+        "md5": "2b886f00bdd98752a8d60014874c0ccd"
+      }
+    },
+    "depparse": {
+      "hdtb": {
+        "md5": "f608bc0ade8128f1320e33242aff0f2d",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "hdtb"
+          }
+        ]
+      }
+    },
+    "forward_charlm": {
+      "oscar": {
+        "md5": "3c64f4ba79a3b5111528fa2fa6121271"
+      }
+    },
+    "lemma": {
+      "hdtb": {
+        "md5": "6c05a2fb5b02c33d2f4ab0531664b7f5"
+      }
+    },
+    "pos": {
+      "hdtb": {
+        "md5": "43bce851077dccd528e25f270cc90d35",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "hdtb"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "hdtb": {
+        "md5": "c2091fb321a13c1c213c02978fefc52d"
+      }
+    },
+    "tokenize": {
+      "hdtb": {
+        "md5": "5d3e5fd1d630c5aa960d4c67fc6ff072"
+      }
+    },
+    "default_processors": {
+      "tokenize": "hdtb",
+      "lemma": "hdtb",
+      "pos": "hdtb",
+      "depparse": "hdtb"
+    },
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "hdtb"
+        },
+        {
+          "model": "forward_charlm",
+          "package": "oscar"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "oscar"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "hdtb"
+        }
+      ]
+    },
+    "default_md5": "fc85bdb50da8c89facaa60d2348fa1ea",
+    "lang_name": "Hindi"
+  },
+  "hindi": {
+    "alias": "hi"
+  },
   "it": {
     "backward_charlm": {
       "conll17": {
@@ -4448,11 +4538,19 @@
     },
     "pos": {
       "mtg": {
-        "md5": "920bdb71574efad5d4101dcc92e73ad7",
+        "md5": "440f4e9fe7a691ddc34b79210b1bb05b",
         "dependencies": [
           {
             "model": "pretrain",
             "package": "mtg"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2022"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2022"
           }
         ]
       }
@@ -4478,6 +4576,14 @@
         {
           "model": "pretrain",
           "package": "mtg"
+        },
+        {
+          "model": "forward_charlm",
+          "package": "oscar2022"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "oscar2022"
         }
       ],
       "depparse": [
@@ -4487,7 +4593,7 @@
         }
       ]
     },
-    "default_md5": "619e7f111c0d9019be69dc5b26da9b4c",
+    "default_md5": "01f3d448651fbd4e55dfb76d8bba9792",
     "lang_name": "Telugu"
   },
   "telugu": {
@@ -6852,70 +6958,6 @@
   },
   "ancient_greek": {
     "alias": "grc"
-  },
-  "hi": {
-    "depparse": {
-      "hdtb": {
-        "md5": "f608bc0ade8128f1320e33242aff0f2d",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "hdtb"
-          }
-        ]
-      }
-    },
-    "lemma": {
-      "hdtb": {
-        "md5": "6c05a2fb5b02c33d2f4ab0531664b7f5"
-      }
-    },
-    "pos": {
-      "hdtb": {
-        "md5": "46e9d480977e2cd5ec600558776ca5b9",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "hdtb"
-          }
-        ]
-      }
-    },
-    "pretrain": {
-      "hdtb": {
-        "md5": "c2091fb321a13c1c213c02978fefc52d"
-      }
-    },
-    "tokenize": {
-      "hdtb": {
-        "md5": "5d3e5fd1d630c5aa960d4c67fc6ff072"
-      }
-    },
-    "default_processors": {
-      "tokenize": "hdtb",
-      "lemma": "hdtb",
-      "pos": "hdtb",
-      "depparse": "hdtb"
-    },
-    "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "hdtb"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "hdtb"
-        }
-      ]
-    },
-    "default_md5": "07e31c0197416c74b9c3bb7ca04d66cf",
-    "lang_name": "Hindi"
-  },
-  "hindi": {
-    "alias": "hi"
   },
   "hr": {
     "depparse": {
