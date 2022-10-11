@@ -19,7 +19,7 @@
     },
     "depparse": {
       "afribooms": {
-        "md5": "ccc9a85b894912e14457b925b3244d06",
+        "md5": "51ac4d1c81b38067a6303a1354df04f1",
         "dependencies": [
           {
             "model": "pretrain",
@@ -129,7 +129,7 @@
         }
       ]
     },
-    "default_md5": "be703ee5b9189f25524839b7246bba97",
+    "default_md5": "2907cd9c26a4e5d610401a418998978d",
     "lang_name": "Afrikaans"
   },
   "afrikaans": {
@@ -143,7 +143,7 @@
     },
     "depparse": {
       "padt": {
-        "md5": "ea67377b1fa6e27c278fbb9a7f014506",
+        "md5": "4179d9655d4d22f0d5e1e9c817889269",
         "dependencies": [
           {
             "model": "pretrain",
@@ -262,7 +262,7 @@
         }
       ]
     },
-    "default_md5": "1b4f22cd8db3dc8fdb5fa3346e5a267c",
+    "default_md5": "da893d17cb9c17f3eab715f6d94b97c9",
     "lang_name": "Arabic"
   },
   "arabic": {
@@ -276,7 +276,7 @@
     },
     "depparse": {
       "btb": {
-        "md5": "ff62f1f41a70be1496f706190e1ffd6f",
+        "md5": "25ed5da50e4d7eae40a6b57875bc3959",
         "dependencies": [
           {
             "model": "pretrain",
@@ -386,7 +386,7 @@
         }
       ]
     },
-    "default_md5": "13a56d64b646b48d1f2a74ea4442ff39",
+    "default_md5": "deb25625ea0bc3e537fc539b342b7dbb",
     "lang_name": "Bulgarian"
   },
   "bulgarian": {
@@ -436,7 +436,7 @@
     },
     "depparse": {
       "ddt": {
-        "md5": "1a6d789bf71cc701e9c2a8a751d4df0b",
+        "md5": "d6ca0dc442497e6477542e30577b5aa0",
         "dependencies": [
           {
             "model": "pretrain",
@@ -578,7 +578,7 @@
         }
       ]
     },
-    "default_md5": "e21ab52f7cfeabb149adbf2f00c3b5e4",
+    "default_md5": "7096f90107924504148b1c9b9155385f",
     "lang_name": "Danish"
   },
   "danish": {
@@ -592,7 +592,7 @@
     },
     "depparse": {
       "gsd": {
-        "md5": "089e6cba9d5e86b4676b6e4a729461e6",
+        "md5": "90bb9240fc48882aae597ed5e1475d13",
         "dependencies": [
           {
             "model": "pretrain",
@@ -601,7 +601,7 @@
         ]
       },
       "hdt": {
-        "md5": "cb84d719c883a32f5632a8b070351ed3",
+        "md5": "a1f1ec6dbecfe26a6fa1d5272a6451cc",
         "dependencies": [
           {
             "model": "pretrain",
@@ -814,7 +814,7 @@
         }
       ]
     },
-    "default_md5": "116657ab0fa9b1492d7d9cb8dbfc6997",
+    "default_md5": "1feedab76556078f7adeb5573511be22",
     "lang_name": "German"
   },
   "german": {
@@ -1806,7 +1806,7 @@
     },
     "depparse": {
       "perdt": {
-        "md5": "bdab76a0af84c2f8d1de671444da9280",
+        "md5": "dd34b409bcb374dc44c446e44db1f502",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1977,7 +1977,7 @@
         }
       ]
     },
-    "default_md5": "d6cae9144972c01a433b037769e175bf",
+    "default_md5": "0fd14563386e6a1fd22b795b1e460876",
     "lang_name": "Persian"
   },
   "persian": {
@@ -2000,7 +2000,7 @@
         ]
       },
       "tdt": {
-        "md5": "d75f84b673be62df1a3bb4ba21680ce5",
+        "md5": "e44299e68bdb3fdbc6224e838f7bc209",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2162,7 +2162,7 @@
         }
       ]
     },
-    "default_md5": "1aa1bca6b43a7f23132ab20d7b4239a4",
+    "default_md5": "eea3159b451f4cff68f1bd199ca10ab5",
     "lang_name": "Finnish"
   },
   "finnish": {
@@ -2176,7 +2176,7 @@
     },
     "depparse": {
       "gsd": {
-        "md5": "8b1ce6bb9e503925d89f03324e8d7400",
+        "md5": "0d1d7ecc990da044a09b4013bb334bf6",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2371,7 +2371,7 @@
         }
       ]
     },
-    "default_md5": "bcd04572787883ff86843a7f759ed837",
+    "default_md5": "5aaa58c4951633d0f8eb513f5fd30cdc",
     "lang_name": "French"
   },
   "french": {
@@ -3050,7 +3050,7 @@
     },
     "depparse": {
       "gsd": {
-        "md5": "4b5dd44454976a4f3aed5c54af603225",
+        "md5": "c6e41686aad82e6b95d0dbca09878e89",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3175,7 +3175,7 @@
         }
       ]
     },
-    "default_md5": "045372bbe64c138e430aa3c5b1abca45",
+    "default_md5": "29cd900a05a3cc1605ab2edd08634b7f",
     "lang_name": "Japanese"
   },
   "japanese": {
@@ -3549,7 +3549,7 @@
     },
     "depparse": {
       "bokmaal": {
-        "md5": "ba3e54f3aff4ddc13d8cd0c394191716",
+        "md5": "9619b14064fbbf611dc44b64331dd7c6",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3659,7 +3659,7 @@
         }
       ]
     },
-    "default_md5": "f3904d16bad255703eaf3fbb1d6581e9",
+    "default_md5": "6bdedd87f68ec181d8ba2d6512aa780f",
     "lang_name": "Norwegian"
   },
   "norwegian": {
@@ -3673,7 +3673,7 @@
     },
     "depparse": {
       "alpino": {
-        "md5": "c41c7e7ab0ea3efc30aa7338a999eba8",
+        "md5": "09332b7fa4435ae6863b62cee4a34712",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3838,7 +3838,7 @@
         }
       ]
     },
-    "default_md5": "d8ff4f335c5f9848136a0203cad5b20e",
+    "default_md5": "92ddc872386926757e26be4a0aae6738",
     "lang_name": "Dutch"
   },
   "dutch": {
@@ -3852,7 +3852,7 @@
     },
     "depparse": {
       "lfg": {
-        "md5": "0e93bf35f4142e8a02f2314e16307467",
+        "md5": "9cc905abf3bce72a63c18fd2db7d660b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3861,7 +3861,7 @@
         ]
       },
       "pdb": {
-        "md5": "dd34f340b3a3ce612ae547ed4da28584",
+        "md5": "18debeeb740b18734b33c46c67df7b08",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4020,7 +4020,7 @@
         }
       ]
     },
-    "default_md5": "1c18c11583660ef0cce683f4a94cddd3",
+    "default_md5": "1b5bfefc5fb75b31609ee0444ca8e021",
     "lang_name": "Polish"
   },
   "polish": {
@@ -4034,7 +4034,7 @@
     },
     "depparse": {
       "gsd": {
-        "md5": "e202a7c78ace4614cdef316152e20fb2",
+        "md5": "891b7ff2bece97628816f1accd7c524c",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4043,7 +4043,7 @@
         ]
       },
       "syntagrus": {
-        "md5": "e1672f036cce5dfcb60b54ba1d6fbe74",
+        "md5": "2e562a557641a088a1bfa41f28250d28",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4052,7 +4052,7 @@
         ]
       },
       "taiga": {
-        "md5": "7306abf12b009bd2c3bcd1f9488dbf9b",
+        "md5": "b4bbdda7619c7cb9d9b5ca4374facca3",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4217,7 +4217,7 @@
         }
       ]
     },
-    "default_md5": "0acb7a643d058fce3e99f56ad9996ddb",
+    "default_md5": "74d2e7c2f2f2c42546fe8fd4791287a9",
     "lang_name": "Russian"
   },
   "russian": {
@@ -4240,7 +4240,7 @@
         ]
       },
       "talbanken": {
-        "md5": "219aeb6531e6562d49a1d8e778c01ac6",
+        "md5": "3773eb29ffc37b38389841b41d32e483",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4393,7 +4393,7 @@
         }
       ]
     },
-    "default_md5": "62ca45cbff01d503869fd76a126ab44c",
+    "default_md5": "a37d4464eaf1ce384f53ae9b42dfa970",
     "lang_name": "Swedish"
   },
   "swedish": {
@@ -4909,7 +4909,7 @@
     },
     "depparse": {
       "iu": {
-        "md5": "a4359f9d371c33151ab404e86f8d50e2",
+        "md5": "bcc65cc8b0181733cf98f34a297027e8",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5025,7 +5025,7 @@
         }
       ]
     },
-    "default_md5": "f4435fe87cfe3ec164928720dba7078d",
+    "default_md5": "e1b97030d8efbd77a5ae7b1a383bb616",
     "lang_name": "Ukrainian"
   },
   "ukrainian": {
@@ -5039,7 +5039,7 @@
     },
     "depparse": {
       "vtb": {
-        "md5": "dfc2e836056a7c25e0d9fd70f6590ab6",
+        "md5": "9cba7e77ef3c22c8ce09f25e7b3d95c2",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5195,7 +5195,7 @@
         }
       ]
     },
-    "default_md5": "f76ae78d5e66ad6b1ee0f7105079de9a",
+    "default_md5": "a0fc38e8ff28d8e8efd11d3863b470e4",
     "lang_name": "Vietnamese"
   },
   "vietnamese": {
@@ -5245,7 +5245,7 @@
     },
     "depparse": {
       "gsdsimp": {
-        "md5": "0583357a0832873f53f4f7f4a085e589",
+        "md5": "2e8d58201ab08f2502ef22ef524704fe",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5407,7 +5407,7 @@
         }
       ]
     },
-    "default_md5": "faa63f2d298ac064bc03e05456fe7134",
+    "default_md5": "03ac3b6dbd315d7a75ab6680addedd0c",
     "lang_name": "Simplified_Chinese"
   },
   "simplified_chinese": {
