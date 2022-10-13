@@ -262,7 +262,7 @@
         }
       ]
     },
-    "default_md5": "da893d17cb9c17f3eab715f6d94b97c9",
+    "default_md5": "ab0d5e131ee839273ee197c3e78964ea",
     "lang_name": "Arabic"
   },
   "arabic": {
@@ -830,7 +830,7 @@
         }
       ]
     },
-    "default_md5": "fce39467e5513dbb9c79dce96ce07dd3",
+    "default_md5": "a603993b02134fa2e3e2689965499849",
     "lang_name": "German"
   },
   "german": {
@@ -1552,7 +1552,7 @@
         }
       ]
     },
-    "default_md5": "7b1d24f58548e267eaa4797faae08cdf",
+    "default_md5": "16680c16c4e25c2f2c8bb7d81a35de34",
     "lang_name": "English"
   },
   "english": {
@@ -1825,7 +1825,7 @@
         }
       ]
     },
-    "default_md5": "ad013874266c42bc1b2a45af522f9cb7",
+    "default_md5": "fc59b8c4afa8b913d84a2ff8cfef2b1c",
     "lang_name": "Spanish"
   },
   "spanish": {
@@ -2404,7 +2404,7 @@
         }
       ]
     },
-    "default_md5": "5aaa58c4951633d0f8eb513f5fd30cdc",
+    "default_md5": "a2533fee837c3aac622f4044e9e47e54",
     "lang_name": "French"
   },
   "french": {
@@ -3921,7 +3921,7 @@
         }
       ]
     },
-    "default_md5": "92ddc872386926757e26be4a0aae6738",
+    "default_md5": "88f9958426ebac9e78d91b85390f0b13",
     "lang_name": "Dutch"
   },
   "dutch": {
@@ -4300,7 +4300,7 @@
         }
       ]
     },
-    "default_md5": "74d2e7c2f2f2c42546fe8fd4791287a9",
+    "default_md5": "4304015a90f2e0c53155d4dcaf887f45",
     "lang_name": "Russian"
   },
   "russian": {
@@ -4659,7 +4659,7 @@
         }
       ]
     },
-    "default_md5": "773ef640f1c3bd47a3f05d881896d245",
+    "default_md5": "dd8aa399c55577c5e15ef49c3c0cee90",
     "lang_name": "Thai"
   },
   "thai": {
@@ -5556,7 +5556,7 @@
         }
       ]
     },
-    "default_md5": "45b283f9884d90456285c09cfb4181e2",
+    "default_md5": "4c33b6f6573365490ec04356b46b9026",
     "lang_name": "Simplified_Chinese"
   },
   "simplified_chinese": {
@@ -7155,6 +7155,12 @@
           "model": "pretrain",
           "package": "szeged"
         }
+      ],
+      "ner": [
+        {
+          "model": "pretrain",
+          "package": "szeged"
+        }
       ]
     },
     "default_md5": "92aa790b99c300eaf204bb53f42548b3",
@@ -8280,6 +8286,12 @@
         }
       ],
       "depparse": [
+        {
+          "model": "pretrain",
+          "package": "nynorsk"
+        }
+      ],
+      "ner": [
         {
           "model": "pretrain",
           "package": "nynorsk"
