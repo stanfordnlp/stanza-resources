@@ -830,7 +830,7 @@
         }
       ]
     },
-    "default_md5": "a603993b02134fa2e3e2689965499849",
+    "default_md5": "8a0d02c61b75da0f4845c01720f5c49b",
     "lang_name": "German"
   },
   "german": {
@@ -2404,7 +2404,7 @@
         }
       ]
     },
-    "default_md5": "a2533fee837c3aac622f4044e9e47e54",
+    "default_md5": "b65e3b5d7b0ceb4d79ad617fed12c4cb",
     "lang_name": "French"
   },
   "french": {
@@ -2628,7 +2628,7 @@
         }
       ]
     },
-    "default_md5": "7819a1e5d1e0317551e8408f9adefd44",
+    "default_md5": "59c4745f4723e81e82537d2019db718a",
     "lang_name": "Hindi"
   },
   "hindi": {
@@ -3921,7 +3921,7 @@
         }
       ]
     },
-    "default_md5": "88f9958426ebac9e78d91b85390f0b13",
+    "default_md5": "90aec7d6dc65c5f2f3993a6d8a11bf85",
     "lang_name": "Dutch"
   },
   "dutch": {
@@ -4300,7 +4300,7 @@
         }
       ]
     },
-    "default_md5": "4304015a90f2e0c53155d4dcaf887f45",
+    "default_md5": "0b9c256b95802c79eb028589667fa88b",
     "lang_name": "Russian"
   },
   "russian": {
@@ -4593,7 +4593,7 @@
         }
       ]
     },
-    "default_md5": "777dcb3dd011bed67b14570b3aef53fc",
+    "default_md5": "f101768acfb598156cbeae8e5bbd0a3c",
     "lang_name": "Telugu"
   },
   "telugu": {
@@ -5205,6 +5205,23 @@
       }
     },
     "pos": {
+      "vlsp22_phobert_large": {
+        "md5": "7070be909dc53df037d3d3d9524abda5",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "vlsp22_phobert_large"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
       "vtb_phobert_base": {
         "md5": "3ae2ce7efe2efa0b3a066f97c52207ad",
         "dependencies": [
@@ -5556,7 +5573,7 @@
         }
       ]
     },
-    "default_md5": "4c33b6f6573365490ec04356b46b9026",
+    "default_md5": "ef5f94e1db85dc75b51c1a264c7545f7",
     "lang_name": "Simplified_Chinese"
   },
   "simplified_chinese": {
