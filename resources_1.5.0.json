@@ -5210,7 +5210,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "vlsp22_phobert_large"
+            "package": "vtb"
           },
           {
             "model": "forward_charlm",
