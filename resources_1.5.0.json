@@ -262,7 +262,7 @@
         }
       ]
     },
-    "default_md5": "ab0d5e131ee839273ee197c3e78964ea",
+    "default_md5": "9c0e086941eb8bc33015162c1a0d9da9",
     "lang_name": "Arabic"
   },
   "arabic": {
@@ -1825,7 +1825,7 @@
         }
       ]
     },
-    "default_md5": "fc59b8c4afa8b913d84a2ff8cfef2b1c",
+    "default_md5": "ed084be624eded078e9032931ec4fb18",
     "lang_name": "Spanish"
   },
   "spanish": {
@@ -5206,7 +5206,7 @@
     },
     "pos": {
       "vlsp22_phobert_large": {
-        "md5": "7070be909dc53df037d3d3d9524abda5",
+        "md5": "108c3618586d160a2d96b2b4927d9ab3",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5573,7 +5573,7 @@
         }
       ]
     },
-    "default_md5": "ef5f94e1db85dc75b51c1a264c7545f7",
+    "default_md5": "4c33b6f6573365490ec04356b46b9026",
     "lang_name": "Simplified_Chinese"
   },
   "simplified_chinese": {
