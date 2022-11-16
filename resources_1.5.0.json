@@ -8212,6 +8212,76 @@
   "maltese": {
     "alias": "mt"
   },
+  "myv": {
+    "depparse": {
+      "jr": {
+        "md5": "f51388bee3d1af07bde76dfcd8e47757",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "mokha"
+          }
+        ]
+      }
+    },
+    "lemma": {
+      "jr": {
+        "md5": "8b75d042039ebbd6b088732082b10b8b"
+      }
+    },
+    "mwt": {
+      "jr": {
+        "md5": "af94d12dd7838ce30c3b76167b37e83d"
+      }
+    },
+    "pos": {
+      "jr": {
+        "md5": "0cc1a08f7d91699ea6390a0161d17222",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "mokha"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "mokha": {
+        "md5": "7a62bd51d1fc3454ce3ae695ff6a9061"
+      }
+    },
+    "tokenize": {
+      "jr": {
+        "md5": "4f7a19046ce21f08b82e04d91667e910"
+      }
+    },
+    "default_processors": {
+      "tokenize": "jr",
+      "mwt": "jr",
+      "lemma": "jr",
+      "pos": "jr",
+      "depparse": "jr"
+    },
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "mokha"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "mokha"
+        }
+      ]
+    },
+    "default_md5": "e6598f93cb720f6b2caa21526e8971b2",
+    "lang_name": "Erzya"
+  },
+  "erzya": {
+    "alias": "myv"
+  },
   "nn": {
     "depparse": {
       "nynorsk": {
