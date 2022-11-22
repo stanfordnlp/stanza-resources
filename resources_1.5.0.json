@@ -4317,6 +4317,56 @@
         "md5": "82ea2209256276ed5bbc2903308c5b2e"
       }
     },
+    "ner": {
+      "siner": {
+        "md5": "ad2011dc750a0c39ac02b33a94bc4d4f",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "isra"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "isra"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "isra"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "isra": {
+        "md5": "b1c536ef356c60c4c37100a3365933b3"
+      }
+    },
+    "tokenize": {
+      "isra": {
+        "md5": "dc5b374484a57d04225451f140673ded"
+      }
+    },
+    "default_processors": {
+      "tokenize": "isra",
+      "ner": "siner"
+    },
+    "default_dependencies": {
+      "ner": [
+        {
+          "model": "pretrain",
+          "package": "isra"
+        },
+        {
+          "model": "forward_charlm",
+          "package": "isra"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "isra"
+        }
+      ]
+    },
+    "default_md5": "3b3475316c4296820854e4155455ac49",
     "lang_name": "Sindhi"
   },
   "sindhi": {
