@@ -416,7 +416,7 @@
     },
     "constituency": {
       "arboretum_bert": {
-        "md5": "54e167d3575b36636fa475f673dc310e",
+        "md5": "07f34cbe69b8db405b8f67ac3b753856",
         "dependencies": [
           {
             "model": "pretrain",
