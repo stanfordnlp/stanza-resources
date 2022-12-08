@@ -1265,7 +1265,7 @@
     },
     "pos": {
       "combined_bert": {
-        "md5": "503f7454c014d5045c6a684e84c6240a",
+        "md5": "ca73d3652cc4cf8d36e5c37d6030bb06",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1282,7 +1282,7 @@
         ]
       },
       "combined": {
-        "md5": "18d655eae1ef7cd6cd51f24107f43c52",
+        "md5": "512c0f22b8166d891103712620b32739",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1552,7 +1552,7 @@
         }
       ]
     },
-    "default_md5": "b8786ea488e4751c19e437b72d300319",
+    "default_md5": "782621bdcc2f7a71a4f73c75b89bb5b1",
     "lang_name": "English"
   },
   "english": {
