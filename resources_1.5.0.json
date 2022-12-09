@@ -1265,7 +1265,7 @@
     },
     "pos": {
       "combined_bert": {
-        "md5": "ca73d3652cc4cf8d36e5c37d6030bb06",
+        "md5": "3497a77b4899132b36c3277755aea4e5",
         "dependencies": [
           {
             "model": "pretrain",
