@@ -903,11 +903,19 @@
     },
     "depparse": {
       "combined": {
-        "md5": "4591f90709c54752a92138b5fa36d3c0",
+        "md5": "4b3710140577206cbabd5f245170ed75",
         "dependencies": [
           {
             "model": "pretrain",
             "package": "combined"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "1billion"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "1billion"
           }
         ]
       },
@@ -1507,6 +1515,14 @@
         {
           "model": "pretrain",
           "package": "combined"
+        },
+        {
+          "model": "forward_charlm",
+          "package": "1billion"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "1billion"
         }
       ],
       "ner": [
@@ -1552,7 +1568,7 @@
         }
       ]
     },
-    "default_md5": "782621bdcc2f7a71a4f73c75b89bb5b1",
+    "default_md5": "8d25f2ef40c75b087105ea5afce998aa",
     "lang_name": "English"
   },
   "english": {
