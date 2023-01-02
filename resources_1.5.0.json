@@ -2728,7 +2728,7 @@
     },
     "depparse": {
       "combined": {
-        "md5": "10c9bfaaabb570485c594b28c1972fd3",
+        "md5": "6422f4fbf333919dd5c8c663e383c35a",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2789,7 +2789,7 @@
     },
     "lemma": {
       "combined": {
-        "md5": "971885049cad2cb1f6b47a42ae8cdd13"
+        "md5": "65d711648e0d312178a81b484873c1be"
       },
       "isdt": {
         "md5": "b9f753f770ebac80fde19afb514a034e"
@@ -2809,7 +2809,7 @@
     },
     "mwt": {
       "combined": {
-        "md5": "d343f0aa2f1b857f6284cf17b8c18863"
+        "md5": "babdd0292be8f5ee1c8c9179ab3e21be"
       },
       "isdt": {
         "md5": "9aec3ea73254ce23564e9635270c22f9"
@@ -2882,7 +2882,7 @@
         ]
       },
       "combined": {
-        "md5": "e065e9608b408dbbe2852f06f51f40fb",
+        "md5": "8bbd85e166098a8ce5414471a0aa8a02",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3023,7 +3023,7 @@
     },
     "tokenize": {
       "combined": {
-        "md5": "906f883009a7dd1f28abbd881f9b4e1d"
+        "md5": "87fe9111221d528ddbedf2abd7bf8926"
       },
       "isdt": {
         "md5": "c3546b72abe31c0fc50cad124c5ecde3"
@@ -3100,7 +3100,7 @@
         }
       ]
     },
-    "default_md5": "cd14f301a26d10d2234d05f63ebd9ec9",
+    "default_md5": "89f630fc8d6999dcd545e709fdd9446a",
     "lang_name": "Italian"
   },
   "italian": {
