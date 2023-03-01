@@ -2864,8 +2864,8 @@
       }
     },
     "pos": {
-      "combined_bert": {
-        "md5": "2f99bb80b51d8433c32673c34f5020f3",
+      "combined_electra": {
+        "md5": "8a07ea4cb4c14303a28de64a4d435b98",
         "dependencies": [
           {
             "model": "pretrain",
