@@ -7274,6 +7274,26 @@
         "md5": "b11e565fc149cc828e2ec11e9c281691"
       }
     },
+    "ner": {
+      "armtdp_bert": {
+        "md5": "10d0b712e9b03dce6257f702c6c9cc20",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "armtdp"
+          }
+        ]
+      },
+      "armtdp": {
+        "md5": "8a9041930752f276cc36a56987f1347c",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "armtdp"
+          }
+        ]
+      }
+    },
     "pos": {
       "armtdp": {
         "md5": "3ad0bf603aeb9b50e0a6933b4fa997f0",
