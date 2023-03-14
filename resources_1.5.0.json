@@ -7320,7 +7320,8 @@
       "mwt": "armtdp",
       "lemma": "armtdp",
       "pos": "armtdp",
-      "depparse": "armtdp"
+      "depparse": "armtdp",
+      "ner": "armtdp"
     },
     "default_dependencies": {
       "pos": [
@@ -7334,9 +7335,15 @@
           "model": "pretrain",
           "package": "armtdp"
         }
+      ],
+      "ner": [
+        {
+          "model": "pretrain",
+          "package": "armtdp"
+        }
       ]
     },
-    "default_md5": "f2fb950d228465ab9bc232c479dc562f",
+    "default_md5": "f53f44fac6d6fbf2c15e5521e800312e",
     "lang_name": "Armenian"
   },
   "armenian": {
