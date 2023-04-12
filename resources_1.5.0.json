@@ -3023,7 +3023,7 @@
     },
     "tokenize": {
       "combined": {
-        "md5": "6ba9b99aa17d838128d8ff89344bd331"
+        "md5": "52bd16d5ab9bea6a2e2f811dd91888d8"
       },
       "isdt": {
         "md5": "c3546b72abe31c0fc50cad124c5ecde3"
@@ -3100,7 +3100,7 @@
         }
       ]
     },
-    "default_md5": "7b971bf559b3d5dbfcbb39ff2b0f4f52",
+    "default_md5": "aed47bf5a43a1035990e9265fcffae55",
     "lang_name": "Italian"
   },
   "italian": {
