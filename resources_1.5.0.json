@@ -3422,7 +3422,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "ufal"
+            "package": "fasttextwiki"
           }
         ]
       }
@@ -3448,7 +3448,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "ufal"
+            "package": "fasttextwiki"
           },
           {
             "model": "forward_charlm",
@@ -3467,7 +3467,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "ufal"
+            "package": "fasttextwiki"
           },
           {
             "model": "forward_charlm",
@@ -3481,7 +3481,7 @@
       }
     },
     "pretrain": {
-      "ufal": {
+      "fasttextwiki": {
         "md5": "d441a66702b42d407d8699f3b06c8749"
       }
     },
@@ -3491,7 +3491,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "ufal"
+            "package": "fasttextwiki"
           },
           {
             "model": "forward_charlm",
@@ -3522,7 +3522,7 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "ufal"
+          "package": "fasttextwiki"
         },
         {
           "model": "forward_charlm",
@@ -3536,13 +3536,13 @@
       "depparse": [
         {
           "model": "pretrain",
-          "package": "ufal"
+          "package": "fasttextwiki"
         }
       ],
       "ner": [
         {
           "model": "pretrain",
-          "package": "ufal"
+          "package": "fasttextwiki"
         },
         {
           "model": "forward_charlm",
@@ -3556,7 +3556,7 @@
       "sentiment": [
         {
           "model": "pretrain",
-          "package": "ufal"
+          "package": "fasttextwiki"
         },
         {
           "model": "forward_charlm",
@@ -3568,7 +3568,7 @@
         }
       ]
     },
-    "default_md5": "e9156e13103d337ab9b167a5b4e8dfae",
+    "default_md5": "1273cd3362d46a29ccef46ec36b9fe7f",
     "lang_name": "Marathi"
   },
   "marathi": {
