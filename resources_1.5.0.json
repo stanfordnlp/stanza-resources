@@ -3481,8 +3481,14 @@
       }
     },
     "pretrain": {
+      "fasttext": {
+        "md5": "f7b53a8e25ad703cf00ac32cb43dd563"
+      },
       "fasttextwiki": {
         "md5": "d441a66702b42d407d8699f3b06c8749"
+      },
+      "l3cube": {
+        "md5": "f6b364fc9c9cbf2a540fa59ab86237a1"
       }
     },
     "sentiment": {
@@ -5272,41 +5278,7 @@
     },
     "pos": {
       "vlsp22_phobert_large": {
-        "md5": "108c3618586d160a2d96b2b4927d9ab3",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "vtb"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "conll17"
-          }
-        ]
-      },
-      "vtb_phobert_base": {
-        "md5": "3ae2ce7efe2efa0b3a066f97c52207ad",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "vtb"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "conll17"
-          }
-        ]
-      },
-      "vtb_phobert_large": {
-        "md5": "14681023f81a8cb5d18ed68f268ce888",
+        "md5": "dad99a2c101e0e4285ee15f795661563",
         "dependencies": [
           {
             "model": "pretrain",
