@@ -5878,6 +5878,23 @@
           }
         ]
       },
+      "vlsp22": {
+        "md5": "0d0848f1e1f0c740729efaf0cca45b61",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "vtb"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
       "vtb": {
         "md5": "d0823488c5698cfa1179209140256a74",
         "dependencies": [
