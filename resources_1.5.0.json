@@ -5806,7 +5806,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "vtb"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -5830,7 +5830,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "vtb"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -5847,7 +5847,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "vtb"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -5866,7 +5866,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "vtb"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -5883,7 +5883,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "vtb"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -5900,7 +5900,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "vtb"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -5914,7 +5914,7 @@
       }
     },
     "pretrain": {
-      "vtb": {
+      "conll17": {
         "md5": "f44b045746bb003f105cfa8bea9e04d3"
       }
     },
@@ -5924,7 +5924,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "vtb"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -5954,7 +5954,7 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "vtb"
+          "package": "conll17"
         },
         {
           "model": "forward_charlm",
@@ -5968,7 +5968,7 @@
       "depparse": [
         {
           "model": "pretrain",
-          "package": "vtb"
+          "package": "conll17"
         },
         {
           "model": "forward_charlm",
@@ -5982,7 +5982,7 @@
       "ner": [
         {
           "model": "pretrain",
-          "package": "vtb"
+          "package": "conll17"
         },
         {
           "model": "forward_charlm",
@@ -5996,7 +5996,7 @@
       "sentiment": [
         {
           "model": "pretrain",
-          "package": "vtb"
+          "package": "conll17"
         },
         {
           "model": "forward_charlm",
@@ -6008,7 +6008,7 @@
         }
       ]
     },
-    "default_md5": "4b969e9301fcd2034e54725168c993e1",
+    "default_md5": "186a55dbb383cd521d1e8894f063a0fa",
     "lang_name": "Vietnamese"
   },
   "vietnamese": {
