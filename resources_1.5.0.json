@@ -1400,7 +1400,24 @@
       }
     },
     "pos": {
-      "combined_bert": {
+      "combined_electra": {
+        "md5": "97ae0dae74a9c7c77df7a5b309d1c508",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "combined"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "1billion"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "1billion"
+          }
+        ]
+      },
+      "combined_roberta": {
         "md5": "3497a77b4899132b36c3277755aea4e5",
         "dependencies": [
           {
@@ -5798,6 +5815,59 @@
     "backward_charlm": {
       "conll17": {
         "md5": "0dee056219b271cf5e155b57fceee296"
+      }
+    },
+    "constituency": {
+      "vlsp22": {
+        "md5": "d995b85e8b12bad95ab58885b37ca46e",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
+      "vlsp22_phobert": {
+        "md5": "72f8395073549b848cf70838fdf9256e",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
+      "vlsp22_phobert_finetuned": {
+        "md5": "5c2f6db3623dbb6fa590760f81ccd7f9",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       }
     },
     "depparse": {
