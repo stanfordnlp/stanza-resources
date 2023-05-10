@@ -6319,7 +6319,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "bosque"
+            "package": "conll17"
           }
         ]
       },
@@ -6328,7 +6328,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "bosque"
+            "package": "conll17"
           }
         ]
       }
@@ -6339,7 +6339,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "bosque"
+            "package": "conll17"
           }
         ]
       },
@@ -6348,7 +6348,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "gsd"
+            "package": "conll17"
           }
         ]
       }
@@ -6370,12 +6370,21 @@
       }
     },
     "pos": {
-      "bosque": {
-        "md5": "58e391110787d839af9da4bd671db66d",
+      "bosque_bert": {
+        "md5": "40a09909fd9e3ea6b2184ea7846970ef",
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "bosque"
+            "package": "conll17"
+          }
+        ]
+      },
+      "bosque": {
+        "md5": "0bc90390f9a5cf8f2d9dc2405f798192",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
           }
         ]
       },
@@ -6384,16 +6393,13 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "gsd"
+            "package": "conll17"
           }
         ]
       }
     },
     "pretrain": {
-      "bosque": {
-        "md5": "824f0b77cc8581fa278264a10d5daf5c"
-      },
-      "gsd": {
+      "conll17": {
         "md5": "824f0b77cc8581fa278264a10d5daf5c"
       }
     },
@@ -6417,23 +6423,23 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "bosque"
+          "package": "conll17"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "bosque"
+          "package": "conll17"
         }
       ],
       "constituency": [
         {
           "model": "pretrain",
-          "package": "bosque"
+          "package": "conll17"
         }
       ]
     },
-    "default_md5": "fbbddfa9d91bbca62f68a9ab8e445ae1",
+    "default_md5": "8c4991552aab552e7851fa7cd25c2b6b",
     "lang_name": "Portuguese"
   },
   "portuguese": {
@@ -8134,7 +8140,7 @@
         ]
       },
       "gsd": {
-        "md5": "7bf2f4917c50575710cce2539c878574",
+        "md5": "a3704bfb0d75bb4b177e40927b73c765",
         "dependencies": [
           {
             "model": "pretrain",
@@ -8180,7 +8186,7 @@
         }
       ]
     },
-    "default_md5": "b11dc9c7b60b46ac053452f79d84c779",
+    "default_md5": "ca6de55f8d02c2a00c089ec10796ff04",
     "lang_name": "Indonesian"
   },
   "indonesian": {
