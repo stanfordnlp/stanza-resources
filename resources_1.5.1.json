@@ -2998,6 +2998,161 @@
   "hindi": {
     "alias": "hi"
   },
+  "id": {
+    "backward_charlm": {
+      "oscar2023": {
+        "md5": "ce97564e52ffc2ba0fbd82a51d079822"
+      }
+    },
+    "depparse": {
+      "csui": {
+        "md5": "f23f43c2da97b68119da118dbe1b8d2d",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      },
+      "gsd": {
+        "md5": "9136e24c32d2c802f26a162028c248a6",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      }
+    },
+    "forward_charlm": {
+      "oscar2023": {
+        "md5": "210a07c9b20781354edfd7039dea6a01"
+      }
+    },
+    "lemma": {
+      "csui": {
+        "md5": "024a521a640bd501fecc7d3dbcbf64cb"
+      },
+      "gsd": {
+        "md5": "83f648abfa3e47446da50dd2a67f6805"
+      }
+    },
+    "mwt": {
+      "csui": {
+        "md5": "8d086374c4e8fc81f59aece5192d10bd"
+      },
+      "gsd": {
+        "md5": "48fa98a40b405e40089672e6ddefee89"
+      }
+    },
+    "pos": {
+      "csui": {
+        "md5": "416db93b42aa03a9fd2b5bd559ec392e",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      },
+      "gsd": {
+        "md5": "179a83e6b731529a03e867824f44eaa7",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "conll17": {
+        "md5": "644c82e3c1f229e4b1a2133b5e55cb0d"
+      }
+    },
+    "tokenize": {
+      "csui": {
+        "md5": "8b4006bbd72b5bf14c15d250640ac6b1"
+      },
+      "gsd": {
+        "md5": "1cb2a8498359f8317d7d311ef9b8ef2a"
+      }
+    },
+    "default_processors": {
+      "tokenize": "gsd",
+      "mwt": "gsd",
+      "lemma": "gsd",
+      "pos": "gsd",
+      "depparse": "gsd"
+    },
+    "default_dependencies": {
+      "pos": [
+        {
+          "model": "pretrain",
+          "package": "conll17"
+        },
+        {
+          "model": "forward_charlm",
+          "package": "oscar2023"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "oscar2023"
+        }
+      ],
+      "depparse": [
+        {
+          "model": "pretrain",
+          "package": "conll17"
+        },
+        {
+          "model": "forward_charlm",
+          "package": "oscar2023"
+        },
+        {
+          "model": "backward_charlm",
+          "package": "oscar2023"
+        }
+      ]
+    },
+    "default_md5": "0b7d09d06b8a69288098111a2a29c300",
+    "lang_name": "Indonesian"
+  },
+  "indonesian": {
+    "alias": "id"
+  },
   "it": {
     "backward_charlm": {
       "conll17": {
@@ -8150,103 +8305,6 @@
   },
   "western_armenian": {
     "alias": "hyw"
-  },
-  "id": {
-    "depparse": {
-      "csui": {
-        "md5": "8af164ced3dbf8e614992641e0b81ea9",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "conll17"
-          }
-        ]
-      },
-      "gsd": {
-        "md5": "b59bbdbd80d7faf0aedc4f480e49c6bc",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "conll17"
-          }
-        ]
-      }
-    },
-    "lemma": {
-      "csui": {
-        "md5": "024a521a640bd501fecc7d3dbcbf64cb"
-      },
-      "gsd": {
-        "md5": "83f648abfa3e47446da50dd2a67f6805"
-      }
-    },
-    "mwt": {
-      "csui": {
-        "md5": "8d086374c4e8fc81f59aece5192d10bd"
-      },
-      "gsd": {
-        "md5": "48fa98a40b405e40089672e6ddefee89"
-      }
-    },
-    "pos": {
-      "csui": {
-        "md5": "803aab41f4f3fdd89a38b7349fb30897",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "conll17"
-          }
-        ]
-      },
-      "gsd": {
-        "md5": "a3704bfb0d75bb4b177e40927b73c765",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "conll17"
-          }
-        ]
-      }
-    },
-    "pretrain": {
-      "conll17": {
-        "md5": "644c82e3c1f229e4b1a2133b5e55cb0d"
-      }
-    },
-    "tokenize": {
-      "csui": {
-        "md5": "8b4006bbd72b5bf14c15d250640ac6b1"
-      },
-      "gsd": {
-        "md5": "1cb2a8498359f8317d7d311ef9b8ef2a"
-      }
-    },
-    "default_processors": {
-      "tokenize": "gsd",
-      "mwt": "gsd",
-      "lemma": "gsd",
-      "pos": "gsd",
-      "depparse": "gsd"
-    },
-    "default_dependencies": {
-      "pos": [
-        {
-          "model": "pretrain",
-          "package": "conll17"
-        }
-      ],
-      "depparse": [
-        {
-          "model": "pretrain",
-          "package": "conll17"
-        }
-      ]
-    },
-    "default_md5": "ac8b821bb27a96d50035bf17f9295a8d",
-    "lang_name": "Indonesian"
-  },
-  "indonesian": {
-    "alias": "id"
   },
   "is": {
     "depparse": {
