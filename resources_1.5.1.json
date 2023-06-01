@@ -163,7 +163,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "padt"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -216,7 +216,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "padt"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -230,11 +230,11 @@
       }
     },
     "pretrain": {
+      "conll17": {
+        "md5": "d62de442e5d76c06f1b5762326ac673d"
+      },
       "fasttextwiki": {
         "md5": "d82c3a983a59a4a7cf22b12dd1bcce26"
-      },
-      "padt": {
-        "md5": "d62de442e5d76c06f1b5762326ac673d"
       }
     },
     "tokenize": {
@@ -254,7 +254,7 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "padt"
+          "package": "conll17"
         },
         {
           "model": "forward_charlm",
@@ -268,7 +268,7 @@
       "depparse": [
         {
           "model": "pretrain",
-          "package": "padt"
+          "package": "conll17"
         },
         {
           "model": "forward_charlm",
@@ -294,7 +294,7 @@
         }
       ]
     },
-    "default_md5": "f32d1c6742a3a45fb3c92b17e35cc2cd",
+    "default_md5": "e38cc68096ae760daf54236c3e518646",
     "lang_name": "Arabic"
   },
   "arabic": {
@@ -2025,7 +2025,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "perdt"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -2042,7 +2042,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "seraji"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -2082,7 +2082,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "perdt"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -2099,7 +2099,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "perdt"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -2118,7 +2118,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "perdt"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -2135,7 +2135,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "seraji"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -2149,10 +2149,7 @@
       }
     },
     "pretrain": {
-      "perdt": {
-        "md5": "7b8bbc80d57a376182bcab2d1fe3545b"
-      },
-      "seraji": {
+      "conll17": {
         "md5": "7b8bbc80d57a376182bcab2d1fe3545b"
       }
     },
@@ -2176,7 +2173,7 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "perdt"
+          "package": "conll17"
         },
         {
           "model": "forward_charlm",
@@ -2190,7 +2187,7 @@
       "depparse": [
         {
           "model": "pretrain",
-          "package": "perdt"
+          "package": "conll17"
         },
         {
           "model": "forward_charlm",
@@ -2204,7 +2201,7 @@
       "ner": [
         {
           "model": "pretrain",
-          "package": "perdt"
+          "package": "conll17"
         },
         {
           "model": "forward_charlm",
@@ -2216,7 +2213,7 @@
         }
       ]
     },
-    "default_md5": "bff5efc309c4877ef7b8099b6b782f95",
+    "default_md5": "3510935f6a0261d29a298f299039bf23",
     "lang_name": "Persian"
   },
   "persian": {
@@ -3702,7 +3699,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "gsd"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -3721,7 +3718,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "gsd"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -3750,7 +3747,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "gsd"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -3769,7 +3766,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "gsd"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -3783,7 +3780,7 @@
       }
     },
     "pretrain": {
-      "gsd": {
+      "conll17": {
         "md5": "0beeefcf5de352e0072f9c3b317f9046"
       }
     },
@@ -3804,7 +3801,7 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "gsd"
+          "package": "conll17"
         },
         {
           "model": "forward_charlm",
@@ -3818,7 +3815,7 @@
       "depparse": [
         {
           "model": "pretrain",
-          "package": "gsd"
+          "package": "conll17"
         },
         {
           "model": "forward_charlm",
@@ -3832,7 +3829,7 @@
       "ner": [
         {
           "model": "pretrain",
-          "package": "gsd"
+          "package": "conll17"
         },
         {
           "model": "forward_charlm",
@@ -3846,7 +3843,7 @@
       "constituency": [
         {
           "model": "pretrain",
-          "package": "gsd"
+          "package": "conll17"
         },
         {
           "model": "forward_charlm",
@@ -3858,7 +3855,7 @@
         }
       ]
     },
-    "default_md5": "95f23d5a8c8e0b3d20d53eb8b96a23d3",
+    "default_md5": "1543890b516cfa2203c4a02f436aa1fa",
     "lang_name": "Japanese"
   },
   "japanese": {
@@ -4633,7 +4630,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "lfg"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -4650,7 +4647,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "pdb"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -4687,7 +4684,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "pdb"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -4704,7 +4701,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "pdb"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -4723,7 +4720,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "lfg"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -4740,7 +4737,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "pdb"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -4754,10 +4751,7 @@
       }
     },
     "pretrain": {
-      "lfg": {
-        "md5": "818851bc41b722956456608ceb00483b"
-      },
-      "pdb": {
+      "conll17": {
         "md5": "818851bc41b722956456608ceb00483b"
       }
     },
@@ -4781,7 +4775,7 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "pdb"
+          "package": "conll17"
         },
         {
           "model": "forward_charlm",
@@ -4795,7 +4789,7 @@
       "depparse": [
         {
           "model": "pretrain",
-          "package": "pdb"
+          "package": "conll17"
         },
         {
           "model": "forward_charlm",
@@ -4809,7 +4803,7 @@
       "ner": [
         {
           "model": "pretrain",
-          "package": "pdb"
+          "package": "conll17"
         },
         {
           "model": "forward_charlm",
@@ -4821,7 +4815,7 @@
         }
       ]
     },
-    "default_md5": "39cad9b9025893346cf22f3f36427420",
+    "default_md5": "8394dca8310bb905879a6ddde0586954",
     "lang_name": "Polish"
   },
   "polish": {
@@ -8065,7 +8059,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "szeged"
+            "package": "conll17"
           }
         ]
       }
@@ -8081,7 +8075,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "szeged"
+            "package": "conll17"
           }
         ]
       }
@@ -8092,13 +8086,13 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "szeged"
+            "package": "conll17"
           }
         ]
       }
     },
     "pretrain": {
-      "szeged": {
+      "conll17": {
         "md5": "fb06fa767a8b655c0763f3e1b61169de"
       }
     },
@@ -8118,23 +8112,23 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "szeged"
+          "package": "conll17"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "szeged"
+          "package": "conll17"
         }
       ],
       "ner": [
         {
           "model": "pretrain",
-          "package": "szeged"
+          "package": "conll17"
         }
       ]
     },
-    "default_md5": "92aa790b99c300eaf204bb53f42548b3",
+    "default_md5": "d6b3bcff158252535af6bee55e714b61",
     "lang_name": "Hungarian"
   },
   "hungarian": {
