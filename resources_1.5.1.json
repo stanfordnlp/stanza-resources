@@ -2430,7 +2430,7 @@
     },
     "depparse": {
       "combined": {
-        "md5": "0693a8ab8a8d1929b217d4d4eb03ec23",
+        "md5": "9f3914f8e8c6adcc35d4020f3bb111ac",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2522,7 +2522,7 @@
     },
     "lemma": {
       "combined": {
-        "md5": "5ec7df1990a9bb5c59466665cf71e44e"
+        "md5": "23e97c3de7f57ddb3d1168d5fea104e8"
       },
       "gsd": {
         "md5": "842e0f10b7f27d06f706e840305c59ce"
@@ -2536,7 +2536,7 @@
     },
     "mwt": {
       "combined": {
-        "md5": "5daa2cabd8f480fd1594b38de52420a6"
+        "md5": "53b0a26ccb8f1a3a41e2e4b5b2b4734c"
       },
       "gsd": {
         "md5": "661cf809d39ffd3c8e6921c32633b25d"
@@ -2569,7 +2569,7 @@
     },
     "pos": {
       "combined": {
-        "md5": "a23198f797317d6e14018fe4ffed63b5",
+        "md5": "e90018de78813fd0383da7fb0f0dabad",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2664,7 +2664,7 @@
     },
     "tokenize": {
       "combined": {
-        "md5": "3af2a4c177553565d3c4768fbe3da0ac"
+        "md5": "a3d30f07e0a828ca0d58d8eff38d0e83"
       },
       "gsd": {
         "md5": "b524939e1dd1867fb4eefc9b9e7b97b9"
