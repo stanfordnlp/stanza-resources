@@ -1916,7 +1916,7 @@
     },
     "tokenize": {
       "ancora": {
-        "md5": "adb037ec4211466b0ba13a94a1ab711e"
+        "md5": "fb4f993378442df2f8561c12c0b0e731"
       },
       "gsd": {
         "md5": "91cba9d607bbc23dbab16f50d30cd564"
@@ -2004,7 +2004,7 @@
         }
       ]
     },
-    "default_md5": "c496ff674a9ff4c8cb850fa765c0a600",
+    "default_md5": "e43ee558d7fd4b1072c38b3a707e3121",
     "lang_name": "Spanish"
   },
   "spanish": {
@@ -2430,7 +2430,7 @@
     },
     "depparse": {
       "combined": {
-        "md5": "9f3914f8e8c6adcc35d4020f3bb111ac",
+        "md5": "7474e4e9d2a19a3cc5984f730b2422e3",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2464,7 +2464,7 @@
         ]
       },
       "gsd": {
-        "md5": "b8f0c283a509f9ed7be78b183e993d2b",
+        "md5": "8591fd1b24eb1745d3d677a9d9686f1b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2522,10 +2522,10 @@
     },
     "lemma": {
       "combined": {
-        "md5": "23e97c3de7f57ddb3d1168d5fea104e8"
+        "md5": "72879a6ea08c976a77c262299b9eaf99"
       },
       "gsd": {
-        "md5": "842e0f10b7f27d06f706e840305c59ce"
+        "md5": "14cf03839c1c6f709feda1a1e34e9cf2"
       },
       "partut": {
         "md5": "f0c9c0678bb38de841cd9ec9b6d387d0"
@@ -2536,10 +2536,10 @@
     },
     "mwt": {
       "combined": {
-        "md5": "53b0a26ccb8f1a3a41e2e4b5b2b4734c"
+        "md5": "225cfeb58ca9f4e6d2863b20a4d7a3f4"
       },
       "gsd": {
-        "md5": "661cf809d39ffd3c8e6921c32633b25d"
+        "md5": "f903fef5751b818a44ca5f9e15f5bf27"
       },
       "partut": {
         "md5": "dabefa711534088f9fcafa41954ca727"
@@ -2569,7 +2569,7 @@
     },
     "pos": {
       "combined": {
-        "md5": "e90018de78813fd0383da7fb0f0dabad",
+        "md5": "5183eeb31d0f390f60ebc5b50db966a4",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2603,7 +2603,7 @@
         ]
       },
       "gsd": {
-        "md5": "75e0429dc85c302dca8d78360a0f673e",
+        "md5": "55020032b632f0e4a8e0b222730fc5e3",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2664,10 +2664,10 @@
     },
     "tokenize": {
       "combined": {
-        "md5": "a3d30f07e0a828ca0d58d8eff38d0e83"
+        "md5": "bd51ec3b81796bcc76f59b57c3670095"
       },
       "gsd": {
-        "md5": "b524939e1dd1867fb4eefc9b9e7b97b9"
+        "md5": "c5d2d477b6202c1c9061b5a69eff5646"
       },
       "partut": {
         "md5": "a83e5819fa52e06c0ff9f064a292730d"
@@ -2728,7 +2728,7 @@
         }
       ]
     },
-    "default_md5": "2feb8ae962942a1146956c22b1d7cce8",
+    "default_md5": "44c80ccdbda5c561f8ff123ec150f671",
     "lang_name": "French"
   },
   "french": {
