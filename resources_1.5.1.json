@@ -6704,7 +6704,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "bdt"
+            "package": "fasttextwiki"
           }
         ]
       }
@@ -6720,13 +6720,13 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "bdt"
+            "package": "fasttextwiki"
           }
         ]
       }
     },
     "pretrain": {
-      "bdt": {
+      "fasttextwiki": {
         "md5": "6c11a27a56e71f84b851be10c38edf93"
       }
     },
@@ -6745,17 +6745,17 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "bdt"
+          "package": "fasttextwiki"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "bdt"
+          "package": "fasttextwiki"
         }
       ]
     },
-    "default_md5": "33b1614c81ecf3ed9c3c415b277ffad2",
+    "default_md5": "8ee550ce235bfaafbc098c5b152264b5",
     "lang_name": "Buryat"
   },
   "buryat": {
@@ -7093,7 +7093,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "ccg"
+            "package": "fasttext157"
           }
         ]
       }
@@ -7114,13 +7114,13 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "ccg"
+            "package": "fasttext157"
           }
         ]
       }
     },
     "pretrain": {
-      "ccg": {
+      "fasttext157": {
         "md5": "a0348b982fd2feb5bdbf650d1f1d85c9"
       }
     },
@@ -7140,17 +7140,17 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "ccg"
+          "package": "fasttext157"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "ccg"
+          "package": "fasttext157"
         }
       ]
     },
-    "default_md5": "19efbe44a64fe93a2c03042235056195",
+    "default_md5": "1cdb4e9965833fb35da20b060fe87db2",
     "lang_name": "Welsh"
   },
   "welsh": {
