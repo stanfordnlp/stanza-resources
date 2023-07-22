@@ -23,7 +23,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "afribooms"
+            "package": "fasttextwiki"
           },
           {
             "model": "forward_charlm",
@@ -52,7 +52,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "afribooms"
+            "package": "fasttextwiki"
           },
           {
             "model": "forward_charlm",
@@ -71,7 +71,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "afribooms"
+            "package": "fasttextwiki"
           },
           {
             "model": "forward_charlm",
@@ -85,7 +85,7 @@
       }
     },
     "pretrain": {
-      "afribooms": {
+      "fasttextwiki": {
         "md5": "3cebc7b7d224b30c5dca9fc8260cedb2"
       }
     },
@@ -105,7 +105,7 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "afribooms"
+          "package": "fasttextwiki"
         },
         {
           "model": "forward_charlm",
@@ -119,7 +119,7 @@
       "depparse": [
         {
           "model": "pretrain",
-          "package": "afribooms"
+          "package": "fasttextwiki"
         },
         {
           "model": "forward_charlm",
@@ -133,7 +133,7 @@
       "ner": [
         {
           "model": "pretrain",
-          "package": "afribooms"
+          "package": "fasttextwiki"
         },
         {
           "model": "forward_charlm",
@@ -145,7 +145,7 @@
         }
       ]
     },
-    "default_md5": "bcc0ffb67d1c7154f0dee2b7576a7d3d",
+    "default_md5": "ac8f511cb6e240f7aa9e3f1bc1144747",
     "lang_name": "Afrikaans"
   },
   "afrikaans": {
@@ -6640,7 +6640,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "hse"
+            "package": "fasttextwiki"
           }
         ]
       }
@@ -6656,13 +6656,13 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "hse"
+            "package": "fasttextwiki"
           }
         ]
       }
     },
     "pretrain": {
-      "hse": {
+      "fasttextwiki": {
         "md5": "02d2409b5735ec62617feccc70a64b06"
       }
     },
@@ -6681,17 +6681,17 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "hse"
+          "package": "fasttextwiki"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "hse"
+          "package": "fasttextwiki"
         }
       ]
     },
-    "default_md5": "1547a0ad4fb9e37da77e384399275ec7",
+    "default_md5": "9ffcda08802809674de2baa2380774f1",
     "lang_name": "Belarusian"
   },
   "belarusian": {
@@ -8269,7 +8269,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "icepahc"
+            "package": "fasttext157"
           }
         ]
       },
@@ -8278,7 +8278,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "modern"
+            "package": "fasttext157"
           }
         ]
       }
@@ -8305,7 +8305,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "icepahc"
+            "package": "fasttext157"
           }
         ]
       },
@@ -8314,16 +8314,13 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "modern"
+            "package": "fasttext157"
           }
         ]
       }
     },
     "pretrain": {
-      "icepahc": {
-        "md5": "b136e2e3baad0e8827e54dc001ed1254"
-      },
-      "modern": {
+      "fasttext157": {
         "md5": "b136e2e3baad0e8827e54dc001ed1254"
       }
     },
@@ -8346,17 +8343,17 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "icepahc"
+          "package": "fasttext157"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "icepahc"
+          "package": "fasttext157"
         }
       ]
     },
-    "default_md5": "f6275ce6788f103f6fcf4fe37a92728e",
+    "default_md5": "34d1f4ba6a238f107bdccd4643fdca7b",
     "lang_name": "Icelandic"
   },
   "icelandic": {
