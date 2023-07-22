@@ -5314,7 +5314,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "mtg"
+            "package": "fasttextwiki"
           },
           {
             "model": "forward_charlm",
@@ -5338,7 +5338,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "mtg"
+            "package": "fasttextwiki"
           },
           {
             "model": "forward_charlm",
@@ -5352,7 +5352,7 @@
       }
     },
     "pretrain": {
-      "mtg": {
+      "fasttextwiki": {
         "md5": "1eb74f3bb37919e379adf0ef19cf1944"
       }
     },
@@ -5371,7 +5371,7 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "mtg"
+          "package": "fasttextwiki"
         },
         {
           "model": "forward_charlm",
@@ -5385,7 +5385,7 @@
       "depparse": [
         {
           "model": "pretrain",
-          "package": "mtg"
+          "package": "fasttextwiki"
         },
         {
           "model": "forward_charlm",
@@ -5397,7 +5397,7 @@
         }
       ]
     },
-    "default_md5": "b00243ec670000a24559f855f73f79c1",
+    "default_md5": "6a42ed6b1e1f4047845dc6e709d152b7",
     "lang_name": "Telugu"
   },
   "telugu": {
@@ -7385,7 +7385,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "farpahc"
+            "package": "fasttextwiki"
           }
         ]
       }
@@ -7401,13 +7401,13 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "farpahc"
+            "package": "fasttextwiki"
           }
         ]
       }
     },
     "pretrain": {
-      "farpahc": {
+      "fasttextwiki": {
         "md5": "06ef499dcf62ba735e100c845878b519"
       }
     },
@@ -7427,17 +7427,17 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "farpahc"
+          "package": "fasttextwiki"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "farpahc"
+          "package": "fasttextwiki"
         }
       ]
     },
-    "default_md5": "0fc5b887ce8fafed723e00bfaecf1985",
+    "default_md5": "e15029708a41477c35a6e12e8846bc2a",
     "lang_name": "Faroese"
   },
   "faroese": {
@@ -7450,7 +7450,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "srcmf"
+            "package": "conll17"
           }
         ]
       }
@@ -7461,13 +7461,13 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "srcmf"
+            "package": "conll17"
           }
         ]
       }
     },
     "pretrain": {
-      "srcmf": {
+      "conll17": {
         "md5": "452fce3b1d44f9ab278fbc312a534fe6"
       }
     },
@@ -7486,17 +7486,17 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "srcmf"
+          "package": "conll17"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "srcmf"
+          "package": "conll17"
         }
       ]
     },
-    "default_md5": "6128bf0e6456259be599a18899264e2e",
+    "default_md5": "021da310365d1ddf7a05681c044a3b9f",
     "lang_name": "Old_French"
   },
   "old_french": {
@@ -7573,7 +7573,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "arcosg"
+            "package": "fasttextwiki"
           }
         ]
       }
@@ -7594,13 +7594,13 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "arcosg"
+            "package": "fasttextwiki"
           }
         ]
       }
     },
     "pretrain": {
-      "arcosg": {
+      "fasttextwiki": {
         "md5": "15aaf1e89c2f34cc4746d747ea8bef74"
       }
     },
@@ -7620,17 +7620,17 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "arcosg"
+          "package": "fasttextwiki"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "arcosg"
+          "package": "fasttextwiki"
         }
       ]
     },
-    "default_md5": "47ae1004dc0cc44ba76e22535747bc68",
+    "default_md5": "4b6f37bc1471361efc86469dd5571b4d",
     "lang_name": "Scottish_Gaelic"
   },
   "scottish_gaelic": {
@@ -7740,7 +7740,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "proiel"
+            "package": "fasttextwiki"
           }
         ]
       }
@@ -7756,13 +7756,13 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "proiel"
+            "package": "fasttextwiki"
           }
         ]
       }
     },
     "pretrain": {
-      "proiel": {
+      "fasttextwiki": {
         "md5": "cfbbfa0b6a081594a7902fa1d1dbf288"
       }
     },
@@ -7781,17 +7781,17 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "proiel"
+          "package": "fasttextwiki"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "proiel"
+          "package": "fasttextwiki"
         }
       ]
     },
-    "default_md5": "eaa44430f38bc70d39f8431da97f46c5",
+    "default_md5": "cad7d8cd4351ed6c29d655e9147619c5",
     "lang_name": "Gothic"
   },
   "gothic": {
@@ -9824,7 +9824,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "ttb"
+            "package": "fasttextwiki"
           }
         ]
       }
@@ -9845,13 +9845,13 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "ttb"
+            "package": "fasttextwiki"
           }
         ]
       }
     },
     "pretrain": {
-      "ttb": {
+      "fasttextwiki": {
         "md5": "a71735f272ae44c6611feafa286eb732"
       }
     },
@@ -9871,17 +9871,17 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "ttb"
+          "package": "fasttextwiki"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "ttb"
+          "package": "fasttextwiki"
         }
       ]
     },
-    "default_md5": "07c1ca71c110a1f2b3f97000b7339b43",
+    "default_md5": "1620746207e8ef0a79a2797520045977",
     "lang_name": "Tamil"
   },
   "tamil": {
