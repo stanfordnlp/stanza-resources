@@ -7956,7 +7956,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "ufal"
+            "package": "fasttextwiki"
           }
         ]
       }
@@ -7972,14 +7972,14 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "ufal"
+            "package": "fasttextwiki"
           }
         ]
       }
     },
     "pretrain": {
-      "ufal": {
-        "md5": "26816abd910a8c27f1abe815241cb9b8"
+      "fasttextwiki": {
+        "md5": "04e53dcfbc1cfee880835177bb53fe36"
       }
     },
     "tokenize": {
@@ -7997,17 +7997,17 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "ufal"
+          "package": "fasttextwiki"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "ufal"
+          "package": "fasttextwiki"
         }
       ]
     },
-    "default_md5": "d9cbb2fb159069b806de3e735f0d7414",
+    "default_md5": "cf142156f4bfeabe002a830900f1073e",
     "lang_name": "Upper_Sorbian"
   },
   "upper_sorbian": {
@@ -8366,7 +8366,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "mg"
+            "package": "fasttextwiki"
           }
         ]
       }
@@ -8387,14 +8387,14 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "mg"
+            "package": "fasttextwiki"
           }
         ]
       }
     },
     "pretrain": {
-      "mg": {
-        "md5": "62fcf68adefdbfe07e8ef12a0db376a7"
+      "fasttextwiki": {
+        "md5": "02c7fbbf73c5bb56277c89d090fdf6fa"
       }
     },
     "tokenize": {
@@ -8413,17 +8413,17 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "mg"
+          "package": "fasttextwiki"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "mg"
+          "package": "fasttextwiki"
         }
       ]
     },
-    "default_md5": "c4e2a81f349a0e80507ca389bf622b04",
+    "default_md5": "b558b98ca90f59dc1a679b598326c04a",
     "lang_name": "Kurmanji"
   },
   "kurmanji": {
@@ -8689,7 +8689,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "glt"
+            "package": "fasttextwiki"
           }
         ]
       }
@@ -8710,13 +8710,13 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "glt"
+            "package": "fasttextwiki"
           }
         ]
       }
     },
     "pretrain": {
-      "glt": {
+      "fasttextwiki": {
         "md5": "3d08342f3c6e7719c9f72ce58197afed"
       }
     },
@@ -8736,17 +8736,17 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "glt"
+          "package": "fasttextwiki"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "glt"
+          "package": "fasttextwiki"
         }
       ]
     },
-    "default_md5": "cb8ce2a572ae1f1e691fdc8863aafe36",
+    "default_md5": "9e08e3d841acc2a9989c45b2879df602",
     "lang_name": "Ligurian"
   },
   "ligurian": {
@@ -8975,7 +8975,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "mudt"
+            "package": "fasttextwiki"
           }
         ]
       }
@@ -8986,13 +8986,13 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "mudt"
+            "package": "fasttextwiki"
           }
         ]
       }
     },
     "pretrain": {
-      "mudt": {
+      "fasttextwiki": {
         "md5": "eb34f59396a864c518458e9f1deece2f"
       }
     },
@@ -9011,17 +9011,17 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "mudt"
+          "package": "fasttextwiki"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "mudt"
+          "package": "fasttextwiki"
         }
       ]
     },
-    "default_md5": "c07d40d6d90694ef7f8318519a0ef713",
+    "default_md5": "a40e4594f82746a922728306a3130081",
     "lang_name": "Maltese"
   },
   "maltese": {
@@ -9442,7 +9442,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "vedic"
+            "package": "fasttext157"
           }
         ]
       }
@@ -9458,13 +9458,13 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "vedic"
+            "package": "fasttext157"
           }
         ]
       }
     },
     "pretrain": {
-      "vedic": {
+      "fasttext157": {
         "md5": "21f562a2707551b29712297d1161b249"
       }
     },
@@ -9483,17 +9483,17 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "vedic"
+          "package": "fasttext157"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "vedic"
+          "package": "fasttext157"
         }
       ]
     },
-    "default_md5": "18f20f18e0d784808af9d2cb59d51338",
+    "default_md5": "813a68943bb5ec983ce6c3f705ed9f77",
     "lang_name": "Sanskrit"
   },
   "sanskrit": {
@@ -9664,7 +9664,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "giella"
+            "package": "fasttextwiki"
           }
         ]
       }
@@ -9680,13 +9680,13 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "giella"
+            "package": "fasttextwiki"
           }
         ]
       }
     },
     "pretrain": {
-      "giella": {
+      "fasttextwiki": {
         "md5": "00eb9481aed292d0befe3d75270a8593"
       }
     },
@@ -9705,17 +9705,17 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "giella"
+          "package": "fasttextwiki"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "giella"
+          "package": "fasttextwiki"
         }
       ]
     },
-    "default_md5": "868cd0ab14e5f706824046f7922babbc",
+    "default_md5": "90d16c23b3f327a4cedfd5b5222fbdff",
     "lang_name": "North_Sami"
   },
   "north_sami": {
@@ -9728,7 +9728,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "set"
+            "package": "fasttextwiki"
           }
         ]
       }
@@ -9744,13 +9744,13 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "set"
+            "package": "fasttextwiki"
           }
         ]
       }
     },
     "pretrain": {
-      "set": {
+      "fasttextwiki": {
         "md5": "7aa7f383bc1f3fd6d08da380aaf8d3d1"
       }
     },
@@ -9769,17 +9769,17 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "set"
+          "package": "fasttextwiki"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "set"
+          "package": "fasttextwiki"
         }
       ]
     },
-    "default_md5": "75a7d9f1261c4f6fdf1d4f4c904f240f",
+    "default_md5": "f4e91a79764470545d5a5edb9892e632",
     "lang_name": "Serbian"
   },
   "serbian": {
@@ -9891,7 +9891,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "udt"
+            "package": "conll17"
           }
         ]
       }
@@ -9907,13 +9907,13 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "udt"
+            "package": "conll17"
           }
         ]
       }
     },
     "pretrain": {
-      "udt": {
+      "conll17": {
         "md5": "2c6fe68b7931b6d2dbe2ea7d16cd1422"
       }
     },
@@ -9932,17 +9932,17 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "udt"
+          "package": "conll17"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "udt"
+          "package": "conll17"
         }
       ]
     },
-    "default_md5": "108e9bf55db76727ae9cf23e20880192",
+    "default_md5": "e9d65efdcfa630f648052640aeff8e29",
     "lang_name": "Uyghur"
   },
   "uyghur": {
@@ -10019,7 +10019,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "wtb"
+            "package": "fasttextwiki"
           }
         ]
       }
@@ -10040,13 +10040,13 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "wtb"
+            "package": "fasttextwiki"
           }
         ]
       }
     },
     "pretrain": {
-      "wtb": {
+      "fasttextwiki": {
         "md5": "b70201231da7946362208588af5a784a"
       }
     },
@@ -10066,17 +10066,17 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "wtb"
+          "package": "fasttextwiki"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "wtb"
+          "package": "fasttextwiki"
         }
       ]
     },
-    "default_md5": "89ab02f7caed81ab5239c87c084b2108",
+    "default_md5": "788f3a191ccd6024950219d1e47c18c8",
     "lang_name": "Wolof"
   },
   "wolof": {
