@@ -8759,7 +8759,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "alksnis"
+            "package": "fasttextwiki"
           }
         ]
       },
@@ -8768,7 +8768,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "hse"
+            "package": "fasttextwiki"
           }
         ]
       }
@@ -8787,7 +8787,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "alksnis"
+            "package": "fasttextwiki"
           }
         ]
       },
@@ -8796,16 +8796,13 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "hse"
+            "package": "fasttextwiki"
           }
         ]
       }
     },
     "pretrain": {
-      "alksnis": {
-        "md5": "89420a04d9c0b31feb5598e17eb52f8f"
-      },
-      "hse": {
+      "fasttextwiki": {
         "md5": "89420a04d9c0b31feb5598e17eb52f8f"
       }
     },
@@ -8827,17 +8824,17 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "alksnis"
+          "package": "fasttextwiki"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "alksnis"
+          "package": "fasttextwiki"
         }
       ]
     },
-    "default_md5": "2b151a233b93552b15bb583d7053b172",
+    "default_md5": "d52d58bf9b571fd89aac7cac52b3c664",
     "lang_name": "Lithuanian"
   },
   "lithuanian": {
@@ -8914,7 +8911,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "kyoto"
+            "package": "fasttextwiki"
           }
         ]
       }
@@ -8930,13 +8927,13 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "kyoto"
+            "package": "fasttextwiki"
           }
         ]
       }
     },
     "pretrain": {
-      "kyoto": {
+      "fasttextwiki": {
         "md5": "b2c50e236a01c2595fc978a2fa6d6a14"
       }
     },
@@ -8955,17 +8952,17 @@
       "pos": [
         {
           "model": "pretrain",
-          "package": "kyoto"
+          "package": "fasttextwiki"
         }
       ],
       "depparse": [
         {
           "model": "pretrain",
-          "package": "kyoto"
+          "package": "fasttextwiki"
         }
       ]
     },
-    "default_md5": "48ed32f1059c28936ee3d73c263591e3",
+    "default_md5": "1082a732220ba83b03affe02fe4f6798",
     "lang_name": "Classical_Chinese"
   },
   "classical_chinese": {
