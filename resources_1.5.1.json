@@ -6284,7 +6284,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "gsdsimp"
+            "package": "fasttext157"
           },
           {
             "model": "forward_charlm",
@@ -6301,7 +6301,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "gsdsimp"
+            "package": "fasttext157"
           },
           {
             "model": "forward_charlm",
@@ -6316,11 +6316,11 @@
     },
     "depparse": {
       "gsdsimp": {
-        "md5": "08fb67dd2502e5914b5e8d8a8bc80890",
+        "md5": "a64397601e88b81b6c7297ce79d907da",
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "gsdsimp"
+            "package": "fasttext157"
           },
           {
             "model": "forward_charlm",
@@ -6345,7 +6345,7 @@
     },
     "ner": {
       "ontonotes": {
-        "md5": "a7fce373f7532128e1439b46b51b1144",
+        "md5": "939a7ce435c2e6398703180f75cb652c",
         "dependencies": [
           {
             "model": "pretrain",
@@ -6364,11 +6364,11 @@
     },
     "pos": {
       "gsdsimp": {
-        "md5": "3a28479ed863cc12cc1b3a2f9cf3a573",
+        "md5": "06e0d2ed210e9e9c6d9bc9f29fdff4ab",
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "gsdsimp"
+            "package": "fasttext157"
           },
           {
             "model": "forward_charlm",
@@ -6382,20 +6382,23 @@
       }
     },
     "pretrain": {
+      "fasttext157": {
+        "md5": "72a751d9ee9a98127bcc91e6e5d6d37b"
+      },
       "fasttextwiki": {
         "md5": "ab82486223ce1f69e8c6176c25c2af25"
       },
-      "gsdsimp": {
+      "fasttextwikinotrad": {
         "md5": "0890c708d8e5ee4a5ad12ec4f45aff33"
       }
     },
     "sentiment": {
       "ren": {
-        "md5": "200de341c9f988f10ee2bca0cae35819",
+        "md5": "23a88ad17a866302f24a134462f27bb5",
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "gsdsimp"
+            "package": "fasttext157"
           },
           {
             "model": "forward_charlm",
@@ -6419,14 +6422,13 @@
       "pos": "gsdsimp",
       "depparse": "gsdsimp",
       "ner": "ontonotes",
-      "sentiment": "ren",
-      "constituency": "ctb"
+      "sentiment": "ren"
     },
     "default_dependencies": {
       "pos": [
         {
           "model": "pretrain",
-          "package": "gsdsimp"
+          "package": "fasttext157"
         },
         {
           "model": "forward_charlm",
@@ -6440,7 +6442,7 @@
       "depparse": [
         {
           "model": "pretrain",
-          "package": "gsdsimp"
+          "package": "fasttext157"
         },
         {
           "model": "forward_charlm",
@@ -6468,21 +6470,7 @@
       "sentiment": [
         {
           "model": "pretrain",
-          "package": "gsdsimp"
-        },
-        {
-          "model": "forward_charlm",
-          "package": "gigaword"
-        },
-        {
-          "model": "backward_charlm",
-          "package": "gigaword"
-        }
-      ],
-      "constituency": [
-        {
-          "model": "pretrain",
-          "package": "gsdsimp"
+          "package": "fasttext157"
         },
         {
           "model": "forward_charlm",
@@ -6494,7 +6482,7 @@
         }
       ]
     },
-    "default_md5": "431e94c02755cc9bc76466e8225b11bb",
+    "default_md5": "829e4294586791eca549ae72832a3cca",
     "lang_name": "Simplified_Chinese"
   },
   "simplified_chinese": {
