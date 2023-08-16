@@ -10148,6 +10148,17 @@
   "manx": {
     "alias": "gv"
   },
+  "hbo": {
+    "pretrain": {
+      "utah": {
+        "md5": "cbcff2dade0082954fe7f8115f272f0e"
+      }
+    },
+    "lang_name": "Ancient_Hebrew"
+  },
+  "ancient_hebrew": {
+    "alias": "hbo"
+  },
   "ky": {
     "pretrain": {
       "fasttext157": {
