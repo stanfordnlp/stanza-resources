@@ -6007,7 +6007,7 @@
     },
     "constituency": {
       "vlsp22": {
-        "md5": "d995b85e8b12bad95ab58885b37ca46e",
+        "md5": "9b94a86ae622ebe05b5e409a86c39a8b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -10136,6 +10136,28 @@
   },
   "traditional_chinese": {
     "alias": "zh-hant"
+  },
+  "gv": {
+    "pretrain": {
+      "fasttext157": {
+        "md5": "1b8a74322514c6ca0e790d1bef9f3393"
+      }
+    },
+    "lang_name": "Manx"
+  },
+  "manx": {
+    "alias": "gv"
+  },
+  "ky": {
+    "pretrain": {
+      "fasttext157": {
+        "md5": "2359bbb3a3bea831260eae7c75256b92"
+      }
+    },
+    "lang_name": "Kyrgyz"
+  },
+  "kyrgyz": {
+    "alias": "ky"
   },
   "no": {
     "alias": "nb"
