@@ -989,7 +989,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "craft"
+            "package": "biomed"
           },
           {
             "model": "forward_charlm",
@@ -1006,7 +1006,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "craft"
+            "package": "biomed"
           },
           {
             "model": "forward_charlm",
@@ -1023,7 +1023,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "craft"
+            "package": "biomed"
           },
           {
             "model": "forward_charlm",
@@ -1040,7 +1040,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "craft"
+            "package": "biomed"
           },
           {
             "model": "forward_charlm",
@@ -1108,7 +1108,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "craft"
+            "package": "biomed"
           },
           {
             "model": "forward_charlm",
@@ -1125,7 +1125,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "craft"
+            "package": "biomed"
           },
           {
             "model": "forward_charlm",
@@ -1142,7 +1142,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "craft"
+            "package": "biomed"
           },
           {
             "model": "forward_charlm",
@@ -1210,7 +1210,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "craft"
+            "package": "biomed"
           },
           {
             "model": "forward_charlm",
@@ -1414,17 +1414,14 @@
       }
     },
     "pretrain": {
+      "biomed": {
+        "md5": "e4ba08c4922e4cf7141ab2a1ab20e8de"
+      },
       "conll17": {
         "md5": "3b77b53669901e532ead7c9cd7360c46"
       },
-      "craft": {
-        "md5": "e4ba08c4922e4cf7141ab2a1ab20e8de"
-      },
       "fasttextcrawl": {
         "md5": "e4bd9507069f1233f802ef3219c05873"
-      },
-      "genia": {
-        "md5": "e4ba08c4922e4cf7141ab2a1ab20e8de"
       },
       "glove": {
         "md5": "812e5bfad538ab7931cae586b0648f7a"
