@@ -841,7 +841,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
+            "package": "biomed"
           }
         ]
       },
@@ -1340,7 +1340,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
+            "package": "biomed"
           }
         ]
       },
