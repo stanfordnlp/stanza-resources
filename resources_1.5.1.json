@@ -798,7 +798,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
+            "package": "biomed"
           }
         ]
       },
@@ -1246,7 +1246,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "combined"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -1263,7 +1263,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "combined"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -1297,7 +1297,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
+            "package": "biomed"
           }
         ]
       },
