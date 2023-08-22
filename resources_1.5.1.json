@@ -42,7 +42,17 @@
     },
     "lemma": {
       "afribooms_charlm": {
-        "md5": "f67382c9caefdd1518a16421d7a801ad"
+        "md5": "f67382c9caefdd1518a16421d7a801ad",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
       },
       "afribooms_nocharlm": {
         "md5": "1454c5524a1918a6093db41eefb474ea"
@@ -91,14 +101,6 @@
           {
             "model": "pretrain",
             "package": "fasttextwiki"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "oscar"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "oscar"
           }
         ]
       }
@@ -158,7 +160,17 @@
     },
     "lemma": {
       "padt_charlm": {
-        "md5": "256d07655fec4a57c289748c36a1e988"
+        "md5": "256d07655fec4a57c289748c36a1e988",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "ccwiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "ccwiki"
+          }
+        ]
       },
       "padt_nocharlm": {
         "md5": "789ed2fda03f19441c41363f491e0b23"
@@ -212,14 +224,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "ccwiki"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "ccwiki"
           }
         ]
       }
@@ -283,7 +287,17 @@
     },
     "lemma": {
       "btb_charlm": {
-        "md5": "aeda661b3ec4b7eca120070a50b056e2"
+        "md5": "aeda661b3ec4b7eca120070a50b056e2",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       },
       "btb_nocharlm": {
         "md5": "893add080e7bea33ccf9c4b04306b3bb"
@@ -331,14 +345,6 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
             "package": "conll17"
           }
         ]
@@ -451,7 +457,17 @@
     },
     "lemma": {
       "ddt_charlm": {
-        "md5": "66a30142e64551a73d2552b9d331d9da"
+        "md5": "66a30142e64551a73d2552b9d331d9da",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
       },
       "ddt_nocharlm": {
         "md5": "8ab21b986c38389dee3b3db540623852"
@@ -517,14 +533,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "oscar"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "oscar"
           }
         ]
       }
@@ -602,13 +610,33 @@
     },
     "lemma": {
       "gsd_charlm": {
-        "md5": "b5bfe5b753d01bc39f25ede7b2d76d98"
+        "md5": "b5bfe5b753d01bc39f25ede7b2d76d98",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
       },
       "gsd_nocharlm": {
         "md5": "8c3f1a898453c0cd45c2ed6c409797eb"
       },
       "hdt_charlm": {
-        "md5": "d2d7cf94e92f70579074f75b4925cd0f"
+        "md5": "d2d7cf94e92f70579074f75b4925cd0f",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
       },
       "hdt_nocharlm": {
         "md5": "4c86ac8cc8bdea8d1f38d1e5f9db2143"
@@ -699,14 +727,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "newswiki"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "newswiki"
           }
         ]
       },
@@ -733,14 +753,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "newswiki"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "newswiki"
           }
         ]
       }
@@ -1029,13 +1041,33 @@
     },
     "lemma": {
       "atis_charlm": {
-        "md5": "930b2574031b049af233374f407577d5"
+        "md5": "930b2574031b049af233374f407577d5",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "1billion"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "1billion"
+          }
+        ]
       },
       "atis_nocharlm": {
         "md5": "7bac2473be7468e4d0434c102c4b9194"
       },
       "combined_charlm": {
-        "md5": "fbf4a5e370f1a43131e37ca788a501fe"
+        "md5": "fbf4a5e370f1a43131e37ca788a501fe",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "1billion"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "1billion"
+          }
+        ]
       },
       "combined_nocharlm": {
         "md5": "650a4859e8f99e283cb1e900cf537010"
@@ -1044,7 +1076,17 @@
         "md5": "fe602af4a87e923faf5d4ce597a8be08"
       },
       "ewt_charlm": {
-        "md5": "1b366b478d58b3d5df7a50e8025bccc1"
+        "md5": "1b366b478d58b3d5df7a50e8025bccc1",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "1billion"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "1billion"
+          }
+        ]
       },
       "ewt_nocharlm": {
         "md5": "df345a79980776b1ff2fdf55da12636a"
@@ -1053,13 +1095,33 @@
         "md5": "b64c1c9433acaa7d14090ae07aa8eb08"
       },
       "gum_charlm": {
-        "md5": "023fc91520366ce1ce1578ad881b480b"
+        "md5": "023fc91520366ce1ce1578ad881b480b",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "1billion"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "1billion"
+          }
+        ]
       },
       "gum_nocharlm": {
         "md5": "9e58361c1407c5659b9825b9df3e1d94"
       },
       "lines_charlm": {
-        "md5": "b04d89f115c2ece3dd0c0352e47479fd"
+        "md5": "b04d89f115c2ece3dd0c0352e47479fd",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "1billion"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "1billion"
+          }
+        ]
       },
       "lines_nocharlm": {
         "md5": "131b8be6644d583ec520b1cadc3d5a9d"
@@ -1068,7 +1130,17 @@
         "md5": "4701f9523bad5ec916785387938deec4"
       },
       "partut_charlm": {
-        "md5": "701d5f9d422dbd323f64f06b7409fa24"
+        "md5": "701d5f9d422dbd323f64f06b7409fa24",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "1billion"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "1billion"
+          }
+        ]
       },
       "partut_nocharlm": {
         "md5": "6e8ba68389f378db056a7e6d44a1aeb3"
@@ -1349,14 +1421,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "1billion"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "1billion"
           }
         ]
       },
@@ -1400,14 +1464,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "1billion"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "1billion"
           }
         ]
       },
@@ -1434,14 +1490,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "1billion"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "1billion"
           }
         ]
       },
@@ -1468,14 +1516,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "1billion"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "1billion"
           }
         ]
       },
@@ -1502,14 +1542,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "1billion"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "1billion"
           }
         ]
       },
@@ -1519,14 +1551,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "1billion"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "1billion"
           }
         ]
       },
@@ -1553,14 +1577,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "1billion"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "1billion"
           }
         ]
       },
@@ -1587,18 +1603,10 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "1billion"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "1billion"
           }
         ]
       },
-      "mimic_nocharlm": {
+      "mimic_charlm": {
         "md5": "76782c1e585c9c953a9dbaa097c014e5",
         "dependencies": [
           {
@@ -1607,11 +1615,11 @@
           },
           {
             "model": "forward_charlm",
-            "package": "1billion"
+            "package": "mimic"
           },
           {
             "model": "backward_charlm",
-            "package": "1billion"
+            "package": "mimic"
           }
         ]
       },
@@ -1638,14 +1646,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "1billion"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "1billion"
           }
         ]
       }
@@ -1818,13 +1818,33 @@
     },
     "lemma": {
       "ancora_charlm": {
-        "md5": "cdd7b534fd95ac19ad76ffd5cf15cd2b"
+        "md5": "cdd7b534fd95ac19ad76ffd5cf15cd2b",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
       },
       "ancora_nocharlm": {
         "md5": "8647a3818d49201aa0bc617bfef50007"
       },
       "gsd_charlm": {
-        "md5": "493ac7009eddaf450ee8fd6e43f6fa23"
+        "md5": "493ac7009eddaf450ee8fd6e43f6fa23",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
       },
       "gsd_nocharlm": {
         "md5": "76ce5c1568bc6112704f781069d1fd00"
@@ -1898,14 +1918,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "newswiki"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "newswiki"
           }
         ]
       },
@@ -1932,14 +1944,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "newswiki"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "newswiki"
           }
         ]
       }
@@ -2044,13 +2048,33 @@
     },
     "lemma": {
       "perdt_charlm": {
-        "md5": "3ce93e8cf31f01d06b207ed56a5a17d8"
+        "md5": "3ce93e8cf31f01d06b207ed56a5a17d8",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       },
       "perdt_nocharlm": {
         "md5": "e816069b9dca82c4ae68ce4da263b4cc"
       },
       "seraji_charlm": {
-        "md5": "3e9c193e56a5d4efb87535ed67f5474f"
+        "md5": "3e9c193e56a5d4efb87535ed67f5474f",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       },
       "seraji_nocharlm": {
         "md5": "26d6d9f35a1adf9d0e2ddba63669c404"
@@ -2124,14 +2148,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "conll17"
           }
         ]
       },
@@ -2157,14 +2173,6 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
             "package": "conll17"
           }
         ]
@@ -2246,13 +2254,33 @@
     },
     "lemma": {
       "ftb_charlm": {
-        "md5": "4727c75a9a3cd39339d3993c8d5518a8"
+        "md5": "4727c75a9a3cd39339d3993c8d5518a8",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       },
       "ftb_nocharlm": {
         "md5": "de4ba214a24c213ec02916349aec3dd7"
       },
       "tdt_charlm": {
-        "md5": "3827b49b5c2738f416dcb04b16e09faf"
+        "md5": "3827b49b5c2738f416dcb04b16e09faf",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       },
       "tdt_nocharlm": {
         "md5": "f3a590a0cf8490ce9011224ae71be513"
@@ -2326,14 +2354,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "conll17"
           }
         ]
       },
@@ -2359,14 +2379,6 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
             "package": "conll17"
           }
         ]
@@ -2533,37 +2545,97 @@
     },
     "lemma": {
       "combined_charlm": {
-        "md5": "13d087c89868338586693abeb7708238"
+        "md5": "13d087c89868338586693abeb7708238",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
       },
       "combined_nocharlm": {
         "md5": "72879a6ea08c976a77c262299b9eaf99"
       },
       "gsd_charlm": {
-        "md5": "3a2395c69ef44672d882fcf99a6ca198"
+        "md5": "3a2395c69ef44672d882fcf99a6ca198",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
       },
       "gsd_nocharlm": {
         "md5": "32e00a29b6f1c0731c48b9b1e672da26"
       },
       "parisstories_charlm": {
-        "md5": "2a1762f1df6724aa06ada02cccfa25ea"
+        "md5": "2a1762f1df6724aa06ada02cccfa25ea",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
       },
       "parisstories_nocharlm": {
         "md5": "982076a53bf28b0040bb3d8c74c0ff11"
       },
       "partut_charlm": {
-        "md5": "77b25b2342cc06e8288696f93df3a3d6"
+        "md5": "77b25b2342cc06e8288696f93df3a3d6",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
       },
       "partut_nocharlm": {
         "md5": "3008eefa254daa32950e93ac5b5ad20a"
       },
       "rhapsodie_charlm": {
-        "md5": "990ddc0893c707fd628a79b5b0a4bef0"
+        "md5": "990ddc0893c707fd628a79b5b0a4bef0",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
       },
       "rhapsodie_nocharlm": {
         "md5": "ce10170d9baa0123238080f4f069c6cd"
       },
       "sequoia_charlm": {
-        "md5": "ef580e7cc11acfaffe195cd99b13e398"
+        "md5": "ef580e7cc11acfaffe195cd99b13e398",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
       },
       "sequoia_nocharlm": {
         "md5": "e85732f37aa74d486a52412a16cae8d3"
@@ -2632,14 +2704,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "newswiki"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "newswiki"
           }
         ]
       },
@@ -2683,14 +2747,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "newswiki"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "newswiki"
           }
         ]
       },
@@ -2717,14 +2773,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "newswiki"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "newswiki"
           }
         ]
       },
@@ -2751,14 +2799,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "newswiki"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "newswiki"
           }
         ]
       },
@@ -2785,14 +2825,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "newswiki"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "newswiki"
           }
         ]
       },
@@ -2819,14 +2851,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "newswiki"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "newswiki"
           }
         ]
       }
@@ -2956,19 +2980,49 @@
     },
     "lemma": {
       "combined_charlm": {
-        "md5": "5330771eb95521a5b86e4d6889f26ba8"
+        "md5": "5330771eb95521a5b86e4d6889f26ba8",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
       },
       "combined_nocharlm": {
         "md5": "ea8643eb7c6fc0d94023735bdd3d8e5c"
       },
       "htb_charlm": {
-        "md5": "10ee93246815e428abf2803ef371b489"
+        "md5": "10ee93246815e428abf2803ef371b489",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
       },
       "htb_nocharlm": {
         "md5": "333af3432a1397480c0b5483eb263949"
       },
       "iahltwiki_charlm": {
-        "md5": "9e1e0407417daf14c18d0a8d059f72d1"
+        "md5": "9e1e0407417daf14c18d0a8d059f72d1",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
       },
       "iahltwiki_nocharlm": {
         "md5": "66a689cd0d9aa0e18db03a9d89f00f55"
@@ -3026,14 +3080,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "oscar"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "oscar"
           }
         ]
       },
@@ -3060,14 +3106,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "oscar"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "oscar"
           }
         ]
       },
@@ -3094,14 +3132,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "oscar"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "oscar"
           }
         ]
       }
@@ -3167,7 +3197,17 @@
     },
     "lemma": {
       "hdtb_charlm": {
-        "md5": "16d8e7694f0c7b3dab8d128aa6c9529f"
+        "md5": "16d8e7694f0c7b3dab8d128aa6c9529f",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
       },
       "hdtb_nocharlm": {
         "md5": "a970f12ac812e3f30915e6dba41522dc"
@@ -3197,14 +3237,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "oscar"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "oscar"
           }
         ]
       }
@@ -3280,13 +3312,33 @@
     },
     "lemma": {
       "csui_charlm": {
-        "md5": "f6471cf558d2283bcb69cf8b0717a33b"
+        "md5": "f6471cf558d2283bcb69cf8b0717a33b",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
       },
       "csui_nocharlm": {
         "md5": "024a521a640bd501fecc7d3dbcbf64cb"
       },
       "gsd_charlm": {
-        "md5": "ac6fceba62e568dd4c357e835cd96ebd"
+        "md5": "ac6fceba62e568dd4c357e835cd96ebd",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
       },
       "gsd_nocharlm": {
         "md5": "83f648abfa3e47446da50dd2a67f6805"
@@ -3324,14 +3376,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "oscar2023"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "oscar2023"
           }
         ]
       },
@@ -3358,14 +3402,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "oscar2023"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "oscar2023"
           }
         ]
       }
@@ -3617,49 +3653,129 @@
     },
     "lemma": {
       "combined_charlm": {
-        "md5": "78934165d47e2d373f44ab7f2c121ee4"
+        "md5": "78934165d47e2d373f44ab7f2c121ee4",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       },
       "combined_nocharlm": {
         "md5": "65d711648e0d312178a81b484873c1be"
       },
       "isdt_charlm": {
-        "md5": "344850db66f2cafa2cfd9c06408ce4bd"
+        "md5": "344850db66f2cafa2cfd9c06408ce4bd",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       },
       "isdt_nocharlm": {
         "md5": "b3e5ad5ad6b6a2f3b2a50cfeb816d930"
       },
       "markit_charlm": {
-        "md5": "301ed541de50ba1e214fb3475f412bb9"
+        "md5": "301ed541de50ba1e214fb3475f412bb9",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       },
       "markit_nocharlm": {
         "md5": "55ab1df61501cddca8e3d818e3029ce2"
       },
       "parlamint_charlm": {
-        "md5": "f230d4fa233728f4e14bea27b343567f"
+        "md5": "f230d4fa233728f4e14bea27b343567f",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       },
       "parlamint_nocharlm": {
         "md5": "60aa32b5a6073cf9a801bb61963d1e7a"
       },
       "partut_charlm": {
-        "md5": "dfe54970a43a130cfa74bc7cc8cf73bb"
+        "md5": "dfe54970a43a130cfa74bc7cc8cf73bb",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       },
       "partut_nocharlm": {
         "md5": "67ae7dc19da9465540b69f932220b263"
       },
       "postwita_charlm": {
-        "md5": "67bdf6c719ac2e1fa2e312ea5f508ebf"
+        "md5": "67bdf6c719ac2e1fa2e312ea5f508ebf",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       },
       "postwita_nocharlm": {
         "md5": "3c7f35e71b7e5f04bc804f8b041fdec1"
       },
       "twittiro_charlm": {
-        "md5": "68b766c1b3d2b15ece2ff077d88a7773"
+        "md5": "68b766c1b3d2b15ece2ff077d88a7773",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       },
       "twittiro_nocharlm": {
         "md5": "8035eaffd4fcb23a930e15398f165137"
       },
       "vit_charlm": {
-        "md5": "354e29f29473b370dde365a0aefef22e"
+        "md5": "354e29f29473b370dde365a0aefef22e",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       },
       "vit_nocharlm": {
         "md5": "472a8831992e80f67dc7f76fc0bb572d"
@@ -3768,14 +3884,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "conll17"
           }
         ]
       },
@@ -3801,14 +3909,6 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
             "package": "conll17"
           }
         ]
@@ -3836,14 +3936,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "conll17"
           }
         ]
       },
@@ -3869,14 +3961,6 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
             "package": "conll17"
           }
         ]
@@ -3904,14 +3988,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "conll17"
           }
         ]
       },
@@ -3938,14 +4014,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "conll17"
           }
         ]
       },
@@ -3971,14 +4039,6 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
             "package": "conll17"
           }
         ]
@@ -4022,14 +4082,6 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
             "package": "conll17"
           }
         ]
@@ -4149,13 +4201,33 @@
     },
     "lemma": {
       "gsd_charlm": {
-        "md5": "c90d5c7072caa79c8959bf1b654f6d21"
+        "md5": "c90d5c7072caa79c8959bf1b654f6d21",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       },
       "gsd_nocharlm": {
         "md5": "f66f5589709d01f7a33835bcaac5ed7f"
       },
       "gsdluw_charlm": {
-        "md5": "165d568ed5efa3e4b76527d94a6cdff4"
+        "md5": "165d568ed5efa3e4b76527d94a6cdff4",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       },
       "gsdluw_nocharlm": {
         "md5": "e082bef2b30f36eac15f661289816750"
@@ -4204,14 +4276,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "conll17"
           }
         ]
       },
@@ -4237,14 +4301,6 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
             "package": "conll17"
           }
         ]
@@ -4309,7 +4365,17 @@
     },
     "lemma": {
       "ktb_charlm": {
-        "md5": "3a097fbe8069ce923d1b45eea3a64ed9"
+        "md5": "3a097fbe8069ce923d1b45eea3a64ed9",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
       },
       "ktb_nocharlm": {
         "md5": "3c53a8e7d29d484dedea7c0761840d87"
@@ -4363,14 +4429,6 @@
           {
             "model": "pretrain",
             "package": "fasttext157"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "oscar"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "oscar"
           }
         ]
       }
@@ -4447,7 +4505,17 @@
     },
     "lemma": {
       "ufal_charlm": {
-        "md5": "dcb25a5771f1d292e9bb8e1480c3b8fa"
+        "md5": "dcb25a5771f1d292e9bb8e1480c3b8fa",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "l3cube"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "l3cube"
+          }
+        ]
       },
       "ufal_nocharlm": {
         "md5": "d777ae896deeaff8a878c7bf2864b482"
@@ -4501,14 +4569,6 @@
           {
             "model": "pretrain",
             "package": "fasttextwiki"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "l3cube"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "l3cube"
           }
         ]
       }
@@ -4645,7 +4705,17 @@
     },
     "lemma": {
       "bokmaal_charlm": {
-        "md5": "6e3a9858f8ee296517d28c9da8cc2e42"
+        "md5": "6e3a9858f8ee296517d28c9da8cc2e42",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       },
       "bokmaal_nocharlm": {
         "md5": "d33a3019f1b440f2947a9ea87d58aafa"
@@ -4693,14 +4763,6 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
             "package": "conll17"
           }
         ]
@@ -4778,13 +4840,33 @@
     },
     "lemma": {
       "alpino_charlm": {
-        "md5": "6eff181f7dc2b5119d6ff69939bc4fe9"
+        "md5": "6eff181f7dc2b5119d6ff69939bc4fe9",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "ccwiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "ccwiki"
+          }
+        ]
       },
       "alpino_nocharlm": {
         "md5": "89aef214a5e7a82d4852c545803ecd06"
       },
       "lassysmall_charlm": {
-        "md5": "828cc4e3b0c89d3d55d059831c9cf071"
+        "md5": "828cc4e3b0c89d3d55d059831c9cf071",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "ccwiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "ccwiki"
+          }
+        ]
       },
       "lassysmall_nocharlm": {
         "md5": "01edbfef923c60fd41e21af275a9ea94"
@@ -4855,14 +4937,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "ccwiki"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "ccwiki"
           }
         ]
       },
@@ -4889,14 +4963,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "ccwiki"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "ccwiki"
           }
         ]
       }
@@ -4980,13 +5046,33 @@
     },
     "lemma": {
       "lfg_charlm": {
-        "md5": "f77ddd72399d16363b9a6dc4a947859c"
+        "md5": "f77ddd72399d16363b9a6dc4a947859c",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
       },
       "lfg_nocharlm": {
         "md5": "c521bc1887eb853381a2c4b7cc5db43e"
       },
       "pdb_charlm": {
-        "md5": "57fe14705bc8898759164fad65d26eb2"
+        "md5": "57fe14705bc8898759164fad65d26eb2",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
       },
       "pdb_nocharlm": {
         "md5": "e601711eee8f44ab000a248222de8f7a"
@@ -5057,14 +5143,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "oscar"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "oscar"
           }
         ]
       },
@@ -5091,14 +5169,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "oscar"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "oscar"
           }
         ]
       }
@@ -5196,19 +5266,49 @@
     },
     "lemma": {
       "gsd_charlm": {
-        "md5": "e772b8c701e3025a7d476ef6afb67927"
+        "md5": "e772b8c701e3025a7d476ef6afb67927",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
       },
       "gsd_nocharlm": {
         "md5": "233d227d9e4fe19d23ac1b0ab2da1468"
       },
       "syntagrus_charlm": {
-        "md5": "32f2d893c2ef3d5be07118863c39aaf4"
+        "md5": "32f2d893c2ef3d5be07118863c39aaf4",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
       },
       "syntagrus_nocharlm": {
         "md5": "8c229f1d97c8eacd1cc55533b5b347a2"
       },
       "taiga_charlm": {
-        "md5": "5b0269e26803763fd1862b135d4b9356"
+        "md5": "5b0269e26803763fd1862b135d4b9356",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
       },
       "taiga_nocharlm": {
         "md5": "b5f6cb8d48adc8c0ac0cb42fa652a0c9"
@@ -5257,14 +5357,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "newswiki"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "newswiki"
           }
         ]
       },
@@ -5291,14 +5383,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "newswiki"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "newswiki"
           }
         ]
       },
@@ -5325,14 +5409,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "newswiki"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "newswiki"
           }
         ]
       }
@@ -5484,13 +5560,33 @@
     },
     "lemma": {
       "lines_charlm": {
-        "md5": "0f6403d3c68223d47a5d8e75758bd075"
+        "md5": "0f6403d3c68223d47a5d8e75758bd075",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       },
       "lines_nocharlm": {
         "md5": "964bab5838780030697d5bbc1c558d1f"
       },
       "talbanken_charlm": {
-        "md5": "2e3a1dfa97ec63b0d6e9c1b3d65450bc"
+        "md5": "2e3a1dfa97ec63b0d6e9c1b3d65450bc",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       },
       "talbanken_nocharlm": {
         "md5": "e969a6e30a65c6fd52219edebf78724e"
@@ -5556,14 +5652,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "conll17"
           }
         ]
       },
@@ -5589,14 +5677,6 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
             "package": "conll17"
           }
         ]
@@ -5682,14 +5762,6 @@
           {
             "model": "pretrain",
             "package": "fasttextwiki"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "oscar2022"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "oscar2022"
           }
         ]
       }
@@ -5928,7 +6000,17 @@
     },
     "lemma": {
       "atis_charlm": {
-        "md5": "e2c126a880cb5e4ec788eae3cbda1c9c"
+        "md5": "e2c126a880cb5e4ec788eae3cbda1c9c",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       },
       "atis_nocharlm": {
         "md5": "b41713202e6c083443cf7ec70f564bc3"
@@ -5937,31 +6019,81 @@
         "md5": "4402b7b664bbc03743f8b0224dbfd25f"
       },
       "framenet_charlm": {
-        "md5": "9a7da9de3cd1ad05a6a620bafd8b2ece"
+        "md5": "9a7da9de3cd1ad05a6a620bafd8b2ece",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       },
       "framenet_nocharlm": {
         "md5": "87c12bf9992532023c963bce1f92fabf"
       },
       "imst_charlm": {
-        "md5": "8929d6d1a868408a78d7a45699f4bfa0"
+        "md5": "8929d6d1a868408a78d7a45699f4bfa0",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       },
       "imst_nocharlm": {
         "md5": "c9d8bffaf4e5ef73c216b8fab05ebac6"
       },
       "kenet_charlm": {
-        "md5": "a192281afb658872f97606ab3a72a287"
+        "md5": "a192281afb658872f97606ab3a72a287",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       },
       "kenet_nocharlm": {
         "md5": "a11e07534673bca22db71aefea227e94"
       },
       "penn_charlm": {
-        "md5": "3c9144ab91e7d56389afafdf022e8e88"
+        "md5": "3c9144ab91e7d56389afafdf022e8e88",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       },
       "penn_nocharlm": {
         "md5": "90cbfe89b189dae4415e702d4c8d97e2"
       },
       "tourism_charlm": {
-        "md5": "a2daa2fab1bb049cb81da79cb17cf7fa"
+        "md5": "a2daa2fab1bb049cb81da79cb17cf7fa",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       },
       "tourism_nocharlm": {
         "md5": "cc0135039bcc6be58c60ada7aef79e60"
@@ -6018,14 +6150,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "conll17"
           }
         ]
       },
@@ -6034,14 +6158,6 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
             "package": "conll17"
           }
         ]
@@ -6069,14 +6185,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "conll17"
           }
         ]
       },
@@ -6102,14 +6210,6 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
             "package": "conll17"
           }
         ]
@@ -6137,14 +6237,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "conll17"
           }
         ]
       },
@@ -6171,14 +6263,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "conll17"
           }
         ]
       },
@@ -6204,14 +6288,6 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
             "package": "conll17"
           }
         ]
@@ -6292,7 +6368,17 @@
     },
     "lemma": {
       "iu_charlm": {
-        "md5": "6233cb2040eabff47860c18ee988b0e1"
+        "md5": "6233cb2040eabff47860c18ee988b0e1",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       },
       "iu_nocharlm": {
         "md5": "01e024de93b386e0524f89acc3b6dbb1"
@@ -6345,14 +6431,6 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
             "package": "conll17"
           }
         ]
@@ -6559,14 +6637,6 @@
           {
             "model": "pretrain",
             "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "conll17"
           }
         ]
       }
@@ -6682,7 +6752,17 @@
     },
     "lemma": {
       "gsdsimp_charlm": {
-        "md5": "c8c273e7499b1bcf7bb0a9dcb20c8748"
+        "md5": "c8c273e7499b1bcf7bb0a9dcb20c8748",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "gigaword"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "gigaword"
+          }
+        ]
       },
       "gsdsimp_nocharlm": {
         "md5": "fa99ca45d2c659847ea3aaec5fc0555a"
@@ -6731,14 +6811,6 @@
           {
             "model": "pretrain",
             "package": "fasttext157"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "gigaword"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "gigaword"
           }
         ]
       }
