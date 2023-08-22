@@ -1428,6 +1428,23 @@
           }
         ]
       },
+      "craft_nocharlm": {
+        "md5": "4bf2f1a986f25e40c9f8311bd7007306",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "1billion"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "1billion"
+          }
+        ]
+      },
       "eslspok_charlm": {
         "md5": "fba7b38dae728265c678f1d5fc29707e",
         "dependencies": [
@@ -1496,6 +1513,23 @@
           }
         ]
       },
+      "genia_nocharlm": {
+        "md5": "63601e6d3bd5b52028d80d609b10701e",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "1billion"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "1billion"
+          }
+        ]
+      },
       "gum_charlm": {
         "md5": "27b85dadd34003822ac5030c42aab52a",
         "dependencies": [
@@ -1549,6 +1583,23 @@
       },
       "lines_nocharlm": {
         "md5": "8caf1b20390bef2ea1690ae84f93d681",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "1billion"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "1billion"
+          }
+        ]
+      },
+      "mimic_nocharlm": {
+        "md5": "76782c1e585c9c953a9dbaa097c014e5",
         "dependencies": [
           {
             "model": "pretrain",
@@ -6452,7 +6503,7 @@
     },
     "pos": {
       "vlsp22_charlm": {
-        "md5": "0d0848f1e1f0c740729efaf0cca45b61",
+        "md5": "e4c71e18ac146b6d663b69631f84aee1",
         "dependencies": [
           {
             "model": "pretrain",
@@ -6468,8 +6519,8 @@
           }
         ]
       },
-      "vlsp22_phobert_large": {
-        "md5": "dad99a2c101e0e4285ee15f795661563",
+      "vlsp22_phobert-large": {
+        "md5": "24722301e6b24dc33256d939bfdd3ddb",
         "dependencies": [
           {
             "model": "pretrain",
