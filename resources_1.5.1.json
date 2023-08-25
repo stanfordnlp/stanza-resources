@@ -2616,7 +2616,7 @@
         ]
       },
       "gsd_charlm": {
-        "md5": "c595b1283fb42562d55b767200ae97a8",
+        "md5": "e8c897a4d4052fe3104e828fb6b15cbb",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3099,7 +3099,7 @@
       "depparse": "gsd_charlm",
       "ner": "wikiner"
     },
-    "default_md5": "71b756c1b94f49c7555b55a7151ab151",
+    "default_md5": "2263c32103f0799bdfb46cf99f3e615a",
     "lang_name": "French"
   },
   "french": {
