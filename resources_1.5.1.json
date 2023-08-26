@@ -727,7 +727,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
+            "package": "fasttextwiki"
           },
           {
             "model": "forward_charlm",
@@ -984,7 +984,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
+            "package": "biomed"
           }
         ]
       },
@@ -1045,7 +1045,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
+            "package": "biomed"
           }
         ]
       },
@@ -1106,7 +1106,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
+            "package": "mimic"
           },
           {
             "model": "forward_charlm",
@@ -1348,7 +1348,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
+            "package": "glove"
           },
           {
             "model": "forward_charlm",
@@ -1433,7 +1433,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "biomed"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -1450,7 +1450,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
+            "package": "fasttextcrawl"
           },
           {
             "model": "forward_charlm",
@@ -1606,7 +1606,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
+            "package": "biomed"
           }
         ]
       },
@@ -1667,7 +1667,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
+            "package": "biomed"
           }
         ]
       },
@@ -1728,7 +1728,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
+            "package": "mimic"
           },
           {
             "model": "forward_charlm",
