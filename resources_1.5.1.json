@@ -1433,7 +1433,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
+            "package": "biomed"
           },
           {
             "model": "forward_charlm",
