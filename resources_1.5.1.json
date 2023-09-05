@@ -976,8 +976,8 @@
       }
     },
     "constituency": {
-      "ptb3_bert": {
-        "md5": "dbfddfd4174f838e50426e6d04c4ccbd",
+      "ptb3_charlm": {
+        "md5": "447ac376bd5eca50477d1a2b1e47721b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -993,25 +993,8 @@
           }
         ]
       },
-      "wsj_bert": {
-        "md5": "ad0f352e3917bd346ef66d1437002268",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "1billion"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "1billion"
-          }
-        ]
-      },
-      "wsj": {
-        "md5": "c45dda8db73b10c89aa9c6dc51934e1d",
+      "ptb3_electra-large": {
+        "md5": "998ce46470e89db54b7a68d72fcc5ba9",
         "dependencies": [
           {
             "model": "pretrain",
