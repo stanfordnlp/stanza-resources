@@ -423,8 +423,8 @@
       }
     },
     "constituency": {
-      "arboretum_bert": {
-        "md5": "07f34cbe69b8db405b8f67ac3b753856",
+      "arboretum_charlm": {
+        "md5": "a271f4b79618380697cbf28f5f46da11",
         "dependencies": [
           {
             "model": "pretrain",
@@ -440,8 +440,8 @@
           }
         ]
       },
-      "arboretum": {
-        "md5": "b79de9fca8a1d94f8b2ec73412682069",
+      "arboretum_scandibert": {
+        "md5": "28da39575482ea4ff7c83d82030086db",
         "dependencies": [
           {
             "model": "pretrain",
@@ -623,9 +623,9 @@
       "pos": "ddt_charlm",
       "depparse": "ddt_charlm",
       "ner": "ddt",
-      "constituency": "arboretum"
+      "constituency": "arboretum_charlm"
     },
-    "default_md5": "f2ada863aee1a633d35a48f3b6064720",
+    "default_md5": "736575174c26ab9822e7f13f6cc527b6",
     "lang_name": "Danish"
   },
   "danish": {
@@ -976,6 +976,40 @@
       }
     },
     "constituency": {
+      "ptb3-revised_charlm": {
+        "md5": "976f1c8646301cb9433b7ba4ef4ca629",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "1billion"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "1billion"
+          }
+        ]
+      },
+      "ptb3-revised_electra-large": {
+        "md5": "82d9c4c8798c55c46ecfd89083ea5d47",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "1billion"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "1billion"
+          }
+        ]
+      },
       "ptb3_charlm": {
         "md5": "447ac376bd5eca50477d1a2b1e47721b",
         "dependencies": [
@@ -2131,9 +2165,9 @@
       "depparse": "combined_charlm",
       "ner": "ontonotes",
       "sentiment": "sstplus",
-      "constituency": "wsj"
+      "constituency": "ptb3-revised_charlm"
     },
-    "default_md5": "d8256ba78c447d668a8cce6bb73e4951",
+    "default_md5": "669b787a3d64800c6869563f6cba5448",
     "lang_name": "English"
   },
   "english": {
@@ -4193,6 +4227,42 @@
         "md5": "ce97564e52ffc2ba0fbd82a51d079822"
       }
     },
+    "constituency": {
+      "icon_charlm": {
+        "md5": "ce694d393a2fc3f2b2e74cac9e09c66d",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      },
+      "icon_indobert": {
+        "md5": "f7cfbf53329c5f002821b0883da6e386",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      }
+    },
     "depparse": {
       "csui_charlm": {
         "md5": "e19a76489d8ba49aa0d2a7dd74b8f8e7",
@@ -4434,9 +4504,10 @@
       "mwt": "gsd",
       "lemma": "gsd_nocharlm",
       "pos": "gsd_charlm",
-      "depparse": "gsd_charlm"
+      "depparse": "gsd_charlm",
+      "constituency": "icon_charlm"
     },
-    "default_md5": "00a6a4a1fd230e3e6bfc924f568d1e2f",
+    "default_md5": "2f57973e29ef677f3d77080ee7ff8cd1",
     "lang_name": "Indonesian"
   },
   "indonesian": {
@@ -4483,8 +4554,8 @@
           }
         ]
       },
-      "vit_bert": {
-        "md5": "3b740594c3bf1112b9f1d47aede6ee9d",
+      "vit_charlm": {
+        "md5": "a3be8fe63131eefcf20650b95f6bbe69",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4500,8 +4571,8 @@
           }
         ]
       },
-      "vit": {
-        "md5": "6ec786a7ce7ac8b69d3096afdea1cc20",
+      "vit_electra": {
+        "md5": "47cbcce0e6cfb313d901096153208e76",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5445,9 +5516,9 @@
       "pos": "combined_charlm",
       "depparse": "combined_charlm",
       "ner": "fbk",
-      "constituency": "turin"
+      "constituency": "vit_charlm"
     },
-    "default_md5": "e4a47d1333cfd9d3f1299824a130211a",
+    "default_md5": "3ac75f732cec81d65384b1c67f4df9a2",
     "lang_name": "Italian"
   },
   "italian": {
@@ -5462,6 +5533,23 @@
     "constituency": {
       "alt": {
         "md5": "a0ddbc37f68ac59ae749767e6b9fb32c",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
+      "alt_rinna-roberta": {
+        "md5": "2e4a25e90930847a35e7f9f3c2ec55ba",
         "dependencies": [
           {
             "model": "pretrain",
@@ -8160,10 +8248,9 @@
       "lemma": "imst_nocharlm",
       "pos": "imst_charlm",
       "depparse": "imst_charlm",
-      "ner": "starlang",
-      "constituency": "starlang"
+      "ner": "starlang"
     },
-    "default_md5": "c41342a2fe33c05e56ee7a219779c96c",
+    "default_md5": "9e6886c35bcfd07d0ce1699707bf84db",
     "lang_name": "Turkish"
   },
   "turkish": {
@@ -8309,7 +8396,7 @@
       }
     },
     "constituency": {
-      "vlsp22": {
+      "vlsp22_charlm": {
         "md5": "9b94a86ae622ebe05b5e409a86c39a8b",
         "dependencies": [
           {
@@ -8326,7 +8413,7 @@
           }
         ]
       },
-      "vlsp22_phobert": {
+      "vlsp22_phobert-large": {
         "md5": "72f8395073549b848cf70838fdf9256e",
         "dependencies": [
           {
@@ -8343,7 +8430,7 @@
           }
         ]
       },
-      "vlsp22_phobert_finetuned": {
+      "vlsp22_phobert-large_finetuned": {
         "md5": "5c2f6db3623dbb6fa590760f81ccd7f9",
         "dependencies": [
           {
@@ -8552,9 +8639,10 @@
       "pos": "vtb_charlm",
       "depparse": "vtb_charlm",
       "ner": "vlsp",
-      "sentiment": "vsfc"
+      "sentiment": "vsfc",
+      "constituency": "vlsp22_charlm"
     },
-    "default_md5": "b911bf3b50ae3a8813aaa38017c50e35",
+    "default_md5": "34b59eaf2f32ebf16da57efb57a68f6b",
     "lang_name": "Vietnamese"
   },
   "vietnamese": {
@@ -8567,8 +8655,25 @@
       }
     },
     "constituency": {
-      "ctb-51": {
+      "ctb-51_charlm": {
         "md5": "6c931ef1f22a1e52e3c16241c7b58bd5",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttext157"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "gigaword"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "gigaword"
+          }
+        ]
+      },
+      "ctb-51_electra-large": {
+        "md5": "73ffaaa7e8f013f4056f571dcb8b4424",
         "dependencies": [
           {
             "model": "pretrain",
@@ -8758,9 +8863,10 @@
       "pos": "gsdsimp_charlm",
       "depparse": "gsdsimp_charlm",
       "ner": "ontonotes",
-      "sentiment": "ren"
+      "sentiment": "ren",
+      "constituency": "ctb-51_charlm"
     },
-    "default_md5": "cd2a7b4bed29a1e7b2be43876e90378c",
+    "default_md5": "b70c1cdb3973f5d5beac8045f2306c20",
     "lang_name": "Simplified_Chinese"
   },
   "simplified_chinese": {
