@@ -5531,8 +5531,8 @@
       }
     },
     "constituency": {
-      "alt": {
-        "md5": "a0ddbc37f68ac59ae749767e6b9fb32c",
+      "alt_charlm": {
+        "md5": "0ac7d18f2e0fe9d251829bf01cdce987",
         "dependencies": [
           {
             "model": "pretrain",
@@ -7491,7 +7491,7 @@
     },
     "constituency": {
       "starlang_bert": {
-        "md5": "13b4170770c692421b98ac4fefcb78c1",
+        "md5": "a02d7f7ae541efb71d64b9818ee8c969",
         "dependencies": [
           {
             "model": "pretrain",
@@ -7507,8 +7507,8 @@
           }
         ]
       },
-      "starlang": {
-        "md5": "bf24310257d2191564b8fbf00c8c4b89",
+      "starlang_charlm": {
+        "md5": "5bd853b1e444ad69740020bc07a5e728",
         "dependencies": [
           {
             "model": "pretrain",
@@ -8875,7 +8875,7 @@
   "pt": {
     "constituency": {
       "cintil_bert": {
-        "md5": "6a8dab5d63413340b633c7b6e48d307a",
+        "md5": "7ba3a984c9fe99bab6715bb7c1a59519",
         "dependencies": [
           {
             "model": "pretrain",
@@ -8883,8 +8883,8 @@
           }
         ]
       },
-      "cintil": {
-        "md5": "1782dca30263e1e0baac3df09f93b5ac",
+      "cintil_nocharlm": {
+        "md5": "14349ee7859622612cb3623c3dc11f2e",
         "dependencies": [
           {
             "model": "pretrain",
