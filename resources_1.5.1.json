@@ -2180,8 +2180,8 @@
       }
     },
     "constituency": {
-      "combined_bert": {
-        "md5": "530660a7cbe18249dc264436889199e8",
+      "combined_bertin-roberta": {
+        "md5": "e5f5ca517a033408cf88dcced1c3cbfa",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2197,8 +2197,8 @@
           }
         ]
       },
-      "combined": {
-        "md5": "d6ac9001b4210653d83294b4ba79d13b",
+      "combined_charlm": {
+        "md5": "b664dcb564f23902ae76acf7c63308e1",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2449,9 +2449,9 @@
       "depparse": "ancora_charlm",
       "ner": "conll02",
       "sentiment": "tass2020",
-      "constituency": "combined"
+      "constituency": "combined_charlm"
     },
-    "default_md5": "e49c816273a249614fa7fb3b4af5722c",
+    "default_md5": "3f439a38eba78fcb62c014876c65a81c",
     "lang_name": "Spanish"
   },
   "spanish": {
@@ -4520,8 +4520,8 @@
       }
     },
     "constituency": {
-      "turin_bert": {
-        "md5": "e35776332d3d4ade4362e395039c5662",
+      "turin_charlm": {
+        "md5": "3482afa91ef01d21e09e6813536a7ed7",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4537,8 +4537,8 @@
           }
         ]
       },
-      "turin": {
-        "md5": "4775b0ef73e4f44217abaaa429e162cc",
+      "turin_electra": {
+        "md5": "cec7e2737fdc309724a42fbfe44c3817",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4555,7 +4555,7 @@
         ]
       },
       "vit_charlm": {
-        "md5": "a3be8fe63131eefcf20650b95f6bbe69",
+        "md5": "10c0dc6e14d595392bae41577a37c7a3",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4572,7 +4572,7 @@
         ]
       },
       "vit_electra": {
-        "md5": "47cbcce0e6cfb313d901096153208e76",
+        "md5": "baba712bfc64ac24a9ddc0d2de2a0390",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5518,7 +5518,7 @@
       "ner": "fbk",
       "constituency": "vit_charlm"
     },
-    "default_md5": "3ac75f732cec81d65384b1c67f4df9a2",
+    "default_md5": "45ec7e4bc1df50c9f00df830f00637c3",
     "lang_name": "Italian"
   },
   "italian": {
@@ -5751,9 +5751,9 @@
       "pos": "gsd_charlm",
       "depparse": "gsd_charlm",
       "ner": "gsd",
-      "constituency": "alt"
+      "constituency": "alt_charlm"
     },
-    "default_md5": "5f97d7e9eb26cfea08b8f60e85ec2585",
+    "default_md5": "a95f1b8eae9461aabded8774a9ed6b2e",
     "lang_name": "Japanese"
   },
   "japanese": {
@@ -9094,9 +9094,9 @@
       "lemma": "bosque_nocharlm",
       "pos": "bosque_nocharlm",
       "depparse": "bosque_nocharlm",
-      "constituency": "cintil"
+      "constituency": "cintil_nocharlm"
     },
-    "default_md5": "03259f0d163442893c9af79cfd1c87e3",
+    "default_md5": "a274cdc6ed842d292b4c74df621ec9db",
     "lang_name": "Portuguese"
   },
   "portuguese": {
