@@ -12015,6 +12015,9 @@
   "north_sami": {
     "alias": "sme"
   },
+  "se": {
+    "alias": "sme"
+  },
   "sr": {
     "depparse": {
       "set_nocharlm": {
