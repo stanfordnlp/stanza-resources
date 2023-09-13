@@ -1797,7 +1797,7 @@
         ]
       },
       "combined_charlm": {
-        "md5": "29c6ab4a209b93919b4e744545dad7ce",
+        "md5": "fa17343a6af11c61e012ad58bc8bb3b0",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1814,7 +1814,7 @@
         ]
       },
       "combined_electra-large": {
-        "md5": "73f41facf665a26aa5345f413f79128a",
+        "md5": "2aeef1eb84a75b5fdfb502958120154c",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1831,7 +1831,7 @@
         ]
       },
       "combined_nocharlm": {
-        "md5": "08f574fcc69e4b88d7d5c5aa30001560",
+        "md5": "4579af6b91582a575eaa4791bf412859",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2167,7 +2167,7 @@
       "sentiment": "sstplus",
       "constituency": "ptb3-revised_charlm"
     },
-    "default_md5": "669b787a3d64800c6869563f6cba5448",
+    "default_md5": "0722505122711f8c32ead7efccecb7d0",
     "lang_name": "English"
   },
   "english": {
