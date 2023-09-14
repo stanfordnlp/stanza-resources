@@ -2216,6 +2216,23 @@
       }
     },
     "depparse": {
+      "ancora_bertin-roberta": {
+        "md5": "938fe045aa30af32f25632b22340c6bf",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
+      },
       "ancora_charlm": {
         "md5": "4a290baa8e5b345b714e3d0b163a370a",
         "dependencies": [
@@ -2239,6 +2256,23 @@
           {
             "model": "pretrain",
             "package": "conll17"
+          }
+        ]
+      },
+      "gsd_bertin-roberta": {
+        "md5": "856f8523b4e7cc809ae44eae5168ce3c",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
           }
         ]
       },
@@ -2353,6 +2387,23 @@
       }
     },
     "pos": {
+      "ancora_bertin-roberta": {
+        "md5": "b72f6db55fabb5ac55d65749795b6dfe",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
+      },
       "ancora_charlm": {
         "md5": "365f1815b1f1611a895ce54a77513694",
         "dependencies": [
@@ -2376,6 +2427,23 @@
           {
             "model": "pretrain",
             "package": "conll17"
+          }
+        ]
+      },
+      "gsd_bertin-roberta": {
+        "md5": "2536d6d3453d07338730455e02236952",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
           }
         ]
       },
@@ -5593,6 +5661,23 @@
           }
         ]
       },
+      "gsd_rinna-roberta": {
+        "md5": "e875dee60c8fdadd48c4452851ba5110",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
       "gsdluw_charlm": {
         "md5": "4c07eb96914b8c862d2c68ff7507efda",
         "dependencies": [
@@ -5615,6 +5700,23 @@
         "dependencies": [
           {
             "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
+      "gsdluw_rinna-roberta": {
+        "md5": "f54f089cc66a9b34f28a4684cfbcf238",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
             "package": "conll17"
           }
         ]
@@ -5705,6 +5807,23 @@
           }
         ]
       },
+      "gsd_rinna-roberta": {
+        "md5": "445e1a7b2f3f9a7590262e433717fe00",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
       "gsdluw_charlm": {
         "md5": "e5556859d87027f81012395afa6616bc",
         "dependencies": [
@@ -5727,6 +5846,23 @@
         "dependencies": [
           {
             "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
+      "gsdluw_rinna-roberta": {
+        "md5": "43f93e11a39152f04e7f7e3bad51dd0b",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
             "package": "conll17"
           }
         ]
