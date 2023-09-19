@@ -9623,7 +9623,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "fasttextwiki"
+            "package": "fasttext157"
           },
           {
             "model": "forward_charlm",
