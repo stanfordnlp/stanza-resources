@@ -144,6 +144,13 @@
         "depparse": "afribooms_charlm",
         "ner": "nchlt"
       },
+      "default_nocharlm": {
+        "tokenize": "afribooms",
+        "lemma": "afribooms_nocharlm",
+        "pos": "afribooms_nocharlm",
+        "depparse": "afribooms_nocharlm",
+        "ner": "nchlt"
+      },
       "afribooms": {
         "tokenize": "afribooms",
         "pos": "afribooms_charlm",
@@ -296,6 +303,14 @@
         "depparse": "padt_charlm",
         "ner": "aqmar"
       },
+      "default_nocharlm": {
+        "tokenize": "padt",
+        "mwt": "padt",
+        "lemma": "padt_nocharlm",
+        "pos": "padt_nocharlm",
+        "depparse": "padt_nocharlm",
+        "ner": "aqmar"
+      },
       "padt": {
         "tokenize": "padt",
         "mwt": "padt",
@@ -437,6 +452,13 @@
         "lemma": "btb_nocharlm",
         "pos": "btb_charlm",
         "depparse": "btb_charlm",
+        "ner": "bsnlp19"
+      },
+      "default_nocharlm": {
+        "tokenize": "btb",
+        "lemma": "btb_nocharlm",
+        "pos": "btb_nocharlm",
+        "depparse": "btb_nocharlm",
         "ner": "bsnlp19"
       },
       "btb": {
@@ -685,6 +707,13 @@
         "depparse": "ddt_charlm",
         "ner": "ddt",
         "constituency": "arboretum_charlm"
+      },
+      "default_nocharlm": {
+        "tokenize": "ddt",
+        "lemma": "ddt_nocharlm",
+        "pos": "ddt_nocharlm",
+        "depparse": "ddt_nocharlm",
+        "ner": "ddt"
       },
       "ddt": {
         "tokenize": "ddt",
@@ -1032,6 +1061,15 @@
         "lemma": "gsd_nocharlm",
         "pos": "gsd_charlm",
         "depparse": "gsd_charlm",
+        "ner": "germeval2014",
+        "sentiment": "sb10k"
+      },
+      "default_nocharlm": {
+        "tokenize": "gsd",
+        "mwt": "gsd",
+        "lemma": "gsd_nocharlm",
+        "pos": "gsd_nocharlm",
+        "depparse": "gsd_nocharlm",
         "ner": "germeval2014",
         "sentiment": "sb10k"
       },
@@ -2270,6 +2308,14 @@
         "sentiment": "sstplus",
         "constituency": "ptb3-revised_charlm"
       },
+      "default_nocharlm": {
+        "tokenize": "combined",
+        "lemma": "combined_nocharlm",
+        "pos": "combined_nocharlm",
+        "depparse": "combined_nocharlm",
+        "ner": "ontonotes",
+        "sentiment": "sstplus"
+      },
       "atis": {
         "tokenize": "atis",
         "pos": "atis_charlm",
@@ -2697,6 +2743,15 @@
         "sentiment": "tass2020",
         "constituency": "combined_charlm"
       },
+      "default_nocharlm": {
+        "tokenize": "ancora",
+        "mwt": "ancora",
+        "lemma": "ancora_nocharlm",
+        "pos": "ancora_nocharlm",
+        "depparse": "ancora_nocharlm",
+        "ner": "conll02",
+        "sentiment": "tass2020"
+      },
       "ancora": {
         "tokenize": "ancora",
         "mwt": "ancora",
@@ -3013,6 +3068,14 @@
         "depparse": "perdt_charlm",
         "ner": "arman"
       },
+      "default_nocharlm": {
+        "tokenize": "perdt",
+        "mwt": "perdt",
+        "lemma": "perdt_nocharlm",
+        "pos": "perdt_nocharlm",
+        "depparse": "perdt_nocharlm",
+        "ner": "arman"
+      },
       "perdt": {
         "tokenize": "perdt",
         "mwt": "perdt",
@@ -3327,6 +3390,14 @@
         "lemma": "tdt_nocharlm",
         "pos": "tdt_charlm",
         "depparse": "tdt_charlm",
+        "ner": "turku"
+      },
+      "default_nocharlm": {
+        "tokenize": "tdt",
+        "mwt": "tdt",
+        "lemma": "tdt_nocharlm",
+        "pos": "tdt_nocharlm",
+        "depparse": "tdt_nocharlm",
         "ner": "turku"
       },
       "ftb": {
@@ -4063,6 +4134,14 @@
         "depparse": "gsd_charlm",
         "ner": "wikiner"
       },
+      "default_nocharlm": {
+        "tokenize": "gsd",
+        "mwt": "gsd",
+        "lemma": "gsd_nocharlm",
+        "pos": "gsd_nocharlm",
+        "depparse": "gsd_nocharlm",
+        "ner": "wikiner"
+      },
       "combined": {
         "tokenize": "combined",
         "mwt": "combined",
@@ -4477,6 +4556,13 @@
         "pos": "combined_charlm",
         "depparse": "combined_charlm"
       },
+      "default_nocharlm": {
+        "tokenize": "combined",
+        "mwt": "combined",
+        "lemma": "combined_nocharlm",
+        "pos": "combined_nocharlm",
+        "depparse": "combined_nocharlm"
+      },
       "combined": {
         "tokenize": "combined",
         "mwt": "combined",
@@ -4612,6 +4698,12 @@
         "lemma": "hdtb_nocharlm",
         "pos": "hdtb_charlm",
         "depparse": "hdtb_charlm"
+      },
+      "default_nocharlm": {
+        "tokenize": "hdtb",
+        "lemma": "hdtb_nocharlm",
+        "pos": "hdtb_nocharlm",
+        "depparse": "hdtb_nocharlm"
       },
       "hdtb": {
         "tokenize": "hdtb",
@@ -4920,6 +5012,13 @@
         "pos": "gsd_charlm",
         "depparse": "gsd_charlm",
         "constituency": "icon_charlm"
+      },
+      "default_nocharlm": {
+        "tokenize": "gsd",
+        "mwt": "gsd",
+        "lemma": "gsd_nocharlm",
+        "pos": "gsd_nocharlm",
+        "depparse": "gsd_nocharlm"
       },
       "csui": {
         "tokenize": "csui",
@@ -5957,6 +6056,14 @@
         "ner": "fbk",
         "constituency": "vit_charlm"
       },
+      "default_nocharlm": {
+        "tokenize": "combined",
+        "mwt": "combined",
+        "lemma": "combined_nocharlm",
+        "pos": "combined_nocharlm",
+        "depparse": "combined_nocharlm",
+        "ner": "fbk"
+      },
       "combined": {
         "tokenize": "combined",
         "mwt": "combined",
@@ -6326,6 +6433,13 @@
         "ner": "gsd",
         "constituency": "alt_charlm"
       },
+      "default_nocharlm": {
+        "tokenize": "gsd",
+        "lemma": "gsd_nocharlm",
+        "pos": "gsd_nocharlm",
+        "depparse": "gsd_nocharlm",
+        "ner": "gsd"
+      },
       "gsd": {
         "tokenize": "gsd",
         "pos": "gsd_charlm",
@@ -6479,6 +6593,14 @@
         "lemma": "ktb_nocharlm",
         "pos": "ktb_charlm",
         "depparse": "ktb_charlm",
+        "ner": "kazNERD"
+      },
+      "default_nocharlm": {
+        "tokenize": "ktb",
+        "mwt": "ktb",
+        "lemma": "ktb_nocharlm",
+        "pos": "ktb_nocharlm",
+        "depparse": "ktb_nocharlm",
         "ner": "kazNERD"
       },
       "ktb": {
@@ -6708,6 +6830,15 @@
         "ner": "l3cube",
         "sentiment": "l3cube"
       },
+      "default_nocharlm": {
+        "tokenize": "ufal",
+        "mwt": "ufal",
+        "lemma": "ufal_nocharlm",
+        "pos": "ufal_nocharlm",
+        "depparse": "ufal_nocharlm",
+        "ner": "l3cube",
+        "sentiment": "l3cube"
+      },
       "ufal": {
         "tokenize": "ufal",
         "mwt": "ufal",
@@ -6768,6 +6899,10 @@
     },
     "packages": {
       "default": {
+        "tokenize": "alt",
+        "ner": "ucsy"
+      },
+      "default_nocharlm": {
         "tokenize": "alt",
         "ner": "ucsy"
       },
@@ -6908,6 +7043,13 @@
         "lemma": "bokmaal_nocharlm",
         "pos": "bokmaal_charlm",
         "depparse": "bokmaal_charlm",
+        "ner": "norne"
+      },
+      "default_nocharlm": {
+        "tokenize": "bokmaal",
+        "lemma": "bokmaal_nocharlm",
+        "pos": "bokmaal_nocharlm",
+        "depparse": "bokmaal_nocharlm",
         "ner": "norne"
       },
       "bokmaal": {
@@ -7148,6 +7290,14 @@
         "lemma": "alpino_nocharlm",
         "pos": "alpino_charlm",
         "depparse": "alpino_charlm",
+        "ner": "conll02"
+      },
+      "default_nocharlm": {
+        "tokenize": "alpino",
+        "mwt": "alpino",
+        "lemma": "alpino_nocharlm",
+        "pos": "alpino_nocharlm",
+        "depparse": "alpino_nocharlm",
         "ner": "conll02"
       },
       "alpino": {
@@ -7462,6 +7612,14 @@
         "depparse": "pdb_charlm",
         "ner": "nkjp"
       },
+      "default_nocharlm": {
+        "tokenize": "pdb",
+        "mwt": "pdb",
+        "lemma": "pdb_nocharlm",
+        "pos": "pdb_nocharlm",
+        "depparse": "pdb_nocharlm",
+        "ner": "nkjp"
+      },
       "lfg": {
         "tokenize": "lfg",
         "pos": "lfg_charlm",
@@ -7756,6 +7914,13 @@
         "depparse": "syntagrus_charlm",
         "ner": "wikiner"
       },
+      "default_nocharlm": {
+        "tokenize": "syntagrus",
+        "lemma": "syntagrus_nocharlm",
+        "pos": "syntagrus_nocharlm",
+        "depparse": "syntagrus_nocharlm",
+        "ner": "wikiner"
+      },
       "gsd": {
         "tokenize": "gsd",
         "pos": "gsd_charlm",
@@ -7827,6 +7992,10 @@
     },
     "packages": {
       "default": {
+        "tokenize": "isra",
+        "ner": "siner"
+      },
+      "default_nocharlm": {
         "tokenize": "isra",
         "ner": "siner"
       },
@@ -8073,6 +8242,13 @@
         "depparse": "talbanken_charlm",
         "ner": "suc3shuffle"
       },
+      "default_nocharlm": {
+        "tokenize": "talbanken",
+        "lemma": "talbanken_nocharlm",
+        "pos": "talbanken_nocharlm",
+        "depparse": "talbanken_nocharlm",
+        "ner": "suc3shuffle"
+      },
       "lines": {
         "tokenize": "lines",
         "pos": "lines_charlm",
@@ -8182,6 +8358,12 @@
         "pos": "mtg_charlm",
         "depparse": "mtg_charlm"
       },
+      "default_nocharlm": {
+        "tokenize": "mtg",
+        "lemma": "identity",
+        "pos": "mtg_nocharlm",
+        "depparse": "mtg_nocharlm"
+      },
       "mtg": {
         "tokenize": "mtg",
         "pos": "mtg_charlm",
@@ -8241,6 +8423,10 @@
     },
     "packages": {
       "default": {
+        "tokenize": "orchid",
+        "ner": "lst20"
+      },
+      "default_nocharlm": {
         "tokenize": "orchid",
         "ner": "lst20"
       },
@@ -9030,6 +9216,14 @@
         "depparse": "imst_charlm",
         "ner": "starlang"
       },
+      "default_nocharlm": {
+        "tokenize": "imst",
+        "mwt": "imst",
+        "lemma": "imst_nocharlm",
+        "pos": "imst_nocharlm",
+        "depparse": "imst_nocharlm",
+        "ner": "starlang"
+      },
       "atis": {
         "tokenize": "atis",
         "pos": "atis_charlm",
@@ -9215,6 +9409,14 @@
         "lemma": "iu_nocharlm",
         "pos": "iu_charlm",
         "depparse": "iu_charlm",
+        "ner": "languk"
+      },
+      "default_nocharlm": {
+        "tokenize": "iu",
+        "mwt": "iu",
+        "lemma": "iu_nocharlm",
+        "pos": "iu_nocharlm",
+        "depparse": "iu_nocharlm",
         "ner": "languk"
       },
       "iu": {
@@ -9503,6 +9705,14 @@
         "sentiment": "vsfc",
         "constituency": "vlsp22_charlm"
       },
+      "default_nocharlm": {
+        "tokenize": "vtb",
+        "lemma": "identity",
+        "pos": "vtb_nocharlm",
+        "depparse": "vtb_nocharlm",
+        "ner": "vlsp",
+        "sentiment": "vsfc"
+      },
       "vtb": {
         "tokenize": "vtb",
         "pos": "vtb_charlm",
@@ -9743,6 +9953,14 @@
         "ner": "ontonotes",
         "sentiment": "ren",
         "constituency": "ctb-51_charlm"
+      },
+      "default_nocharlm": {
+        "tokenize": "gsdsimp",
+        "lemma": "gsdsimp_nocharlm",
+        "pos": "gsdsimp_nocharlm",
+        "depparse": "gsdsimp_nocharlm",
+        "ner": "ontonotes",
+        "sentiment": "ren"
       },
       "gsdsimp": {
         "tokenize": "gsdsimp",
@@ -9990,6 +10208,13 @@
         "depparse": "bosque_nocharlm",
         "constituency": "cintil_nocharlm"
       },
+      "default_nocharlm": {
+        "tokenize": "bosque",
+        "mwt": "bosque",
+        "lemma": "bosque_nocharlm",
+        "pos": "bosque_nocharlm",
+        "depparse": "bosque_nocharlm"
+      },
       "bosque": {
         "tokenize": "bosque",
         "mwt": "bosque",
@@ -10076,6 +10301,12 @@
         "pos": "hse_nocharlm",
         "depparse": "hse_nocharlm"
       },
+      "default_nocharlm": {
+        "tokenize": "hse",
+        "lemma": "hse_nocharlm",
+        "pos": "hse_nocharlm",
+        "depparse": "hse_nocharlm"
+      },
       "hse": {
         "tokenize": "hse",
         "pos": "hse_nocharlm",
@@ -10135,6 +10366,12 @@
     },
     "packages": {
       "default": {
+        "tokenize": "bdt",
+        "lemma": "bdt_nocharlm",
+        "pos": "bdt_nocharlm",
+        "depparse": "bdt_nocharlm"
+      },
+      "default_nocharlm": {
         "tokenize": "bdt",
         "lemma": "bdt_nocharlm",
         "pos": "bdt_nocharlm",
@@ -10205,6 +10442,13 @@
     },
     "packages": {
       "default": {
+        "tokenize": "ancora",
+        "mwt": "ancora",
+        "lemma": "ancora_nocharlm",
+        "pos": "ancora_nocharlm",
+        "depparse": "ancora_nocharlm"
+      },
+      "default_nocharlm": {
         "tokenize": "ancora",
         "mwt": "ancora",
         "lemma": "ancora_nocharlm",
@@ -10416,6 +10660,13 @@
         "pos": "pdt_nocharlm",
         "depparse": "pdt_nocharlm"
       },
+      "default_nocharlm": {
+        "tokenize": "pdt",
+        "mwt": "pdt",
+        "lemma": "pdt_nocharlm",
+        "pos": "pdt_nocharlm",
+        "depparse": "pdt_nocharlm"
+      },
       "cac": {
         "tokenize": "cac",
         "mwt": "cac",
@@ -10502,6 +10753,12 @@
         "pos": "proiel_nocharlm",
         "depparse": "proiel_nocharlm"
       },
+      "default_nocharlm": {
+        "tokenize": "proiel",
+        "lemma": "proiel_nocharlm",
+        "pos": "proiel_nocharlm",
+        "depparse": "proiel_nocharlm"
+      },
       "proiel": {
         "tokenize": "proiel",
         "pos": "proiel_nocharlm",
@@ -10567,6 +10824,13 @@
     },
     "packages": {
       "default": {
+        "tokenize": "ccg",
+        "mwt": "ccg",
+        "lemma": "ccg_nocharlm",
+        "pos": "ccg_nocharlm",
+        "depparse": "ccg_nocharlm"
+      },
+      "default_nocharlm": {
         "tokenize": "ccg",
         "mwt": "ccg",
         "lemma": "ccg_nocharlm",
@@ -10669,6 +10933,13 @@
         "pos": "gdt_nocharlm",
         "depparse": "gdt_nocharlm"
       },
+      "default_nocharlm": {
+        "tokenize": "gdt",
+        "mwt": "gdt",
+        "lemma": "gdt_nocharlm",
+        "pos": "gdt_nocharlm",
+        "depparse": "gdt_nocharlm"
+      },
       "gdt": {
         "tokenize": "gdt",
         "mwt": "gdt",
@@ -10764,6 +11035,12 @@
         "pos": "edt_nocharlm",
         "depparse": "edt_nocharlm"
       },
+      "default_nocharlm": {
+        "tokenize": "edt",
+        "lemma": "edt_nocharlm",
+        "pos": "edt_nocharlm",
+        "depparse": "edt_nocharlm"
+      },
       "edt": {
         "tokenize": "edt",
         "pos": "edt_nocharlm",
@@ -10829,6 +11106,12 @@
     },
     "packages": {
       "default": {
+        "tokenize": "bdt",
+        "lemma": "bdt_nocharlm",
+        "pos": "bdt_nocharlm",
+        "depparse": "bdt_nocharlm"
+      },
+      "default_nocharlm": {
         "tokenize": "bdt",
         "lemma": "bdt_nocharlm",
         "pos": "bdt_nocharlm",
@@ -10900,6 +11183,13 @@
         "pos": "farpahc_nocharlm",
         "depparse": "farpahc_nocharlm"
       },
+      "default_nocharlm": {
+        "tokenize": "farpahc",
+        "mwt": "farpahc",
+        "lemma": "identity",
+        "pos": "farpahc_nocharlm",
+        "depparse": "farpahc_nocharlm"
+      },
       "farpahc": {
         "tokenize": "farpahc",
         "mwt": "farpahc",
@@ -10960,6 +11250,12 @@
     },
     "packages": {
       "default": {
+        "tokenize": "srcmf",
+        "lemma": "srcmf_nocharlm",
+        "pos": "srcmf_nocharlm",
+        "depparse": "srcmf_nocharlm"
+      },
+      "default_nocharlm": {
         "tokenize": "srcmf",
         "lemma": "srcmf_nocharlm",
         "pos": "srcmf_nocharlm",
@@ -11053,6 +11349,12 @@
         "pos": "idt_nocharlm",
         "depparse": "idt_nocharlm"
       },
+      "default_nocharlm": {
+        "tokenize": "idt",
+        "lemma": "idt_nocharlm",
+        "pos": "idt_nocharlm",
+        "depparse": "idt_nocharlm"
+      },
       "idt": {
         "tokenize": "idt",
         "pos": "idt_nocharlm",
@@ -11124,6 +11426,13 @@
     },
     "packages": {
       "default": {
+        "tokenize": "arcosg",
+        "mwt": "arcosg",
+        "lemma": "arcosg_nocharlm",
+        "pos": "arcosg_nocharlm",
+        "depparse": "arcosg_nocharlm"
+      },
+      "default_nocharlm": {
         "tokenize": "arcosg",
         "mwt": "arcosg",
         "lemma": "arcosg_nocharlm",
@@ -11229,6 +11538,13 @@
         "pos": "ctg_nocharlm",
         "depparse": "ctg_nocharlm"
       },
+      "default_nocharlm": {
+        "tokenize": "ctg",
+        "mwt": "ctg",
+        "lemma": "ctg_nocharlm",
+        "pos": "ctg_nocharlm",
+        "depparse": "ctg_nocharlm"
+      },
       "ctg": {
         "tokenize": "ctg",
         "mwt": "ctg",
@@ -11296,6 +11612,12 @@
     },
     "packages": {
       "default": {
+        "tokenize": "proiel",
+        "lemma": "proiel_nocharlm",
+        "pos": "proiel_nocharlm",
+        "depparse": "proiel_nocharlm"
+      },
+      "default_nocharlm": {
         "tokenize": "proiel",
         "lemma": "proiel_nocharlm",
         "pos": "proiel_nocharlm",
@@ -11389,6 +11711,12 @@
         "pos": "proiel_nocharlm",
         "depparse": "proiel_nocharlm"
       },
+      "default_nocharlm": {
+        "tokenize": "proiel",
+        "lemma": "proiel_nocharlm",
+        "pos": "proiel_nocharlm",
+        "depparse": "proiel_nocharlm"
+      },
       "perseus": {
         "tokenize": "perseus",
         "pos": "perseus_nocharlm",
@@ -11460,6 +11788,13 @@
     },
     "packages": {
       "default": {
+        "tokenize": "cadhan",
+        "mwt": "cadhan",
+        "lemma": "cadhan_nocharlm",
+        "pos": "cadhan_nocharlm",
+        "depparse": "cadhan_nocharlm"
+      },
+      "default_nocharlm": {
         "tokenize": "cadhan",
         "mwt": "cadhan",
         "lemma": "cadhan_nocharlm",
@@ -11538,6 +11873,13 @@
         "pos": "ptnk_nocharlm",
         "depparse": "ptnk_nocharlm"
       },
+      "default_nocharlm": {
+        "tokenize": "ptnk",
+        "mwt": "ptnk",
+        "lemma": "ptnk_nocharlm",
+        "pos": "ptnk_nocharlm",
+        "depparse": "ptnk_nocharlm"
+      },
       "ptnk": {
         "tokenize": "ptnk",
         "mwt": "ptnk",
@@ -11603,6 +11945,12 @@
         "pos": "set_nocharlm",
         "depparse": "set_nocharlm"
       },
+      "default_nocharlm": {
+        "tokenize": "set",
+        "lemma": "set_nocharlm",
+        "pos": "set_nocharlm",
+        "depparse": "set_nocharlm"
+      },
       "set": {
         "tokenize": "set",
         "pos": "set_nocharlm",
@@ -11662,6 +12010,12 @@
     },
     "packages": {
       "default": {
+        "tokenize": "ufal",
+        "lemma": "ufal_nocharlm",
+        "pos": "ufal_nocharlm",
+        "depparse": "ufal_nocharlm"
+      },
+      "default_nocharlm": {
         "tokenize": "ufal",
         "lemma": "ufal_nocharlm",
         "pos": "ufal_nocharlm",
@@ -11738,6 +12092,13 @@
     },
     "packages": {
       "default": {
+        "tokenize": "szeged",
+        "lemma": "szeged_nocharlm",
+        "pos": "szeged_nocharlm",
+        "depparse": "szeged_nocharlm",
+        "ner": "combined"
+      },
+      "default_nocharlm": {
         "tokenize": "szeged",
         "lemma": "szeged_nocharlm",
         "pos": "szeged_nocharlm",
@@ -11900,6 +12261,14 @@
         "depparse": "armtdp_nocharlm",
         "ner": "armtdp"
       },
+      "default_nocharlm": {
+        "tokenize": "armtdp",
+        "mwt": "armtdp",
+        "lemma": "armtdp_nocharlm",
+        "pos": "armtdp_nocharlm",
+        "depparse": "armtdp_nocharlm",
+        "ner": "armtdp"
+      },
       "armtdp": {
         "tokenize": "armtdp",
         "mwt": "armtdp",
@@ -11973,6 +12342,13 @@
     },
     "packages": {
       "default": {
+        "tokenize": "armtdp",
+        "mwt": "armtdp",
+        "lemma": "armtdp_nocharlm",
+        "pos": "armtdp_nocharlm",
+        "depparse": "armtdp_nocharlm"
+      },
+      "default_nocharlm": {
         "tokenize": "armtdp",
         "mwt": "armtdp",
         "lemma": "armtdp_nocharlm",
@@ -12102,6 +12478,13 @@
         "pos": "icepahc_nocharlm",
         "depparse": "icepahc_nocharlm"
       },
+      "default_nocharlm": {
+        "tokenize": "icepahc",
+        "mwt": "icepahc",
+        "lemma": "icepahc_nocharlm",
+        "pos": "icepahc_nocharlm",
+        "depparse": "icepahc_nocharlm"
+      },
       "gc": {
         "tokenize": "gc",
         "pos": "gc_nocharlm",
@@ -12181,6 +12564,13 @@
     },
     "packages": {
       "default": {
+        "tokenize": "mg",
+        "mwt": "mg",
+        "lemma": "mg_nocharlm",
+        "pos": "mg_nocharlm",
+        "depparse": "mg_nocharlm"
+      },
+      "default_nocharlm": {
         "tokenize": "mg",
         "mwt": "mg",
         "lemma": "mg_nocharlm",
@@ -12276,6 +12666,12 @@
         "pos": "kaist_nocharlm",
         "depparse": "kaist_nocharlm"
       },
+      "default_nocharlm": {
+        "tokenize": "kaist",
+        "lemma": "kaist_nocharlm",
+        "pos": "kaist_nocharlm",
+        "depparse": "kaist_nocharlm"
+      },
       "gsd": {
         "tokenize": "gsd",
         "pos": "gsd_nocharlm",
@@ -12341,6 +12737,12 @@
     },
     "packages": {
       "default": {
+        "tokenize": "ktmu",
+        "lemma": "ktmu_nocharlm",
+        "pos": "ktmu_nocharlm",
+        "depparse": "ktmu_nocharlm"
+      },
+      "default_nocharlm": {
         "tokenize": "ktmu",
         "lemma": "ktmu_nocharlm",
         "pos": "ktmu_nocharlm",
@@ -12514,6 +12916,12 @@
         "pos": "ittb_nocharlm",
         "depparse": "ittb_nocharlm"
       },
+      "default_nocharlm": {
+        "tokenize": "ittb",
+        "lemma": "ittb_nocharlm",
+        "pos": "ittb_nocharlm",
+        "depparse": "ittb_nocharlm"
+      },
       "ittb": {
         "tokenize": "ittb",
         "pos": "ittb_nocharlm",
@@ -12611,6 +13019,13 @@
         "pos": "glt_nocharlm",
         "depparse": "glt_nocharlm"
       },
+      "default_nocharlm": {
+        "tokenize": "glt",
+        "mwt": "glt",
+        "lemma": "glt_nocharlm",
+        "pos": "glt_nocharlm",
+        "depparse": "glt_nocharlm"
+      },
       "glt": {
         "tokenize": "glt",
         "mwt": "glt",
@@ -12700,6 +13115,12 @@
         "pos": "alksnis_nocharlm",
         "depparse": "alksnis_nocharlm"
       },
+      "default_nocharlm": {
+        "tokenize": "alksnis",
+        "lemma": "alksnis_nocharlm",
+        "pos": "alksnis_nocharlm",
+        "depparse": "alksnis_nocharlm"
+      },
       "alksnis": {
         "tokenize": "alksnis",
         "pos": "alksnis_nocharlm",
@@ -12770,6 +13191,12 @@
         "pos": "lvtb_nocharlm",
         "depparse": "lvtb_nocharlm"
       },
+      "default_nocharlm": {
+        "tokenize": "lvtb",
+        "lemma": "lvtb_nocharlm",
+        "pos": "lvtb_nocharlm",
+        "depparse": "lvtb_nocharlm"
+      },
       "lvtb": {
         "tokenize": "lvtb",
         "pos": "lvtb_nocharlm",
@@ -12834,6 +13261,12 @@
         "pos": "kyoto_nocharlm",
         "depparse": "kyoto_nocharlm"
       },
+      "default_nocharlm": {
+        "tokenize": "kyoto",
+        "lemma": "kyoto_nocharlm",
+        "pos": "kyoto_nocharlm",
+        "depparse": "kyoto_nocharlm"
+      },
       "kyoto": {
         "tokenize": "kyoto",
         "pos": "kyoto_nocharlm",
@@ -12888,6 +13321,12 @@
     },
     "packages": {
       "default": {
+        "tokenize": "mudt",
+        "lemma": "identity",
+        "pos": "mudt_nocharlm",
+        "depparse": "mudt_nocharlm"
+      },
+      "default_nocharlm": {
         "tokenize": "mudt",
         "lemma": "identity",
         "pos": "mudt_nocharlm",
@@ -12958,6 +13397,13 @@
     },
     "packages": {
       "default": {
+        "tokenize": "jr",
+        "mwt": "jr",
+        "lemma": "jr_nocharlm",
+        "pos": "jr_nocharlm",
+        "depparse": "jr_nocharlm"
+      },
+      "default_nocharlm": {
         "tokenize": "jr",
         "mwt": "jr",
         "lemma": "jr_nocharlm",
@@ -13036,6 +13482,13 @@
     },
     "packages": {
       "default": {
+        "tokenize": "nynorsk",
+        "lemma": "nynorsk_nocharlm",
+        "pos": "nynorsk_nocharlm",
+        "depparse": "nynorsk_nocharlm",
+        "ner": "norne"
+      },
+      "default_nocharlm": {
         "tokenize": "nynorsk",
         "lemma": "nynorsk_nocharlm",
         "pos": "nynorsk_nocharlm",
@@ -13420,6 +13873,12 @@
         "pos": "rrt_nocharlm",
         "depparse": "rrt_nocharlm"
       },
+      "default_nocharlm": {
+        "tokenize": "rrt",
+        "lemma": "rrt_nocharlm",
+        "pos": "rrt_nocharlm",
+        "depparse": "rrt_nocharlm"
+      },
       "nonstandard": {
         "tokenize": "nonstandard",
         "pos": "nonstandard_nocharlm",
@@ -13496,6 +13955,12 @@
         "pos": "vedic_nocharlm",
         "depparse": "vedic_nocharlm"
       },
+      "default_nocharlm": {
+        "tokenize": "vedic",
+        "lemma": "vedic_nocharlm",
+        "pos": "vedic_nocharlm",
+        "depparse": "vedic_nocharlm"
+      },
       "vedic": {
         "tokenize": "vedic",
         "pos": "vedic_nocharlm",
@@ -13561,6 +14026,13 @@
     },
     "packages": {
       "default": {
+        "tokenize": "snk",
+        "mwt": "snk",
+        "lemma": "snk_nocharlm",
+        "pos": "snk_nocharlm",
+        "depparse": "snk_nocharlm"
+      },
+      "default_nocharlm": {
         "tokenize": "snk",
         "mwt": "snk",
         "lemma": "snk_nocharlm",
@@ -13656,6 +14128,12 @@
         "pos": "ssj_nocharlm",
         "depparse": "ssj_nocharlm"
       },
+      "default_nocharlm": {
+        "tokenize": "ssj",
+        "lemma": "ssj_nocharlm",
+        "pos": "ssj_nocharlm",
+        "depparse": "ssj_nocharlm"
+      },
       "ssj": {
         "tokenize": "ssj",
         "pos": "ssj_nocharlm",
@@ -13726,6 +14204,12 @@
         "pos": "giella_nocharlm",
         "depparse": "giella_nocharlm"
       },
+      "default_nocharlm": {
+        "tokenize": "giella",
+        "lemma": "giella_nocharlm",
+        "pos": "giella_nocharlm",
+        "depparse": "giella_nocharlm"
+      },
       "giella": {
         "tokenize": "giella",
         "pos": "giella_nocharlm",
@@ -13788,6 +14272,12 @@
     },
     "packages": {
       "default": {
+        "tokenize": "set",
+        "lemma": "set_nocharlm",
+        "pos": "set_nocharlm",
+        "depparse": "set_nocharlm"
+      },
+      "default_nocharlm": {
         "tokenize": "set",
         "lemma": "set_nocharlm",
         "pos": "set_nocharlm",
@@ -13864,6 +14354,13 @@
         "pos": "ttb_nocharlm",
         "depparse": "ttb_nocharlm"
       },
+      "default_nocharlm": {
+        "tokenize": "ttb",
+        "mwt": "ttb",
+        "lemma": "ttb_nocharlm",
+        "pos": "ttb_nocharlm",
+        "depparse": "ttb_nocharlm"
+      },
       "ttb": {
         "tokenize": "ttb",
         "mwt": "ttb",
@@ -13929,6 +14426,12 @@
         "pos": "udt_nocharlm",
         "depparse": "udt_nocharlm"
       },
+      "default_nocharlm": {
+        "tokenize": "udt",
+        "lemma": "udt_nocharlm",
+        "pos": "udt_nocharlm",
+        "depparse": "udt_nocharlm"
+      },
       "udt": {
         "tokenize": "udt",
         "pos": "udt_nocharlm",
@@ -13988,6 +14491,12 @@
     },
     "packages": {
       "default": {
+        "tokenize": "udtb",
+        "lemma": "udtb_nocharlm",
+        "pos": "udtb_nocharlm",
+        "depparse": "udtb_nocharlm"
+      },
+      "default_nocharlm": {
         "tokenize": "udtb",
         "lemma": "udtb_nocharlm",
         "pos": "udtb_nocharlm",
@@ -14064,6 +14573,13 @@
         "pos": "wtb_nocharlm",
         "depparse": "wtb_nocharlm"
       },
+      "default_nocharlm": {
+        "tokenize": "wtb",
+        "mwt": "wtb",
+        "lemma": "wtb_nocharlm",
+        "pos": "wtb_nocharlm",
+        "depparse": "wtb_nocharlm"
+      },
       "wtb": {
         "tokenize": "wtb",
         "mwt": "wtb",
@@ -14127,6 +14643,12 @@
     },
     "packages": {
       "default": {
+        "tokenize": "gsd",
+        "lemma": "gsd_nocharlm",
+        "pos": "gsd_nocharlm",
+        "depparse": "gsd_nocharlm"
+      },
+      "default_nocharlm": {
         "tokenize": "gsd",
         "lemma": "gsd_nocharlm",
         "pos": "gsd_nocharlm",
