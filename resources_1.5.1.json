@@ -9308,6 +9308,15 @@
           }
         ]
       },
+      "vtb_nocharlm": {
+        "md5": "21e76fd96966ad47a7960dbc19e76b03",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
       "vtb_phobert-large": {
         "md5": "5908e7672be1c1814acd8de6ee58629a",
         "dependencies": [
@@ -9742,7 +9751,7 @@
         "depparse": "gsdsimp_charlm"
       }
     },
-    "default_md5": "b70c1cdb3973f5d5beac8045f2306c20",
+    "default_md5": "75bf7b49087456883904e8adbf6a8cd2",
     "lang_name": "Simplified_Chinese"
   },
   "simplified_chinese": {
