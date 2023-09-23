@@ -7804,6 +7804,443 @@
   "polish": {
     "alias": "pl"
   },
+  "pt": {
+    "backward_charlm": {
+      "oscar2023": {
+        "md5": "af5287e320affb27348520051a1c090a"
+      }
+    },
+    "constituency": {
+      "cintil_bertimbau": {
+        "md5": "f8d87d02561d050c555571906171bd96",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      },
+      "cintil_charlm": {
+        "md5": "204e6242c50643a327ded4427600215c",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      }
+    },
+    "depparse": {
+      "bosque_bertimbau": {
+        "md5": "fe5876a613c6922607894e4fb4198fde",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      },
+      "bosque_charlm": {
+        "md5": "7adcd619187e32bd104ba0fe4d0ee24a",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      },
+      "cintil_bertimbau": {
+        "md5": "c9bfb4c1adb79ce263c3d9aca061c784",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      },
+      "cintil_charlm": {
+        "md5": "b1e2634f58307baa51b456e4333fbf1e",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      },
+      "gsd_bertimbau": {
+        "md5": "4d491a267a21e70c90fa8f4be5f477af",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      },
+      "gsd_charlm": {
+        "md5": "e45f4db5db03b4e7951db6e2578a53ce",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      },
+      "petrogold_bertimbau": {
+        "md5": "40e956e234089983b88b06f7a07eb368",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      },
+      "petrogold_charlm": {
+        "md5": "15c9a5c9ac6597ccf6615256ef2fcc94",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      }
+    },
+    "forward_charlm": {
+      "oscar2023": {
+        "md5": "c90551af00702ffbf3affe8caecf112a"
+      }
+    },
+    "lemma": {
+      "bosque_nocharlm": {
+        "md5": "1d3fb6f1771ebb7b31822d03f79ed422"
+      },
+      "cintil_nocharlm": {
+        "md5": "d14d443f38c3961db1745630855b144e"
+      },
+      "gsd_nocharlm": {
+        "md5": "d7537d571e7032ef1919dc7572192e71"
+      },
+      "petrogold_nocharlm": {
+        "md5": "5365b7f723eb55b75386d308a67dbc1c"
+      }
+    },
+    "mwt": {
+      "bosque": {
+        "md5": "93254b82b693c074127277d39ef31a0a"
+      },
+      "cintil": {
+        "md5": "4e7680dabe9f432f3b470f514a4b5c7a"
+      },
+      "gsd": {
+        "md5": "38fd4d801fcfa44c750f72f26fc3944d"
+      },
+      "petrogold": {
+        "md5": "b98f5336e974d3c8c8763457f2c09021"
+      }
+    },
+    "pos": {
+      "bosque_bertimbau": {
+        "md5": "7cb160bf1cd2044b6f7814c0d5f3b95e",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      },
+      "bosque_charlm": {
+        "md5": "92aff84e03f98da3aa2ace3c80719877",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      },
+      "cintil_bertimbau": {
+        "md5": "47ff294b7630f0dba0b8bd3480a8bdbb",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      },
+      "cintil_charlm": {
+        "md5": "ba1069bc16bf8c7976db74d04a4cf06e",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      },
+      "gsd_bertimbau": {
+        "md5": "feb80662cb18b836086c51479b4805b3",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      },
+      "gsd_charlm": {
+        "md5": "f4ecdaceec8f68bbffeca9e267524cbc",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      },
+      "petrogold_bertimbau": {
+        "md5": "64d22cebe54c9dfcb69b04def2be55ee",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      },
+      "petrogold_charlm": {
+        "md5": "6f0816f87a9ff77660a571c6fd3f55de",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "conll17": {
+        "md5": "824f0b77cc8581fa278264a10d5daf5c"
+      }
+    },
+    "tokenize": {
+      "bosque": {
+        "md5": "a328fa2b4e327b1204e41ca020dbff57"
+      },
+      "cintil": {
+        "md5": "64004b32d002427ed68e950f0b3d76e5"
+      },
+      "gsd": {
+        "md5": "977981ff7d4e9a074185a9ce0d6b81d0"
+      },
+      "petrogold": {
+        "md5": "20b1b67dd6c04cf9f03d699d86bdfbf9"
+      }
+    },
+    "default_processors": {
+      "tokenize": "bosque",
+      "mwt": "bosque",
+      "lemma": "bosque_nocharlm",
+      "pos": "bosque_charlm",
+      "depparse": "bosque_charlm",
+      "constituency": "cintil_charlm"
+    },
+    "packages": {
+      "default": {
+        "tokenize": "bosque",
+        "mwt": "bosque",
+        "lemma": "bosque_nocharlm",
+        "pos": "bosque_charlm",
+        "depparse": "bosque_charlm",
+        "constituency": "cintil_charlm"
+      },
+      "default_fast": {
+        "tokenize": "bosque",
+        "mwt": "bosque",
+        "lemma": "bosque_nocharlm",
+        "pos": "bosque_charlm",
+        "depparse": "bosque_charlm"
+      },
+      "default_best": {
+        "tokenize": "bosque",
+        "mwt": "bosque",
+        "lemma": "bosque_nocharlm",
+        "pos": "bosque_bertimbau",
+        "depparse": "bosque_bertimbau",
+        "constituency": "cintil_bertimbau"
+      },
+      "bosque": {
+        "tokenize": "bosque",
+        "mwt": "bosque",
+        "pos": "bosque_charlm",
+        "lemma": "bosque_nocharlm",
+        "depparse": "bosque_charlm"
+      },
+      "cintil": {
+        "tokenize": "cintil",
+        "mwt": "cintil",
+        "pos": "cintil_charlm",
+        "lemma": "cintil_nocharlm",
+        "depparse": "cintil_charlm"
+      },
+      "gsd": {
+        "tokenize": "gsd",
+        "mwt": "gsd",
+        "pos": "gsd_charlm",
+        "lemma": "gsd_nocharlm",
+        "depparse": "gsd_charlm"
+      },
+      "petrogold": {
+        "tokenize": "petrogold",
+        "mwt": "petrogold",
+        "pos": "petrogold_charlm",
+        "lemma": "petrogold_nocharlm",
+        "depparse": "petrogold_charlm"
+      }
+    },
+    "default_md5": "97c52a665857607c0041fea9537d8c10",
+    "lang_name": "Portuguese"
+  },
+  "portuguese": {
+    "alias": "pt"
+  },
   "ru": {
     "backward_charlm": {
       "newswiki": {
@@ -10200,289 +10637,6 @@
   },
   "simplified_chinese": {
     "alias": "zh-hans"
-  },
-  "pt": {
-    "constituency": {
-      "cintil_bert": {
-        "md5": "7ba3a984c9fe99bab6715bb7c1a59519",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "conll17"
-          }
-        ]
-      },
-      "cintil_nocharlm": {
-        "md5": "14349ee7859622612cb3623c3dc11f2e",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "conll17"
-          }
-        ]
-      }
-    },
-    "depparse": {
-      "bosque_bert": {
-        "md5": "e10c323bcfc6d765109d281a03c5b28d",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "conll17"
-          }
-        ]
-      },
-      "bosque_nocharlm": {
-        "md5": "41009734f95a352ffd6253525f1ba81d",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "conll17"
-          }
-        ]
-      },
-      "cintil_bert": {
-        "md5": "dbd59b0e3894401384aa2e7ab1d25305",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "conll17"
-          }
-        ]
-      },
-      "cintil_nocharlm": {
-        "md5": "9502f4252422e873a5a75ffea9e8372d",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "conll17"
-          }
-        ]
-      },
-      "gsd_bert": {
-        "md5": "17fdfc3ae73f85aa06cfbce674416621",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "conll17"
-          }
-        ]
-      },
-      "gsd_nocharlm": {
-        "md5": "40c8d56784370dda348dbb95c30c1263",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "conll17"
-          }
-        ]
-      },
-      "petrogold_bert": {
-        "md5": "bb57cc5b5ba3bb2112eb140f9963292f",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "conll17"
-          }
-        ]
-      },
-      "petrogold_nocharlm": {
-        "md5": "2ad6313f8911d735164b52cbccee21e3",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "conll17"
-          }
-        ]
-      }
-    },
-    "lemma": {
-      "bosque_nocharlm": {
-        "md5": "1d3fb6f1771ebb7b31822d03f79ed422"
-      },
-      "cintil_nocharlm": {
-        "md5": "d14d443f38c3961db1745630855b144e"
-      },
-      "gsd_nocharlm": {
-        "md5": "d7537d571e7032ef1919dc7572192e71"
-      },
-      "petrogold_nocharlm": {
-        "md5": "5365b7f723eb55b75386d308a67dbc1c"
-      }
-    },
-    "mwt": {
-      "bosque": {
-        "md5": "93254b82b693c074127277d39ef31a0a"
-      },
-      "cintil": {
-        "md5": "4e7680dabe9f432f3b470f514a4b5c7a"
-      },
-      "gsd": {
-        "md5": "38fd4d801fcfa44c750f72f26fc3944d"
-      },
-      "petrogold": {
-        "md5": "b98f5336e974d3c8c8763457f2c09021"
-      }
-    },
-    "pos": {
-      "bosque_bert": {
-        "md5": "3c7668f27fcfc5fbd7612c679398279b",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "conll17"
-          }
-        ]
-      },
-      "bosque_nocharlm": {
-        "md5": "c07d15c2b552478e2d703fe5daad8994",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "conll17"
-          }
-        ]
-      },
-      "cintil_bert": {
-        "md5": "509ae0da70f874ca9f9a293fab9dfcbd",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "conll17"
-          }
-        ]
-      },
-      "cintil_nocharlm": {
-        "md5": "9d42f81d8c7407061082255adfbc3da7",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "conll17"
-          }
-        ]
-      },
-      "gsd_bert": {
-        "md5": "68cbbd9e6afc992a26bafbb411ba7ada",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "conll17"
-          }
-        ]
-      },
-      "gsd_nocharlm": {
-        "md5": "ba2c84bd354b7ec86437d68e094c06c4",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "conll17"
-          }
-        ]
-      },
-      "petrogold_bert": {
-        "md5": "7bbdcc89cf50e01cea77911abf9d9de5",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "conll17"
-          }
-        ]
-      },
-      "petrogold_nocharlm": {
-        "md5": "67ae1f8450bae6af64bfb4ee02bc99a3",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "conll17"
-          }
-        ]
-      }
-    },
-    "pretrain": {
-      "conll17": {
-        "md5": "824f0b77cc8581fa278264a10d5daf5c"
-      }
-    },
-    "tokenize": {
-      "bosque": {
-        "md5": "a328fa2b4e327b1204e41ca020dbff57"
-      },
-      "cintil": {
-        "md5": "64004b32d002427ed68e950f0b3d76e5"
-      },
-      "gsd": {
-        "md5": "977981ff7d4e9a074185a9ce0d6b81d0"
-      },
-      "petrogold": {
-        "md5": "20b1b67dd6c04cf9f03d699d86bdfbf9"
-      }
-    },
-    "default_processors": {
-      "tokenize": "bosque",
-      "mwt": "bosque",
-      "lemma": "bosque_nocharlm",
-      "pos": "bosque_nocharlm",
-      "depparse": "bosque_nocharlm",
-      "constituency": "cintil_nocharlm"
-    },
-    "packages": {
-      "default": {
-        "tokenize": "bosque",
-        "mwt": "bosque",
-        "lemma": "bosque_nocharlm",
-        "pos": "bosque_nocharlm",
-        "depparse": "bosque_nocharlm",
-        "constituency": "cintil_nocharlm"
-      },
-      "default_fast": {
-        "tokenize": "bosque",
-        "mwt": "bosque",
-        "lemma": "bosque_nocharlm",
-        "pos": "bosque_nocharlm",
-        "depparse": "bosque_nocharlm"
-      },
-      "default_best": {
-        "tokenize": "bosque",
-        "mwt": "bosque",
-        "lemma": "bosque_nocharlm",
-        "pos": "bosque_bert",
-        "depparse": "bosque_bert",
-        "constituency": "cintil_bert"
-      },
-      "bosque": {
-        "tokenize": "bosque",
-        "mwt": "bosque",
-        "pos": "bosque_nocharlm",
-        "lemma": "bosque_nocharlm",
-        "depparse": "bosque_nocharlm"
-      },
-      "cintil": {
-        "tokenize": "cintil",
-        "mwt": "cintil",
-        "pos": "cintil_nocharlm",
-        "lemma": "cintil_nocharlm",
-        "depparse": "cintil_nocharlm"
-      },
-      "gsd": {
-        "tokenize": "gsd",
-        "mwt": "gsd",
-        "pos": "gsd_nocharlm",
-        "lemma": "gsd_nocharlm",
-        "depparse": "gsd_nocharlm"
-      },
-      "petrogold": {
-        "tokenize": "petrogold",
-        "mwt": "petrogold",
-        "pos": "petrogold_nocharlm",
-        "lemma": "petrogold_nocharlm",
-        "depparse": "petrogold_nocharlm"
-      }
-    },
-    "default_md5": "a274cdc6ed842d292b4c74df621ec9db",
-    "lang_name": "Portuguese"
-  },
-  "portuguese": {
-    "alias": "pt"
   },
   "be": {
     "depparse": {
