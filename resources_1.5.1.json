@@ -8070,7 +8070,7 @@
         ]
       },
       "cintil_charlm": {
-        "md5": "ba1069bc16bf8c7976db74d04a4cf06e",
+        "md5": "b7d36ada5edeeb7a042b836fbbd66953",
         "dependencies": [
           {
             "model": "pretrain",
