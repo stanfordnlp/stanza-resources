@@ -7848,7 +7848,7 @@
     },
     "depparse": {
       "bosque_bertimbau": {
-        "md5": "fe5876a613c6922607894e4fb4198fde",
+        "md5": "6bbd6cca7865b8303ee37f557add12c7",
         "dependencies": [
           {
             "model": "pretrain",
@@ -7882,7 +7882,7 @@
         ]
       },
       "cintil_bertimbau": {
-        "md5": "c9bfb4c1adb79ce263c3d9aca061c784",
+        "md5": "b37bdab6808eabf00124b1b817d3ffe5",
         "dependencies": [
           {
             "model": "pretrain",
@@ -7916,7 +7916,7 @@
         ]
       },
       "gsd_bertimbau": {
-        "md5": "4d491a267a21e70c90fa8f4be5f477af",
+        "md5": "62642cc28ed08c0446d77c5dd70af375",
         "dependencies": [
           {
             "model": "pretrain",
@@ -7950,7 +7950,7 @@
         ]
       },
       "petrogold_bertimbau": {
-        "md5": "40e956e234089983b88b06f7a07eb368",
+        "md5": "55c47aa8b35abaa572024411909e985d",
         "dependencies": [
           {
             "model": "pretrain",
@@ -8053,7 +8053,7 @@
         ]
       },
       "cintil_bertimbau": {
-        "md5": "47ff294b7630f0dba0b8bd3480a8bdbb",
+        "md5": "65be963dc5a52ac845f5f5e0f9644781",
         "dependencies": [
           {
             "model": "pretrain",
