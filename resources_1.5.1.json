@@ -178,6 +178,23 @@
       }
     },
     "depparse": {
+      "padt_aubmind-electra": {
+        "md5": "c54b962b2848109c585e87e6a0afeb9c",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "ccwiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "ccwiki"
+          }
+        ]
+      },
       "padt_charlm": {
         "md5": "17ed22a8435550fbf06280512a8b9b2b",
         "dependencies": [
@@ -234,8 +251,25 @@
       }
     },
     "ner": {
-      "aqmar": {
-        "md5": "86fc11a4d42ade8d2ad75143b8f89d1c",
+      "aqmar_aubmind-electra": {
+        "md5": "8a7df2ba0fd371dbd2c0beb35e0dd0b2",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttextwiki"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "ccwiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "ccwiki"
+          }
+        ]
+      },
+      "aqmar_charlm": {
+        "md5": "6508b3459e4f608d411012a9c2a7176f",
         "dependencies": [
           {
             "model": "pretrain",
@@ -253,6 +287,23 @@
       }
     },
     "pos": {
+      "padt_aubmind-electra": {
+        "md5": "a7fce6808d23c53a02b4514201f999f6",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "ccwiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "ccwiki"
+          }
+        ]
+      },
       "padt_charlm": {
         "md5": "2ad6385a14f5d9cdf32f7b3fd5028a3a",
         "dependencies": [
@@ -299,7 +350,7 @@
       "lemma": "padt_nocharlm",
       "pos": "padt_charlm",
       "depparse": "padt_charlm",
-      "ner": "aqmar"
+      "ner": "aqmar_charlm"
     },
     "packages": {
       "default": {
@@ -308,7 +359,7 @@
         "lemma": "padt_nocharlm",
         "pos": "padt_charlm",
         "depparse": "padt_charlm",
-        "ner": "aqmar"
+        "ner": "aqmar_charlm"
       },
       "default_fast": {
         "tokenize": "padt",
@@ -316,7 +367,7 @@
         "lemma": "padt_nocharlm",
         "pos": "padt_nocharlm",
         "depparse": "padt_nocharlm",
-        "ner": "aqmar"
+        "ner": "aqmar_charlm"
       },
       "default_best": {
         "tokenize": "padt",
@@ -324,7 +375,7 @@
         "lemma": "padt_charlm",
         "pos": "padt_charlm",
         "depparse": "padt_charlm",
-        "ner": "aqmar"
+        "ner": "aqmar_charlm"
       },
       "padt": {
         "tokenize": "padt",
@@ -334,7 +385,7 @@
         "depparse": "padt_charlm"
       }
     },
-    "default_md5": "2b85515cdfb27a3fe4e0380ed175c565",
+    "default_md5": "a1a5dd8d012b63980a251b3dff9c67af",
     "lang_name": "Arabic"
   },
   "arabic": {
