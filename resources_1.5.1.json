@@ -256,7 +256,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "fasttextwiki"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -282,6 +282,15 @@
           {
             "model": "backward_charlm",
             "package": "ccwiki"
+          }
+        ]
+      },
+      "aqmar_nocharlm": {
+        "md5": "bb52a97184e192c0b0b20f6c32a38b48",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttextwiki"
           }
         ]
       }
@@ -367,14 +376,14 @@
         "lemma": "padt_nocharlm",
         "pos": "padt_nocharlm",
         "depparse": "padt_nocharlm",
-        "ner": "aqmar_charlm"
+        "ner": "aqmar_nocharlm"
       },
       "default_best": {
         "tokenize": "padt",
         "mwt": "padt",
         "lemma": "padt_charlm",
-        "pos": "padt_charlm",
-        "depparse": "padt_charlm",
+        "pos": "padt_aubmind-electra",
+        "depparse": "padt_aubmind-electra",
         "ner": "aqmar_charlm"
       },
       "padt": {
@@ -7932,6 +7941,15 @@
           }
         ]
       },
+      "bosque_nocharlm": {
+        "md5": "41009734f95a352ffd6253525f1ba81d",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
       "cintil_bertimbau": {
         "md5": "b37bdab6808eabf00124b1b817d3ffe5",
         "dependencies": [
@@ -7963,6 +7981,15 @@
           {
             "model": "backward_charlm",
             "package": "oscar2023"
+          }
+        ]
+      },
+      "cintil_nocharlm": {
+        "md5": "9502f4252422e873a5a75ffea9e8372d",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
           }
         ]
       },
@@ -8000,6 +8027,15 @@
           }
         ]
       },
+      "gsd_nocharlm": {
+        "md5": "40c8d56784370dda348dbb95c30c1263",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
       "petrogold_bertimbau": {
         "md5": "55c47aa8b35abaa572024411909e985d",
         "dependencies": [
@@ -8033,6 +8069,15 @@
             "package": "oscar2023"
           }
         ]
+      },
+      "petrogold_nocharlm": {
+        "md5": "2ad6313f8911d735164b52cbccee21e3",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
       }
     },
     "forward_charlm": {
@@ -8041,14 +8086,66 @@
       }
     },
     "lemma": {
+      "bosque_charlm": {
+        "md5": "88853a877f231f9bd9565c44d71eea17",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      },
       "bosque_nocharlm": {
         "md5": "1d3fb6f1771ebb7b31822d03f79ed422"
+      },
+      "cintil_charlm": {
+        "md5": "259f6e67def1da55b703eb5240a14d5a",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
       },
       "cintil_nocharlm": {
         "md5": "d14d443f38c3961db1745630855b144e"
       },
+      "gsd_charlm": {
+        "md5": "8ce970faf7a12a13e61373c4cfda882f",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      },
       "gsd_nocharlm": {
         "md5": "d7537d571e7032ef1919dc7572192e71"
+      },
+      "petrogold_charlm": {
+        "md5": "82b88e28271f9b784aa566c54fcf448b",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
       },
       "petrogold_nocharlm": {
         "md5": "5365b7f723eb55b75386d308a67dbc1c"
@@ -8103,6 +8200,15 @@
           }
         ]
       },
+      "bosque_nocharlm": {
+        "md5": "c07d15c2b552478e2d703fe5daad8994",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
       "cintil_bertimbau": {
         "md5": "65be963dc5a52ac845f5f5e0f9644781",
         "dependencies": [
@@ -8134,6 +8240,15 @@
           {
             "model": "backward_charlm",
             "package": "oscar2023"
+          }
+        ]
+      },
+      "cintil_nocharlm": {
+        "md5": "9d42f81d8c7407061082255adfbc3da7",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
           }
         ]
       },
@@ -8171,6 +8286,15 @@
           }
         ]
       },
+      "gsd_nocharlm": {
+        "md5": "ba2c84bd354b7ec86437d68e094c06c4",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
       "petrogold_bertimbau": {
         "md5": "64d22cebe54c9dfcb69b04def2be55ee",
         "dependencies": [
@@ -8202,6 +8326,15 @@
           {
             "model": "backward_charlm",
             "package": "oscar2023"
+          }
+        ]
+      },
+      "petrogold_nocharlm": {
+        "md5": "67ae1f8450bae6af64bfb4ee02bc99a3",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
           }
         ]
       }
@@ -8246,13 +8379,13 @@
         "tokenize": "bosque",
         "mwt": "bosque",
         "lemma": "bosque_nocharlm",
-        "pos": "bosque_charlm",
-        "depparse": "bosque_charlm"
+        "pos": "bosque_nocharlm",
+        "depparse": "bosque_nocharlm"
       },
       "default_best": {
         "tokenize": "bosque",
         "mwt": "bosque",
-        "lemma": "bosque_nocharlm",
+        "lemma": "bosque_charlm",
         "pos": "bosque_bertimbau",
         "depparse": "bosque_bertimbau",
         "constituency": "cintil_bertimbau"
@@ -8286,7 +8419,7 @@
         "depparse": "petrogold_charlm"
       }
     },
-    "default_md5": "97c52a665857607c0041fea9537d8c10",
+    "default_md5": "ecc450bf06806fce5f51d11e2af29d52",
     "lang_name": "Portuguese"
   },
   "portuguese": {
