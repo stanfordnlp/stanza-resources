@@ -151,7 +151,7 @@
         "depparse": "afribooms_nocharlm",
         "ner": "nchlt"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "afribooms",
         "lemma": "afribooms_charlm",
         "pos": "afribooms_charlm",
@@ -256,7 +256,7 @@
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "conll17"
+            "package": "fasttextwiki"
           },
           {
             "model": "forward_charlm",
@@ -378,7 +378,7 @@
         "depparse": "padt_nocharlm",
         "ner": "aqmar_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "padt",
         "mwt": "padt",
         "lemma": "padt_charlm",
@@ -536,7 +536,7 @@
         "depparse": "btb_nocharlm",
         "ner": "bsnlp19"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "btb",
         "lemma": "btb_charlm",
         "pos": "btb_charlm",
@@ -797,7 +797,7 @@
         "depparse": "ddt_nocharlm",
         "ner": "ddt"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "ddt",
         "lemma": "ddt_charlm",
         "pos": "ddt_scandibert",
@@ -1163,7 +1163,7 @@
         "ner": "germeval2014",
         "sentiment": "sb10k"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "gsd",
         "mwt": "gsd",
         "lemma": "gsd_charlm",
@@ -2415,7 +2415,7 @@
         "ner": "ontonotes",
         "sentiment": "sstplus"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "combined",
         "lemma": "combined_charlm",
         "pos": "combined_electra-large",
@@ -2860,7 +2860,7 @@
         "ner": "conll02",
         "sentiment": "tass2020"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "ancora",
         "mwt": "ancora",
         "lemma": "ancora_charlm",
@@ -3194,7 +3194,7 @@
         "depparse": "perdt_nocharlm",
         "ner": "arman"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "perdt",
         "mwt": "perdt",
         "lemma": "perdt_charlm",
@@ -3526,7 +3526,7 @@
         "depparse": "tdt_nocharlm",
         "ner": "turku"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "tdt",
         "mwt": "tdt",
         "lemma": "tdt_charlm",
@@ -4276,7 +4276,7 @@
         "depparse": "combined_nocharlm",
         "ner": "wikiner"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "combined",
         "mwt": "combined",
         "lemma": "combined_charlm",
@@ -4705,7 +4705,7 @@
         "pos": "combined_nocharlm",
         "depparse": "combined_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "combined",
         "mwt": "combined",
         "lemma": "combined_charlm",
@@ -4854,7 +4854,7 @@
         "pos": "hdtb_nocharlm",
         "depparse": "hdtb_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "hdtb",
         "lemma": "hdtb_charlm",
         "pos": "hdtb_charlm",
@@ -5175,7 +5175,7 @@
         "pos": "gsd_nocharlm",
         "depparse": "gsd_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "gsd",
         "mwt": "gsd",
         "lemma": "gsd_charlm",
@@ -6227,7 +6227,7 @@
         "depparse": "combined_nocharlm",
         "ner": "fbk"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "combined",
         "mwt": "combined",
         "lemma": "combined_charlm",
@@ -6612,7 +6612,7 @@
         "depparse": "gsd_nocharlm",
         "ner": "gsd"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "gsd",
         "lemma": "gsd_charlm",
         "pos": "gsd_rinna-roberta",
@@ -6783,7 +6783,7 @@
         "depparse": "ktb_nocharlm",
         "ner": "kazNERD"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "ktb",
         "mwt": "ktb",
         "lemma": "ktb_charlm",
@@ -7027,7 +7027,7 @@
         "ner": "l3cube",
         "sentiment": "l3cube"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "ufal",
         "mwt": "ufal",
         "lemma": "ufal_charlm",
@@ -7103,7 +7103,7 @@
         "tokenize": "alt",
         "ner": "ucsy"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "alt",
         "ner": "ucsy"
       },
@@ -7253,7 +7253,7 @@
         "depparse": "bokmaal_nocharlm",
         "ner": "norne"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "bokmaal",
         "lemma": "bokmaal_charlm",
         "pos": "bokmaal_charlm",
@@ -7508,7 +7508,7 @@
         "depparse": "alpino_nocharlm",
         "ner": "conll02"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "alpino",
         "mwt": "alpino",
         "lemma": "alpino_charlm",
@@ -7836,7 +7836,7 @@
         "depparse": "pdb_nocharlm",
         "ner": "nkjp"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "pdb",
         "mwt": "pdb",
         "lemma": "pdb_charlm",
@@ -8382,7 +8382,7 @@
         "pos": "bosque_nocharlm",
         "depparse": "bosque_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "bosque",
         "mwt": "bosque",
         "lemma": "bosque_charlm",
@@ -8706,7 +8706,7 @@
         "depparse": "syntagrus_nocharlm",
         "ner": "wikiner"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "syntagrus",
         "lemma": "syntagrus_charlm",
         "pos": "syntagrus_charlm",
@@ -8791,7 +8791,7 @@
         "tokenize": "isra",
         "ner": "siner"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "isra",
         "ner": "siner"
       },
@@ -9045,7 +9045,7 @@
         "depparse": "talbanken_nocharlm",
         "ner": "suc3shuffle"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "talbanken",
         "lemma": "talbanken_charlm",
         "pos": "talbanken_charlm",
@@ -9167,7 +9167,7 @@
         "pos": "mtg_nocharlm",
         "depparse": "mtg_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "mtg",
         "lemma": "identity",
         "pos": "mtg_charlm",
@@ -9239,7 +9239,7 @@
         "tokenize": "orchid",
         "ner": "lst20"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "orchid",
         "ner": "lst20"
       },
@@ -10037,7 +10037,7 @@
         "depparse": "imst_nocharlm",
         "ner": "starlang"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "imst",
         "mwt": "imst",
         "lemma": "imst_charlm",
@@ -10240,7 +10240,7 @@
         "depparse": "iu_nocharlm",
         "ner": "languk"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "iu",
         "mwt": "iu",
         "lemma": "iu_charlm",
@@ -10542,7 +10542,7 @@
         "ner": "vlsp",
         "sentiment": "vsfc"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "vtb",
         "lemma": "identity",
         "pos": "vtb_phobert-large",
@@ -10800,7 +10800,7 @@
         "ner": "ontonotes",
         "sentiment": "ren"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "gsdsimp",
         "lemma": "gsdsimp_charlm",
         "pos": "gsdsimp_electra-large",
@@ -10879,7 +10879,7 @@
         "pos": "hse_nocharlm",
         "depparse": "hse_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "hse",
         "lemma": "hse_nocharlm",
         "pos": "hse_nocharlm",
@@ -10955,7 +10955,7 @@
         "pos": "bdt_nocharlm",
         "depparse": "bdt_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "bdt",
         "lemma": "bdt_nocharlm",
         "pos": "bdt_nocharlm",
@@ -11039,7 +11039,7 @@
         "pos": "ancora_nocharlm",
         "depparse": "ancora_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "ancora",
         "mwt": "ancora",
         "lemma": "ancora_nocharlm",
@@ -11258,7 +11258,7 @@
         "pos": "pdt_nocharlm",
         "depparse": "pdt_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "pdt",
         "mwt": "pdt",
         "lemma": "pdt_nocharlm",
@@ -11357,7 +11357,7 @@
         "pos": "proiel_nocharlm",
         "depparse": "proiel_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "proiel",
         "lemma": "proiel_nocharlm",
         "pos": "proiel_nocharlm",
@@ -11441,7 +11441,7 @@
         "pos": "ccg_nocharlm",
         "depparse": "ccg_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "ccg",
         "mwt": "ccg",
         "lemma": "ccg_nocharlm",
@@ -11551,7 +11551,7 @@
         "pos": "gdt_nocharlm",
         "depparse": "gdt_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "gdt",
         "mwt": "gdt",
         "lemma": "gdt_nocharlm",
@@ -11659,7 +11659,7 @@
         "pos": "edt_nocharlm",
         "depparse": "edt_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "edt",
         "lemma": "edt_nocharlm",
         "pos": "edt_nocharlm",
@@ -11741,7 +11741,7 @@
         "pos": "bdt_nocharlm",
         "depparse": "bdt_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "bdt",
         "lemma": "bdt_nocharlm",
         "pos": "bdt_nocharlm",
@@ -11820,7 +11820,7 @@
         "pos": "farpahc_nocharlm",
         "depparse": "farpahc_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "farpahc",
         "mwt": "farpahc",
         "lemma": "identity",
@@ -11898,7 +11898,7 @@
         "pos": "srcmf_nocharlm",
         "depparse": "srcmf_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "srcmf",
         "lemma": "srcmf_nocharlm",
         "pos": "srcmf_nocharlm",
@@ -11998,7 +11998,7 @@
         "pos": "idt_nocharlm",
         "depparse": "idt_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "idt",
         "lemma": "idt_nocharlm",
         "pos": "idt_nocharlm",
@@ -12088,7 +12088,7 @@
         "pos": "arcosg_nocharlm",
         "depparse": "arcosg_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "arcosg",
         "mwt": "arcosg",
         "lemma": "arcosg_nocharlm",
@@ -12201,7 +12201,7 @@
         "pos": "ctg_nocharlm",
         "depparse": "ctg_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "ctg",
         "mwt": "ctg",
         "lemma": "ctg_nocharlm",
@@ -12286,7 +12286,7 @@
         "pos": "proiel_nocharlm",
         "depparse": "proiel_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "proiel",
         "lemma": "proiel_nocharlm",
         "pos": "proiel_nocharlm",
@@ -12386,7 +12386,7 @@
         "pos": "proiel_nocharlm",
         "depparse": "proiel_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "proiel",
         "lemma": "proiel_nocharlm",
         "pos": "proiel_nocharlm",
@@ -12476,7 +12476,7 @@
         "pos": "cadhan_nocharlm",
         "depparse": "cadhan_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "cadhan",
         "mwt": "cadhan",
         "lemma": "cadhan_nocharlm",
@@ -12562,7 +12562,7 @@
         "pos": "ptnk_nocharlm",
         "depparse": "ptnk_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "ptnk",
         "mwt": "ptnk",
         "lemma": "ptnk_nocharlm",
@@ -12640,7 +12640,7 @@
         "pos": "set_nocharlm",
         "depparse": "set_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "set",
         "lemma": "set_nocharlm",
         "pos": "set_nocharlm",
@@ -12716,7 +12716,7 @@
         "pos": "ufal_nocharlm",
         "depparse": "ufal_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "ufal",
         "lemma": "ufal_nocharlm",
         "pos": "ufal_nocharlm",
@@ -12806,7 +12806,7 @@
         "depparse": "szeged_nocharlm",
         "ner": "combined"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "szeged",
         "lemma": "szeged_nocharlm",
         "pos": "szeged_nocharlm",
@@ -12977,7 +12977,7 @@
         "depparse": "armtdp_nocharlm",
         "ner": "armtdp"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "armtdp",
         "mwt": "armtdp",
         "lemma": "armtdp_nocharlm",
@@ -13071,7 +13071,7 @@
         "pos": "armtdp_nocharlm",
         "depparse": "armtdp_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "armtdp",
         "mwt": "armtdp",
         "lemma": "armtdp_nocharlm",
@@ -13208,7 +13208,7 @@
         "pos": "icepahc_nocharlm",
         "depparse": "icepahc_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "icepahc",
         "mwt": "icepahc",
         "lemma": "icepahc_nocharlm",
@@ -13307,7 +13307,7 @@
         "pos": "mg_nocharlm",
         "depparse": "mg_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "mg",
         "mwt": "mg",
         "lemma": "mg_nocharlm",
@@ -13409,7 +13409,7 @@
         "pos": "kaist_nocharlm",
         "depparse": "kaist_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "kaist",
         "lemma": "kaist_nocharlm",
         "pos": "kaist_nocharlm",
@@ -13491,7 +13491,7 @@
         "pos": "ktmu_nocharlm",
         "depparse": "ktmu_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "ktmu",
         "lemma": "ktmu_nocharlm",
         "pos": "ktmu_nocharlm",
@@ -13671,7 +13671,7 @@
         "pos": "ittb_nocharlm",
         "depparse": "ittb_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "ittb",
         "lemma": "ittb_nocharlm",
         "pos": "ittb_nocharlm",
@@ -13781,7 +13781,7 @@
         "pos": "glt_nocharlm",
         "depparse": "glt_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "glt",
         "mwt": "glt",
         "lemma": "glt_nocharlm",
@@ -13883,7 +13883,7 @@
         "pos": "alksnis_nocharlm",
         "depparse": "alksnis_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "alksnis",
         "lemma": "alksnis_nocharlm",
         "pos": "alksnis_nocharlm",
@@ -13965,7 +13965,7 @@
         "pos": "lvtb_nocharlm",
         "depparse": "lvtb_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "lvtb",
         "lemma": "lvtb_nocharlm",
         "pos": "lvtb_nocharlm",
@@ -14041,7 +14041,7 @@
         "pos": "kyoto_nocharlm",
         "depparse": "kyoto_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "kyoto",
         "lemma": "kyoto_nocharlm",
         "pos": "kyoto_nocharlm",
@@ -14112,7 +14112,7 @@
         "pos": "mudt_nocharlm",
         "depparse": "mudt_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "mudt",
         "lemma": "identity",
         "pos": "mudt_nocharlm",
@@ -14196,7 +14196,7 @@
         "pos": "jr_nocharlm",
         "depparse": "jr_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "jr",
         "mwt": "jr",
         "lemma": "jr_nocharlm",
@@ -14288,7 +14288,7 @@
         "depparse": "nynorsk_nocharlm",
         "ner": "norne"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "nynorsk",
         "lemma": "nynorsk_nocharlm",
         "pos": "nynorsk_nocharlm",
@@ -14679,7 +14679,7 @@
         "pos": "rrt_nocharlm",
         "depparse": "rrt_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "rrt",
         "lemma": "rrt_nocharlm",
         "pos": "rrt_nocharlm",
@@ -14767,7 +14767,7 @@
         "pos": "vedic_nocharlm",
         "depparse": "vedic_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "vedic",
         "lemma": "vedic_nocharlm",
         "pos": "vedic_nocharlm",
@@ -14851,7 +14851,7 @@
         "pos": "snk_nocharlm",
         "depparse": "snk_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "snk",
         "mwt": "snk",
         "lemma": "snk_nocharlm",
@@ -14953,7 +14953,7 @@
         "pos": "ssj_nocharlm",
         "depparse": "ssj_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "ssj",
         "lemma": "ssj_nocharlm",
         "pos": "ssj_nocharlm",
@@ -15035,7 +15035,7 @@
         "pos": "giella_nocharlm",
         "depparse": "giella_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "giella",
         "lemma": "giella_nocharlm",
         "pos": "giella_nocharlm",
@@ -15114,7 +15114,7 @@
         "pos": "set_nocharlm",
         "depparse": "set_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "set",
         "lemma": "set_nocharlm",
         "pos": "set_nocharlm",
@@ -15198,7 +15198,7 @@
         "pos": "ttb_nocharlm",
         "depparse": "ttb_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "ttb",
         "mwt": "ttb",
         "lemma": "ttb_nocharlm",
@@ -15276,7 +15276,7 @@
         "pos": "udt_nocharlm",
         "depparse": "udt_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "udt",
         "lemma": "udt_nocharlm",
         "pos": "udt_nocharlm",
@@ -15352,7 +15352,7 @@
         "pos": "udtb_nocharlm",
         "depparse": "udtb_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "udtb",
         "lemma": "udtb_nocharlm",
         "pos": "udtb_nocharlm",
@@ -15436,7 +15436,7 @@
         "pos": "wtb_nocharlm",
         "depparse": "wtb_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "wtb",
         "mwt": "wtb",
         "lemma": "wtb_nocharlm",
@@ -15517,7 +15517,7 @@
         "pos": "gsd_nocharlm",
         "depparse": "gsd_nocharlm"
       },
-      "default_best": {
+      "default_accurate": {
         "tokenize": "gsd",
         "lemma": "gsd_nocharlm",
         "pos": "gsd_nocharlm",
