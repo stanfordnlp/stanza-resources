@@ -1811,8 +1811,8 @@
           }
         ]
       },
-      "conll03_bert": {
-        "md5": "892891610a5d66635904081fd6376178",
+      "conll03_charlm": {
+        "md5": "adc994f36ee4f8fcc5e5bceb3597f02e",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1828,8 +1828,8 @@
           }
         ]
       },
-      "conll03": {
-        "md5": "adc994f36ee4f8fcc5e5bceb3597f02e",
+      "conll03_electra-large": {
+        "md5": "892891610a5d66635904081fd6376178",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1913,8 +1913,51 @@
           }
         ]
       },
-      "ontonotes_bert": {
-        "md5": "0cdcfdbf4e001084820a520572bfba64",
+      "ontonotes-combined_charlm": {
+        "md5": "6093abdc312a9c69bb9f71ba88a30f59",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "1billion"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "1billion"
+          }
+        ]
+      },
+      "ontonotes-combined_electra-large": {
+        "md5": "4a96ddf7f096abb8c64c80539db08106",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "1billion"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "1billion"
+          }
+        ]
+      },
+      "ontonotes-combined_nocharlm": {
+        "md5": "ee323d1bdad985c2d0ff457f4a32201d",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
+      "ontonotes_charlm": {
+        "md5": "83d88f840ed82d8457e93e62e65824c7",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1930,8 +1973,8 @@
           }
         ]
       },
-      "ontonotes": {
-        "md5": "83d88f840ed82d8457e93e62e65824c7",
+      "ontonotes_electra-large": {
+        "md5": "0cdcfdbf4e001084820a520572bfba64",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2393,7 +2436,7 @@
       "lemma": "combined_nocharlm",
       "pos": "combined_charlm",
       "depparse": "combined_charlm",
-      "ner": "ontonotes",
+      "ner": "ontonotes_charlm",
       "sentiment": "sstplus",
       "constituency": "ptb3-revised_charlm"
     },
@@ -2403,7 +2446,7 @@
         "lemma": "combined_nocharlm",
         "pos": "combined_charlm",
         "depparse": "combined_charlm",
-        "ner": "ontonotes",
+        "ner": "ontonotes_charlm",
         "sentiment": "sstplus",
         "constituency": "ptb3-revised_charlm"
       },
@@ -2412,7 +2455,7 @@
         "lemma": "combined_nocharlm",
         "pos": "combined_nocharlm",
         "depparse": "combined_nocharlm",
-        "ner": "ontonotes",
+        "ner": "ontonotes_charlm",
         "sentiment": "sstplus"
       },
       "default_accurate": {
@@ -2420,7 +2463,7 @@
         "lemma": "combined_charlm",
         "pos": "combined_electra-large",
         "depparse": "combined_electra-large",
-        "ner": "ontonotes",
+        "ner": "ontonotes_charlm",
         "sentiment": "sstplus",
         "constituency": "ptb3-revised_electra-large"
       },
@@ -2488,7 +2531,7 @@
         "depparse": "partut_charlm"
       }
     },
-    "default_md5": "6aa307d9af2a34245a1837a14241aa5c",
+    "default_md5": "664360af7e92cec5d05e3c22e2c6b4b4",
     "lang_name": "English"
   },
   "english": {
