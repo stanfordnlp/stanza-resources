@@ -8210,7 +8210,7 @@
     },
     "pos": {
       "bosque_bertimbau": {
-        "md5": "7cb160bf1cd2044b6f7814c0d5f3b95e",
+        "md5": "b8517361a449ca64a4ff82c98faa8b2c",
         "dependencies": [
           {
             "model": "pretrain",
@@ -8227,7 +8227,7 @@
         ]
       },
       "bosque_charlm": {
-        "md5": "92aff84e03f98da3aa2ace3c80719877",
+        "md5": "da9aa343f212a9bd8402bd9538c0ad22",
         "dependencies": [
           {
             "model": "pretrain",
@@ -8462,7 +8462,7 @@
         "depparse": "petrogold_charlm"
       }
     },
-    "default_md5": "ecc450bf06806fce5f51d11e2af29d52",
+    "default_md5": "5a1038d1fa8c21d22659889f269d2adc",
     "lang_name": "Portuguese"
   },
   "portuguese": {
