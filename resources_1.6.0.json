@@ -2070,7 +2070,7 @@
         ]
       },
       "combined_charlm": {
-        "md5": "fa17343a6af11c61e012ad58bc8bb3b0",
+        "md5": "42686617e687cecf8852c514a57e1ed1",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2087,7 +2087,7 @@
         ]
       },
       "combined_electra-large": {
-        "md5": "2aeef1eb84a75b5fdfb502958120154c",
+        "md5": "fa6a0b3ef518e977e2ff964bffe04ab8",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2531,7 +2531,7 @@
         "depparse": "partut_charlm"
       }
     },
-    "default_md5": "664360af7e92cec5d05e3c22e2c6b4b4",
+    "default_md5": "b6efb26d720ef0fe2cb2e3f1d72ed115",
     "lang_name": "English"
   },
   "english": {
