@@ -1277,6 +1277,9 @@
     },
     "coref": {
       "ontonotes_roberta-large": {
+        "md5": "d698dc08753adc5c7664d7612c5e0471"
+      },
+      "ontonotes_roberta-large_finetune": {
         "md5": "ca2879db3d974cc56c1a7d4c12266dfd"
       }
     },
