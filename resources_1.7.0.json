@@ -1740,6 +1740,9 @@
       }
     },
     "mwt": {
+      "combined": {
+        "md5": "6a67693ee726e44c726cbf7e77c9a7cb"
+      },
       "ewt": {
         "md5": "7a173821fa8098d1dbfc5d56d9b9d8ec"
       },
@@ -2412,7 +2415,7 @@
         "md5": "eb5892af49745e7016b78c87fef3699b"
       },
       "combined": {
-        "md5": "abc4d63c3dc1a518300cd8c684e43332"
+        "md5": "10308f3db6c36e7c27aee30dea92c786"
       },
       "craft": {
         "md5": "fc95d998b9ad6c94e4d683a2e22f4b83"
@@ -2441,6 +2444,7 @@
     },
     "default_processors": {
       "tokenize": "combined",
+      "mwt": "combined",
       "lemma": "combined_nocharlm",
       "pos": "combined_charlm",
       "depparse": "combined_charlm",
@@ -2451,6 +2455,7 @@
     "packages": {
       "default": {
         "tokenize": "combined",
+        "mwt": "combined",
         "lemma": "combined_nocharlm",
         "pos": "combined_charlm",
         "depparse": "combined_charlm",
@@ -2460,6 +2465,7 @@
       },
       "default_fast": {
         "tokenize": "combined",
+        "mwt": "combined",
         "lemma": "combined_nocharlm",
         "pos": "combined_nocharlm",
         "depparse": "combined_nocharlm",
@@ -2468,6 +2474,7 @@
       },
       "default_accurate": {
         "tokenize": "combined",
+        "mwt": "combined",
         "lemma": "combined_charlm",
         "pos": "combined_electra-large",
         "depparse": "combined_electra-large",
@@ -2483,6 +2490,7 @@
       },
       "combined": {
         "tokenize": "combined",
+        "mwt": "combined",
         "pos": "combined_charlm",
         "lemma": "combined_nocharlm",
         "depparse": "combined_charlm"
@@ -2539,7 +2547,7 @@
         "depparse": "partut_charlm"
       }
     },
-    "default_md5": "b6efb26d720ef0fe2cb2e3f1d72ed115",
+    "default_md5": "4f8d32807aca411adea3e07ca73c5d57",
     "lang_name": "English"
   },
   "english": {
