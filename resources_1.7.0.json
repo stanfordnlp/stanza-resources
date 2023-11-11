@@ -1968,7 +1968,7 @@
         ]
       },
       "ontonotes_charlm": {
-        "md5": "83d88f840ed82d8457e93e62e65824c7",
+        "md5": "30199723a30301dc654bb1fa6691f1b3",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1985,7 +1985,7 @@
         ]
       },
       "ontonotes_electra-large": {
-        "md5": "0cdcfdbf4e001084820a520572bfba64",
+        "md5": "2fd839d8cb8153b8f3ffed5d76792cd0",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1998,6 +1998,15 @@
           {
             "model": "backward_charlm",
             "package": "1billion"
+          }
+        ]
+      },
+      "ontonotes_nocharlm": {
+        "md5": "973337109a0b3a58265d77521192d269",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttextcrawl"
           }
         ]
       },
@@ -2469,7 +2478,7 @@
         "lemma": "combined_nocharlm",
         "pos": "combined_nocharlm",
         "depparse": "combined_nocharlm",
-        "ner": "ontonotes_charlm",
+        "ner": "ontonotes_nocharlm",
         "sentiment": "sstplus"
       },
       "default_accurate": {
@@ -2547,7 +2556,7 @@
         "depparse": "partut_charlm"
       }
     },
-    "default_md5": "4f8d32807aca411adea3e07ca73c5d57",
+    "default_md5": "b30736cde47d514f9fce9587e0b60255",
     "lang_name": "English"
   },
   "english": {
