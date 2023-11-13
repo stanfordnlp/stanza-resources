@@ -1924,8 +1924,8 @@
           }
         ]
       },
-      "ontonotes-combined_charlm": {
-        "md5": "6093abdc312a9c69bb9f71ba88a30f59",
+      "ontonotes-ww-multi_charlm": {
+        "md5": "e59a4dc44c1191a47d1e45d0951e08b5",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1941,8 +1941,8 @@
           }
         ]
       },
-      "ontonotes-combined_electra-large": {
-        "md5": "4a96ddf7f096abb8c64c80539db08106",
+      "ontonotes-ww-multi_electra-large": {
+        "md5": "485cf09a6b634838e2b854b03f544174",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1958,8 +1958,8 @@
           }
         ]
       },
-      "ontonotes-combined_nocharlm": {
-        "md5": "ee323d1bdad985c2d0ff457f4a32201d",
+      "ontonotes-ww-multi_nocharlm": {
+        "md5": "cee9acb02d3f133d18e3d41aa2bbec74",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2457,7 +2457,7 @@
       "lemma": "combined_nocharlm",
       "pos": "combined_charlm",
       "depparse": "combined_charlm",
-      "ner": "ontonotes_charlm",
+      "ner": "ontonotes-ww-multi_charlm",
       "sentiment": "sstplus",
       "constituency": "ptb3-revised_charlm"
     },
@@ -2468,7 +2468,7 @@
         "lemma": "combined_nocharlm",
         "pos": "combined_charlm",
         "depparse": "combined_charlm",
-        "ner": "ontonotes_charlm",
+        "ner": "ontonotes-ww-multi_charlm",
         "sentiment": "sstplus",
         "constituency": "ptb3-revised_charlm"
       },
@@ -2478,7 +2478,7 @@
         "lemma": "combined_nocharlm",
         "pos": "combined_nocharlm",
         "depparse": "combined_nocharlm",
-        "ner": "ontonotes_nocharlm",
+        "ner": "ontonotes-ww-multi_nocharlm",
         "sentiment": "sstplus"
       },
       "default_accurate": {
@@ -2487,7 +2487,7 @@
         "lemma": "combined_charlm",
         "pos": "combined_electra-large",
         "depparse": "combined_electra-large",
-        "ner": "ontonotes_charlm",
+        "ner": "ontonotes-ww-multi_charlm",
         "sentiment": "sstplus",
         "constituency": "ptb3-revised_electra-large"
       },
@@ -2556,7 +2556,7 @@
         "depparse": "partut_charlm"
       }
     },
-    "default_md5": "b30736cde47d514f9fce9587e0b60255",
+    "default_md5": "26bc996c5e6b4571e7269d258bab5b7d",
     "lang_name": "English"
   },
   "english": {
