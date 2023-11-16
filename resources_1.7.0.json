@@ -1277,10 +1277,7 @@
     },
     "coref": {
       "ontonotes_roberta-large": {
-        "md5": "d698dc08753adc5c7664d7612c5e0471"
-      },
-      "ontonotes_roberta-large_finetune": {
-        "md5": "ca2879db3d974cc56c1a7d4c12266dfd"
+        "md5": "00428f48364f6ee72ca785c2a388bd02"
       }
     },
     "depparse": {
@@ -2457,7 +2454,7 @@
       "lemma": "combined_nocharlm",
       "pos": "combined_charlm",
       "depparse": "combined_charlm",
-      "ner": "ontonotes-ww-multi_charlm",
+      "ner": "ontonotes_charlm",
       "sentiment": "sstplus",
       "constituency": "ptb3-revised_charlm"
     },
@@ -2468,7 +2465,7 @@
         "lemma": "combined_nocharlm",
         "pos": "combined_charlm",
         "depparse": "combined_charlm",
-        "ner": "ontonotes-ww-multi_charlm",
+        "ner": "ontonotes_charlm",
         "sentiment": "sstplus",
         "constituency": "ptb3-revised_charlm"
       },
@@ -2478,7 +2475,7 @@
         "lemma": "combined_nocharlm",
         "pos": "combined_nocharlm",
         "depparse": "combined_nocharlm",
-        "ner": "ontonotes-ww-multi_nocharlm",
+        "ner": "ontonotes_nocharlm",
         "sentiment": "sstplus"
       },
       "default_accurate": {
@@ -2487,7 +2484,7 @@
         "lemma": "combined_charlm",
         "pos": "combined_electra-large",
         "depparse": "combined_electra-large",
-        "ner": "ontonotes-ww-multi_charlm",
+        "ner": "ontonotes_charlm",
         "sentiment": "sstplus",
         "constituency": "ptb3-revised_electra-large"
       },
@@ -2556,7 +2553,7 @@
         "depparse": "partut_charlm"
       }
     },
-    "default_md5": "26bc996c5e6b4571e7269d258bab5b7d",
+    "default_md5": "b30736cde47d514f9fce9587e0b60255",
     "lang_name": "English"
   },
   "english": {
