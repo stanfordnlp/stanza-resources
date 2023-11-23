@@ -2458,7 +2458,7 @@
       "sentiment": "sstplus",
       "constituency": "ptb3-revised_charlm",
       "optional": {
-        "coref": "ontonotes_roberta-large_finetuned"
+        "coref": "ontonotes_roberta-large"
       }
     },
     "packages": {
@@ -2472,7 +2472,7 @@
         "sentiment": "sstplus",
         "constituency": "ptb3-revised_charlm",
         "optional": {
-          "coref": "ontonotes_roberta-large_finetuned"
+          "coref": "ontonotes_roberta-large"
         }
       },
       "default_fast": {
@@ -2484,7 +2484,7 @@
         "ner": "ontonotes-ww-multi_nocharlm",
         "sentiment": "sstplus",
         "optional": {
-          "coref": "ontonotes_roberta-large_finetuned"
+          "coref": "ontonotes_roberta-large"
         }
       },
       "default_accurate": {
@@ -2497,7 +2497,7 @@
         "sentiment": "sstplus",
         "constituency": "ptb3-revised_electra-large",
         "optional": {
-          "coref": "ontonotes_roberta-large_finetuned"
+          "coref": "ontonotes_roberta-large"
         }
       },
       "atis": {
