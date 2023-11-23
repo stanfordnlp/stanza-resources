@@ -10110,6 +10110,12 @@
         "depparse": "imst_bert",
         "ner": "starlang"
       },
+      "optional": {
+        "constituency": "starlang_charlm"
+      },
+      "optional_accurate": {
+        "constituency": "starlang_bert"
+      },
       "atis": {
         "tokenize": "atis",
         "pos": "atis_charlm",
