@@ -12474,29 +12474,29 @@
       }
     },
     "default_processors": {
-      "tokenize": "proiel",
-      "lemma": "proiel_nocharlm",
-      "pos": "proiel_nocharlm",
-      "depparse": "proiel_nocharlm"
+      "tokenize": "perseus",
+      "lemma": "perseus_nocharlm",
+      "pos": "perseus_nocharlm",
+      "depparse": "perseus_nocharlm"
     },
     "packages": {
       "default": {
-        "tokenize": "proiel",
-        "lemma": "proiel_nocharlm",
-        "pos": "proiel_nocharlm",
-        "depparse": "proiel_nocharlm"
+        "tokenize": "perseus",
+        "lemma": "perseus_nocharlm",
+        "pos": "perseus_nocharlm",
+        "depparse": "perseus_nocharlm"
       },
       "default_fast": {
-        "tokenize": "proiel",
-        "lemma": "proiel_nocharlm",
-        "pos": "proiel_nocharlm",
-        "depparse": "proiel_nocharlm"
+        "tokenize": "perseus",
+        "lemma": "perseus_nocharlm",
+        "pos": "perseus_nocharlm",
+        "depparse": "perseus_nocharlm"
       },
       "default_accurate": {
-        "tokenize": "proiel",
-        "lemma": "proiel_nocharlm",
-        "pos": "proiel_nocharlm",
-        "depparse": "proiel_nocharlm"
+        "tokenize": "perseus",
+        "lemma": "perseus_nocharlm",
+        "pos": "perseus_nocharlm",
+        "depparse": "perseus_nocharlm"
       },
       "perseus": {
         "tokenize": "perseus",
@@ -12511,7 +12511,7 @@
         "depparse": "proiel_nocharlm"
       }
     },
-    "default_md5": "f8221fb479571f75cbb6d749d1be2837",
+    "default_md5": "9855292e615b94b30581504c2941a96a",
     "lang_name": "Ancient_Greek"
   },
   "ancient_greek": {
