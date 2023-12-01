@@ -1276,8 +1276,8 @@
       }
     },
     "coref": {
-      "ontonotes_roberta-large": {
-        "md5": "00428f48364f6ee72ca785c2a388bd02"
+      "ontonotes_electra-large": {
+        "md5": "4d3d1ae8af95a87a964b43495c4532b3"
       }
     },
     "depparse": {
@@ -1819,6 +1819,23 @@
           }
         ]
       },
+      "combined_charlm": {
+        "md5": "3f1017a2f0151b2556a105ddee17db49",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "1billion"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "1billion"
+          }
+        ]
+      },
       "conll03_charlm": {
         "md5": "adc994f36ee4f8fcc5e5bceb3597f02e",
         "dependencies": [
@@ -1922,7 +1939,7 @@
         ]
       },
       "ontonotes-ww-multi_charlm": {
-        "md5": "e59a4dc44c1191a47d1e45d0951e08b5",
+        "md5": "3cd5e98549640f448846389169a36812",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1939,7 +1956,7 @@
         ]
       },
       "ontonotes-ww-multi_electra-large": {
-        "md5": "485cf09a6b634838e2b854b03f544174",
+        "md5": "5a6cd3ea92ff6cf0683de9c0914346b8",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1956,7 +1973,7 @@
         ]
       },
       "ontonotes-ww-multi_nocharlm": {
-        "md5": "cee9acb02d3f133d18e3d41aa2bbec74",
+        "md5": "e927ed0ce0960638a158c8838b1e7265",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1965,7 +1982,7 @@
         ]
       },
       "ontonotes_charlm": {
-        "md5": "30199723a30301dc654bb1fa6691f1b3",
+        "md5": "313fa9ec8b3b76c388c71eb456c355e7",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1982,7 +1999,7 @@
         ]
       },
       "ontonotes_electra-large": {
-        "md5": "2fd839d8cb8153b8f3ffed5d76792cd0",
+        "md5": "5b59497b9e76cb646690825bc4fed43f",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1999,7 +2016,7 @@
         ]
       },
       "ontonotes_nocharlm": {
-        "md5": "973337109a0b3a58265d77521192d269",
+        "md5": "96a6cb9857d6f71a8d6f1cd041d0edbd",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2458,7 +2475,7 @@
       "sentiment": "sstplus",
       "constituency": "ptb3-revised_charlm",
       "optional": {
-        "coref": "ontonotes_roberta-large"
+        "coref": "ontonotes_electra-large"
       }
     },
     "packages": {
@@ -2472,7 +2489,7 @@
         "sentiment": "sstplus",
         "constituency": "ptb3-revised_charlm",
         "optional": {
-          "coref": "ontonotes_roberta-large"
+          "coref": "ontonotes_electra-large"
         }
       },
       "default_fast": {
@@ -2484,7 +2501,7 @@
         "ner": "ontonotes-ww-multi_nocharlm",
         "sentiment": "sstplus",
         "optional": {
-          "coref": "ontonotes_roberta-large"
+          "coref": "ontonotes_electra-large"
         }
       },
       "default_accurate": {
@@ -2497,7 +2514,7 @@
         "sentiment": "sstplus",
         "constituency": "ptb3-revised_electra-large",
         "optional": {
-          "coref": "ontonotes_roberta-large"
+          "coref": "ontonotes_electra-large"
         }
       },
       "atis": {
@@ -2565,7 +2582,7 @@
         "depparse": "partut_charlm"
       }
     },
-    "default_md5": "26bc996c5e6b4571e7269d258bab5b7d",
+    "default_md5": "d42b2d71cf57acd04ee9c4ef5b66a98f",
     "lang_name": "English"
   },
   "english": {
