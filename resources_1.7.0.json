@@ -12413,6 +12413,15 @@
   },
   "grc": {
     "depparse": {
+      "perseus_grc-pranaydeeps": {
+        "md5": "0240027299972c5f6a7fcc97bd893956",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
       "perseus_nocharlm": {
         "md5": "ac97e7a94eaeb3ea8be34f153a912c3c",
         "dependencies": [
@@ -12441,6 +12450,15 @@
       }
     },
     "pos": {
+      "perseus_grc-pranaydeeps": {
+        "md5": "2e3fed0aaf8283013da3b4d2bb02e474",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
       "perseus_nocharlm": {
         "md5": "2795308fec1a93c8bd6987a2dff53d31",
         "dependencies": [
@@ -12495,8 +12513,8 @@
       "default_accurate": {
         "tokenize": "perseus",
         "lemma": "perseus_nocharlm",
-        "pos": "perseus_nocharlm",
-        "depparse": "perseus_nocharlm"
+        "pos": "perseus_grc-pranaydeeps",
+        "depparse": "perseus_grc-pranaydeeps"
       },
       "perseus": {
         "tokenize": "perseus",
