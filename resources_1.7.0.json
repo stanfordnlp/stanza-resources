@@ -15258,9 +15258,38 @@
     "alias": "sr"
   },
   "ta": {
+    "pos": {
+      "ttb_muril-large-cased": {
+        "md5": "743083f4209cbc49716867fb9219564a",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttextwiki"
+          }
+        ]
+      },
+      "ttb_nocharlm": {
+        "md5": "b9400cf25b2735ca88efa832d77dadba",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttextwiki"
+          }
+        ]
+      }
+    },
     "depparse": {
       "ttb_nocharlm": {
         "md5": "6feec903e7ef4b00c7ecfc0e9a79686a",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttextwiki"
+          }
+        ]
+      },
+      "ttb_muril-large-cased": {
+        "md5": "60a7c831739cc8add50610af77b9a88b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -15277,17 +15306,6 @@
     "mwt": {
       "ttb": {
         "md5": "895367c0f2ceda03df9e4e3a8b093e68"
-      }
-    },
-    "pos": {
-      "ttb_nocharlm": {
-        "md5": "b9400cf25b2735ca88efa832d77dadba",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "fasttextwiki"
-          }
-        ]
       }
     },
     "pretrain": {
@@ -15326,8 +15344,8 @@
         "tokenize": "ttb",
         "mwt": "ttb",
         "lemma": "ttb_nocharlm",
-        "pos": "ttb_nocharlm",
-        "depparse": "ttb_nocharlm"
+        "pos": "ttb_muril-large-cased",
+        "depparse": "ttb_muril-large-cased"
       },
       "ttb": {
         "tokenize": "ttb",
