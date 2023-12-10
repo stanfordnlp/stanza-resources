@@ -15258,6 +15258,26 @@
     "alias": "sr"
   },
   "ta": {
+    "depparse": {
+      "ttb_muril-large-cased": {
+        "md5": "a94c755ee03adc8bc5d7b55534efaebe",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttextwiki"
+          }
+        ]
+      },
+      "ttb_nocharlm": {
+        "md5": "6feec903e7ef4b00c7ecfc0e9a79686a",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttextwiki"
+          }
+        ]
+      }
+    },
     "pos": {
       "ttb_muril-large-cased": {
         "md5": "743083f4209cbc49716867fb9219564a",
@@ -15270,26 +15290,6 @@
       },
       "ttb_nocharlm": {
         "md5": "b9400cf25b2735ca88efa832d77dadba",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "fasttextwiki"
-          }
-        ]
-      }
-    },
-    "depparse": {
-      "ttb_nocharlm": {
-        "md5": "6feec903e7ef4b00c7ecfc0e9a79686a",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "fasttextwiki"
-          }
-        ]
-      },
-      "ttb_muril-large-cased": {
-        "md5": "a94c755ee03adc8bc5d7b55534efaebe",
         "dependencies": [
           {
             "model": "pretrain",
