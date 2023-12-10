@@ -15289,7 +15289,7 @@
         ]
       },
       "ttb_muril-large-cased": {
-        "md5": "60a7c831739cc8add50610af77b9a88b",
+        "md5": "a94c755ee03adc8bc5d7b55534efaebe",
         "dependencies": [
           {
             "model": "pretrain",
