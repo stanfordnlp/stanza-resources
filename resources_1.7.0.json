@@ -15260,7 +15260,7 @@
   "ta": {
     "depparse": {
       "ttb_muril-large-cased": {
-        "md5": "a94c755ee03adc8bc5d7b55534efaebe",
+        "md5": "60a7c831739cc8add50610af77b9a88b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -15278,9 +15278,19 @@
         ]
       }
     },
+    "lemma": {
+      "ttb_nocharlm": {
+        "md5": "d01862b2bba67ac44ce82cc5fb0978e3"
+      }
+    },
+    "mwt": {
+      "ttb": {
+        "md5": "895367c0f2ceda03df9e4e3a8b093e68"
+      }
+    },
     "pos": {
       "ttb_muril-large-cased": {
-        "md5": "743083f4209cbc49716867fb9219564a",
+        "md5": "a94c755ee03adc8bc5d7b55534efaebe",
         "dependencies": [
           {
             "model": "pretrain",
@@ -15296,16 +15306,6 @@
             "package": "fasttextwiki"
           }
         ]
-      }
-    },
-    "lemma": {
-      "ttb_nocharlm": {
-        "md5": "d01862b2bba67ac44ce82cc5fb0978e3"
-      }
-    },
-    "mwt": {
-      "ttb": {
-        "md5": "895367c0f2ceda03df9e4e3a8b093e68"
       }
     },
     "pretrain": {
