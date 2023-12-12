@@ -8862,6 +8862,25 @@
         ]
       }
     },
+    "pos": {
+      "isra_charlm": {
+        "md5": "399dabc949429e931dfa6c4d2ff225f5",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "isra"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "isra"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "isra"
+          }
+        ]
+      }
+    },
     "pretrain": {
       "isra": {
         "md5": "b1c536ef356c60c4c37100a3365933b3"
@@ -8874,26 +8893,31 @@
     },
     "default_processors": {
       "tokenize": "isra",
+      "pos": "isra_charlm",
       "ner": "siner"
     },
     "packages": {
       "default": {
         "tokenize": "isra",
+        "pos": "isra_charlm",
         "ner": "siner"
       },
       "default_fast": {
         "tokenize": "isra",
+        "pos": "isra_charlm",
         "ner": "siner"
       },
       "default_accurate": {
         "tokenize": "isra",
+        "pos": "isra_charlm",
         "ner": "siner"
       },
       "isra": {
-        "tokenize": "isra"
+        "tokenize": "isra",
+        "pos": "isra_charlm"
       }
     },
-    "default_md5": "3b3475316c4296820854e4155455ac49",
+    "default_md5": "49246360e02249470cee25eeec33d2f8",
     "lang_name": "Sindhi"
   },
   "sindhi": {
