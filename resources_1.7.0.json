@@ -10449,6 +10449,23 @@
             "package": "conll17"
           }
         ]
+      },
+      "vlsp23_phobert-large_finetuned": {
+        "md5": "7910f958808bea21f0f72d0d2c329ec6",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
       }
     },
     "depparse": {
