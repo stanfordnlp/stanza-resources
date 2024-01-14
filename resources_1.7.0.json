@@ -13725,7 +13725,7 @@
     },
     "lemma": {
       "ittb_nocharlm": {
-        "md5": "8b47712c8213a015c64ef01f8fe8c249"
+        "md5": "68b0cd1534dcb0b0fd663ccc26c2ce22"
       },
       "llct_nocharlm": {
         "md5": "a8d2177e9733375b1f65a26cd68544e7"
@@ -13875,7 +13875,7 @@
         "depparse": "udante_nocharlm"
       }
     },
-    "default_md5": "2488f73964b5d3aeb17e55ad34749c8c",
+    "default_md5": "3a0be8d4ee2f490ec8d781d803651935",
     "lang_name": "Latin"
   },
   "latin": {
