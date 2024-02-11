@@ -6270,7 +6270,7 @@
     },
     "tokenize": {
       "combined": {
-        "md5": "22a953482a59e5dc0a84e74b97f7d136"
+        "md5": "e1cab7a44f21a8c8e1651174fd58d00a"
       },
       "isdt": {
         "md5": "79f06f81bfdb6f79394995092a876a5a"
@@ -6387,7 +6387,7 @@
         "depparse": "vit_charlm"
       }
     },
-    "default_md5": "45ec7e4bc1df50c9f00df830f00637c3",
+    "default_md5": "4f2634524b7e0b70b61ba4aa6f83dde8",
     "lang_name": "Italian"
   },
   "italian": {
