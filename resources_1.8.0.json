@@ -1109,7 +1109,24 @@
       }
     },
     "sentiment": {
-      "sb10k": {
+      "sb10k_bert": {
+        "md5": "878c5c0bd3ff00b2b18fc272ec67fa4e",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
+      },
+      "sb10k_charlm": {
         "md5": "3ba2530c5472d2717e37d872b5255a3c",
         "dependencies": [
           {
@@ -1142,7 +1159,7 @@
       "pos": "gsd_charlm",
       "depparse": "gsd_charlm",
       "ner": "germeval2014",
-      "sentiment": "sb10k"
+      "sentiment": "sb10k_charlm"
     },
     "packages": {
       "default": {
@@ -1152,7 +1169,7 @@
         "pos": "gsd_charlm",
         "depparse": "gsd_charlm",
         "ner": "germeval2014",
-        "sentiment": "sb10k"
+        "sentiment": "sb10k_charlm"
       },
       "default_fast": {
         "tokenize": "gsd",
@@ -1161,7 +1178,7 @@
         "pos": "gsd_nocharlm",
         "depparse": "gsd_nocharlm",
         "ner": "germeval2014",
-        "sentiment": "sb10k"
+        "sentiment": "sb10k_charlm"
       },
       "default_accurate": {
         "tokenize": "gsd",
@@ -1170,7 +1187,7 @@
         "pos": "gsd_bert",
         "depparse": "gsd_bert",
         "ner": "germeval2014",
-        "sentiment": "sb10k"
+        "sentiment": "sb10k_bert"
       },
       "gsd": {
         "tokenize": "gsd",
@@ -1187,7 +1204,7 @@
         "depparse": "hdt_charlm"
       }
     },
-    "default_md5": "6ba697bb36f5af2efe4833b479d9d75f",
+    "default_md5": "9269ad9911ed96ad25e1ce832277696f",
     "lang_name": "German"
   },
   "german": {
@@ -2415,8 +2432,25 @@
       }
     },
     "sentiment": {
-      "sstplus": {
+      "sstplus_charlm": {
         "md5": "7090bffc568b3a568236ffc1a13aca2d",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "1billion"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "1billion"
+          }
+        ]
+      },
+      "sstplus_electra-large": {
+        "md5": "347b91e7cc6103d8706cf904fe0ce95d",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2472,7 +2506,7 @@
       "pos": "combined_charlm",
       "depparse": "combined_charlm",
       "ner": "ontonotes-ww-multi_charlm",
-      "sentiment": "sstplus",
+      "sentiment": "sstplus_charlm",
       "constituency": "ptb3-revised_charlm",
       "optional": {
         "coref": "ontonotes_electra-large"
@@ -2486,7 +2520,7 @@
         "pos": "combined_charlm",
         "depparse": "combined_charlm",
         "ner": "ontonotes-ww-multi_charlm",
-        "sentiment": "sstplus",
+        "sentiment": "sstplus_charlm",
         "constituency": "ptb3-revised_charlm",
         "optional": {
           "coref": "ontonotes_electra-large"
@@ -2499,7 +2533,7 @@
         "pos": "combined_nocharlm",
         "depparse": "combined_nocharlm",
         "ner": "ontonotes-ww-multi_nocharlm",
-        "sentiment": "sstplus",
+        "sentiment": "sstplus_charlm",
         "optional": {
           "coref": "ontonotes_electra-large"
         }
@@ -2511,7 +2545,7 @@
         "pos": "combined_electra-large",
         "depparse": "combined_electra-large",
         "ner": "ontonotes-ww-multi_charlm",
-        "sentiment": "sstplus",
+        "sentiment": "sstplus_electra-large",
         "constituency": "ptb3-revised_electra-large",
         "optional": {
           "coref": "ontonotes_electra-large"
@@ -2582,7 +2616,7 @@
         "depparse": "partut_charlm"
       }
     },
-    "default_md5": "eacf77e127618683213f09d28e32c3cd",
+    "default_md5": "f6651b522dcf1f53d9a57c62eeb249ff",
     "lang_name": "English"
   },
   "english": {
@@ -2898,7 +2932,24 @@
       }
     },
     "sentiment": {
-      "tass2020": {
+      "tass2020_bertin-roberta": {
+        "md5": "b2d2e49c6933a5e0bc130b22e3c7c666",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
+      },
+      "tass2020_charlm": {
         "md5": "64fc05f61296db0bd255950348c04a69",
         "dependencies": [
           {
@@ -2931,7 +2982,7 @@
       "pos": "ancora_charlm",
       "depparse": "ancora_charlm",
       "ner": "conll02",
-      "sentiment": "tass2020",
+      "sentiment": "tass2020_charlm",
       "constituency": "combined_charlm"
     },
     "packages": {
@@ -2942,7 +2993,7 @@
         "pos": "ancora_charlm",
         "depparse": "ancora_charlm",
         "ner": "conll02",
-        "sentiment": "tass2020",
+        "sentiment": "tass2020_charlm",
         "constituency": "combined_charlm"
       },
       "default_fast": {
@@ -2952,7 +3003,7 @@
         "pos": "ancora_nocharlm",
         "depparse": "ancora_nocharlm",
         "ner": "conll02",
-        "sentiment": "tass2020"
+        "sentiment": "tass2020_charlm"
       },
       "default_accurate": {
         "tokenize": "ancora",
@@ -2961,7 +3012,7 @@
         "pos": "ancora_bertin-roberta",
         "depparse": "ancora_bertin-roberta",
         "ner": "conll02",
-        "sentiment": "tass2020",
+        "sentiment": "tass2020_bertin-roberta",
         "constituency": "combined_bertin-roberta"
       },
       "ancora": {
@@ -2979,7 +3030,7 @@
         "depparse": "gsd_charlm"
       }
     },
-    "default_md5": "3f439a38eba78fcb62c014876c65a81c",
+    "default_md5": "66e96c045a8d28bd6d974e64342ad865",
     "lang_name": "Spanish"
   },
   "spanish": {
@@ -7070,8 +7121,25 @@
       }
     },
     "sentiment": {
-      "l3cube": {
+      "l3cube_charlm": {
         "md5": "19c6dea64e534c166b6a09168137f896",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttextwiki"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "l3cube"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "l3cube"
+          }
+        ]
+      },
+      "l3cube_l3cube-marathi-roberta": {
+        "md5": "1aec2a2f0c2b63e2ada6912e77e8e0a5",
         "dependencies": [
           {
             "model": "pretrain",
@@ -7100,7 +7168,7 @@
       "pos": "ufal_charlm",
       "depparse": "ufal_charlm",
       "ner": "l3cube",
-      "sentiment": "l3cube"
+      "sentiment": "l3cube_charlm"
     },
     "packages": {
       "default": {
@@ -7110,7 +7178,7 @@
         "pos": "ufal_charlm",
         "depparse": "ufal_charlm",
         "ner": "l3cube",
-        "sentiment": "l3cube"
+        "sentiment": "l3cube_charlm"
       },
       "default_fast": {
         "tokenize": "ufal",
@@ -7119,7 +7187,7 @@
         "pos": "ufal_nocharlm",
         "depparse": "ufal_nocharlm",
         "ner": "l3cube",
-        "sentiment": "l3cube"
+        "sentiment": "l3cube_charlm"
       },
       "default_accurate": {
         "tokenize": "ufal",
@@ -7128,7 +7196,7 @@
         "pos": "ufal_l3cube-marathi-roberta",
         "depparse": "ufal_l3cube-marathi-roberta",
         "ner": "l3cube",
-        "sentiment": "l3cube"
+        "sentiment": "l3cube_l3cube-marathi-roberta"
       },
       "ufal": {
         "tokenize": "ufal",
@@ -7138,7 +7206,7 @@
         "depparse": "ufal_charlm"
       }
     },
-    "default_md5": "5830a16cdbd0bd2ad6d36a3456417e85",
+    "default_md5": "4e2b7cead4a4f7866207e11438b56367",
     "lang_name": "Marathi"
   },
   "marathi": {
@@ -10639,8 +10707,25 @@
       }
     },
     "sentiment": {
-      "vsfc": {
+      "vsfc_charlm": {
         "md5": "2e5390ca51194bc67a0091cc2920f1f6",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
+      "vsfc_phobert-large": {
+        "md5": "3f03272455f86ac9e41b672015b7431d",
         "dependencies": [
           {
             "model": "pretrain",
@@ -10668,7 +10753,7 @@
       "pos": "vtb_charlm",
       "depparse": "vtb_charlm",
       "ner": "vlsp",
-      "sentiment": "vsfc",
+      "sentiment": "vsfc_charlm",
       "constituency": "vlsp22_charlm"
     },
     "packages": {
@@ -10678,7 +10763,7 @@
         "pos": "vtb_charlm",
         "depparse": "vtb_charlm",
         "ner": "vlsp",
-        "sentiment": "vsfc",
+        "sentiment": "vsfc_charlm",
         "constituency": "vlsp22_charlm"
       },
       "default_fast": {
@@ -10687,7 +10772,7 @@
         "pos": "vtb_nocharlm",
         "depparse": "vtb_nocharlm",
         "ner": "vlsp",
-        "sentiment": "vsfc"
+        "sentiment": "vsfc_charlm"
       },
       "default_accurate": {
         "tokenize": "vtb",
@@ -10695,7 +10780,7 @@
         "pos": "vtb_phobert-large",
         "depparse": "vtb_phobert-large",
         "ner": "vlsp",
-        "sentiment": "vsfc",
+        "sentiment": "vsfc_phobert-large",
         "constituency": "vlsp22_phobert-large"
       },
       "vtb": {
@@ -10705,7 +10790,7 @@
         "depparse": "vtb_charlm"
       }
     },
-    "default_md5": "34b59eaf2f32ebf16da57efb57a68f6b",
+    "default_md5": "86e26d1b26422456c7f289b1d3d4997d",
     "lang_name": "Vietnamese"
   },
   "vietnamese": {
@@ -10897,8 +10982,25 @@
       }
     },
     "sentiment": {
-      "ren": {
+      "ren_charlm": {
         "md5": "23a88ad17a866302f24a134462f27bb5",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttext157"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "gigaword"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "gigaword"
+          }
+        ]
+      },
+      "ren_electra-large": {
+        "md5": "d98f6601742e6c04f239fbf934dce041",
         "dependencies": [
           {
             "model": "pretrain",
@@ -10926,7 +11028,7 @@
       "pos": "gsdsimp_charlm",
       "depparse": "gsdsimp_charlm",
       "ner": "ontonotes",
-      "sentiment": "ren",
+      "sentiment": "ren_charlm",
       "constituency": "ctb-51_charlm"
     },
     "packages": {
@@ -10936,7 +11038,7 @@
         "pos": "gsdsimp_charlm",
         "depparse": "gsdsimp_charlm",
         "ner": "ontonotes",
-        "sentiment": "ren",
+        "sentiment": "ren_charlm",
         "constituency": "ctb-51_charlm"
       },
       "default_fast": {
@@ -10945,7 +11047,7 @@
         "pos": "gsdsimp_nocharlm",
         "depparse": "gsdsimp_nocharlm",
         "ner": "ontonotes",
-        "sentiment": "ren"
+        "sentiment": "ren_charlm"
       },
       "default_accurate": {
         "tokenize": "gsdsimp",
@@ -10953,7 +11055,7 @@
         "pos": "gsdsimp_electra-large",
         "depparse": "gsdsimp_electra-large",
         "ner": "ontonotes",
-        "sentiment": "ren",
+        "sentiment": "ren_electra-large",
         "constituency": "ctb-51_electra-large"
       },
       "gsdsimp": {
@@ -10963,7 +11065,7 @@
         "depparse": "gsdsimp_charlm"
       }
     },
-    "default_md5": "75bf7b49087456883904e8adbf6a8cd2",
+    "default_md5": "a3c9fca407719673230cd456afc932b8",
     "lang_name": "Simplified_Chinese"
   },
   "simplified_chinese": {
