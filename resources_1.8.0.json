@@ -6939,7 +6939,7 @@
           }
         ]
       },
-      "ufal_l3cube-roberta": {
+      "ufal_l3cube-marathi-roberta": {
         "md5": "0e52700edf59666502fa1c772e81fed2",
         "dependencies": [
           {
@@ -7031,7 +7031,7 @@
           }
         ]
       },
-      "ufal_l3cube-roberta": {
+      "ufal_l3cube-marathi-roberta": {
         "md5": "b1085a1c567ad22d5caed4ef7bbfe056",
         "dependencies": [
           {
@@ -7125,8 +7125,8 @@
         "tokenize": "ufal",
         "mwt": "ufal",
         "lemma": "ufal_charlm",
-        "pos": "ufal_charlm",
-        "depparse": "ufal_charlm",
+        "pos": "ufal_l3cube-marathi-roberta",
+        "depparse": "ufal_l3cube-marathi-roberta",
         "ner": "l3cube",
         "sentiment": "l3cube"
       },
