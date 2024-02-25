@@ -597,7 +597,7 @@
         ]
       },
       "arboretum_scandibert": {
-        "md5": "28da39575482ea4ff7c83d82030086db",
+        "md5": "92c1fb5ae16c93b541f24cc9f60eb181",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1275,7 +1275,7 @@
         ]
       },
       "ptb3_electra-large": {
-        "md5": "998ce46470e89db54b7a68d72fcc5ba9",
+        "md5": "39fb405e37e027e2a6d7f5937286c94c",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5043,7 +5043,7 @@
         ]
       },
       "icon_indobert": {
-        "md5": "f7cfbf53329c5f002821b0883da6e386",
+        "md5": "3c5c69396302670854032a3ed4329e87",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5408,7 +5408,7 @@
         ]
       },
       "vit_electra": {
-        "md5": "baba712bfc64ac24a9ddc0d2de2a0390",
+        "md5": "7317424790133f1c7a2a8af5cd15172d",
         "dependencies": [
           {
             "model": "pretrain",
@@ -6469,7 +6469,7 @@
         ]
       },
       "alt_rinna-roberta": {
-        "md5": "2e4a25e90930847a35e7f9f3c2ec55ba",
+        "md5": "58a354ce40d80de72447368ef77fb71a",
         "dependencies": [
           {
             "model": "pretrain",
@@ -8034,7 +8034,7 @@
     },
     "constituency": {
       "cintil_bertimbau": {
-        "md5": "f8d87d02561d050c555571906171bd96",
+        "md5": "c66e07fe37c55584ddd984ac157a1840",
         "dependencies": [
           {
             "model": "pretrain",
@@ -10485,24 +10485,7 @@
         ]
       },
       "vlsp22_phobert-large": {
-        "md5": "72f8395073549b848cf70838fdf9256e",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "conll17"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "conll17"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "conll17"
-          }
-        ]
-      },
-      "vlsp22_phobert-large_finetuned": {
-        "md5": "5c2f6db3623dbb6fa590760f81ccd7f9",
+        "md5": "fe95830c38c6aec2f291c9ee717bae75",
         "dependencies": [
           {
             "model": "pretrain",
@@ -10821,7 +10804,7 @@
         ]
       },
       "ctb-51_electra-large": {
-        "md5": "73ffaaa7e8f013f4056f571dcb8b4424",
+        "md5": "ff2234abc846816a41eb95a5fe420eb2",
         "dependencies": [
           {
             "model": "pretrain",
