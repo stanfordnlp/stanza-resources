@@ -15804,6 +15804,34 @@
   "traditional_chinese": {
     "alias": "zh-hant"
   },
+  "ang": {
+    "backward_charlm": {
+      "nerthus1024": {
+        "md5": "0879bc719796c07f6e3bb6f3d0141a80"
+      },
+      "nerthus256": {
+        "md5": "b66819f48067c09a020b37ed6d987c1e"
+      },
+      "nerthus512": {
+        "md5": "9f30b0ecf01d23f08826829213f43a7e"
+      }
+    },
+    "forward_charlm": {
+      "nerthus1024": {
+        "md5": "97410602aca8f00a29c2eea743dc408a"
+      },
+      "nerthus256": {
+        "md5": "8c8628ed52d5474daffc3695e2ad5caa"
+      },
+      "nerthus512": {
+        "md5": "ba11a996751fe613a651e29d3983f445"
+      }
+    },
+    "lang_name": "Old_English"
+  },
+  "old_english": {
+    "alias": "ang"
+  },
   "no": {
     "alias": "nb"
   },
