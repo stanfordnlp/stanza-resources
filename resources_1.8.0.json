@@ -1263,7 +1263,8 @@
       "pos": "gsd_charlm",
       "depparse": "gsd_charlm",
       "ner": "germeval2014",
-      "sentiment": "sb10k_charlm"
+      "sentiment": "sb10k_charlm",
+      "constituency": "spmrl_charlm"
     },
     "packages": {
       "default": {
@@ -1273,7 +1274,8 @@
         "pos": "gsd_charlm",
         "depparse": "gsd_charlm",
         "ner": "germeval2014",
-        "sentiment": "sb10k_charlm"
+        "sentiment": "sb10k_charlm",
+        "constituency": "spmrl_charlm"
       },
       "default_fast": {
         "tokenize": "gsd",
@@ -1291,7 +1293,8 @@
         "pos": "gsd_german-nlp-electra",
         "depparse": "gsd_german-nlp-electra",
         "ner": "germeval2014",
-        "sentiment": "sb10k_german-nlp-electra"
+        "sentiment": "sb10k_german-nlp-electra",
+        "constituency": "spmrl_german-nlp-electra"
       },
       "gsd": {
         "tokenize": "gsd",
@@ -1308,7 +1311,7 @@
         "depparse": "hdt_charlm"
       }
     },
-    "default_md5": "9269ad9911ed96ad25e1ce832277696f",
+    "default_md5": "6d7e6e43564733be66a5c2c0c6cc3d0a",
     "lang_name": "German"
   },
   "german": {
