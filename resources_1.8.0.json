@@ -15923,6 +15923,62 @@
         "md5": "9f30b0ecf01d23f08826829213f43a7e"
       }
     },
+    "depparse": {
+      "nerthus_charlm": {
+        "md5": "a388f6a0ccd04bdfed9939f23f1f3eda",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "nerthus"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "nerthus1024"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "nerthus1024"
+          }
+        ]
+      },
+      "nerthus_nocharlm": {
+        "md5": "c4bd230b3a26436287dca441b23d30df",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "nerthus"
+          }
+        ]
+      }
+    },
+    "pos": {
+      "nerthus_charlm": {
+        "md5": "3d8e1948d0c7feea37e69faea785768f",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "nerthus"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "nerthus1024"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "nerthus1024"
+          }
+        ]
+      },
+      "nerthus_nocharlm": {
+        "md5": "f659290adf419272ecf7c105efaecef6",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "nerthus"
+          }
+        ]
+      }
+    },
     "forward_charlm": {
       "nerthus1024": {
         "md5": "97410602aca8f00a29c2eea743dc408a"
@@ -15934,6 +15990,67 @@
         "md5": "ba11a996751fe613a651e29d3983f445"
       }
     },
+    "lemma": {
+      "nerthus_charlm": {
+        "md5": "3e987c8354155137dbaa8bb75ed07769",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "nerthus1024"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "nerthus1024"
+          }
+        ]
+      },
+      "nerthus_nocharlm": {
+        "md5": "8be3fac46674c7f44eef0e18e45d954a"
+      }
+    },
+    "pretrain": {
+      "nerthus": {
+        "md5": "b816853edc7d7b3dc8826d24bd0238e5"
+      }
+    },
+    "tokenize": {
+      "nerthus": {
+        "md5": "fed3e4fd1501215944dc1b0d77ef78e3"
+      }
+    },
+    "default_processors": {
+      "tokenize": "nerthus",
+      "lemma": "nerthus_nocharlm",
+      "pos": "nerthus_charlm",
+      "depparse": "nerthus_charlm"
+    },
+    "packages": {
+      "default": {
+        "tokenize": "nerthus",
+        "lemma": "nerthus_nocharlm",
+        "pos": "nerthus_charlm",
+        "depparse": "nerthus_charlm"
+      },
+      "default_fast": {
+        "tokenize": "nerthus",
+        "lemma": "nerthus_nocharlm",
+        "pos": "nerthus_nocharlm",
+        "depparse": "nerthus_nocharlm"
+      },
+      "default_accurate": {
+        "tokenize": "nerthus",
+        "lemma": "nerthus_charlm",
+        "pos": "nerthus_charlm",
+        "depparse": "nerthus_charlm"
+      },
+      "nerthus": {
+        "tokenize": "nerthus",
+        "pos": "nerthus_charlm",
+        "lemma": "nerthus_nocharlm",
+        "depparse": "nerthus_charlm"
+      }
+    },
+    "default_md5": "b6cb5bc1f0a1b6d6984b93617eda33be",
     "lang_name": "Old_English"
   },
   "old_english": {
