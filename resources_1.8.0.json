@@ -824,8 +824,61 @@
         "md5": "82f0d9a6a12c736648edbe28d87e9016"
       }
     },
+    "constituency": {
+      "spmrl_charlm": {
+        "md5": "7c06b160900d6c02b1e3fc455c3bc856",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
+      },
+      "spmrl_german-nlp-electra": {
+        "md5": "aaba9992dc0734a621c081d58a3970ee",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
+      }
+    },
     "depparse": {
-      "gsd_bert": {
+      "gsd_charlm": {
+        "md5": "6f3b3dc29d7c90f03589919657857fa1",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
+      },
+      "gsd_dbmdz-bert-german-cased": {
         "md5": "0ee2d634a2771db3663d5df374735d47",
         "dependencies": [
           {
@@ -842,8 +895,8 @@
           }
         ]
       },
-      "gsd_charlm": {
-        "md5": "6f3b3dc29d7c90f03589919657857fa1",
+      "gsd_german-nlp-electra": {
+        "md5": "647c5a41487fd0e9daf394e528127f0d",
         "dependencies": [
           {
             "model": "pretrain",
@@ -868,8 +921,8 @@
           }
         ]
       },
-      "hdt_bert": {
-        "md5": "2f83d3135cfa61f0add91df37331a3a4",
+      "hdt_charlm": {
+        "md5": "3a40b462967e6d3a624c7a0395c31880",
         "dependencies": [
           {
             "model": "pretrain",
@@ -885,8 +938,8 @@
           }
         ]
       },
-      "hdt_charlm": {
-        "md5": "3a40b462967e6d3a624c7a0395c31880",
+      "hdt_dbmdz-bert-german-cased": {
+        "md5": "2f83d3135cfa61f0add91df37331a3a4",
         "dependencies": [
           {
             "model": "pretrain",
@@ -977,8 +1030,25 @@
           }
         ]
       },
-      "germeval2014_bert": {
+      "germeval2014_dbmdz-bert-german-cased": {
         "md5": "d496675af4b1ee6ea610a97fcfce6caf",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttextwiki"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
+      },
+      "germeval2014_german-nlp-electra": {
+        "md5": "35be8dec3ab2dbed9b6faabe84d342c8",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1013,7 +1083,24 @@
       }
     },
     "pos": {
-      "gsd_bert": {
+      "gsd_charlm": {
+        "md5": "e90abc40463d5aa4599c2bdac38fea34",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
+      },
+      "gsd_dbmdz-bert-german-cased": {
         "md5": "6a67cec20d707809489a159bbbaaef37",
         "dependencies": [
           {
@@ -1030,8 +1117,8 @@
           }
         ]
       },
-      "gsd_charlm": {
-        "md5": "e90abc40463d5aa4599c2bdac38fea34",
+      "gsd_german-nlp-electra": {
+        "md5": "d723bb410d956f4e8547b7de8957eeb7",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1056,8 +1143,8 @@
           }
         ]
       },
-      "hdt_bert": {
-        "md5": "faba235bbe504ce6323c331ec0dd90d6",
+      "hdt_charlm": {
+        "md5": "b98be98ace5596ee2d648051224d34b9",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1073,8 +1160,8 @@
           }
         ]
       },
-      "hdt_charlm": {
-        "md5": "b98be98ace5596ee2d648051224d34b9",
+      "hdt_dbmdz-bert-german-cased": {
+        "md5": "faba235bbe504ce6323c331ec0dd90d6",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1109,7 +1196,24 @@
       }
     },
     "sentiment": {
-      "sb10k_bert": {
+      "sb10k_charlm": {
+        "md5": "3ba2530c5472d2717e37d872b5255a3c",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
+      },
+      "sb10k_dbmdz-bert-german-cased": {
         "md5": "878c5c0bd3ff00b2b18fc272ec67fa4e",
         "dependencies": [
           {
@@ -1126,8 +1230,8 @@
           }
         ]
       },
-      "sb10k_charlm": {
-        "md5": "3ba2530c5472d2717e37d872b5255a3c",
+      "sb10k_german-nlp-electra": {
+        "md5": "5038dc62465c6687aded8274c9e42456",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1184,10 +1288,10 @@
         "tokenize": "gsd",
         "mwt": "gsd",
         "lemma": "gsd_charlm",
-        "pos": "gsd_bert",
-        "depparse": "gsd_bert",
+        "pos": "gsd_german-nlp-electra",
+        "depparse": "gsd_german-nlp-electra",
         "ner": "germeval2014",
-        "sentiment": "sb10k_bert"
+        "sentiment": "sb10k_german-nlp-electra"
       },
       "gsd": {
         "tokenize": "gsd",
