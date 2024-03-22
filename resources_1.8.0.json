@@ -13194,7 +13194,7 @@
           }
         ]
       },
-      "armtdp_roberta": {
+      "armtdp_xlm-roberta-base": {
         "md5": "3f8edb7182e320bace9697aed3fd342c",
         "dependencies": [
           {
@@ -13212,7 +13212,7 @@
           }
         ]
       },
-      "bsut_roberta": {
+      "bsut_xlm-roberta-base": {
         "md5": "5061b4c938ea072c899ebc9ed9ced4a7",
         "dependencies": [
           {
@@ -13268,7 +13268,7 @@
           }
         ]
       },
-      "armtdp_roberta": {
+      "armtdp_xlm-roberta-base": {
         "md5": "d39f772e6c387003e1e0d9c9ec40fafd",
         "dependencies": [
           {
@@ -13286,7 +13286,7 @@
           }
         ]
       },
-      "bsut_roberta": {
+      "bsut_xlm-roberta-base": {
         "md5": "c4b005f722e302faa66cd8b3efe5593f",
         "dependencies": [
           {
@@ -13338,8 +13338,8 @@
         "tokenize": "armtdp",
         "mwt": "armtdp",
         "lemma": "armtdp_nocharlm",
-        "pos": "armtdp_roberta",
-        "depparse": "armtdp_roberta",
+        "pos": "armtdp_xlm-roberta-base",
+        "depparse": "armtdp_xlm-roberta-base",
         "ner": "armtdp"
       },
       "armtdp": {
