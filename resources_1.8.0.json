@@ -2185,7 +2185,7 @@
     },
     "pos": {
       "atis_charlm": {
-        "md5": "7a4252f883ceca804644e15f9b165e63",
+        "md5": "7f1f41ab6acb50bc3e4439f0e64c0949",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2202,7 +2202,7 @@
         ]
       },
       "atis_electra-large": {
-        "md5": "14288824b2d02a8984d4e2a52fe886c5",
+        "md5": "d8a86d6beea6f3b462eec4bba578f18b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2219,7 +2219,7 @@
         ]
       },
       "atis_nocharlm": {
-        "md5": "3fff03906e9adc88f8f8a9acb70b646a",
+        "md5": "9517982ecc318173a8c0ebf19b2a7e40",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2262,7 +2262,7 @@
         ]
       },
       "combined_nocharlm": {
-        "md5": "4579af6b91582a575eaa4791bf412859",
+        "md5": "0173cbfe92e29015870f8b16100f42c6",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2271,7 +2271,7 @@
         ]
       },
       "craft_nocharlm": {
-        "md5": "4bf2f1a986f25e40c9f8311bd7007306",
+        "md5": "0bcb9b9712e81beb38a2ed4d7649b437",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2280,7 +2280,7 @@
         ]
       },
       "eslspok_charlm": {
-        "md5": "fba7b38dae728265c678f1d5fc29707e",
+        "md5": "17bc429a5ccd10585af60f3add2884d3",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2297,7 +2297,7 @@
         ]
       },
       "eslspok_electra-large": {
-        "md5": "675ff45ec4f163cdf528b60d1381272b",
+        "md5": "9b5d81b0adec3d0dcd018ded6529b9e7",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2314,7 +2314,7 @@
         ]
       },
       "eslspok_nocharlm": {
-        "md5": "b54b56fb57647741b644771ba7a9fa62",
+        "md5": "5520cf4adf8c5e751dd199bd01b85124",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2323,7 +2323,7 @@
         ]
       },
       "ewt_charlm": {
-        "md5": "004758ce19556bdff26471143ed4ed39",
+        "md5": "8c257b76d21dbe4e2ed89512e8da8767",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2340,7 +2340,7 @@
         ]
       },
       "ewt_electra-large": {
-        "md5": "db9b6a047865994142f25503a7d0db36",
+        "md5": "fdf77c48beae39aafcb04adc3f35e274",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2357,7 +2357,7 @@
         ]
       },
       "ewt_nocharlm": {
-        "md5": "f442ae096e039e732f6a6d59c015b176",
+        "md5": "38ecf748f8228ee197dfbc330a419401",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2366,7 +2366,7 @@
         ]
       },
       "genia_nocharlm": {
-        "md5": "63601e6d3bd5b52028d80d609b10701e",
+        "md5": "65a2bf877185e1b92747fd0a46aabe84",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2375,7 +2375,7 @@
         ]
       },
       "gum_charlm": {
-        "md5": "27b85dadd34003822ac5030c42aab52a",
+        "md5": "946bb92875bfe6e18b222fe2626d99d5",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2392,7 +2392,7 @@
         ]
       },
       "gum_electra-large": {
-        "md5": "2326d0eda4ad2cbea102964249a9e306",
+        "md5": "b364bef58c29ea7c08cdef881c5c5b3a",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2409,7 +2409,7 @@
         ]
       },
       "gum_nocharlm": {
-        "md5": "490f9e25925ae1a78b45d09d7ebf01a7",
+        "md5": "67e3191bca99749d51b7bc959005d304",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2418,7 +2418,7 @@
         ]
       },
       "lines_charlm": {
-        "md5": "6b9fb142178b8982221a9e7bc91a78d6",
+        "md5": "0e7a29917bbc00df80dd7350cab33f46",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2435,7 +2435,7 @@
         ]
       },
       "lines_electra-large": {
-        "md5": "a5a131a18a792b24636ba20bd6d2075d",
+        "md5": "cab560c5caeb55edc2a92e000c3f0a89",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2452,7 +2452,7 @@
         ]
       },
       "lines_nocharlm": {
-        "md5": "8caf1b20390bef2ea1690ae84f93d681",
+        "md5": "fd83fc758ad1eb557b931061dea1f467",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2461,7 +2461,7 @@
         ]
       },
       "mimic_charlm": {
-        "md5": "76782c1e585c9c953a9dbaa097c014e5",
+        "md5": "8208c89c2e4ff1abd7d06d45973091ce",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2478,7 +2478,7 @@
         ]
       },
       "partut_charlm": {
-        "md5": "a78927e3c66f626ae7fdc0fdb9451dbc",
+        "md5": "3b82b087ce670b31c4a643e6ca627385",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2495,7 +2495,7 @@
         ]
       },
       "partut_electra-large": {
-        "md5": "df0d300f8064cfcd3cd8488f66046fdf",
+        "md5": "1b9ada3e43461bf6746334f84fdeeafd",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2512,7 +2512,7 @@
         ]
       },
       "partut_nocharlm": {
-        "md5": "59adc4e43680f327a74f623304048989",
+        "md5": "df03acbe999c677dcd80be746137e6ab",
         "dependencies": [
           {
             "model": "pretrain",
