@@ -16056,6 +16056,92 @@
   "traditional_chinese": {
     "alias": "zh-hant"
   },
+  "xcl": {
+    "depparse": {
+      "caval_nocharlm": {
+        "md5": "fa62634ae6fb468365b3f5650914e00e",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "caval"
+          }
+        ]
+      }
+    },
+    "lemma": {
+      "caval_nocharlm": {
+        "md5": "5fb28a99acebf7c5d70b1cb4682bd474"
+      }
+    },
+    "mwt": {
+      "caval": {
+        "md5": "8bbeb402e792ca757b59886189e56041"
+      }
+    },
+    "pos": {
+      "caval_nocharlm": {
+        "md5": "0092e7f2e4d7bec48db77740df9d0221",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "caval"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "caval": {
+        "md5": "e3013e40aec98517f103b9eb702d1669"
+      }
+    },
+    "tokenize": {
+      "caval": {
+        "md5": "4c2d675e65aa930482db4e5fa1c55bcd"
+      }
+    },
+    "default_processors": {
+      "tokenize": "caval",
+      "mwt": "caval",
+      "lemma": "caval_nocharlm",
+      "pos": "caval_nocharlm",
+      "depparse": "caval_nocharlm"
+    },
+    "packages": {
+      "default": {
+        "tokenize": "caval",
+        "mwt": "caval",
+        "lemma": "caval_nocharlm",
+        "pos": "caval_nocharlm",
+        "depparse": "caval_nocharlm"
+      },
+      "default_fast": {
+        "tokenize": "caval",
+        "mwt": "caval",
+        "lemma": "caval_nocharlm",
+        "pos": "caval_nocharlm",
+        "depparse": "caval_nocharlm"
+      },
+      "default_accurate": {
+        "tokenize": "caval",
+        "mwt": "caval",
+        "lemma": "caval_nocharlm",
+        "pos": "caval_nocharlm",
+        "depparse": "caval_nocharlm"
+      },
+      "caval": {
+        "tokenize": "caval",
+        "mwt": "caval",
+        "pos": "caval_nocharlm",
+        "lemma": "caval_nocharlm",
+        "depparse": "caval_nocharlm"
+      }
+    },
+    "default_md5": "6dd8b1ae7a655d4aada9ff95719ef9c7",
+    "lang_name": "Classical_Armenian"
+  },
+  "classical_armenian": {
+    "alias": "xcl"
+  },
   "no": {
     "alias": "nb"
   },
