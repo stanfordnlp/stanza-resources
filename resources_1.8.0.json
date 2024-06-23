@@ -2918,7 +2918,7 @@
     },
     "depparse": {
       "ancora_bertin-roberta": {
-        "md5": "938fe045aa30af32f25632b22340c6bf",
+        "md5": "562a581d8c5ec781a0f6e64141772b67",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2935,7 +2935,7 @@
         ]
       },
       "ancora_charlm": {
-        "md5": "4a290baa8e5b345b714e3d0b163a370a",
+        "md5": "9521bab17c661a3f40ed2199b715ddf8",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2952,7 +2952,50 @@
         ]
       },
       "ancora_nocharlm": {
-        "md5": "c1f9a0f6f7f1dfd0552aee44655cf984",
+        "md5": "89b4129c9e8f55be4f9f527f4a237d85",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
+      "combined_bertin-roberta": {
+        "md5": "797529defd33f1b0b37e74a44b8f829f",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
+      },
+      "combined_charlm": {
+        "md5": "8dc8a060666280d8c18957598f04ef52",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
+      },
+      "combined_nocharlm": {
+        "md5": "3321bf87af488e4ab1c4c6d1c9281b4c",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2961,7 +3004,7 @@
         ]
       },
       "gsd_bertin-roberta": {
-        "md5": "856f8523b4e7cc809ae44eae5168ce3c",
+        "md5": "7a12317eb059d21923eb0c380fb3d81d",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2978,7 +3021,7 @@
         ]
       },
       "gsd_charlm": {
-        "md5": "243e2f08066ec2a243fdd144faa558ff",
+        "md5": "694fdba6245385cb6485ebc9b83ec23f",
         "dependencies": [
           {
             "model": "pretrain",
@@ -2995,7 +3038,7 @@
         ]
       },
       "gsd_nocharlm": {
-        "md5": "5312ba6fb6e03411e67fa08caee91c92",
+        "md5": "90c9757ad07064e96ed116e70cfa9a50",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3011,7 +3054,7 @@
     },
     "lemma": {
       "ancora_charlm": {
-        "md5": "cdd7b534fd95ac19ad76ffd5cf15cd2b",
+        "md5": "8bccede05d44cd9655fe5af871d391ae",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -3024,10 +3067,26 @@
         ]
       },
       "ancora_nocharlm": {
-        "md5": "8647a3818d49201aa0bc617bfef50007"
+        "md5": "26c929708c25d974f6ab58d6e3f8272b"
+      },
+      "combined_charlm": {
+        "md5": "f65ad02e6d0d587f7b2d63df075db432",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
+      },
+      "combined_nocharlm": {
+        "md5": "5735c3d02b382b22e2d2892565c5536e"
       },
       "gsd_charlm": {
-        "md5": "493ac7009eddaf450ee8fd6e43f6fa23",
+        "md5": "2b3bf90dacf989b63ed207469c282426",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -3040,15 +3099,18 @@
         ]
       },
       "gsd_nocharlm": {
-        "md5": "76ce5c1568bc6112704f781069d1fd00"
+        "md5": "9c0efb142840880f9431a567b470f29e"
       }
     },
     "mwt": {
       "ancora": {
-        "md5": "4c103cf560fe44537734232ccf9686dc"
+        "md5": "ee6b55c95145dcb5a330ece129febf63"
+      },
+      "combined": {
+        "md5": "5662542f5e65641987fec32b558683f7"
       },
       "gsd": {
-        "md5": "26df9d805b16d6452a39a2e1d53c171f"
+        "md5": "000e97f076f58a7738a866588674c6ce"
       }
     },
     "ner": {
@@ -3089,7 +3151,7 @@
     },
     "pos": {
       "ancora_bertin-roberta": {
-        "md5": "b0c1a45dcda9bae73e941537898781d1",
+        "md5": "7828c4c9093e26ee664738f10f465517",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3106,7 +3168,7 @@
         ]
       },
       "ancora_charlm": {
-        "md5": "7bf062baff2776875ef76fa3fdfc02e9",
+        "md5": "db3d3c2016f78f271685aafba68e54e3",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3123,7 +3185,50 @@
         ]
       },
       "ancora_nocharlm": {
-        "md5": "6c4c9b437b3a2cfb3827d4836d7a91b3",
+        "md5": "5c2003837c5895c5b80edee6d0921186",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
+      "combined_bertin-roberta": {
+        "md5": "05ef074caa809347a6e490e514264e16",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
+      },
+      "combined_charlm": {
+        "md5": "a29f52f9b6f625d5053f30abe89f42f5",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
+      },
+      "combined_nocharlm": {
+        "md5": "d28c26a9fb0d0ce511c6e1ed7ec0ec02",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3132,7 +3237,7 @@
         ]
       },
       "gsd_bertin-roberta": {
-        "md5": "6e2ba261b2d0df6c642791db56c2cda4",
+        "md5": "ffe50f948845ef7b88081d1313218dd4",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3149,7 +3254,7 @@
         ]
       },
       "gsd_charlm": {
-        "md5": "37f9723e9c626a71f984cd6f404468d3",
+        "md5": "516933064b1e3623f13ba8a678b231f5",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3166,7 +3271,7 @@
         ]
       },
       "gsd_nocharlm": {
-        "md5": "0e0649933e11287a49e4cb140f047cdd",
+        "md5": "3fb7c7244889c7514259e005b8058db7",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3221,48 +3326,51 @@
     },
     "tokenize": {
       "ancora": {
-        "md5": "c053221c33efc6435e60959206942830"
+        "md5": "808f27248700ae3e52014e7ba3f9c3aa"
+      },
+      "combined": {
+        "md5": "156f6db52f5abf03057e4b8e331f723c"
       },
       "gsd": {
-        "md5": "89f78e2ccc40778cc91a6f728c21a65d"
+        "md5": "e8807b90cd9b55fb788be62481bd49f8"
       }
     },
     "default_processors": {
-      "tokenize": "ancora",
-      "mwt": "ancora",
-      "lemma": "ancora_nocharlm",
-      "pos": "ancora_charlm",
-      "depparse": "ancora_charlm",
+      "tokenize": "combined",
+      "mwt": "combined",
+      "lemma": "combined_nocharlm",
+      "pos": "combined_charlm",
+      "depparse": "combined_charlm",
       "ner": "conll02",
       "sentiment": "tass2020_charlm",
       "constituency": "combined_charlm"
     },
     "packages": {
       "default": {
-        "tokenize": "ancora",
-        "mwt": "ancora",
-        "lemma": "ancora_nocharlm",
-        "pos": "ancora_charlm",
-        "depparse": "ancora_charlm",
+        "tokenize": "combined",
+        "mwt": "combined",
+        "lemma": "combined_nocharlm",
+        "pos": "combined_charlm",
+        "depparse": "combined_charlm",
         "ner": "conll02",
         "sentiment": "tass2020_charlm",
         "constituency": "combined_charlm"
       },
       "default_fast": {
-        "tokenize": "ancora",
-        "mwt": "ancora",
-        "lemma": "ancora_nocharlm",
-        "pos": "ancora_nocharlm",
-        "depparse": "ancora_nocharlm",
+        "tokenize": "combined",
+        "mwt": "combined",
+        "lemma": "combined_nocharlm",
+        "pos": "combined_nocharlm",
+        "depparse": "combined_nocharlm",
         "ner": "conll02",
         "sentiment": "tass2020_charlm"
       },
       "default_accurate": {
-        "tokenize": "ancora",
-        "mwt": "ancora",
-        "lemma": "ancora_charlm",
-        "pos": "ancora_bertin-roberta",
-        "depparse": "ancora_bertin-roberta",
+        "tokenize": "combined",
+        "mwt": "combined",
+        "lemma": "combined_charlm",
+        "pos": "combined_bertin-roberta",
+        "depparse": "combined_bertin-roberta",
         "ner": "conll02",
         "sentiment": "tass2020_bertin-roberta",
         "constituency": "combined_bertin-roberta"
@@ -3274,6 +3382,13 @@
         "lemma": "ancora_nocharlm",
         "depparse": "ancora_charlm"
       },
+      "combined": {
+        "tokenize": "combined",
+        "mwt": "combined",
+        "pos": "combined_charlm",
+        "lemma": "combined_nocharlm",
+        "depparse": "combined_charlm"
+      },
       "gsd": {
         "tokenize": "gsd",
         "mwt": "gsd",
@@ -3282,7 +3397,7 @@
         "depparse": "gsd_charlm"
       }
     },
-    "default_md5": "dcca01b8d97ecf31a2e0c67e6012b008",
+    "default_md5": "83dafd2814c386909df2bebfe20a4c73",
     "lang_name": "Spanish"
   },
   "spanish": {
