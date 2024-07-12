@@ -4853,7 +4853,7 @@
     },
     "depparse": {
       "combined_alephbertgimmel": {
-        "md5": "242099f7e422e12eef10e3358328376f",
+        "md5": "ccf005253f8b725f8f8581886e1087fb",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4870,7 +4870,7 @@
         ]
       },
       "combined_charlm": {
-        "md5": "f24457664463b7821bc2b6af5732cb55",
+        "md5": "bd3fb3bb2776c6a61a836e4b5f8b6ae3",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4887,7 +4887,7 @@
         ]
       },
       "combined_nocharlm": {
-        "md5": "cd6966dfd2121d78fe63bea3bc2bad8d",
+        "md5": "077ce75733bcde04bcd163b235126306",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4989,7 +4989,7 @@
     },
     "lemma": {
       "combined_charlm": {
-        "md5": "5330771eb95521a5b86e4d6889f26ba8",
+        "md5": "44f6efb1a0f9bf30f54364fff8b5f5a2",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -5002,7 +5002,7 @@
         ]
       },
       "combined_nocharlm": {
-        "md5": "ea8643eb7c6fc0d94023735bdd3d8e5c"
+        "md5": "3b0f9e0ca59f2a9134e7a8724904b9ed"
       },
       "htb_charlm": {
         "md5": "10ee93246815e428abf2803ef371b489",
@@ -5039,7 +5039,7 @@
     },
     "mwt": {
       "combined": {
-        "md5": "648f15052cae225af4cf00bce5278f55"
+        "md5": "88975e601f21a783c5d4336d2c9758d1"
       },
       "htb": {
         "md5": "5ce15103f60d260e94aaa561d19df1d7"
@@ -5050,7 +5050,7 @@
     },
     "pos": {
       "combined_alephbertgimmel": {
-        "md5": "de3a10f7487a2578240b0e3ad1584c71",
+        "md5": "f60050cbd73bd9a946c3389bd28da935",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5067,7 +5067,7 @@
         ]
       },
       "combined_charlm": {
-        "md5": "d0ea07e02de365bcbb036c3c99a388be",
+        "md5": "8543ee9d33fba2897dcce927bfd877f7",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5084,7 +5084,7 @@
         ]
       },
       "combined_nocharlm": {
-        "md5": "237a5f3cd8cf301485fe65f707af0962",
+        "md5": "916f94f6999c644247f94e25d7552133",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5186,7 +5186,7 @@
     },
     "tokenize": {
       "combined": {
-        "md5": "8110d4388828434c61aad1cba1c1382a"
+        "md5": "f299121f49f5bc83e7912fe1d21d9e9d"
       },
       "htb": {
         "md5": "8a217d4d7503c4cac26e86bb1133d4f6"
@@ -5246,7 +5246,7 @@
         "depparse": "iahltwiki_charlm"
       }
     },
-    "default_md5": "18a48fcc09231a8b62a4ae7d14098ffe",
+    "default_md5": "f73e5da2a193145ba755f4176ce9b722",
     "lang_name": "Hebrew"
   },
   "hebrew": {
