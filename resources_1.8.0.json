@@ -4075,7 +4075,7 @@
     },
     "depparse": {
       "combined_camembert-large": {
-        "md5": "96c35a51d5417f9df5f6a33acd6a2b67",
+        "md5": "c4df1714efb4b80e83ef221e6fefd5ed",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4092,7 +4092,7 @@
         ]
       },
       "combined_charlm": {
-        "md5": "943aff249d9a3c4baf8efcb48cd26959",
+        "md5": "4c76028f2ae339105ec80e7bc0c73644",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4109,7 +4109,7 @@
         ]
       },
       "combined_nocharlm": {
-        "md5": "ec01dd95dd788fda28abbb26934d81c9",
+        "md5": "919244d53282d210626fbbc63a92e64d",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4340,7 +4340,20 @@
     },
     "lemma": {
       "combined_charlm": {
-        "md5": "13d087c89868338586693abeb7708238",
+        "md5": "b3c0ab1de1fe9785f6ae2cbee39780e6",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
+      },
+      "combined": {
+        "md5": "c38e919346c5ba389ff05fb00c690975",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -4353,7 +4366,7 @@
         ]
       },
       "combined_nocharlm": {
-        "md5": "72879a6ea08c976a77c262299b9eaf99"
+        "md5": "a5563bc3ade11d30b81085b4e3171c1a"
       },
       "gsd_charlm": {
         "md5": "3a2395c69ef44672d882fcf99a6ca198",
@@ -4438,7 +4451,7 @@
     },
     "mwt": {
       "combined": {
-        "md5": "68408a6310e216ba67e17183211cc546"
+        "md5": "92736e4ac47f4718691780514e99035a"
       },
       "gsd": {
         "md5": "446033a5799fb7a33f5141d12f7499d3"
@@ -4477,7 +4490,7 @@
     },
     "pos": {
       "combined_camembert-large": {
-        "md5": "de210c9b12a32a203ec81eaa72f44c67",
+        "md5": "03d20b5ca9bf1c9c086c8f9ca88e2dde",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4494,7 +4507,7 @@
         ]
       },
       "combined_charlm": {
-        "md5": "7f2a64a3b269f59177c5a023d09e2bd1",
+        "md5": "2703d648b8d3c5d58a2e1204322d15ac",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4511,7 +4524,7 @@
         ]
       },
       "combined_nocharlm": {
-        "md5": "836ad99c24688a632d884f4449143bf9",
+        "md5": "1e0d805f7465031f6a83daf145e873e3",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4745,7 +4758,7 @@
     },
     "tokenize": {
       "combined": {
-        "md5": "c74308cf460605d43e0e35f1615ec383"
+        "md5": "12bb35c8c5010db1689a6e3e385e53c0"
       },
       "gsd": {
         "md5": "a26efa422244b67ee945e784576e1c08"
@@ -4839,7 +4852,7 @@
         "depparse": "sequoia_charlm"
       }
     },
-    "default_md5": "cea86f3c799843311334dd64fd3c5d61",
+    "default_md5": "7a73abb4577fa692cd00bec4053309b0",
     "lang_name": "French"
   },
   "french": {
