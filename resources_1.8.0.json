@@ -9286,6 +9286,42 @@
         "md5": "beba826c5a1888df8af3acbe2f209552"
       }
     },
+    "depparse": {
+      "isra_charlm": {
+        "md5": "5589a63533357a3fc0b156647fee26ef",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "isra"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "isra"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "isra"
+          }
+        ]
+      },
+      "isra_muril-large-cased": {
+        "md5": "1cd55c3c661300b98ccee99e0740aa82",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "isra"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "isra"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "isra"
+          }
+        ]
+      }
+    },
     "forward_charlm": {
       "isra": {
         "md5": "82ea2209256276ed5bbc2903308c5b2e"
@@ -9312,7 +9348,24 @@
     },
     "pos": {
       "isra_charlm": {
-        "md5": "399dabc949429e931dfa6c4d2ff225f5",
+        "md5": "bccf909e44fae0dd0b024d59c868ab32",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "isra"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "isra"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "isra"
+          }
+        ]
+      },
+      "isra_muril-large-cased": {
+        "md5": "ef18a63ac2c90170cd6ca64ceefc0b31",
         "dependencies": [
           {
             "model": "pretrain",
@@ -9336,36 +9389,42 @@
     },
     "tokenize": {
       "isra": {
-        "md5": "dc5b374484a57d04225451f140673ded"
+        "md5": "e1a175c7df80a585221f54547e9086f2"
       }
     },
     "default_processors": {
       "tokenize": "isra",
       "pos": "isra_charlm",
+      "depparse": "isra_charlm",
       "ner": "siner"
     },
     "packages": {
       "default": {
         "tokenize": "isra",
         "pos": "isra_charlm",
+        "depparse": "isra_charlm",
         "ner": "siner"
       },
       "default_fast": {
         "tokenize": "isra",
         "pos": "isra_charlm",
+        "depparse": "isra_charlm",
         "ner": "siner"
       },
       "default_accurate": {
         "tokenize": "isra",
-        "pos": "isra_charlm",
+        "pos": "isra_muril-large-cased",
+        "depparse": "isra_muril-large-cased",
         "ner": "siner"
       },
       "isra": {
         "tokenize": "isra",
-        "pos": "isra_charlm"
+        "pos": "isra_charlm",
+        "lemma": "identity",
+        "depparse": "isra_charlm"
       }
     },
-    "default_md5": "49246360e02249470cee25eeec33d2f8",
+    "default_md5": "52881e829b4d3536e6aa3ab4d14cb254",
     "lang_name": "Sindhi"
   },
   "sindhi": {
