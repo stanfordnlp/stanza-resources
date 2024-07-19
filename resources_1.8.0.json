@@ -9394,6 +9394,7 @@
     },
     "default_processors": {
       "tokenize": "isra",
+      "lemma": "identity",
       "pos": "isra_charlm",
       "depparse": "isra_charlm",
       "ner": "siner"
@@ -9401,18 +9402,21 @@
     "packages": {
       "default": {
         "tokenize": "isra",
+        "lemma": "identity",
         "pos": "isra_charlm",
         "depparse": "isra_charlm",
         "ner": "siner"
       },
       "default_fast": {
         "tokenize": "isra",
+        "lemma": "identity",
         "pos": "isra_charlm",
         "depparse": "isra_charlm",
         "ner": "siner"
       },
       "default_accurate": {
         "tokenize": "isra",
+        "lemma": "identity",
         "pos": "isra_muril-large-cased",
         "depparse": "isra_muril-large-cased",
         "ner": "siner"
