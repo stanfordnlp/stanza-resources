@@ -3329,7 +3329,7 @@
         "md5": "808f27248700ae3e52014e7ba3f9c3aa"
       },
       "combined": {
-        "md5": "ef91ddcb488160c5667e28163ee9f24e"
+        "md5": "591a02ee1ffbae7c94a21b75ecf95d4e"
       },
       "gsd": {
         "md5": "e8807b90cd9b55fb788be62481bd49f8"
@@ -3397,7 +3397,7 @@
         "depparse": "gsd_charlm"
       }
     },
-    "default_md5": "479d36a8e41e42a26a3f34cdf15d23da",
+    "default_md5": "d82ffc6900a10f341411f1a4b367ec18",
     "lang_name": "Spanish"
   },
   "spanish": {
