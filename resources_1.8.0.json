@@ -5061,6 +5061,42 @@
         "md5": "5cf47968e240c20e08fcb140ff1a6e78"
       }
     },
+    "ner": {
+      "iahlt_alephbertgimmel": {
+        "md5": "798533b7700103f780a74e168aecdb06",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
+      },
+      "iahlt_charlm": {
+        "md5": "dd1d6b209e386a26000851afe2f8dbfd",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
+      }
+    },
     "pos": {
       "combined_alephbertgimmel": {
         "md5": "f60050cbd73bd9a946c3389bd28da935",
@@ -5213,7 +5249,8 @@
       "mwt": "combined",
       "lemma": "combined_nocharlm",
       "pos": "combined_charlm",
-      "depparse": "combined_charlm"
+      "depparse": "combined_charlm",
+      "ner": "iahlt_charlm"
     },
     "packages": {
       "default": {
@@ -5221,21 +5258,24 @@
         "mwt": "combined",
         "lemma": "combined_nocharlm",
         "pos": "combined_charlm",
-        "depparse": "combined_charlm"
+        "depparse": "combined_charlm",
+        "ner": "iahlt_charlm"
       },
       "default_fast": {
         "tokenize": "combined",
         "mwt": "combined",
         "lemma": "combined_nocharlm",
         "pos": "combined_nocharlm",
-        "depparse": "combined_nocharlm"
+        "depparse": "combined_nocharlm",
+        "ner": "iahlt_charlm"
       },
       "default_accurate": {
         "tokenize": "combined",
         "mwt": "combined",
         "lemma": "combined_charlm",
         "pos": "combined_alephbertgimmel",
-        "depparse": "combined_alephbertgimmel"
+        "depparse": "combined_alephbertgimmel",
+        "ner": "iahlt_charlm"
       },
       "combined": {
         "tokenize": "combined",
@@ -5259,7 +5299,7 @@
         "depparse": "iahltwiki_charlm"
       }
     },
-    "default_md5": "f73e5da2a193145ba755f4176ce9b722",
+    "default_md5": "07b732b886916772fd6e3cc42e347051",
     "lang_name": "Hebrew"
   },
   "hebrew": {
