@@ -4866,7 +4866,7 @@
     },
     "depparse": {
       "combined_alephbertgimmel": {
-        "md5": "ccf005253f8b725f8f8581886e1087fb",
+        "md5": "f956ec21e8b6cedadd9da25ec19d4a80",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4883,7 +4883,7 @@
         ]
       },
       "combined_charlm": {
-        "md5": "bd3fb3bb2776c6a61a836e4b5f8b6ae3",
+        "md5": "ee0aa4e14f850269cfc5f43c9d3776c0",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4900,7 +4900,7 @@
         ]
       },
       "combined_nocharlm": {
-        "md5": "077ce75733bcde04bcd163b235126306",
+        "md5": "d72e60065a7f02c95dc72ca1b50aa8b9",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5002,7 +5002,7 @@
     },
     "lemma": {
       "combined_charlm": {
-        "md5": "44f6efb1a0f9bf30f54364fff8b5f5a2",
+        "md5": "6cf4dcd9817035cc1f925c1619c47c67",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -5015,7 +5015,7 @@
         ]
       },
       "combined_nocharlm": {
-        "md5": "3b0f9e0ca59f2a9134e7a8724904b9ed"
+        "md5": "35165b2db1baaa4e314a2dc58aef403f"
       },
       "htb_charlm": {
         "md5": "10ee93246815e428abf2803ef371b489",
@@ -5052,7 +5052,7 @@
     },
     "mwt": {
       "combined": {
-        "md5": "88975e601f21a783c5d4336d2c9758d1"
+        "md5": "4e56e0eb3a2fe09222ecda4039503914"
       },
       "htb": {
         "md5": "5ce15103f60d260e94aaa561d19df1d7"
@@ -5063,7 +5063,7 @@
     },
     "ner": {
       "iahlt_alephbertgimmel": {
-        "md5": "798533b7700103f780a74e168aecdb06",
+        "md5": "16cd18bbebd0cb37ed0ab68b8d96fec2",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5080,7 +5080,7 @@
         ]
       },
       "iahlt_charlm": {
-        "md5": "dd1d6b209e386a26000851afe2f8dbfd",
+        "md5": "ea4f534f4efa087914235e19d1d400e3",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5099,7 +5099,7 @@
     },
     "pos": {
       "combined_alephbertgimmel": {
-        "md5": "f60050cbd73bd9a946c3389bd28da935",
+        "md5": "685052c6009597698ede4128d25bf95e",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5116,7 +5116,7 @@
         ]
       },
       "combined_charlm": {
-        "md5": "8543ee9d33fba2897dcce927bfd877f7",
+        "md5": "07653359ab90af0a3d6c2c3f687900de",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5133,7 +5133,7 @@
         ]
       },
       "combined_nocharlm": {
-        "md5": "916f94f6999c644247f94e25d7552133",
+        "md5": "e7c4033b8ce5e488be1585f9c748e4cc",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5235,7 +5235,7 @@
     },
     "tokenize": {
       "combined": {
-        "md5": "f299121f49f5bc83e7912fe1d21d9e9d"
+        "md5": "2224b1ffb3efe31d36f2ce473b06dd8b"
       },
       "htb": {
         "md5": "8a217d4d7503c4cac26e86bb1133d4f6"
@@ -5299,7 +5299,7 @@
         "depparse": "iahltwiki_charlm"
       }
     },
-    "default_md5": "07b732b886916772fd6e3cc42e347051",
+    "default_md5": "b2b81e2e6fbb964416686f42bdfee4e0",
     "lang_name": "Hebrew"
   },
   "hebrew": {
