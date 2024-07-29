@@ -5063,7 +5063,7 @@
     },
     "ner": {
       "iahlt_alephbertgimmel": {
-        "md5": "16cd18bbebd0cb37ed0ab68b8d96fec2",
+        "md5": "803cea4e2d8fdb71142e867c93a43fb2",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5080,7 +5080,7 @@
         ]
       },
       "iahlt_charlm": {
-        "md5": "ea4f534f4efa087914235e19d1d400e3",
+        "md5": "4dcce0c58d229b421a57dba64d306f7b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5299,7 +5299,7 @@
         "depparse": "iahltwiki_charlm"
       }
     },
-    "default_md5": "b2b81e2e6fbb964416686f42bdfee4e0",
+    "default_md5": "4fbc298779503c1942fb3d2379769c8f",
     "lang_name": "Hebrew"
   },
   "hebrew": {
