@@ -4075,7 +4075,7 @@
     },
     "depparse": {
       "combined_camembert-large": {
-        "md5": "c4df1714efb4b80e83ef221e6fefd5ed",
+        "md5": "6071033a2dcf17de754064d648f3872a",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4092,7 +4092,7 @@
         ]
       },
       "combined_charlm": {
-        "md5": "4c76028f2ae339105ec80e7bc0c73644",
+        "md5": "e7678e292cc7b7f3b08cf233a6651d4f",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4109,7 +4109,7 @@
         ]
       },
       "combined_nocharlm": {
-        "md5": "919244d53282d210626fbbc63a92e64d",
+        "md5": "10087c1a614cc3f1b1b6693a7370fac4",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4341,19 +4341,6 @@
     "lemma": {
       "combined_charlm": {
         "md5": "b3c0ab1de1fe9785f6ae2cbee39780e6",
-        "dependencies": [
-          {
-            "model": "forward_charlm",
-            "package": "newswiki"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "newswiki"
-          }
-        ]
-      },
-      "combined": {
-        "md5": "c38e919346c5ba389ff05fb00c690975",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -4852,7 +4839,7 @@
         "depparse": "sequoia_charlm"
       }
     },
-    "default_md5": "7a73abb4577fa692cd00bec4053309b0",
+    "default_md5": "8275744c0a91b6e17c88be416e590435",
     "lang_name": "French"
   },
   "french": {
