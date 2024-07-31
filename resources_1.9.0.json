@@ -1005,6 +1005,11 @@
         ]
       }
     },
+    "coref": {
+      "udcoref_xlm-roberta-lora": {
+        "md5": "45e043f0478689f126e613bfd209fcf7"
+      }
+    },
     "depparse": {
       "gsd_charlm": {
         "md5": "6f3b3dc29d7c90f03589919657857fa1",
@@ -1409,7 +1414,10 @@
       "depparse": "gsd_charlm",
       "ner": "germeval2014",
       "sentiment": "sb10k_charlm",
-      "constituency": "spmrl_charlm"
+      "constituency": "spmrl_charlm",
+      "optional": {
+        "coref": "udcoref_xlm-roberta-lora"
+      }
     },
     "packages": {
       "default": {
@@ -1420,7 +1428,10 @@
         "depparse": "gsd_charlm",
         "ner": "germeval2014",
         "sentiment": "sb10k_charlm",
-        "constituency": "spmrl_charlm"
+        "constituency": "spmrl_charlm",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "default_fast": {
         "tokenize": "gsd",
@@ -1429,7 +1440,10 @@
         "pos": "gsd_nocharlm",
         "depparse": "gsd_nocharlm",
         "ner": "germeval2014",
-        "sentiment": "sb10k_charlm"
+        "sentiment": "sb10k_charlm",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "default_accurate": {
         "tokenize": "gsd",
@@ -1439,7 +1453,10 @@
         "depparse": "gsd_german-nlp-electra",
         "ner": "germeval2014",
         "sentiment": "sb10k_german-nlp-electra",
-        "constituency": "spmrl_german-nlp-electra"
+        "constituency": "spmrl_german-nlp-electra",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "gsd": {
         "tokenize": "gsd",
@@ -1545,8 +1562,8 @@
       }
     },
     "coref": {
-      "ontonotes_electra-large": {
-        "md5": "4d3d1ae8af95a87a964b43495c4532b3"
+      "udcoref_xlm-roberta-lora": {
+        "md5": "45e043f0478689f126e613bfd209fcf7"
       }
     },
     "depparse": {
@@ -2761,7 +2778,7 @@
       "sentiment": "sstplus_charlm",
       "constituency": "ptb3-revised_charlm",
       "optional": {
-        "coref": "ontonotes_electra-large"
+        "coref": "udcoref_xlm-roberta-lora"
       }
     },
     "packages": {
@@ -2775,7 +2792,7 @@
         "sentiment": "sstplus_charlm",
         "constituency": "ptb3-revised_charlm",
         "optional": {
-          "coref": "ontonotes_electra-large"
+          "coref": "udcoref_xlm-roberta-lora"
         }
       },
       "default_fast": {
@@ -2787,7 +2804,7 @@
         "ner": "ontonotes-ww-multi_nocharlm",
         "sentiment": "sstplus_charlm",
         "optional": {
-          "coref": "ontonotes_electra-large"
+          "coref": "udcoref_xlm-roberta-lora"
         }
       },
       "default_accurate": {
@@ -2800,7 +2817,7 @@
         "sentiment": "sstplus_electra-large",
         "constituency": "ptb3-revised_electra-large",
         "optional": {
-          "coref": "ontonotes_electra-large"
+          "coref": "udcoref_xlm-roberta-lora"
         }
       },
       "atis": {
@@ -2914,6 +2931,11 @@
             "package": "newswiki"
           }
         ]
+      }
+    },
+    "coref": {
+      "udcoref_xlm-roberta-lora": {
+        "md5": "45e043f0478689f126e613bfd209fcf7"
       }
     },
     "depparse": {
@@ -3343,7 +3365,10 @@
       "depparse": "combined_charlm",
       "ner": "conll02",
       "sentiment": "tass2020_charlm",
-      "constituency": "combined_charlm"
+      "constituency": "combined_charlm",
+      "optional": {
+        "coref": "udcoref_xlm-roberta-lora"
+      }
     },
     "packages": {
       "default": {
@@ -3354,7 +3379,10 @@
         "depparse": "combined_charlm",
         "ner": "conll02",
         "sentiment": "tass2020_charlm",
-        "constituency": "combined_charlm"
+        "constituency": "combined_charlm",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "default_fast": {
         "tokenize": "combined",
@@ -3363,7 +3391,10 @@
         "pos": "combined_nocharlm",
         "depparse": "combined_nocharlm",
         "ner": "conll02",
-        "sentiment": "tass2020_charlm"
+        "sentiment": "tass2020_charlm",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "default_accurate": {
         "tokenize": "combined",
@@ -3373,7 +3404,10 @@
         "depparse": "combined_bertin-roberta",
         "ner": "conll02",
         "sentiment": "tass2020_bertin-roberta",
-        "constituency": "combined_bertin-roberta"
+        "constituency": "combined_bertin-roberta",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "ancora": {
         "tokenize": "ancora",
@@ -4073,6 +4107,11 @@
         "md5": "42eba035046673e195274f45e713653c"
       }
     },
+    "coref": {
+      "udcoref_xlm-roberta-lora": {
+        "md5": "45e043f0478689f126e613bfd209fcf7"
+      }
+    },
     "depparse": {
       "combined_camembert-large": {
         "md5": "6071033a2dcf17de754064d648f3872a",
@@ -4769,7 +4808,10 @@
       "lemma": "combined_nocharlm",
       "pos": "combined_charlm",
       "depparse": "combined_charlm",
-      "ner": "wikiner"
+      "ner": "wikiner",
+      "optional": {
+        "coref": "udcoref_xlm-roberta-lora"
+      }
     },
     "packages": {
       "default": {
@@ -4778,7 +4820,10 @@
         "lemma": "combined_nocharlm",
         "pos": "combined_charlm",
         "depparse": "combined_charlm",
-        "ner": "wikiner"
+        "ner": "wikiner",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "default_fast": {
         "tokenize": "combined",
@@ -4786,7 +4831,10 @@
         "lemma": "combined_nocharlm",
         "pos": "combined_nocharlm",
         "depparse": "combined_nocharlm",
-        "ner": "wikiner"
+        "ner": "wikiner",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "default_accurate": {
         "tokenize": "combined",
@@ -4794,7 +4842,10 @@
         "lemma": "combined_charlm",
         "pos": "combined_camembert-large",
         "depparse": "combined_camembert-large",
-        "ner": "wikiner"
+        "ner": "wikiner",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "combined": {
         "tokenize": "combined",
@@ -11677,6 +11728,11 @@
     "alias": "bxr"
   },
   "ca": {
+    "coref": {
+      "udcoref_xlm-roberta-lora": {
+        "md5": "45e043f0478689f126e613bfd209fcf7"
+      }
+    },
     "depparse": {
       "ancora_nocharlm": {
         "md5": "57b85b58ed9ae81aad9f037bc7aba7eb",
@@ -11724,7 +11780,10 @@
       "mwt": "ancora",
       "lemma": "ancora_nocharlm",
       "pos": "ancora_nocharlm",
-      "depparse": "ancora_nocharlm"
+      "depparse": "ancora_nocharlm",
+      "optional": {
+        "coref": "udcoref_xlm-roberta-lora"
+      }
     },
     "packages": {
       "default": {
@@ -11732,21 +11791,30 @@
         "mwt": "ancora",
         "lemma": "ancora_nocharlm",
         "pos": "ancora_nocharlm",
-        "depparse": "ancora_nocharlm"
+        "depparse": "ancora_nocharlm",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "default_fast": {
         "tokenize": "ancora",
         "mwt": "ancora",
         "lemma": "ancora_nocharlm",
         "pos": "ancora_nocharlm",
-        "depparse": "ancora_nocharlm"
+        "depparse": "ancora_nocharlm",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "default_accurate": {
         "tokenize": "ancora",
         "mwt": "ancora",
         "lemma": "ancora_nocharlm",
         "pos": "ancora_nocharlm",
-        "depparse": "ancora_nocharlm"
+        "depparse": "ancora_nocharlm",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "ancora": {
         "tokenize": "ancora",
