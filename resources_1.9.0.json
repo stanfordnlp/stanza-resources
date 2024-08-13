@@ -5351,7 +5351,24 @@
     },
     "depparse": {
       "hdtb_charlm": {
-        "md5": "dd5763be9e344e4eba21fe86f63feef0",
+        "md5": "2ed7ca3437d4567e3bcbf8757a6556f2",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
+      },
+      "hdtb_muril-large-cased": {
+        "md5": "0c147d514b873536a37cc43a2e2f430e",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5368,7 +5385,7 @@
         ]
       },
       "hdtb_nocharlm": {
-        "md5": "3087f9649783c108dd9b7c7b05468817",
+        "md5": "df93cbc1b96125fbf38796386d2a71dd",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5383,9 +5400,18 @@
       }
     },
     "lemma": {
+      "hdtb_nocharlm": {
+        "md5": "3485ebd5fb3cf778d7d17ee5567faa1e"
+      }
+    },
+    "pos": {
       "hdtb_charlm": {
-        "md5": "16d8e7694f0c7b3dab8d128aa6c9529f",
+        "md5": "667b3269370351804806391f501b6348",
         "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
           {
             "model": "forward_charlm",
             "package": "oscar"
@@ -5396,13 +5422,8 @@
           }
         ]
       },
-      "hdtb_nocharlm": {
-        "md5": "a970f12ac812e3f30915e6dba41522dc"
-      }
-    },
-    "pos": {
-      "hdtb_charlm": {
-        "md5": "1184091d077b7c6d89c062b2457aba08",
+      "hdtb_muril-large-cased": {
+        "md5": "d15d8a690c10e9b4666cc96a3edacab8",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5419,7 +5440,7 @@
         ]
       },
       "hdtb_nocharlm": {
-        "md5": "071007732c12a2b86c1c1e1090f4f294",
+        "md5": "fdd51146256c6937c5913f8a2334804e",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5459,9 +5480,9 @@
       },
       "default_accurate": {
         "tokenize": "hdtb",
-        "lemma": "hdtb_charlm",
-        "pos": "hdtb_charlm",
-        "depparse": "hdtb_charlm"
+        "lemma": "hdtb_nocharlm",
+        "pos": "hdtb_muril-large-cased",
+        "depparse": "hdtb_muril-large-cased"
       },
       "hdtb": {
         "tokenize": "hdtb",
@@ -5470,7 +5491,7 @@
         "depparse": "hdtb_charlm"
       }
     },
-    "default_md5": "74ae7707e5b12c9649d6b8eca9debd75",
+    "default_md5": "93fada6a6100ce0d260199375b9245a5",
     "lang_name": "Hindi"
   },
   "hindi": {
