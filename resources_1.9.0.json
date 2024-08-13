@@ -5349,6 +5349,11 @@
         "md5": "2b886f00bdd98752a8d60014874c0ccd"
       }
     },
+    "coref": {
+      "iith_muril-large-cased-lora": {
+        "md5": "707eba6460b186cb79095c35ba28c1f6"
+      }
+    },
     "depparse": {
       "hdtb_charlm": {
         "md5": "2ed7ca3437d4567e3bcbf8757a6556f2",
@@ -5400,6 +5405,19 @@
       }
     },
     "lemma": {
+      "hdtb_charlm": {
+        "md5": "59f758a52b369be28fbb69294f22e7d7",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
+      },
       "hdtb_nocharlm": {
         "md5": "3485ebd5fb3cf778d7d17ee5567faa1e"
       }
@@ -5463,26 +5481,38 @@
       "tokenize": "hdtb",
       "lemma": "hdtb_nocharlm",
       "pos": "hdtb_charlm",
-      "depparse": "hdtb_charlm"
+      "depparse": "hdtb_charlm",
+      "optional": {
+        "coref": "iith_muril-large-cased-lora"
+      }
     },
     "packages": {
       "default": {
         "tokenize": "hdtb",
         "lemma": "hdtb_nocharlm",
         "pos": "hdtb_charlm",
-        "depparse": "hdtb_charlm"
+        "depparse": "hdtb_charlm",
+        "optional": {
+          "coref": "iith_muril-large-cased-lora"
+        }
       },
       "default_fast": {
         "tokenize": "hdtb",
         "lemma": "hdtb_nocharlm",
         "pos": "hdtb_nocharlm",
-        "depparse": "hdtb_nocharlm"
+        "depparse": "hdtb_nocharlm",
+        "optional": {
+          "coref": "iith_muril-large-cased-lora"
+        }
       },
       "default_accurate": {
         "tokenize": "hdtb",
-        "lemma": "hdtb_nocharlm",
+        "lemma": "hdtb_charlm",
         "pos": "hdtb_muril-large-cased",
-        "depparse": "hdtb_muril-large-cased"
+        "depparse": "hdtb_muril-large-cased",
+        "optional": {
+          "coref": "iith_muril-large-cased-lora"
+        }
       },
       "hdtb": {
         "tokenize": "hdtb",
@@ -8183,6 +8213,11 @@
         "md5": "229851f7845bea66f7c806d4c0891f02"
       }
     },
+    "coref": {
+      "udcoref_xlm-roberta-lora": {
+        "md5": "03260bc904bb4ccc2edeb959af4b7980"
+      }
+    },
     "depparse": {
       "lfg_charlm": {
         "md5": "83bf97bff27ba75e6b524923f421070b",
@@ -8458,7 +8493,10 @@
       "lemma": "pdb_nocharlm",
       "pos": "pdb_charlm",
       "depparse": "pdb_charlm",
-      "ner": "nkjp"
+      "ner": "nkjp",
+      "optional": {
+        "coref": "udcoref_xlm-roberta-lora"
+      }
     },
     "packages": {
       "default": {
@@ -8467,7 +8505,10 @@
         "lemma": "pdb_nocharlm",
         "pos": "pdb_charlm",
         "depparse": "pdb_charlm",
-        "ner": "nkjp"
+        "ner": "nkjp",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "default_fast": {
         "tokenize": "pdb",
@@ -8475,7 +8516,10 @@
         "lemma": "pdb_nocharlm",
         "pos": "pdb_nocharlm",
         "depparse": "pdb_nocharlm",
-        "ner": "nkjp"
+        "ner": "nkjp",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "default_accurate": {
         "tokenize": "pdb",
@@ -8483,7 +8527,10 @@
         "lemma": "pdb_charlm",
         "pos": "pdb_herbert",
         "depparse": "pdb_herbert",
-        "ner": "nkjp"
+        "ner": "nkjp",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "lfg": {
         "tokenize": "lfg",
@@ -9072,6 +9119,11 @@
         "md5": "47d7517555684206f327ba4e0527d034"
       }
     },
+    "coref": {
+      "udcoref_xlm-roberta-lora": {
+        "md5": "03260bc904bb4ccc2edeb959af4b7980"
+      }
+    },
     "depparse": {
       "gsd_charlm": {
         "md5": "d16dbf926d7e642e86dff96e1acd4ec4",
@@ -9330,7 +9382,10 @@
       "lemma": "syntagrus_nocharlm",
       "pos": "syntagrus_charlm",
       "depparse": "syntagrus_charlm",
-      "ner": "wikiner"
+      "ner": "wikiner",
+      "optional": {
+        "coref": "udcoref_xlm-roberta-lora"
+      }
     },
     "packages": {
       "default": {
@@ -9338,21 +9393,30 @@
         "lemma": "syntagrus_nocharlm",
         "pos": "syntagrus_charlm",
         "depparse": "syntagrus_charlm",
-        "ner": "wikiner"
+        "ner": "wikiner",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "default_fast": {
         "tokenize": "syntagrus",
         "lemma": "syntagrus_nocharlm",
         "pos": "syntagrus_nocharlm",
         "depparse": "syntagrus_nocharlm",
-        "ner": "wikiner"
+        "ner": "wikiner",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "default_accurate": {
         "tokenize": "syntagrus",
         "lemma": "syntagrus_charlm",
         "pos": "syntagrus_charlm",
         "depparse": "syntagrus_charlm",
-        "ner": "wikiner"
+        "ner": "wikiner",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "gsd": {
         "tokenize": "gsd",
@@ -11904,6 +11968,11 @@
     "alias": "cop"
   },
   "cs": {
+    "coref": {
+      "udcoref_xlm-roberta-lora": {
+        "md5": "03260bc904bb4ccc2edeb959af4b7980"
+      }
+    },
     "depparse": {
       "cac_nocharlm": {
         "md5": "64e86fc88374e8815deecdc8d1393def",
@@ -12032,7 +12101,10 @@
       "mwt": "pdt",
       "lemma": "pdt_nocharlm",
       "pos": "pdt_nocharlm",
-      "depparse": "pdt_nocharlm"
+      "depparse": "pdt_nocharlm",
+      "optional": {
+        "coref": "udcoref_xlm-roberta-lora"
+      }
     },
     "packages": {
       "default": {
@@ -12040,21 +12112,30 @@
         "mwt": "pdt",
         "lemma": "pdt_nocharlm",
         "pos": "pdt_nocharlm",
-        "depparse": "pdt_nocharlm"
+        "depparse": "pdt_nocharlm",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "default_fast": {
         "tokenize": "pdt",
         "mwt": "pdt",
         "lemma": "pdt_nocharlm",
         "pos": "pdt_nocharlm",
-        "depparse": "pdt_nocharlm"
+        "depparse": "pdt_nocharlm",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "default_accurate": {
         "tokenize": "pdt",
         "mwt": "pdt",
         "lemma": "pdt_nocharlm",
         "pos": "pdt_nocharlm",
-        "depparse": "pdt_nocharlm"
+        "depparse": "pdt_nocharlm",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "cac": {
         "tokenize": "cac",
