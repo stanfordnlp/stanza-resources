@@ -1007,7 +1007,7 @@
     },
     "coref": {
       "udcoref_xlm-roberta-lora": {
-        "md5": "45e043f0478689f126e613bfd209fcf7"
+        "md5": "f4dc57796654426bb8437d735318fcdc"
       }
     },
     "depparse": {
@@ -1563,7 +1563,7 @@
     },
     "coref": {
       "udcoref_xlm-roberta-lora": {
-        "md5": "45e043f0478689f126e613bfd209fcf7"
+        "md5": "f4dc57796654426bb8437d735318fcdc"
       }
     },
     "depparse": {
@@ -2935,7 +2935,7 @@
     },
     "coref": {
       "udcoref_xlm-roberta-lora": {
-        "md5": "45e043f0478689f126e613bfd209fcf7"
+        "md5": "f4dc57796654426bb8437d735318fcdc"
       }
     },
     "depparse": {
@@ -4109,7 +4109,7 @@
     },
     "coref": {
       "udcoref_xlm-roberta-lora": {
-        "md5": "45e043f0478689f126e613bfd209fcf7"
+        "md5": "f4dc57796654426bb8437d735318fcdc"
       }
     },
     "depparse": {
@@ -7794,6 +7794,11 @@
         "md5": "6c4f371018e68d049a4a474fecad9c22"
       }
     },
+    "coref": {
+      "udcoref_xlm-roberta-lora": {
+        "md5": "f4dc57796654426bb8437d735318fcdc"
+      }
+    },
     "depparse": {
       "bokmaal_charlm": {
         "md5": "56ea8e3a9a91dce004860f663299399a",
@@ -7907,7 +7912,10 @@
       "lemma": "bokmaal_nocharlm",
       "pos": "bokmaal_charlm",
       "depparse": "bokmaal_charlm",
-      "ner": "norne"
+      "ner": "norne",
+      "optional": {
+        "coref": "udcoref_xlm-roberta-lora"
+      }
     },
     "packages": {
       "default": {
@@ -7915,21 +7923,30 @@
         "lemma": "bokmaal_nocharlm",
         "pos": "bokmaal_charlm",
         "depparse": "bokmaal_charlm",
-        "ner": "norne"
+        "ner": "norne",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "default_fast": {
         "tokenize": "bokmaal",
         "lemma": "bokmaal_nocharlm",
         "pos": "bokmaal_nocharlm",
         "depparse": "bokmaal_nocharlm",
-        "ner": "norne"
+        "ner": "norne",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "default_accurate": {
         "tokenize": "bokmaal",
         "lemma": "bokmaal_charlm",
         "pos": "bokmaal_charlm",
         "depparse": "bokmaal_charlm",
-        "ner": "norne"
+        "ner": "norne",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "bokmaal": {
         "tokenize": "bokmaal",
@@ -11815,7 +11832,7 @@
   "ca": {
     "coref": {
       "udcoref_xlm-roberta-lora": {
-        "md5": "45e043f0478689f126e613bfd209fcf7"
+        "md5": "f4dc57796654426bb8437d735318fcdc"
       }
     },
     "depparse": {
@@ -15108,6 +15125,11 @@
     "alias": "myv"
   },
   "nn": {
+    "coref": {
+      "udcoref_xlm-roberta-lora": {
+        "md5": "f4dc57796654426bb8437d735318fcdc"
+      }
+    },
     "depparse": {
       "nynorsk_nocharlm": {
         "md5": "28ef2b9bf40dcf836c843aa963da4c26",
@@ -15161,7 +15183,10 @@
       "lemma": "nynorsk_nocharlm",
       "pos": "nynorsk_nocharlm",
       "depparse": "nynorsk_nocharlm",
-      "ner": "norne"
+      "ner": "norne",
+      "optional": {
+        "coref": "udcoref_xlm-roberta-lora"
+      }
     },
     "packages": {
       "default": {
@@ -15169,21 +15194,30 @@
         "lemma": "nynorsk_nocharlm",
         "pos": "nynorsk_nocharlm",
         "depparse": "nynorsk_nocharlm",
-        "ner": "norne"
+        "ner": "norne",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "default_fast": {
         "tokenize": "nynorsk",
         "lemma": "nynorsk_nocharlm",
         "pos": "nynorsk_nocharlm",
         "depparse": "nynorsk_nocharlm",
-        "ner": "norne"
+        "ner": "norne",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "default_accurate": {
         "tokenize": "nynorsk",
         "lemma": "nynorsk_nocharlm",
         "pos": "nynorsk_nocharlm",
         "depparse": "nynorsk_nocharlm",
-        "ner": "norne"
+        "ner": "norne",
+        "optional": {
+          "coref": "udcoref_xlm-roberta-lora"
+        }
       },
       "nynorsk": {
         "tokenize": "nynorsk",
