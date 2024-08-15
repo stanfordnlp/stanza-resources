@@ -5350,7 +5350,7 @@
       }
     },
     "coref": {
-      "iith_muril-large-cased-lora": {
+      "deeph_muril-large-cased-lora": {
         "md5": "707eba6460b186cb79095c35ba28c1f6"
       }
     },
@@ -5483,7 +5483,7 @@
       "pos": "hdtb_charlm",
       "depparse": "hdtb_charlm",
       "optional": {
-        "coref": "iith_muril-large-cased-lora"
+        "coref": "deeph_muril-large-cased-lora"
       }
     },
     "packages": {
@@ -5493,7 +5493,7 @@
         "pos": "hdtb_charlm",
         "depparse": "hdtb_charlm",
         "optional": {
-          "coref": "iith_muril-large-cased-lora"
+          "coref": "deeph_muril-large-cased-lora"
         }
       },
       "default_fast": {
@@ -5502,7 +5502,7 @@
         "pos": "hdtb_nocharlm",
         "depparse": "hdtb_nocharlm",
         "optional": {
-          "coref": "iith_muril-large-cased-lora"
+          "coref": "deeph_muril-large-cased-lora"
         }
       },
       "default_accurate": {
@@ -5511,7 +5511,7 @@
         "pos": "hdtb_muril-large-cased",
         "depparse": "hdtb_muril-large-cased",
         "optional": {
-          "coref": "iith_muril-large-cased-lora"
+          "coref": "deeph_muril-large-cased-lora"
         }
       },
       "hdtb": {
