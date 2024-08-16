@@ -3351,7 +3351,7 @@
         "md5": "808f27248700ae3e52014e7ba3f9c3aa"
       },
       "combined": {
-        "md5": "77d0c6c654e7fa743c2fdc68030d78c9"
+        "md5": "f914c66935bb8eb46455b429d9b18e4d"
       },
       "gsd": {
         "md5": "e8807b90cd9b55fb788be62481bd49f8"
@@ -3431,7 +3431,7 @@
         "depparse": "gsd_charlm"
       }
     },
-    "default_md5": "e659223e83d0f727d936d9c8e78506e7",
+    "default_md5": "2b45015bcd20e426e34690b88df711eb",
     "lang_name": "Spanish"
   },
   "spanish": {
