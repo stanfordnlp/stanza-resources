@@ -2024,7 +2024,7 @@
     },
     "mwt": {
       "combined": {
-        "md5": "6e8c7aaeaeb791510941846db6c4cdd9"
+        "md5": "d6e454707324db082e35802c4c19d5e2"
       },
       "ewt": {
         "md5": "7a173821fa8098d1dbfc5d56d9b9d8ec"
@@ -2885,7 +2885,7 @@
         "depparse": "partut_charlm"
       }
     },
-    "default_md5": "4612f2b22667eb316b61f268c98592a1",
+    "default_md5": "b4fb18707a0b9362eb369acd271325ec",
     "lang_name": "English"
   },
   "english": {
@@ -5090,7 +5090,7 @@
     },
     "mwt": {
       "combined": {
-        "md5": "4e56e0eb3a2fe09222ecda4039503914"
+        "md5": "c1e50b3b99b73c42937946f30dba55a9"
       },
       "htb": {
         "md5": "5ce15103f60d260e94aaa561d19df1d7"
@@ -5337,7 +5337,7 @@
         "depparse": "iahltwiki_charlm"
       }
     },
-    "default_md5": "4fbc298779503c1942fb3d2379769c8f",
+    "default_md5": "c3ad218996d4be15ba6b26580ab66fe6",
     "lang_name": "Hebrew"
   },
   "hebrew": {
