@@ -5090,7 +5090,7 @@
     },
     "mwt": {
       "combined": {
-        "md5": "c1e50b3b99b73c42937946f30dba55a9"
+        "md5": "986ce24e5e258c251aa69c3a0f3e7a20"
       },
       "htb": {
         "md5": "5ce15103f60d260e94aaa561d19df1d7"
@@ -5337,7 +5337,7 @@
         "depparse": "iahltwiki_charlm"
       }
     },
-    "default_md5": "c3ad218996d4be15ba6b26580ab66fe6",
+    "default_md5": "03d1ff242334e35f44d8d61c3513c415",
     "lang_name": "Hebrew"
   },
   "hebrew": {
