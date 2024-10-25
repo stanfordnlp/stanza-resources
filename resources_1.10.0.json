@@ -121,7 +121,7 @@
     },
     "pretrain": {
       "fasttextwiki": {
-        "md5": "3cebc7b7d224b30c5dca9fc8260cedb2"
+        "md5": "5f75bf5ecb9d55ef6459d8b5144d6f02"
       }
     },
     "tokenize": {
@@ -165,7 +165,7 @@
         "depparse": "afribooms_charlm"
       }
     },
-    "default_md5": "0341e6bc21afff8ac2e905bc6fb3144e",
+    "default_md5": "04541d6a63e961c95e8d0af8aaa0129a",
     "lang_name": "Afrikaans"
   },
   "afrikaans": {
@@ -270,7 +270,7 @@
     },
     "pretrain": {
       "nerthus": {
-        "md5": "b816853edc7d7b3dc8826d24bd0238e5"
+        "md5": "3da7ee10f62d6fd30182a7921988e8aa"
       }
     },
     "tokenize": {
@@ -310,7 +310,7 @@
         "depparse": "nerthus_charlm"
       }
     },
-    "default_md5": "b6cb5bc1f0a1b6d6984b93617eda33be",
+    "default_md5": "c4c223e32c4ab1ea62a40bd8fff61d7c",
     "lang_name": "Old_English"
   },
   "old_english": {
@@ -487,10 +487,10 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "d62de442e5d76c06f1b5762326ac673d"
+        "md5": "8035e2d59fbfcb6d188f4a2001cf87d0"
       },
       "fasttextwiki": {
-        "md5": "d82c3a983a59a4a7cf22b12dd1bcce26"
+        "md5": "fad76dd06baf8e298aac507e2351a265"
       }
     },
     "tokenize": {
@@ -539,7 +539,7 @@
         "depparse": "padt_charlm"
       }
     },
-    "default_md5": "d578bc1324e12b39fc111594fa16e080",
+    "default_md5": "6b9bab3070db87796ba0f937a2e1546d",
     "lang_name": "Arabic"
   },
   "arabic": {
@@ -651,7 +651,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "62970972cdca8bb74e99efbdb2c02c8d"
+        "md5": "399ed9d0ec1058d88ac4502e028a52f8"
       }
     },
     "tokenize": {
@@ -695,7 +695,7 @@
         "depparse": "btb_charlm"
       }
     },
-    "default_md5": "351dfb763b4a595d7bbb62ea70d9a37e",
+    "default_md5": "c0fe317528eea3ba0d590bbb57771043",
     "lang_name": "Bulgarian"
   },
   "bulgarian": {
@@ -910,7 +910,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "7bf1b816717aa4d98dbd8ca9992bbc76"
+        "md5": "1f5f28995d99cb5f307c26d29f419a09"
       }
     },
     "tokenize": {
@@ -957,7 +957,7 @@
         "depparse": "ddt_charlm"
       }
     },
-    "default_md5": "b046c4c81ff0a0320327f7c9fcaa4a29",
+    "default_md5": "3118abe5e02ad3cb2aeec52d3db91fbe",
     "lang_name": "Danish"
   },
   "danish": {
@@ -1339,10 +1339,10 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "c9fb32a7c564b51d2931a7a517f615fc"
+        "md5": "e727066202256b70b4155b85ed2ab770"
       },
       "fasttextwiki": {
-        "md5": "46a4a62a669571f6aa9bed3f1f398f5d"
+        "md5": "7478981c663ca22634743021ba220616"
       }
     },
     "sentiment": {
@@ -1473,7 +1473,7 @@
         "depparse": "hdt_charlm"
       }
     },
-    "default_md5": "51d8ba44f5b3c01851c179fcbc98e21a",
+    "default_md5": "f038fa24f11a1119d78d8ba83f3833e4",
     "lang_name": "German"
   },
   "german": {
@@ -2685,19 +2685,19 @@
     },
     "pretrain": {
       "biomed": {
-        "md5": "e4ba08c4922e4cf7141ab2a1ab20e8de"
+        "md5": "8f59cfb7c3c68e313e05f86696ee61b9"
       },
       "conll17": {
-        "md5": "3b77b53669901e532ead7c9cd7360c46"
+        "md5": "758228f59d24ffa5c2280a2ca04e3385"
       },
       "fasttextcrawl": {
-        "md5": "e4bd9507069f1233f802ef3219c05873"
+        "md5": "5af63ab99b2cfe797daab72e35876e35"
       },
       "glove": {
-        "md5": "812e5bfad538ab7931cae586b0648f7a"
+        "md5": "81eb58d0f3300237561fffb0443153e0"
       },
       "mimic": {
-        "md5": "1a32d1459a4bd7148920a250a189d01c"
+        "md5": "45ef34262468680e34e6925f97de86df"
       }
     },
     "sentiment": {
@@ -2885,7 +2885,7 @@
         "depparse": "partut_charlm"
       }
     },
-    "default_md5": "b4fb18707a0b9362eb369acd271325ec",
+    "default_md5": "1f79a57c09550fda2dd4019dc1b20f3b",
     "lang_name": "English"
   },
   "english": {
@@ -3304,10 +3304,10 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "4494d760f7214642900be62845f0fe98"
+        "md5": "7ef2b8f84812dc7827d38057bdd6626f"
       },
       "fasttextwiki": {
-        "md5": "eb2fe31696f90ffa1a7919d9b3592930"
+        "md5": "28ae22b3167bd7700fe4c0fec77b015a"
       }
     },
     "sentiment": {
@@ -3431,7 +3431,7 @@
         "depparse": "gsd_charlm"
       }
     },
-    "default_md5": "2b45015bcd20e426e34690b88df711eb",
+    "default_md5": "eff81d7f757594b17fd60228cdeb45f1",
     "lang_name": "Spanish"
   },
   "spanish": {
@@ -3704,7 +3704,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "7b8bbc80d57a376182bcab2d1fe3545b"
+        "md5": "0ee215d47935343fd239dacc0428744a"
       }
     },
     "tokenize": {
@@ -3763,7 +3763,7 @@
         "depparse": "seraji_charlm"
       }
     },
-    "default_md5": "613021ff830a1b68dff3645d018d3887",
+    "default_md5": "39888c4abdf86871d79db649668f4517",
     "lang_name": "Persian"
   },
   "persian": {
@@ -4036,7 +4036,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "ad026b3165e2da58216f7ac83954ae2b"
+        "md5": "ec5fdfd9a18e4aaf31d743a06c2558f3"
       }
     },
     "tokenize": {
@@ -4095,7 +4095,7 @@
         "depparse": "tdt_charlm"
       }
     },
-    "default_md5": "2b92f2060768d65d15a4d99ca304e903",
+    "default_md5": "0223043308f4ee75102f102ed4bb2f9d",
     "lang_name": "Finnish"
   },
   "finnish": {
@@ -4776,10 +4776,10 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "452fce3b1d44f9ab278fbc312a534fe6"
+        "md5": "c5750f038a37a52fd692d5e014495fc7"
       },
       "fasttextwiki": {
-        "md5": "37bcbb0b737bdf79490e71e78b790c80"
+        "md5": "8e4519964499c7b5d40bc95d9f100e56"
       }
     },
     "tokenize": {
@@ -4890,7 +4890,7 @@
         "depparse": "sequoia_charlm"
       }
     },
-    "default_md5": "8275744c0a91b6e17c88be416e590435",
+    "default_md5": "8aed4bf53888c78ced7c7ce28322e87c",
     "lang_name": "French"
   },
   "french": {
@@ -5268,7 +5268,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "deb4c9173f245686291eaab2eba04893"
+        "md5": "fabdfea34bd460a5acbe82da7fd9b03b"
       }
     },
     "tokenize": {
@@ -5337,7 +5337,7 @@
         "depparse": "iahltwiki_charlm"
       }
     },
-    "default_md5": "03d1ff242334e35f44d8d61c3513c415",
+    "default_md5": "c2eefdafcb4f7bd83038ee64389989c1",
     "lang_name": "Hebrew"
   },
   "hebrew": {
@@ -5469,7 +5469,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "c2091fb321a13c1c213c02978fefc52d"
+        "md5": "7c3bbd1d32c6b6219e478d5e6b46f276"
       }
     },
     "tokenize": {
@@ -5521,7 +5521,7 @@
         "depparse": "hdtb_charlm"
       }
     },
-    "default_md5": "93fada6a6100ce0d260199375b9245a5",
+    "default_md5": "affe1c72fe13440f4236e9222b338d76",
     "lang_name": "Hindi"
   },
   "hindi": {
@@ -5794,7 +5794,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "644c82e3c1f229e4b1a2133b5e55cb0d"
+        "md5": "d26546e006eb561879df535b279e5909"
       }
     },
     "tokenize": {
@@ -5852,7 +5852,7 @@
         "depparse": "gsd_charlm"
       }
     },
-    "default_md5": "b94134cf6a2bf60ce2f81ef33a7d3816",
+    "default_md5": "890f5d892f95c982bd24ad6f735d3967",
     "lang_name": "Indonesian"
   },
   "indonesian": {
@@ -6825,7 +6825,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "2f943c498d445acc071f5a0f45613b2c"
+        "md5": "19239816c9013d8606623b52275e6a93"
       }
     },
     "tokenize": {
@@ -6947,7 +6947,7 @@
         "depparse": "vit_charlm"
       }
     },
-    "default_md5": "9bc3d90d84de77741555a8c041882892",
+    "default_md5": "7844db1b7d09f28737caeb50c52fddfa",
     "lang_name": "Italian"
   },
   "italian": {
@@ -7231,7 +7231,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "0beeefcf5de352e0072f9c3b317f9046"
+        "md5": "d97f8b0f95c92f3f8cb325eedd253d5f"
       }
     },
     "tokenize": {
@@ -7287,7 +7287,7 @@
         "depparse": "gsdluw_charlm"
       }
     },
-    "default_md5": "463acf1d97dad3d1150c36f12a98cc00",
+    "default_md5": "633aae1c35eb5c2450afc1026d6d694f",
     "lang_name": "Japanese"
   },
   "japanese": {
@@ -7404,7 +7404,7 @@
     },
     "pretrain": {
       "fasttext157": {
-        "md5": "44963a29fb30ca13687fd3a38ea58d50"
+        "md5": "52e7e5422d13ec85434ec270901feed2"
       }
     },
     "tokenize": {
@@ -7453,7 +7453,7 @@
         "depparse": "ktb_charlm"
       }
     },
-    "default_md5": "0f6610879db4bd6f0b0349e607480d29",
+    "default_md5": "90fbeabd434f83847a37a042fcf0bc0e",
     "lang_name": "Kazakh"
   },
   "kazakh": {
@@ -7620,13 +7620,13 @@
     },
     "pretrain": {
       "fasttext": {
-        "md5": "f7b53a8e25ad703cf00ac32cb43dd563"
+        "md5": "af3307166b73ff53e03c6d72530fc7eb"
       },
       "fasttextwiki": {
-        "md5": "d441a66702b42d407d8699f3b06c8749"
+        "md5": "fbd44300b7d6824476f63844677ed08e"
       },
       "l3cube": {
-        "md5": "f6b364fc9c9cbf2a540fa59ab86237a1"
+        "md5": "4096c13f8593cd4c37869ec61db6d679"
       }
     },
     "sentiment": {
@@ -7715,7 +7715,7 @@
         "depparse": "ufal_charlm"
       }
     },
-    "default_md5": "428075b6a7b39913efd20fa9ea099225",
+    "default_md5": "a34db789b76387459de034ff132afeea",
     "lang_name": "Marathi"
   },
   "marathi": {
@@ -7753,7 +7753,7 @@
     },
     "pretrain": {
       "ucsy": {
-        "md5": "7ad512db7951d34c84579e94e1ff0a0e"
+        "md5": "346cf807f3d9b1b77c1861942cccf9c6"
       }
     },
     "tokenize": {
@@ -7782,7 +7782,7 @@
         "tokenize": "alt"
       }
     },
-    "default_md5": "3a55e9136dfd52152c22a349c01accc0",
+    "default_md5": "8fc67e8c6cd3117c5fdd1408bdb3bc44",
     "lang_name": "Myanmar"
   },
   "myanmar": {
@@ -7899,7 +7899,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "0644a6035c6e2000e6e7b8bc12600744"
+        "md5": "1b064182a7da20699a0c74202a9380d1"
       }
     },
     "tokenize": {
@@ -7955,7 +7955,7 @@
         "depparse": "bokmaal_charlm"
       }
     },
-    "default_md5": "44d825add5f6aae6ba65f59b6a37b17a",
+    "default_md5": "aa7e19bf1de67dfd961c461ba37e32d9",
     "lang_name": "Norwegian"
   },
   "norwegian": {
@@ -8157,10 +8157,10 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "5ecf0e242bffb4691b13347041630e2b"
+        "md5": "d1a7fc0a5aec7a6bbab6238eecb1952c"
       },
       "fasttextwiki": {
-        "md5": "d7ce27bf7c97b4517f4c55c7e4ed19a0"
+        "md5": "a6c03147bd10f0bdb72861072cef1966"
       }
     },
     "tokenize": {
@@ -8218,7 +8218,7 @@
         "depparse": "lassysmall_charlm"
       }
     },
-    "default_md5": "ddf66c9df3d0fada43facc286b6ab8c5",
+    "default_md5": "bb2ea741e2e79f1d2ed594c614c50587",
     "lang_name": "Dutch"
   },
   "dutch": {
@@ -8493,7 +8493,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "818851bc41b722956456608ceb00483b"
+        "md5": "3add7611e6f189792beea76ea4df239a"
       }
     },
     "tokenize": {
@@ -8563,7 +8563,7 @@
         "depparse": "pdb_charlm"
       }
     },
-    "default_md5": "cb69c87f5921248be47a97c844550f5c",
+    "default_md5": "c3810aed44d2a5829b0066ea5dd593bf",
     "lang_name": "Polish"
   },
   "polish": {
@@ -9046,7 +9046,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "824f0b77cc8581fa278264a10d5daf5c"
+        "md5": "1f4813f3fcd462b0dd7d1b434068d78e"
       }
     },
     "tokenize": {
@@ -9124,7 +9124,7 @@
         "depparse": "petrogold_charlm"
       }
     },
-    "default_md5": "5a1038d1fa8c21d22659889f269d2adc",
+    "default_md5": "03c4ef640e675f28bfe9abed3b9a4b93",
     "lang_name": "Portuguese"
   },
   "portuguese": {
@@ -9377,10 +9377,10 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "1d66614fa07429134303bca2d41a2aed"
+        "md5": "90ec34f2523f0df0fc057830abf24004"
       },
       "fasttextwiki": {
-        "md5": "f522577c5abfcd594778fee306ddd24b"
+        "md5": "c8ae0993bdfbf7d8bd4321e1786a8fb7"
       }
     },
     "tokenize": {
@@ -9454,7 +9454,7 @@
         "depparse": "taiga_charlm"
       }
     },
-    "default_md5": "e816793b597c926efbee302484ee67b0",
+    "default_md5": "fea4a1edc4d69c42bb25445b8c8bf490",
     "lang_name": "Russian"
   },
   "russian": {
@@ -9564,7 +9564,7 @@
     },
     "pretrain": {
       "isra": {
-        "md5": "b1c536ef356c60c4c37100a3365933b3"
+        "md5": "b978168fbf11e14b0a101a4e1f22aa40"
       }
     },
     "tokenize": {
@@ -9608,7 +9608,7 @@
         "depparse": "isra_charlm"
       }
     },
-    "default_md5": "52881e829b4d3536e6aa3ab4d14cb254",
+    "default_md5": "d62310ff07950abf9dea844a01929b61",
     "lang_name": "Sindhi"
   },
   "sindhi": {
@@ -9821,7 +9821,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "8ee65115765960ea7d1053b674888a1a"
+        "md5": "cd03cc725d0adac48b4015dab2930739"
       }
     },
     "tokenize": {
@@ -9874,7 +9874,7 @@
         "depparse": "talbanken_charlm"
       }
     },
-    "default_md5": "390c48c3474a7c7b8354aec38c0d563d",
+    "default_md5": "77a8c4ab51e243e8ad20857b775dd5b4",
     "lang_name": "Swedish"
   },
   "swedish": {
@@ -9949,7 +9949,7 @@
     },
     "pretrain": {
       "fasttextwiki": {
-        "md5": "1eb74f3bb37919e379adf0ef19cf1944"
+        "md5": "def65fdf8873834818f7a69a68fc682e"
       }
     },
     "tokenize": {
@@ -9989,7 +9989,7 @@
         "depparse": "mtg_charlm"
       }
     },
-    "default_md5": "f3760f538d783bb522d38b956aaeed48",
+    "default_md5": "d4a74733868f5ab7f79321c4cf4946d0",
     "lang_name": "Telugu"
   },
   "telugu": {
@@ -10027,7 +10027,7 @@
     },
     "pretrain": {
       "fasttext157": {
-        "md5": "4033c4fb493e1c89ce2459e10e29d651"
+        "md5": "4a9ad51326ecc9c8cc2def3549f3b9c7"
       }
     },
     "tokenize": {
@@ -10056,7 +10056,7 @@
         "tokenize": "orchid"
       }
     },
-    "default_md5": "4e2ecefb74f36106154799e2ecc7df1c",
+    "default_md5": "61c3d840798066e035c2021a8544034e",
     "lang_name": "Thai"
   },
   "thai": {
@@ -10795,7 +10795,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "100b967c7423a65d00d97b53905b15b3"
+        "md5": "017bc3e83bc2a6742e5913b41b842823"
       }
     },
     "tokenize": {
@@ -10911,7 +10911,7 @@
         "depparse": "tourism_charlm"
       }
     },
-    "default_md5": "13c8d7e3e19b64554d4c2787f3a02cf7",
+    "default_md5": "b4c1b5a91384a3cac3239f4521a02c04",
     "lang_name": "Turkish"
   },
   "turkish": {
@@ -11028,7 +11028,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "1e5782c86ae68c3acf0cf1f28ff05286"
+        "md5": "b65b8e1d11ccebc5c1c61045d4e7dff1"
       }
     },
     "tokenize": {
@@ -11077,7 +11077,7 @@
         "depparse": "iu_charlm"
       }
     },
-    "default_md5": "f6acb060a5e8e0807eefeb9c6cb013f4",
+    "default_md5": "f6c512d0d484c896c6db70c38f80b642",
     "lang_name": "Ukrainian"
   },
   "ukrainian": {
@@ -11309,7 +11309,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "f44b045746bb003f105cfa8bea9e04d3"
+        "md5": "2b2387c30d7d03fa05e660c07171f10b"
       }
     },
     "sentiment": {
@@ -11396,7 +11396,7 @@
         "depparse": "vtb_charlm"
       }
     },
-    "default_md5": "43f78e528888c336888cb2157ea9c95d",
+    "default_md5": "32546f270870dc1e3d08443a6585b24b",
     "lang_name": "Vietnamese"
   },
   "vietnamese": {
@@ -11578,13 +11578,13 @@
     },
     "pretrain": {
       "fasttext157": {
-        "md5": "72a751d9ee9a98127bcc91e6e5d6d37b"
+        "md5": "3b46cf3bedd7f7df1e2d992ca0303e4d"
       },
       "fasttextwiki": {
-        "md5": "ab82486223ce1f69e8c6176c25c2af25"
+        "md5": "0bdae9706d241546b07ca00dc0391c67"
       },
       "fasttextwikinotrad": {
-        "md5": "0890c708d8e5ee4a5ad12ec4f45aff33"
+        "md5": "6fe7ef668e45cfb89f34b8a278d30910"
       }
     },
     "sentiment": {
@@ -11671,7 +11671,7 @@
         "depparse": "gsdsimp_charlm"
       }
     },
-    "default_md5": "c926c0b0ad67eaa0b09caee70430e14e",
+    "default_md5": "7d2198dabeabbb5464196a13980ff402",
     "lang_name": "Simplified_Chinese"
   },
   "simplified_chinese": {
@@ -11717,7 +11717,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "9b182a84a4af0dde910d620e85aa46b2"
+        "md5": "579ac2ff600729f47cc1a1f1f14f03e1"
       }
     },
     "tokenize": {
@@ -11774,7 +11774,7 @@
         "depparse": "ancora_nocharlm"
       }
     },
-    "default_md5": "01aeb37fa68117ead8e647b8deca797c",
+    "default_md5": "c11ca1298aad7e137c963236a55e8ff0",
     "lang_name": "Catalan"
   },
   "catalan": {
@@ -11892,7 +11892,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "8ad711ed05bc022d9d79e307421a1960"
+        "md5": "f160e5f3c1c62b56c1d73e480eb89a6f"
       }
     },
     "tokenize": {
@@ -11979,7 +11979,7 @@
         "depparse": "pdt_nocharlm"
       }
     },
-    "default_md5": "d06d8c4a3f487222cab0119f0a9e5d75",
+    "default_md5": "d9906578a7ecc233bd7dd651d564eee1",
     "lang_name": "Czech"
   },
   "czech": {
@@ -12031,7 +12031,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "f2583d6ed261ea896e94c7957e92babf"
+        "md5": "d710f2dc80610aadc497cf07e3dc6b33"
       }
     },
     "tokenize": {
@@ -12087,7 +12087,7 @@
         "depparse": "nynorsk_nocharlm"
       }
     },
-    "default_md5": "c5174a62212ad39699541230203281e6",
+    "default_md5": "e94004030bf8849bd05f003e871d59d2",
     "lang_name": "Norwegian_Nynorsk"
   },
   "norwegian_nynorsk": {
@@ -12123,7 +12123,7 @@
     },
     "pretrain": {
       "fasttextwiki": {
-        "md5": "02d2409b5735ec62617feccc70a64b06"
+        "md5": "5f8aa196de404a48ef4957af4fa9a403"
       }
     },
     "tokenize": {
@@ -12163,7 +12163,7 @@
         "depparse": "hse_nocharlm"
       }
     },
-    "default_md5": "600178e4bbae3ff1c6d6e39a88787100",
+    "default_md5": "91c7c563e3fc9e6232b95f6b5e45f1be",
     "lang_name": "Belarusian"
   },
   "belarusian": {
@@ -12199,7 +12199,7 @@
     },
     "pretrain": {
       "fasttextwiki": {
-        "md5": "6c11a27a56e71f84b851be10c38edf93"
+        "md5": "a4aa88a250c733a4ae33da5ff8bd621d"
       }
     },
     "tokenize": {
@@ -12239,7 +12239,7 @@
         "depparse": "bdt_nocharlm"
       }
     },
-    "default_md5": "6479dd157079fe5725e1c9eb5954f98d",
+    "default_md5": "71be7ff1a55c9d5837c70a9784f79126",
     "lang_name": "Buryat"
   },
   "buryat": {
@@ -12327,7 +12327,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "68a8ee650cabd88f4d66656911d71554"
+        "md5": "e93c8cfafcbdeb35622f3b8d6905d218"
       }
     },
     "tokenize": {
@@ -12367,7 +12367,7 @@
         "depparse": "proiel_nocharlm"
       }
     },
-    "default_md5": "5bf8dac1271126ca1cabe9ed995935e9",
+    "default_md5": "c00978b4f9b62e2cb2475f40a7d7b702",
     "lang_name": "Old_Church_Slavonic"
   },
   "old_church_slavonic": {
@@ -12408,7 +12408,7 @@
     },
     "pretrain": {
       "fasttext157": {
-        "md5": "a0348b982fd2feb5bdbf650d1f1d85c9"
+        "md5": "08b4238bbb59d2eaa8b185a9e5335ee4"
       }
     },
     "tokenize": {
@@ -12453,7 +12453,7 @@
         "depparse": "ccg_nocharlm"
       }
     },
-    "default_md5": "5edc0e65548c37df3efaf469647f1147",
+    "default_md5": "50ed42ba1f5456e29994bc1545f7f6da",
     "lang_name": "Welsh"
   },
   "welsh": {
@@ -12515,7 +12515,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "bbc74dbf3a63fac138b11361022f30cb"
+        "md5": "e2e6c2b878eac46e4a66d810003df0ee"
       }
     },
     "tokenize": {
@@ -12569,7 +12569,7 @@
         "depparse": "gud_nocharlm"
       }
     },
-    "default_md5": "7e4343d48b2884c19afee6f71aa80d16",
+    "default_md5": "6537d5a50026ab84b91fa50f8a71d3c8",
     "lang_name": "Greek"
   },
   "greek": {
@@ -12626,7 +12626,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "853fb46337b0ecd96197d393bbff1901"
+        "md5": "64cbf73e129f9894e943deab62a16785"
       }
     },
     "tokenize": {
@@ -12675,7 +12675,7 @@
         "depparse": "ewt_nocharlm"
       }
     },
-    "default_md5": "17fb3f3f454ebbbd3157e2e161c4a420",
+    "default_md5": "77d0dabd33e182ca6789a5a58a423232",
     "lang_name": "Estonian"
   },
   "estonian": {
@@ -12711,7 +12711,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "bcbc0b4bba5f7630d830552fd64378b9"
+        "md5": "c13895f6dd86dbed5798a35a6b39e13f"
       }
     },
     "tokenize": {
@@ -12751,7 +12751,7 @@
         "depparse": "bdt_nocharlm"
       }
     },
-    "default_md5": "b47301475b2313ccc279a2f704886c63",
+    "default_md5": "7c37365c77b238d4a810f8fec07b3705",
     "lang_name": "Basque"
   },
   "basque": {
@@ -12787,7 +12787,7 @@
     },
     "pretrain": {
       "fasttextwiki": {
-        "md5": "06ef499dcf62ba735e100c845878b519"
+        "md5": "b53e9208ca9188083e3eaa23e6f39912"
       }
     },
     "tokenize": {
@@ -12832,7 +12832,7 @@
         "depparse": "farpahc_nocharlm"
       }
     },
-    "default_md5": "35efa35e5f6e8c00794c1487ecc79339",
+    "default_md5": "82b8de0828e177acba0a0d7767d58aab",
     "lang_name": "Faroese"
   },
   "faroese": {
@@ -12868,7 +12868,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "452fce3b1d44f9ab278fbc312a534fe6"
+        "md5": "c5750f038a37a52fd692d5e014495fc7"
       }
     },
     "tokenize": {
@@ -12908,7 +12908,7 @@
         "depparse": "srcmf_nocharlm"
       }
     },
-    "default_md5": "177598d7a847b33bf34ee1b581bcb0e8",
+    "default_md5": "4c06fe6baf4bdd98437beb88a4c43f3e",
     "lang_name": "Old_French"
   },
   "old_french": {
@@ -12965,7 +12965,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "94962286e6da39fb0b551047c2f5659c"
+        "md5": "458fb6fbea17ba705dcb0ba3ea7994cf"
       }
     },
     "tokenize": {
@@ -13014,7 +13014,7 @@
         "depparse": "twittirish_nocharlm"
       }
     },
-    "default_md5": "f17fa80c7f59ece63b26bc5e1c488155",
+    "default_md5": "5b9d739ccf0559aaa8ac7ad5b6673822",
     "lang_name": "Irish"
   },
   "irish": {
@@ -13055,7 +13055,7 @@
     },
     "pretrain": {
       "fasttextwiki": {
-        "md5": "15aaf1e89c2f34cc4746d747ea8bef74"
+        "md5": "eb5ee8b5c23a32ccfd4aaead62f0e22b"
       }
     },
     "tokenize": {
@@ -13100,7 +13100,7 @@
         "depparse": "arcosg_nocharlm"
       }
     },
-    "default_md5": "8397e431dbd8e18129a48f26d2f1d6bc",
+    "default_md5": "2a1cf0fa311e5c1c058f9a67c500b84c",
     "lang_name": "Scottish_Gaelic"
   },
   "scottish_gaelic": {
@@ -13165,7 +13165,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "59f576a23b2f607939edb15e27809c75"
+        "md5": "c713f97a0be4b47fcfbcfacf05ef661f"
       }
     },
     "tokenize": {
@@ -13220,7 +13220,7 @@
         "depparse": "treegal_nocharlm"
       }
     },
-    "default_md5": "478796cdd2e750a4b209bab6052fb5f8",
+    "default_md5": "775dba0776066e4c27e668464525dc16",
     "lang_name": "Galician"
   },
   "galician": {
@@ -13256,7 +13256,7 @@
     },
     "pretrain": {
       "fasttextwiki": {
-        "md5": "cfbbfa0b6a081594a7902fa1d1dbf288"
+        "md5": "deca8dbc8d8bb5d98f8a33cee5c145a3"
       }
     },
     "tokenize": {
@@ -13296,7 +13296,7 @@
         "depparse": "proiel_nocharlm"
       }
     },
-    "default_md5": "5a97e36bc638a76adbdc7b1f2ab0c63c",
+    "default_md5": "de113b847d43684b1d2ede87d93e90fa",
     "lang_name": "Gothic"
   },
   "gothic": {
@@ -13371,7 +13371,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "257bb69b2c8b202fd1ec9fa97bccf7cb"
+        "md5": "7749bad72f415e51c7a94cb336d6d9fe"
       }
     },
     "tokenize": {
@@ -13420,7 +13420,7 @@
         "depparse": "proiel_nocharlm"
       }
     },
-    "default_md5": "7c3562a76f82045c92e8216c68ee00a0",
+    "default_md5": "14f1493751535af9cec2347c16f51b52",
     "lang_name": "Ancient_Greek"
   },
   "ancient_greek": {
@@ -13461,7 +13461,7 @@
     },
     "pretrain": {
       "fasttext157": {
-        "md5": "1b8a74322514c6ca0e790d1bef9f3393"
+        "md5": "1a20327135ccecbab08ff49569c74cfc"
       }
     },
     "tokenize": {
@@ -13506,7 +13506,7 @@
         "depparse": "cadhan_nocharlm"
       }
     },
-    "default_md5": "115a397536e2a5c91dd4f24791c24af2",
+    "default_md5": "6a4ad6e38e57a1f213413653f9a8bcf1",
     "lang_name": "Manx"
   },
   "manx": {
@@ -13547,7 +13547,7 @@
     },
     "pretrain": {
       "utah": {
-        "md5": "cbcff2dade0082954fe7f8115f272f0e"
+        "md5": "a997b798960f2ad384e3dc0dc73c4237"
       }
     },
     "tokenize": {
@@ -13592,7 +13592,7 @@
         "depparse": "ptnk_nocharlm"
       }
     },
-    "default_md5": "7d372abd9141ab4251e45754a0781b6d",
+    "default_md5": "65d5b64b3b976340500bd14eca6204f9",
     "lang_name": "Ancient_Hebrew"
   },
   "ancient_hebrew": {
@@ -13628,7 +13628,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "0dbe6e608a396bdda6ce4482231da77b"
+        "md5": "0dac2b3a6c3fbbb5d8ccdd5f1245a6f3"
       }
     },
     "tokenize": {
@@ -13668,7 +13668,7 @@
         "depparse": "set_nocharlm"
       }
     },
-    "default_md5": "717d7764654348ef7c8045e01915d1ed",
+    "default_md5": "72490e77a84a6efde583a1b49697e2ab",
     "lang_name": "Croatian"
   },
   "croatian": {
@@ -13704,7 +13704,7 @@
     },
     "pretrain": {
       "fasttextwiki": {
-        "md5": "04e53dcfbc1cfee880835177bb53fe36"
+        "md5": "8885818176b771a92b32b8e67f5e8683"
       }
     },
     "tokenize": {
@@ -13744,7 +13744,7 @@
         "depparse": "ufal_nocharlm"
       }
     },
-    "default_md5": "c76c9b1dbeea8e31dbe7e6184aaf89ea",
+    "default_md5": "679bde141cd134ac815ab14999ca36e6",
     "lang_name": "Upper_Sorbian"
   },
   "upper_sorbian": {
@@ -13791,7 +13791,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "fb06fa767a8b655c0763f3e1b61169de"
+        "md5": "8b6220b34af353ac656cf4cd8ef562a9"
       }
     },
     "tokenize": {
@@ -13835,7 +13835,7 @@
         "depparse": "szeged_nocharlm"
       }
     },
-    "default_md5": "b57dc0bdc0435634e4dad2fecf7c1232",
+    "default_md5": "06a9b41b204ef8f7424a4d7ab95519a9",
     "lang_name": "Hungarian"
   },
   "hungarian": {
@@ -13956,7 +13956,7 @@
     },
     "pretrain": {
       "isprasglove": {
-        "md5": "fbb56696bf5e355bf8aa6fd413f14a3e"
+        "md5": "581abc2b917a56a73c1d8f5bc4781e77"
       }
     },
     "tokenize": {
@@ -14015,7 +14015,7 @@
         "depparse": "bsut_nocharlm"
       }
     },
-    "default_md5": "939294e5be2f43d79789fd6f30bcacad",
+    "default_md5": "40806dfefe447bf519cd1fd29d2482d2",
     "lang_name": "Armenian"
   },
   "armenian": {
@@ -14056,7 +14056,7 @@
     },
     "pretrain": {
       "isprasglove": {
-        "md5": "fbb56696bf5e355bf8aa6fd413f14a3e"
+        "md5": "581abc2b917a56a73c1d8f5bc4781e77"
       }
     },
     "tokenize": {
@@ -14101,7 +14101,7 @@
         "depparse": "armtdp_nocharlm"
       }
     },
-    "default_md5": "5ebde722a2d79dc6141311646a82f185",
+    "default_md5": "f96320652fcb791499d357dd842307bb",
     "lang_name": "Western_Armenian"
   },
   "western_armenian": {
@@ -14187,7 +14187,7 @@
     },
     "pretrain": {
       "fasttext157": {
-        "md5": "b136e2e3baad0e8827e54dc001ed1254"
+        "md5": "48a6fe5901935e43103058d01dbaaab2"
       }
     },
     "tokenize": {
@@ -14251,7 +14251,7 @@
         "depparse": "modern_nocharlm"
       }
     },
-    "default_md5": "d39877be0fcf745c7a074fec95b7f6aa",
+    "default_md5": "ed9bb6c7b985ac42a9f1594cc855910b",
     "lang_name": "Icelandic"
   },
   "icelandic": {
@@ -14292,7 +14292,7 @@
     },
     "pretrain": {
       "fasttextwiki": {
-        "md5": "02c7fbbf73c5bb56277c89d090fdf6fa"
+        "md5": "65daa992e4631b1849a99a5a1b6f94dd"
       }
     },
     "tokenize": {
@@ -14337,7 +14337,7 @@
         "depparse": "mg_nocharlm"
       }
     },
-    "default_md5": "12536b7a5ac7504f16a8e1e3cdce9d87",
+    "default_md5": "82477921b3c13daad042d928861ac226",
     "lang_name": "Kurmanji"
   },
   "kurmanji": {
@@ -14394,7 +14394,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "81f5372a8da4e0662590d536bb3567d9"
+        "md5": "1e45fc3f98331287e4666ea120f2d8d5"
       }
     },
     "tokenize": {
@@ -14443,7 +14443,7 @@
         "depparse": "kaist_nocharlm"
       }
     },
-    "default_md5": "bba053753d9ef1a72e9b629cf40d55b7",
+    "default_md5": "e56ad3dc0d3448ed529fd0297c4c4820",
     "lang_name": "Korean"
   },
   "korean": {
@@ -14479,7 +14479,7 @@
     },
     "pretrain": {
       "fasttext157": {
-        "md5": "2359bbb3a3bea831260eae7c75256b92"
+        "md5": "e52bf293cf6e432370e2e703d22b8b49"
       }
     },
     "tokenize": {
@@ -14519,7 +14519,7 @@
         "depparse": "ktmu_nocharlm"
       }
     },
-    "default_md5": "15bca8a8ad4e170522de33103e45045c",
+    "default_md5": "2d0e712469d89d0fdceade16dfff047e",
     "lang_name": "Kyrgyz"
   },
   "kyrgyz": {
@@ -14647,7 +14647,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "b0b11dcc2eeb059ef336885c813b6cfc"
+        "md5": "f2239cb9b18a7af9afdb8319a21dce96"
       }
     },
     "tokenize": {
@@ -14725,7 +14725,7 @@
         "depparse": "udante_nocharlm"
       }
     },
-    "default_md5": "f87b537cc92a337429340cac54e5562a",
+    "default_md5": "008fc6f44b9db611fdd9a4f5418179fb",
     "lang_name": "Latin"
   },
   "latin": {
@@ -14766,7 +14766,7 @@
     },
     "pretrain": {
       "fasttextwiki": {
-        "md5": "3d08342f3c6e7719c9f72ce58197afed"
+        "md5": "bb10c614aa52492ec7d772f8149bb5db"
       }
     },
     "tokenize": {
@@ -14811,7 +14811,7 @@
         "depparse": "glt_nocharlm"
       }
     },
-    "default_md5": "7fba22a28d29e3d6bcecd57f9e562ac1",
+    "default_md5": "2c5ecd3bfeba4ab3e97c44b04e0abce5",
     "lang_name": "Ligurian"
   },
   "ligurian": {
@@ -14868,7 +14868,7 @@
     },
     "pretrain": {
       "fasttextwiki": {
-        "md5": "89420a04d9c0b31feb5598e17eb52f8f"
+        "md5": "cb7531bcada60047e1096ed6981f8b06"
       }
     },
     "tokenize": {
@@ -14917,7 +14917,7 @@
         "depparse": "hse_nocharlm"
       }
     },
-    "default_md5": "3b1725c28eeed0cdf734bd92ec82f927",
+    "default_md5": "0ec9b8ccb68a329a1c1add8a13a0fa15",
     "lang_name": "Lithuanian"
   },
   "lithuanian": {
@@ -14953,7 +14953,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "4578c380a29123207a3367bd3f69e34c"
+        "md5": "b97b469ceaee4023cb05fbbc4d485456"
       }
     },
     "tokenize": {
@@ -14993,7 +14993,7 @@
         "depparse": "lvtb_nocharlm"
       }
     },
-    "default_md5": "09845dcb83c249649618cd8815380db2",
+    "default_md5": "882b7b2c980ae1e6f49cb78cb903bdfa",
     "lang_name": "Latvian"
   },
   "latvian": {
@@ -15029,7 +15029,7 @@
     },
     "pretrain": {
       "fasttextwiki": {
-        "md5": "b2c50e236a01c2595fc978a2fa6d6a14"
+        "md5": "a6783c5daec6aff90b3ac055528061fc"
       }
     },
     "tokenize": {
@@ -15069,7 +15069,7 @@
         "depparse": "kyoto_nocharlm"
       }
     },
-    "default_md5": "81dc890e5269c712b994b4abf5bcbf49",
+    "default_md5": "530572670dcdbd8c3ca2d889b90d02de",
     "lang_name": "Classical_Chinese"
   },
   "classical_chinese": {
@@ -15100,7 +15100,7 @@
     },
     "pretrain": {
       "fasttextwiki": {
-        "md5": "eb34f59396a864c518458e9f1deece2f"
+        "md5": "44200aaf9566b28c14c02915acccccd4"
       }
     },
     "tokenize": {
@@ -15140,7 +15140,7 @@
         "depparse": "mudt_nocharlm"
       }
     },
-    "default_md5": "e38630a34a8797a68525f38403b867a6",
+    "default_md5": "474a75991979c1c2962a08ffd050b117",
     "lang_name": "Maltese"
   },
   "maltese": {
@@ -15181,7 +15181,7 @@
     },
     "pretrain": {
       "mokha": {
-        "md5": "7a62bd51d1fc3454ce3ae695ff6a9061"
+        "md5": "20871b25ccde7a7ba491f14495df1d64"
       }
     },
     "tokenize": {
@@ -15226,7 +15226,7 @@
         "depparse": "jr_nocharlm"
       }
     },
-    "default_md5": "233b6eb031e32aa70e2b16581ba3b9ec",
+    "default_md5": "afb731a848ce134fb2073cad33afa099",
     "lang_name": "Erzya"
   },
   "erzya": {
@@ -15570,7 +15570,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "06202f67846eee4273d5e0c56ca2c11f"
+        "md5": "26a20b956414a9772416cefd32665009"
       }
     },
     "tokenize": {
@@ -15628,7 +15628,7 @@
         "depparse": "simonero_nocharlm"
       }
     },
-    "default_md5": "3cc8094fe5bb8251325fff6a913168ac",
+    "default_md5": "617bd6e1feac8e3939cdde4dd13924e5",
     "lang_name": "Romanian"
   },
   "romanian": {
@@ -15664,7 +15664,7 @@
     },
     "pretrain": {
       "fasttext157": {
-        "md5": "21f562a2707551b29712297d1161b249"
+        "md5": "3bea295e78bf18780df264d60c44791f"
       }
     },
     "tokenize": {
@@ -15704,7 +15704,7 @@
         "depparse": "vedic_nocharlm"
       }
     },
-    "default_md5": "ae58555dcc4ebb63e32ea4b3943b5d3f",
+    "default_md5": "2212826fbad5ef1a48bcebd79e6c38fb",
     "lang_name": "Sanskrit"
   },
   "sanskrit": {
@@ -15745,7 +15745,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "4cb6d7907323f62add13fc6f090e65ec"
+        "md5": "e1769f7a4b1e00174afd2da46ee55a71"
       }
     },
     "tokenize": {
@@ -15790,7 +15790,7 @@
         "depparse": "snk_nocharlm"
       }
     },
-    "default_md5": "7c1a4cbbe898b84425d37bf4640d46d2",
+    "default_md5": "90b5be7d6d6cf09f4b35f43e13517857",
     "lang_name": "Slovak"
   },
   "slovak": {
@@ -15847,7 +15847,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "b18766b37b8e08d6036cbaca24f35e83"
+        "md5": "b3174a89d3ae2d902fe78cdc0b2b9b88"
       }
     },
     "tokenize": {
@@ -15896,7 +15896,7 @@
         "depparse": "sst_nocharlm"
       }
     },
-    "default_md5": "38a7d7e30a40e9fe7699da8584b1218f",
+    "default_md5": "1677c2391cd80892c595f0052decb0c3",
     "lang_name": "Slovenian"
   },
   "slovenian": {
@@ -15932,7 +15932,7 @@
     },
     "pretrain": {
       "fasttextwiki": {
-        "md5": "00eb9481aed292d0befe3d75270a8593"
+        "md5": "fc3376fd160174f29c4a3ad06d4ffa2a"
       }
     },
     "tokenize": {
@@ -15972,7 +15972,7 @@
         "depparse": "giella_nocharlm"
       }
     },
-    "default_md5": "4370cce1845527801b9d6a4fe28d416d",
+    "default_md5": "49e7431c011d99fcc89ee0cb15d3b8f3",
     "lang_name": "North_Sami"
   },
   "north_sami": {
@@ -16011,7 +16011,7 @@
     },
     "pretrain": {
       "fasttextwiki": {
-        "md5": "7aa7f383bc1f3fd6d08da380aaf8d3d1"
+        "md5": "dac3c858435ae7c61caed93278e6fca6"
       }
     },
     "tokenize": {
@@ -16051,7 +16051,7 @@
         "depparse": "set_nocharlm"
       }
     },
-    "default_md5": "041f9d635a5543d062ab223a5966b312",
+    "default_md5": "ccefd1f30ae35e434c9066b83c1f9f75",
     "lang_name": "Serbian"
   },
   "serbian": {
@@ -16110,7 +16110,7 @@
     },
     "pretrain": {
       "fasttextwiki": {
-        "md5": "a71735f272ae44c6611feafa286eb732"
+        "md5": "d475bb2789f23acc1c9a7a0a46f654d2"
       }
     },
     "tokenize": {
@@ -16155,7 +16155,7 @@
         "depparse": "ttb_nocharlm"
       }
     },
-    "default_md5": "65f571ee9825f1d8e5f8dd564d0d087d",
+    "default_md5": "522fa832012ef8b0dd6ace214e6ebedd",
     "lang_name": "Tamil"
   },
   "tamil": {
@@ -16191,7 +16191,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "2c6fe68b7931b6d2dbe2ea7d16cd1422"
+        "md5": "1273d4c95e90e96cfdc5a180542e79c3"
       }
     },
     "tokenize": {
@@ -16231,7 +16231,7 @@
         "depparse": "udt_nocharlm"
       }
     },
-    "default_md5": "d28a4aa69255c39a69c11d83650c8165",
+    "default_md5": "bb4bcef59a5996592200a524fddedb2d",
     "lang_name": "Uyghur"
   },
   "uyghur": {
@@ -16267,7 +16267,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "9ff1cb9bc52c9438482521e6928732a7"
+        "md5": "4961c632a2c3eca40a43202edbc373ee"
       }
     },
     "tokenize": {
@@ -16307,7 +16307,7 @@
         "depparse": "udtb_nocharlm"
       }
     },
-    "default_md5": "ddbbc447f18509152faea3e29aa7ae90",
+    "default_md5": "a51c59ab1b13da3b6021d8461d460db6",
     "lang_name": "Urdu"
   },
   "urdu": {
@@ -16348,7 +16348,7 @@
     },
     "pretrain": {
       "fasttextwiki": {
-        "md5": "b70201231da7946362208588af5a784a"
+        "md5": "51e560dfb19a8b1cc3b3d1d193a8a7d6"
       }
     },
     "tokenize": {
@@ -16393,7 +16393,7 @@
         "depparse": "wtb_nocharlm"
       }
     },
-    "default_md5": "f77509f3330c7c9978ab21d0753d5e38",
+    "default_md5": "c534988ffee2dec48cff484d1bac07d2",
     "lang_name": "Wolof"
   },
   "wolof": {
@@ -16437,7 +16437,7 @@
     },
     "pretrain": {
       "caval": {
-        "md5": "e3013e40aec98517f103b9eb702d1669"
+        "md5": "d5f25e5631a21f7cd1c2355fbba6fd75"
       }
     },
     "tokenize": {
@@ -16482,7 +16482,7 @@
         "depparse": "caval_nocharlm"
       }
     },
-    "default_md5": "6dd8b1ae7a655d4aada9ff95719ef9c7",
+    "default_md5": "dc1e5b5def38cabc531246c61d090a26",
     "lang_name": "Classical_Armenian"
   },
   "classical_armenian": {
@@ -16518,7 +16518,7 @@
     },
     "pretrain": {
       "conll17": {
-        "md5": "f0ed6e0f68ce5727fd4e75cd25023bb6"
+        "md5": "f20786c7fda03274e6368fd36650e482"
       }
     },
     "tokenize": {
@@ -16558,7 +16558,7 @@
         "depparse": "gsd_nocharlm"
       }
     },
-    "default_md5": "10cd0da65eaf5fc5eb4dd1fc7dd1eeee",
+    "default_md5": "6ab946c76d0edf208aff9ea972154084",
     "lang_name": "Traditional_Chinese"
   },
   "traditional_chinese": {
