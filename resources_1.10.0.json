@@ -16586,6 +16586,17 @@
   "low_saxon": {
     "alias": "nds"
   },
+  "kpv": {
+    "pretrain": {
+      "fasttextwiki": {
+        "md5": "f68c8815314f396b3ae9d96d9d70db96"
+      }
+    },
+    "lang_name": "Komi_Zyrian"
+  },
+  "komi_zyrian": {
+    "alias": "kpv"
+  },
   "no": {
     "alias": "nb"
   },
