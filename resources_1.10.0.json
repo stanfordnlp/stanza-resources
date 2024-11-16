@@ -16575,6 +16575,17 @@
   "albanian": {
     "alias": "sq"
   },
+  "nds": {
+    "pretrain": {
+      "fasttext157": {
+        "md5": "bbd7596d97d857f22aa0da57f1d2e86d"
+      }
+    },
+    "lang_name": "Low_Saxon"
+  },
+  "low_saxon": {
+    "alias": "nds"
+  },
   "no": {
     "alias": "nb"
   },
