@@ -16564,6 +16564,17 @@
   "traditional_chinese": {
     "alias": "zh-hant"
   },
+  "sq": {
+    "pretrain": {
+      "fasttext157": {
+        "md5": "6ab10e04803ea7b9d33674c02d87db3c"
+      }
+    },
+    "lang_name": "Albanian"
+  },
+  "albanian": {
+    "alias": "sq"
+  },
   "no": {
     "alias": "nb"
   },
