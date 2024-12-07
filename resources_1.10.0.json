@@ -16597,6 +16597,17 @@
   "komi_zyrian": {
     "alias": "kpv"
   },
+  "ka": {
+    "pretrain": {
+      "fasttext157": {
+        "md5": "2fa037f4cc4780976cce1fe5184b8039"
+      }
+    },
+    "lang_name": "Georgian"
+  },
+  "georgian": {
+    "alias": "ka"
+  },
   "no": {
     "alias": "nb"
   },
