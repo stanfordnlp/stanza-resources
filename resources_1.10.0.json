@@ -16608,6 +16608,17 @@
   "georgian": {
     "alias": "ka"
   },
+  "ota": {
+    "pretrain": {
+      "conll17": {
+        "md5": "4c5c0ae24a2e5e0059c40b52617c8699"
+      }
+    },
+    "lang_name": "Ottoman_Turkish"
+  },
+  "ottoman_turkish": {
+    "alias": "ota"
+  },
   "no": {
     "alias": "nb"
   },
