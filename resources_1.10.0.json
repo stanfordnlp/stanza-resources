@@ -4496,12 +4496,29 @@
       }
     },
     "ner": {
-      "wikiner": {
-        "md5": "f7119cb29562e5fe18c44db286aa2d3f",
+      "wikinergold_camembert-large": {
+        "md5": "8153ea78286e12a28ea8f13769f2c0d4",
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "fasttextwiki"
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
+      },
+      "wikinergold_charlm": {
+        "md5": "56330843300178f593d079cc964a81af",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -4808,7 +4825,7 @@
       "lemma": "combined_nocharlm",
       "pos": "combined_charlm",
       "depparse": "combined_charlm",
-      "ner": "wikiner",
+      "ner": "wikinergold_charlm",
       "optional": {
         "coref": "udcoref_xlm-roberta-lora"
       }
@@ -4820,7 +4837,7 @@
         "lemma": "combined_nocharlm",
         "pos": "combined_charlm",
         "depparse": "combined_charlm",
-        "ner": "wikiner",
+        "ner": "wikinergold_charlm",
         "optional": {
           "coref": "udcoref_xlm-roberta-lora"
         }
@@ -4831,7 +4848,7 @@
         "lemma": "combined_nocharlm",
         "pos": "combined_nocharlm",
         "depparse": "combined_nocharlm",
-        "ner": "wikiner",
+        "ner": "wikinergold_charlm",
         "optional": {
           "coref": "udcoref_xlm-roberta-lora"
         }
@@ -4842,7 +4859,7 @@
         "lemma": "combined_charlm",
         "pos": "combined_camembert-large",
         "depparse": "combined_camembert-large",
-        "ner": "wikiner",
+        "ner": "wikinergold_charlm",
         "optional": {
           "coref": "udcoref_xlm-roberta-lora"
         }
@@ -4890,7 +4907,7 @@
         "depparse": "sequoia_charlm"
       }
     },
-    "default_md5": "1bdf5c93384407395d33f6523cdf9114",
+    "default_md5": "efd255d7aad8c9a12709b34ba8af68a9",
     "lang_name": "French"
   },
   "french": {
