@@ -4859,7 +4859,7 @@
         "lemma": "combined_charlm",
         "pos": "combined_camembert-large",
         "depparse": "combined_camembert-large",
-        "ner": "wikinergold_charlm",
+        "ner": "wikinergold_camembert-large",
         "optional": {
           "coref": "udcoref_xlm-roberta-lora"
         }
