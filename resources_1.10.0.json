@@ -6847,7 +6847,7 @@
     },
     "tokenize": {
       "combined": {
-        "md5": "e1cab7a44f21a8c8e1651174fd58d00a"
+        "md5": "f899329597f1e3fd9930328aa03b1902"
       },
       "isdt": {
         "md5": "79f06f81bfdb6f79394995092a876a5a"
@@ -6964,7 +6964,7 @@
         "depparse": "vit_charlm"
       }
     },
-    "default_md5": "396d5f4534b6c7046ed5ba7646e83a4d",
+    "default_md5": "b499c0b81e83d7221d40a2d9a8d3a85b",
     "lang_name": "Italian"
   },
   "italian": {
