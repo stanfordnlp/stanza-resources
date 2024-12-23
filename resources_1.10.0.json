@@ -1899,7 +1899,7 @@
         "md5": "4a39c9a7302efd0bd5a1b82eb28bfb3d"
       },
       "combined_charlm": {
-        "md5": "1930f155e83a8e3cf6199197aec4eb36",
+        "md5": "08e6c0415a3554525935db69c06bfa4f",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -4349,7 +4349,7 @@
     },
     "lemma": {
       "combined_charlm": {
-        "md5": "4694e6e070f19bfa5d32921420355d1f",
+        "md5": "47aca11b01fc6e40d9c1a2d4c2473248",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -4362,7 +4362,7 @@
         ]
       },
       "combined_nocharlm": {
-        "md5": "d9faceb906437b554af1aac9aba7980d"
+        "md5": "00e55175ae3c0f14fe0da7598a91f978"
       },
       "gsd_charlm": {
         "md5": "fcdc2d44d6fe4a5af5a412993463acfe",
@@ -4877,7 +4877,7 @@
         "depparse": "sequoia_charlm"
       }
     },
-    "default_md5": "64da875c6e9599d90ced55f8a6895180",
+    "default_md5": "28925c31f7344df0e6d37760642393aa",
     "lang_name": "French"
   },
   "french": {
@@ -5508,7 +5508,7 @@
     },
     "lemma": {
       "hdtb_charlm": {
-        "md5": "343e7d06fe2e05c680388aeed59b69e9",
+        "md5": "5f988ecce8b4d821cb58ae966b3a03be",
         "dependencies": [
           {
             "model": "forward_charlm",
