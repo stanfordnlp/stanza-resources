@@ -5511,6 +5511,10 @@
         "md5": "5f988ecce8b4d821cb58ae966b3a03be",
         "dependencies": [
           {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
             "model": "forward_charlm",
             "package": "oscar"
           },
