@@ -1902,6 +1902,10 @@
         "md5": "08e6c0415a3554525935db69c06bfa4f",
         "dependencies": [
           {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
             "model": "forward_charlm",
             "package": "1billion"
           },
