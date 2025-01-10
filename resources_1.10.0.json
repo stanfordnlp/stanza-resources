@@ -1011,6 +1011,49 @@
       }
     },
     "depparse": {
+      "combined_charlm": {
+        "md5": "e7add2464dac2971b972746d6cc7e7dd",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
+      },
+      "combined_german-nlp-electra": {
+        "md5": "95bb80aaa5cffab7fe47cc119daf5e17",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
+      },
+      "combined_nocharlm": {
+        "md5": "8016ba9251697b6ca02e32f40486209b",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
       "gsd_charlm": {
         "md5": "e7add2464dac2971b972746d6cc7e7dd",
         "dependencies": [
@@ -1104,6 +1147,22 @@
       }
     },
     "lemma": {
+      "combined_charlm": {
+        "md5": "73157851b07fac5145482e64f07c5254",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
+      },
+      "combined_nocharlm": {
+        "md5": "2e0a1163197545e9fc193529bdb79e02"
+      },
       "gsd_charlm": {
         "md5": "300f27032eee1a2a1780d3bdc34c23ea",
         "dependencies": [
@@ -1138,6 +1197,9 @@
       }
     },
     "mwt": {
+      "combined": {
+        "md5": "44a59d7602fd59a58428b80f39406cc5"
+      },
       "gsd": {
         "md5": "44a59d7602fd59a58428b80f39406cc5"
       },
@@ -1216,6 +1278,49 @@
       }
     },
     "pos": {
+      "combined_charlm": {
+        "md5": "a4fb1d205395ecaae38492a108cae871",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
+      },
+      "combined_german-nlp-electra": {
+        "md5": "ad917607fc958cae8eb4bfb590e459ae",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
+      },
+      "combined_nocharlm": {
+        "md5": "842dedfc356085d28b1b900f149789be",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
       "gsd_charlm": {
         "md5": "a4fb1d205395ecaae38492a108cae871",
         "dependencies": [
@@ -1365,6 +1470,9 @@
       }
     },
     "tokenize": {
+      "combined": {
+        "md5": "6b68a6487419418597c3a24f3b5f280a"
+      },
       "gsd": {
         "md5": "6b68a6487419418597c3a24f3b5f280a"
       },
@@ -1373,11 +1481,11 @@
       }
     },
     "default_processors": {
-      "tokenize": "gsd",
-      "mwt": "gsd",
-      "lemma": "gsd_nocharlm",
-      "pos": "gsd_charlm",
-      "depparse": "gsd_charlm",
+      "tokenize": "combined",
+      "mwt": "combined",
+      "lemma": "combined_nocharlm",
+      "pos": "combined_charlm",
+      "depparse": "combined_charlm",
       "ner": "germeval2014",
       "sentiment": "sb10k_charlm",
       "constituency": "spmrl_charlm",
@@ -1387,11 +1495,11 @@
     },
     "packages": {
       "default": {
-        "tokenize": "gsd",
-        "mwt": "gsd",
-        "lemma": "gsd_nocharlm",
-        "pos": "gsd_charlm",
-        "depparse": "gsd_charlm",
+        "tokenize": "combined",
+        "mwt": "combined",
+        "lemma": "combined_nocharlm",
+        "pos": "combined_charlm",
+        "depparse": "combined_charlm",
         "ner": "germeval2014",
         "sentiment": "sb10k_charlm",
         "constituency": "spmrl_charlm",
@@ -1400,11 +1508,11 @@
         }
       },
       "default_fast": {
-        "tokenize": "gsd",
-        "mwt": "gsd",
-        "lemma": "gsd_nocharlm",
-        "pos": "gsd_nocharlm",
-        "depparse": "gsd_nocharlm",
+        "tokenize": "combined",
+        "mwt": "combined",
+        "lemma": "combined_nocharlm",
+        "pos": "combined_nocharlm",
+        "depparse": "combined_nocharlm",
         "ner": "germeval2014",
         "sentiment": "sb10k_charlm",
         "optional": {
@@ -1412,17 +1520,24 @@
         }
       },
       "default_accurate": {
-        "tokenize": "gsd",
-        "mwt": "gsd",
-        "lemma": "gsd_charlm",
-        "pos": "gsd_german-nlp-electra",
-        "depparse": "gsd_german-nlp-electra",
+        "tokenize": "combined",
+        "mwt": "combined",
+        "lemma": "combined_charlm",
+        "pos": "combined_german-nlp-electra",
+        "depparse": "combined_german-nlp-electra",
         "ner": "germeval2014",
         "sentiment": "sb10k_german-nlp-electra",
         "constituency": "spmrl_german-nlp-electra",
         "optional": {
           "coref": "udcoref_xlm-roberta-lora"
         }
+      },
+      "combined": {
+        "tokenize": "combined",
+        "mwt": "combined",
+        "pos": "combined_charlm",
+        "lemma": "combined_nocharlm",
+        "depparse": "combined_charlm"
       },
       "gsd": {
         "tokenize": "gsd",
@@ -1439,7 +1554,7 @@
         "depparse": "hdt_charlm"
       }
     },
-    "default_md5": "db529d61c96b931c3689a325b9d85447",
+    "default_md5": "4c6a544306d30e0ab0595ab74f7bfa15",
     "lang_name": "German"
   },
   "german": {
