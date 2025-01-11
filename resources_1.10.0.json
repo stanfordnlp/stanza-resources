@@ -1148,7 +1148,7 @@
     },
     "lemma": {
       "combined_charlm": {
-        "md5": "73157851b07fac5145482e64f07c5254",
+        "md5": "863bd98c212e717ce0199c514a1b6d94",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -1161,7 +1161,7 @@
         ]
       },
       "combined_nocharlm": {
-        "md5": "2e0a1163197545e9fc193529bdb79e02"
+        "md5": "778a491ec01817141e91425696fe10a5"
       },
       "gsd_charlm": {
         "md5": "300f27032eee1a2a1780d3bdc34c23ea",
@@ -1554,7 +1554,7 @@
         "depparse": "hdt_charlm"
       }
     },
-    "default_md5": "4c6a544306d30e0ab0595ab74f7bfa15",
+    "default_md5": "8624e2e4c5b90aa847b7deb24ebb9a08",
     "lang_name": "German"
   },
   "german": {
