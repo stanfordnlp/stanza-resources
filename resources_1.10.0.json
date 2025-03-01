@@ -17378,6 +17378,11 @@
     "alias": "sr"
   },
   "ta": {
+    "coref": {
+      "kbc_muril-large-cased-lora": {
+        "md5": "42c8cf4c894baddaf6c74bed6914d992"
+      }
+    },
     "depparse": {
       "ttb_muril-large-cased": {
         "md5": "d323ad9985a79b380870157b9be2c595",
@@ -17443,7 +17448,10 @@
       "mwt": "ttb",
       "lemma": "ttb_nocharlm",
       "pos": "ttb_nocharlm",
-      "depparse": "ttb_nocharlm"
+      "depparse": "ttb_nocharlm",
+      "optional": {
+        "coref": "kbc_muril-large-cased-lora"
+      }
     },
     "packages": {
       "default": {
@@ -17451,21 +17459,30 @@
         "mwt": "ttb",
         "lemma": "ttb_nocharlm",
         "pos": "ttb_nocharlm",
-        "depparse": "ttb_nocharlm"
+        "depparse": "ttb_nocharlm",
+        "optional": {
+          "coref": "kbc_muril-large-cased-lora"
+        }
       },
       "default_fast": {
         "tokenize": "ttb",
         "mwt": "ttb",
         "lemma": "ttb_nocharlm",
         "pos": "ttb_nocharlm",
-        "depparse": "ttb_nocharlm"
+        "depparse": "ttb_nocharlm",
+        "optional": {
+          "coref": "kbc_muril-large-cased-lora"
+        }
       },
       "default_accurate": {
         "tokenize": "ttb",
         "mwt": "ttb",
         "lemma": "ttb_nocharlm",
         "pos": "ttb_muril-large-cased",
-        "depparse": "ttb_muril-large-cased"
+        "depparse": "ttb_muril-large-cased",
+        "optional": {
+          "coref": "kbc_muril-large-cased-lora"
+        }
       },
       "ttb": {
         "tokenize": "ttb",
