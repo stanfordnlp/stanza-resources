@@ -1643,6 +1643,9 @@
       }
     },
     "coref": {
+      "gum_roberta-large-lora": {
+        "md5": "3779d50b05c70654daf7992e4e4146ec"
+      },
       "ontonotes-singletons_roberta-large-lora": {
         "md5": "a62e5a228f4f750ec060c34e2f30ab0c"
       },
