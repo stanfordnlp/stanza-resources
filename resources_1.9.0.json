@@ -16572,3 +16572,4 @@
   },
   "url": "https://huggingface.co/stanfordnlp/stanza-{lang}/resolve/v{resources_version}/models/{filename}"
 }
+
