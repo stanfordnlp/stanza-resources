@@ -14044,6 +14044,24 @@
   },
   "grc": {
     "depparse": {
+      "perseus-diacritics_grc-pranaydeeps": {
+        "md5": "15ac5fe3f9f24b302fda5c6a41c87280",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
+      "perseus-diacritics_nocharlm": {
+        "md5": "952e4bbfb1a59c767dc94984b836d250",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
       "perseus_grc-pranaydeeps": {
         "md5": "e399f7b2ba6d090651bacc79a1d1da57",
         "dependencies": [
@@ -14100,6 +14118,9 @@
       }
     },
     "lemma": {
+      "perseus-diacritics_nocharlm": {
+        "md5": "fcfeb20e3637a954216974de97a2db91"
+      },
       "perseus_nocharlm": {
         "md5": "1244829f0b77e534b6f186ef8aaef8d0"
       },
@@ -14116,6 +14137,24 @@
       }
     },
     "pos": {
+      "perseus-diacritics_grc-pranaydeeps": {
+        "md5": "163ad6ab971f9c87ac8a0f4b48e63a8b",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
+      "perseus-diacritics_nocharlm": {
+        "md5": "614b23724ac4409450af78de88d2a6ad",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
       "perseus_grc-pranaydeeps": {
         "md5": "f32e1de2f2003563a4065793120cc510",
         "dependencies": [
@@ -14177,6 +14216,9 @@
       }
     },
     "tokenize": {
+      "perseus-diacritics": {
+        "md5": "aa6ab6136c00b0a014f76991a9c88718"
+      },
       "perseus": {
         "md5": "03f28ac135b1e50d909233806fd13131"
       },
@@ -14211,6 +14253,12 @@
         "lemma": "perseus_nocharlm",
         "pos": "perseus_grc-pranaydeeps",
         "depparse": "perseus_grc-pranaydeeps"
+      },
+      "perseus-diacritics": {
+        "tokenize": "perseus-diacritics",
+        "pos": "perseus-diacritics_nocharlm",
+        "lemma": "perseus-diacritics_nocharlm",
+        "depparse": "perseus-diacritics_nocharlm"
       },
       "perseus": {
         "tokenize": "perseus",
