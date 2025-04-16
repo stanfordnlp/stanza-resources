@@ -10138,7 +10138,7 @@
         ]
       },
       "isra_muril-large-cased": {
-        "md5": "3f8716ccfb1b121f26e1b84ee907c743",
+        "md5": "9bbadbfb5157f092ae972606cf148d21",
         "dependencies": [
           {
             "model": "pretrain",
@@ -10198,7 +10198,7 @@
         ]
       },
       "isra_muril-large-cased": {
-        "md5": "ec17cd4c016e2c6cff540ef491b8620a",
+        "md5": "02ba955e693f7e5f5fd6a41c034f5c2c",
         "dependencies": [
           {
             "model": "pretrain",
