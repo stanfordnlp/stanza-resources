@@ -4474,7 +4474,7 @@
     },
     "lemma": {
       "combined_charlm": {
-        "md5": "47aca11b01fc6e40d9c1a2d4c2473248",
+        "md5": "3f7a8971d3bca548875f59fb115cab14",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -4628,7 +4628,7 @@
     },
     "pos": {
       "combined_camembert-large": {
-        "md5": "34bbf751a531031d0cacb75279f897d6",
+        "md5": "b66af3ee2322dd6ee17589fde4ad6e52",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4645,7 +4645,7 @@
         ]
       },
       "combined_charlm": {
-        "md5": "b0b39325042584f44ceb1b44f0d85a04",
+        "md5": "f881cb697c864600460739c08e00a443",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5002,7 +5002,7 @@
         "depparse": "sequoia_charlm"
       }
     },
-    "default_md5": "28925c31f7344df0e6d37760642393aa",
+    "default_md5": "87dc9a6bb6793a196b065aa23d437b23",
     "lang_name": "French"
   },
   "french": {
