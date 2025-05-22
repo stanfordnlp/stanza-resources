@@ -10654,6 +10654,42 @@
         "md5": "9fdf26a3480cc97e9e6564954c467f7f"
       }
     },
+    "depparse": {
+      "tud_charlm": {
+        "md5": "535ea5f94cadf3ea4d62099bbed0c9ab",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttext157"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
+      },
+      "tud_wangchanberta": {
+        "md5": "c48e3042b516f0b6c6bed3d48efd34d9",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttext157"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
+      }
+    },
     "forward_charlm": {
       "oscar": {
         "md5": "e9188e8942a4d8dafa1e2339973915d7"
@@ -10678,6 +10714,42 @@
         ]
       }
     },
+    "pos": {
+      "tud_charlm": {
+        "md5": "bd246e9bbe3a9aae44fd45fe2d256e30",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttext157"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
+      },
+      "tud_wangchanberta": {
+        "md5": "764d2c06d807e24699cfe8623a28ae11",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttext157"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
+      }
+    },
     "pretrain": {
       "fasttext157": {
         "md5": "5fbe6268d1d2f98daa0a4a6c447ff8f3"
@@ -10686,30 +10758,47 @@
     "tokenize": {
       "orchid": {
         "md5": "ffa4b44a0ecb6035d0815cb6bf7e5717"
+      },
+      "tud": {
+        "md5": "759b5a77ba44ad31d67428705bd3fcd8"
       }
     },
     "default_processors": {
-      "tokenize": "orchid",
+      "tokenize": "tud",
+      "pos": "tud_charlm",
+      "depparse": "tud_charlm",
       "ner": "lst20"
     },
     "packages": {
       "default": {
-        "tokenize": "orchid",
+        "tokenize": "tud",
+        "pos": "tud_charlm",
+        "depparse": "tud_charlm",
         "ner": "lst20"
       },
       "default_fast": {
-        "tokenize": "orchid",
+        "tokenize": "tud",
+        "pos": "tud_charlm",
+        "depparse": "tud_charlm",
         "ner": "lst20"
       },
       "default_accurate": {
-        "tokenize": "orchid",
+        "tokenize": "tud",
+        "pos": "tud_wangchanberta",
+        "depparse": "tud_wangchanberta",
         "ner": "lst20"
       },
       "orchid": {
         "tokenize": "orchid"
+      },
+      "tud": {
+        "tokenize": "tud",
+        "pos": "tud_charlm",
+        "lemma": "identity",
+        "depparse": "tud_charlm"
       }
     },
-    "default_md5": "e6abc827d1c0726d6d4c115b51c6efd9",
+    "default_md5": "b6e3604136939ef96f2fb42b7112fcce",
     "lang_name": "Thai"
   },
   "thai": {
