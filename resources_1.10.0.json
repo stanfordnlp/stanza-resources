@@ -10765,6 +10765,7 @@
     },
     "default_processors": {
       "tokenize": "tud",
+      "lemma": "identity",
       "pos": "tud_charlm",
       "depparse": "tud_charlm",
       "ner": "lst20"
@@ -10772,18 +10773,21 @@
     "packages": {
       "default": {
         "tokenize": "tud",
+        "lemma": "identity",
         "pos": "tud_charlm",
         "depparse": "tud_charlm",
         "ner": "lst20"
       },
       "default_fast": {
         "tokenize": "tud",
+        "lemma": "identity",
         "pos": "tud_charlm",
         "depparse": "tud_charlm",
         "ner": "lst20"
       },
       "default_accurate": {
         "tokenize": "tud",
+        "lemma": "identity",
         "pos": "tud_wangchanberta",
         "depparse": "tud_wangchanberta",
         "ner": "lst20"
