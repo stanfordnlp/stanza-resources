@@ -4628,7 +4628,7 @@
     },
     "pos": {
       "combined_camembert-large": {
-        "md5": "94bad41bc32f63926d54a3a65b84ebf7",
+        "md5": "c36a0f67c3f153aaf8bd55b200f97a3d",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4645,7 +4645,7 @@
         ]
       },
       "combined_charlm": {
-        "md5": "1007bf2f282bcae61327613fccc2cdc4",
+        "md5": "583a06ffbf5069589fe1fe457802f4e6",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5002,7 +5002,7 @@
         "depparse": "sequoia_charlm"
       }
     },
-    "default_md5": "4c70f2f00b51e26389a5343627f1e491",
+    "default_md5": "5333aaf93f7c1d8d121cdc2d89448180",
     "lang_name": "French"
   },
   "french": {
