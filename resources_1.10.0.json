@@ -4474,7 +4474,7 @@
     },
     "lemma": {
       "combined_charlm": {
-        "md5": "3f7a8971d3bca548875f59fb115cab14",
+        "md5": "e5ad0c928adc178d017e3d90bf663516",
         "dependencies": [
           {
             "model": "forward_charlm",
