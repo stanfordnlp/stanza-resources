@@ -18045,6 +18045,17 @@
   "traditional_chinese": {
     "alias": "zh-hant"
   },
+  "or": {
+    "pretrain": {
+      "fasttext157": {
+        "md5": "e8dcbab739c47326fe90b16863c79eaf"
+      }
+    },
+    "lang_name": "Odia"
+  },
+  "odia": {
+    "alias": "or"
+  },
   "no": {
     "alias": "nb"
   },
