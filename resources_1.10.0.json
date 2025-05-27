@@ -7965,7 +7965,7 @@
       }
     },
     "pretrain": {
-      "fasttext": {
+      "fasttext157": {
         "md5": "8144fe0227bf09f69fdeab174fadfe2b"
       },
       "fasttextwiki": {
