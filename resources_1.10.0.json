@@ -8134,6 +8134,9 @@
   "myanmar": {
     "alias": "my"
   },
+  "burmese": {
+    "alias": "my"
+  },
   "nb": {
     "backward_charlm": {
       "conll17": {
@@ -10281,6 +10284,9 @@
     "lang_name": "Sinhala"
   },
   "sinhala": {
+    "alias": "si"
+  },
+  "sinhalese": {
     "alias": "si"
   },
   "sv": {
@@ -13853,6 +13859,9 @@
   "irish": {
     "alias": "ga"
   },
+  "gaelic": {
+    "alias": "ga"
+  },
   "gd": {
     "depparse": {
       "arcosg_nocharlm": {
@@ -15680,6 +15689,9 @@
   "kyrgyz": {
     "alias": "ky"
   },
+  "kirghiz": {
+    "alias": "ky"
+  },
   "la": {
     "depparse": {
       "ittb_nocharlm": {
@@ -15982,6 +15994,9 @@
     "lang_name": "Ligurian"
   },
   "ligurian": {
+    "alias": "lij"
+  },
+  "genoese": {
     "alias": "lij"
   },
   "lt": {
@@ -18054,6 +18069,9 @@
     "lang_name": "Odia"
   },
   "odia": {
+    "alias": "or"
+  },
+  "oriya": {
     "alias": "or"
   },
   "no": {
