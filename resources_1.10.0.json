@@ -1471,7 +1471,7 @@
     },
     "tokenize": {
       "combined": {
-        "md5": "6b68a6487419418597c3a24f3b5f280a"
+        "md5": "8e5a4c90e48f5794acf470828b91f013"
       },
       "gsd": {
         "md5": "6b68a6487419418597c3a24f3b5f280a"
@@ -1554,7 +1554,7 @@
         "depparse": "hdt_charlm"
       }
     },
-    "default_md5": "62c0e554ff0b9acadec9d33a5694f623",
+    "default_md5": "d55ce49573d86e8929acd5529347d66f",
     "lang_name": "German"
   },
   "german": {
