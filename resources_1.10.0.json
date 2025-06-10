@@ -10225,7 +10225,7 @@
     },
     "tokenize": {
       "isra": {
-        "md5": "e1a175c7df80a585221f54547e9086f2"
+        "md5": "3ce430dc0640095b017ec4193a7120a5"
       }
     },
     "default_processors": {
@@ -10264,7 +10264,7 @@
         "depparse": "isra_charlm"
       }
     },
-    "default_md5": "9f37befbf542817b268689fe06ac6b56",
+    "default_md5": "e64d013117c14e851a68f9231e80fb1c",
     "lang_name": "Sindhi"
   },
   "sindhi": {
