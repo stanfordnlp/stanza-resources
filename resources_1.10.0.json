@@ -18183,6 +18183,26 @@
     "alias": "zh-hant"
   },
   "or": {
+    "ner": {
+      "ilner_muril-large-cased": {
+        "md5": "57a36a79f2cc97a73ece2d417c85510d",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttext157"
+          }
+        ]
+      },
+      "ilner_nocharlm": {
+        "md5": "7135487769dcb175d07a9d2c3ace8603",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttext157"
+          }
+        ]
+      }
+    },
     "pretrain": {
       "fasttext157": {
         "md5": "e8dcbab739c47326fe90b16863c79eaf"
