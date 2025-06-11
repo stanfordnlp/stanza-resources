@@ -5653,6 +5653,51 @@
         "md5": "25619d32dd76236a4bb6c91eb4baa4c2"
       }
     },
+    "ner": {
+      "ilner_charlm": {
+        "md5": "f0298458c8c49a8a7b8d7d62ad02f37b",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
+      },
+      "ilner_muril-large-cased": {
+        "md5": "e6e780f4bc8ca771d5f2cb93dcdc7f74",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
+      },
+      "ilner_nocharlm": {
+        "md5": "89521a76d61b6f11184a251fd4aa39e1",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      }
+    },
     "pos": {
       "hdtb_charlm": {
         "md5": "b46a5e426dcebe6c32b8e7fc0c621502",
@@ -5713,6 +5758,7 @@
       "lemma": "hdtb_nocharlm",
       "pos": "hdtb_charlm",
       "depparse": "hdtb_charlm",
+      "ner": "ilner_charlm",
       "optional": {
         "coref": "deeph_muril-large-cased-lora"
       }
@@ -5723,6 +5769,7 @@
         "lemma": "hdtb_nocharlm",
         "pos": "hdtb_charlm",
         "depparse": "hdtb_charlm",
+        "ner": "ilner_charlm",
         "optional": {
           "coref": "deeph_muril-large-cased-lora"
         }
@@ -5732,6 +5779,7 @@
         "lemma": "hdtb_nocharlm",
         "pos": "hdtb_nocharlm",
         "depparse": "hdtb_nocharlm",
+        "ner": "ilner_nocharlm",
         "optional": {
           "coref": "deeph_muril-large-cased-lora"
         }
@@ -5741,6 +5789,7 @@
         "lemma": "hdtb_charlm",
         "pos": "hdtb_muril-large-cased",
         "depparse": "hdtb_muril-large-cased",
+        "ner": "ilner_muril-large-cased",
         "optional": {
           "coref": "deeph_muril-large-cased-lora"
         }
@@ -5752,7 +5801,7 @@
         "depparse": "hdtb_charlm"
       }
     },
-    "default_md5": "6075903c1349354e3afcf1d87ba1b559",
+    "default_md5": "6fbcd901e83c871ef26985741f09a59e",
     "lang_name": "Hindi"
   },
   "hindi": {
@@ -10578,6 +10627,51 @@
         "md5": "eaf462080813e22309746b5c21f1588b"
       }
     },
+    "ner": {
+      "ilner_charlm": {
+        "md5": "bd6e9367baa8dbe0601028ac5fe91082",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttextwiki"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2022"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2022"
+          }
+        ]
+      },
+      "ilner_muril-large-cased": {
+        "md5": "1a95896d638c06b7f395c823aa05bd1e",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttextwiki"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2022"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2022"
+          }
+        ]
+      },
+      "ilner_nocharlm": {
+        "md5": "f7fc17e64eb8a8d5f166f856a083a8bc",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttextwiki"
+          }
+        ]
+      }
+    },
     "pos": {
       "mtg_charlm": {
         "md5": "4810dc6a95ba3f25d2644fc484a3f6bf",
@@ -10620,26 +10714,30 @@
       "tokenize": "mtg",
       "lemma": "identity",
       "pos": "mtg_charlm",
-      "depparse": "mtg_charlm"
+      "depparse": "mtg_charlm",
+      "ner": "ilner_charlm"
     },
     "packages": {
       "default": {
         "tokenize": "mtg",
         "lemma": "identity",
         "pos": "mtg_charlm",
-        "depparse": "mtg_charlm"
+        "depparse": "mtg_charlm",
+        "ner": "ilner_charlm"
       },
       "default_fast": {
         "tokenize": "mtg",
         "lemma": "identity",
         "pos": "mtg_nocharlm",
-        "depparse": "mtg_nocharlm"
+        "depparse": "mtg_nocharlm",
+        "ner": "ilner_nocharlm"
       },
       "default_accurate": {
         "tokenize": "mtg",
         "lemma": "identity",
         "pos": "mtg_charlm",
-        "depparse": "mtg_charlm"
+        "depparse": "mtg_charlm",
+        "ner": "ilner_muril-large-cased"
       },
       "mtg": {
         "tokenize": "mtg",
@@ -10648,7 +10746,7 @@
         "depparse": "mtg_charlm"
       }
     },
-    "default_md5": "eca9830629ce2550857a7af4796a9f65",
+    "default_md5": "d12b321a09e1852f9178183827bc7fd6",
     "lang_name": "Telugu"
   },
   "telugu": {
@@ -17750,6 +17848,26 @@
         "md5": "570a3154dffe7f90cad2973a5442027f"
       }
     },
+    "ner": {
+      "ilner_muril-large-cased": {
+        "md5": "5d76c33377e2ac7bb68c80b44d13483d",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
+      "ilner_nocharlm": {
+        "md5": "9811954bd2d9f14bd23aafb47fe80af3",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      }
+    },
     "pos": {
       "udtb_nocharlm": {
         "md5": "cb1bcc2045bd82c945c913f422deff97",
@@ -17775,26 +17893,30 @@
       "tokenize": "udtb",
       "lemma": "udtb_nocharlm",
       "pos": "udtb_nocharlm",
-      "depparse": "udtb_nocharlm"
+      "depparse": "udtb_nocharlm",
+      "ner": "ilner_nocharlm"
     },
     "packages": {
       "default": {
         "tokenize": "udtb",
         "lemma": "udtb_nocharlm",
         "pos": "udtb_nocharlm",
-        "depparse": "udtb_nocharlm"
+        "depparse": "udtb_nocharlm",
+        "ner": "ilner_nocharlm"
       },
       "default_fast": {
         "tokenize": "udtb",
         "lemma": "udtb_nocharlm",
         "pos": "udtb_nocharlm",
-        "depparse": "udtb_nocharlm"
+        "depparse": "udtb_nocharlm",
+        "ner": "ilner_nocharlm"
       },
       "default_accurate": {
         "tokenize": "udtb",
         "lemma": "udtb_nocharlm",
         "pos": "udtb_nocharlm",
-        "depparse": "udtb_nocharlm"
+        "depparse": "udtb_nocharlm",
+        "ner": "ilner_muril-large-cased"
       },
       "udtb": {
         "tokenize": "udtb",
@@ -17803,7 +17925,7 @@
         "depparse": "udtb_nocharlm"
       }
     },
-    "default_md5": "ddbd29ad6a4aef59d5255cdd6619541e",
+    "default_md5": "4723fdb5ff48c15d07096646c0170fb2",
     "lang_name": "Urdu"
   },
   "urdu": {
