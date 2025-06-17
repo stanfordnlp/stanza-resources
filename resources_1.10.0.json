@@ -18023,7 +18023,7 @@
   "xcl": {
     "depparse": {
       "caval_nocharlm": {
-        "md5": "c003b70fc329cebea68fcd8f966c63fb",
+        "md5": "859df4ca57fb6703f06ac2942853e2e7",
         "dependencies": [
           {
             "model": "pretrain",
@@ -18034,17 +18034,17 @@
     },
     "lemma": {
       "caval_nocharlm": {
-        "md5": "4044974ee18b4f9070f1b23d73624fd0"
+        "md5": "7b739e6fe6a5df4a4f0490f51b0a11c7"
       }
     },
     "mwt": {
       "caval": {
-        "md5": "c0c54a361ba2d5a0482fc4a325389e73"
+        "md5": "703cb7430615a1d9bf2943fbe9f744ef"
       }
     },
     "pos": {
       "caval_nocharlm": {
-        "md5": "265f9db9092bb91c87cde30b9b17f23f",
+        "md5": "e914db8b49c26fac2f3d5126bf67fbb7",
         "dependencies": [
           {
             "model": "pretrain",
@@ -18060,7 +18060,7 @@
     },
     "tokenize": {
       "caval": {
-        "md5": "c4e5a976c1f55eb59b627aacb34f09d6"
+        "md5": "1b2e7af28a9cb165ab325f46366a12b5"
       }
     },
     "default_processors": {
@@ -18100,7 +18100,7 @@
         "depparse": "caval_nocharlm"
       }
     },
-    "default_md5": "c6e0939065d0508cc5396d2c214b0d88",
+    "default_md5": "986143cd89a91333b94ec099b100c9d6",
     "lang_name": "Classical_Armenian"
   },
   "classical_armenian": {
