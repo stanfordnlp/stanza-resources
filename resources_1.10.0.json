@@ -7726,7 +7726,7 @@
       "combined": {
         "tokenize": "combined",
         "pos": "combined_charlm",
-        "lemma": "identity",
+        "lemma": "combined_charlm",
         "depparse": "combined_charlm"
       },
       "gsd": {
