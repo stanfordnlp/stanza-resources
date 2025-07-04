@@ -7391,6 +7391,23 @@
       }
     },
     "depparse": {
+      "combined_charlm": {
+        "md5": "2d45040b6778302d45563ec2e1af9d1a",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
       "gsd_charlm": {
         "md5": "e38e5868c89821b6c0d6b5798150faa9",
         "dependencies": [
@@ -7484,9 +7501,26 @@
       }
     },
     "lemma": {
+      "combined_charlm": {
+        "md5": "d126e8c46efde2f34a61490fc2395183",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
       "gsd_charlm": {
         "md5": "89a22f4e75e5db65215ede664cc93374",
         "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
           {
             "model": "forward_charlm",
             "package": "conll17"
@@ -7537,6 +7571,23 @@
       }
     },
     "pos": {
+      "combined_charlm": {
+        "md5": "e92c278a4c7d7d461d65687becc1f367",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
       "gsd_charlm": {
         "md5": "9493f8683fac3645b180a605cda076d9",
         "dependencies": [
@@ -7630,6 +7681,9 @@
       }
     },
     "tokenize": {
+      "combined": {
+        "md5": "07499fbcb1482e2ee8ca52c8de6be5f0"
+      },
       "gsd": {
         "md5": "41a5dee96fc65b7ce75b2439566dd92f"
       },
@@ -7668,6 +7722,12 @@
         "depparse": "gsd_rinna-roberta",
         "ner": "gsd",
         "constituency": "alt_rinna-roberta"
+      },
+      "combined": {
+        "tokenize": "combined",
+        "pos": "combined_charlm",
+        "lemma": "identity",
+        "depparse": "combined_charlm"
       },
       "gsd": {
         "tokenize": "gsd",
