@@ -12337,7 +12337,7 @@
     },
     "tokenize": {
       "vtb": {
-        "md5": "483c7faecb770bb5b9a7960e2270a592"
+        "md5": "c469733626ea25760d18ec739c01896b"
       }
     },
     "default_processors": {
@@ -12383,7 +12383,7 @@
         "depparse": "vtb_charlm"
       }
     },
-    "default_md5": "b3db95d98072c085f2054af728b48e3c",
+    "default_md5": "fa5129ac0e1c4835240658f51c2fe241",
     "lang_name": "Vietnamese"
   },
   "vietnamese": {
