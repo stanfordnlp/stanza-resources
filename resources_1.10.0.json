@@ -400,6 +400,10 @@
         "md5": "db889f1cb13864f2da86ba54e59184c0",
         "dependencies": [
           {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
             "model": "forward_charlm",
             "package": "ccwiki"
           },
