@@ -3663,6 +3663,10 @@
         "md5": "47168d02f44aa50af67bd3459636c836",
         "dependencies": [
           {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
             "model": "forward_charlm",
             "package": "conll17"
           },
