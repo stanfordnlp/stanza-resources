@@ -13111,6 +13111,127 @@
   "norwegian_nynorsk": {
     "alias": "nn"
   },
+  "ta": {
+    "coref": {
+      "kbc_muril-large-cased-lora": {
+        "md5": "42c8cf4c894baddaf6c74bed6914d992"
+      }
+    },
+    "depparse": {
+      "ttb_muril-large-cased": {
+        "md5": "d323ad9985a79b380870157b9be2c595",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttextwiki"
+          }
+        ]
+      },
+      "ttb_nocharlm": {
+        "md5": "0e0debc044e5cee2ce585ff28487070c",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttextwiki"
+          }
+        ]
+      }
+    },
+    "lemma": {
+      "ttb_nocharlm": {
+        "md5": "b49aa679e2719e5e3846af751054c584"
+      }
+    },
+    "mwt": {
+      "ttb": {
+        "md5": "ae385bb1e7fe0bcacfdf7dce2256bc6b"
+      }
+    },
+    "pos": {
+      "ttb_muril-large-cased": {
+        "md5": "28de823bf08a7dfd94d91318b582d31a",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttextwiki"
+          }
+        ]
+      },
+      "ttb_nocharlm": {
+        "md5": "1d60afdc578ea2159ac828a807a46a0b",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttextwiki"
+          }
+        ]
+      }
+    },
+    "pretrain": {
+      "fasttextwiki": {
+        "md5": "429ad0c0d3d29dcf435a640b02262af4"
+      }
+    },
+    "tokenize": {
+      "ttb": {
+        "md5": "596ab1d7dc798ef413cabac54f72e056"
+      }
+    },
+    "default_processors": {
+      "tokenize": "ttb",
+      "mwt": "ttb",
+      "lemma": "ttb_nocharlm",
+      "pos": "ttb_nocharlm",
+      "depparse": "ttb_nocharlm",
+      "optional": {
+        "coref": "kbc_muril-large-cased-lora"
+      }
+    },
+    "packages": {
+      "default": {
+        "tokenize": "ttb",
+        "mwt": "ttb",
+        "lemma": "ttb_nocharlm",
+        "pos": "ttb_nocharlm",
+        "depparse": "ttb_nocharlm",
+        "optional": {
+          "coref": "kbc_muril-large-cased-lora"
+        }
+      },
+      "default_fast": {
+        "tokenize": "ttb",
+        "mwt": "ttb",
+        "lemma": "ttb_nocharlm",
+        "pos": "ttb_nocharlm",
+        "depparse": "ttb_nocharlm",
+        "optional": {
+          "coref": "kbc_muril-large-cased-lora"
+        }
+      },
+      "default_accurate": {
+        "tokenize": "ttb",
+        "mwt": "ttb",
+        "lemma": "ttb_nocharlm",
+        "pos": "ttb_muril-large-cased",
+        "depparse": "ttb_muril-large-cased",
+        "optional": {
+          "coref": "kbc_muril-large-cased-lora"
+        }
+      },
+      "ttb": {
+        "tokenize": "ttb",
+        "mwt": "ttb",
+        "pos": "ttb_nocharlm",
+        "lemma": "ttb_nocharlm",
+        "depparse": "ttb_nocharlm"
+      }
+    },
+    "default_md5": "8eb3ef25c19aa19fd2e1398750a418e4",
+    "lang_name": "Tamil"
+  },
+  "tamil": {
+    "alias": "ta"
+  },
   "be": {
     "depparse": {
       "hse_nocharlm": {
@@ -17724,127 +17845,6 @@
   },
   "serbian": {
     "alias": "sr"
-  },
-  "ta": {
-    "coref": {
-      "kbc_muril-large-cased-lora": {
-        "md5": "42c8cf4c894baddaf6c74bed6914d992"
-      }
-    },
-    "depparse": {
-      "ttb_muril-large-cased": {
-        "md5": "d323ad9985a79b380870157b9be2c595",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "fasttextwiki"
-          }
-        ]
-      },
-      "ttb_nocharlm": {
-        "md5": "0e0debc044e5cee2ce585ff28487070c",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "fasttextwiki"
-          }
-        ]
-      }
-    },
-    "lemma": {
-      "ttb_nocharlm": {
-        "md5": "b49aa679e2719e5e3846af751054c584"
-      }
-    },
-    "mwt": {
-      "ttb": {
-        "md5": "ae385bb1e7fe0bcacfdf7dce2256bc6b"
-      }
-    },
-    "pos": {
-      "ttb_muril-large-cased": {
-        "md5": "28de823bf08a7dfd94d91318b582d31a",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "fasttextwiki"
-          }
-        ]
-      },
-      "ttb_nocharlm": {
-        "md5": "1d60afdc578ea2159ac828a807a46a0b",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "fasttextwiki"
-          }
-        ]
-      }
-    },
-    "pretrain": {
-      "fasttextwiki": {
-        "md5": "429ad0c0d3d29dcf435a640b02262af4"
-      }
-    },
-    "tokenize": {
-      "ttb": {
-        "md5": "596ab1d7dc798ef413cabac54f72e056"
-      }
-    },
-    "default_processors": {
-      "tokenize": "ttb",
-      "mwt": "ttb",
-      "lemma": "ttb_nocharlm",
-      "pos": "ttb_nocharlm",
-      "depparse": "ttb_nocharlm",
-      "optional": {
-        "coref": "kbc_muril-large-cased-lora"
-      }
-    },
-    "packages": {
-      "default": {
-        "tokenize": "ttb",
-        "mwt": "ttb",
-        "lemma": "ttb_nocharlm",
-        "pos": "ttb_nocharlm",
-        "depparse": "ttb_nocharlm",
-        "optional": {
-          "coref": "kbc_muril-large-cased-lora"
-        }
-      },
-      "default_fast": {
-        "tokenize": "ttb",
-        "mwt": "ttb",
-        "lemma": "ttb_nocharlm",
-        "pos": "ttb_nocharlm",
-        "depparse": "ttb_nocharlm",
-        "optional": {
-          "coref": "kbc_muril-large-cased-lora"
-        }
-      },
-      "default_accurate": {
-        "tokenize": "ttb",
-        "mwt": "ttb",
-        "lemma": "ttb_nocharlm",
-        "pos": "ttb_muril-large-cased",
-        "depparse": "ttb_muril-large-cased",
-        "optional": {
-          "coref": "kbc_muril-large-cased-lora"
-        }
-      },
-      "ttb": {
-        "tokenize": "ttb",
-        "mwt": "ttb",
-        "pos": "ttb_nocharlm",
-        "lemma": "ttb_nocharlm",
-        "depparse": "ttb_nocharlm"
-      }
-    },
-    "default_md5": "8eb3ef25c19aa19fd2e1398750a418e4",
-    "lang_name": "Tamil"
-  },
-  "tamil": {
-    "alias": "ta"
   },
   "ug": {
     "depparse": {
