@@ -5520,10 +5520,19 @@
       }
     },
     "tokenize": {
-      "combined": {
+      "combined_charlm": {
+        "md5": "01f9362e929b6d982556799a58477ef1",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          }
+        ]
+      },
+      "combined_nocharlm": {
         "md5": "e09df4368cd6f203375d189292dd2285"
       },
-      "htb": {
+      "htb_nocharlm": {
         "md5": "09fe338d693beefc03896d077edf10c4"
       },
       "iahltknesset": {
@@ -5534,7 +5543,7 @@
       }
     },
     "default_processors": {
-      "tokenize": "combined",
+      "tokenize": "combined_nocharlm",
       "mwt": "combined",
       "lemma": "combined_nocharlm",
       "pos": "combined_charlm",
@@ -5543,7 +5552,7 @@
     },
     "packages": {
       "default": {
-        "tokenize": "combined",
+        "tokenize": "combined_nocharlm",
         "mwt": "combined",
         "lemma": "combined_nocharlm",
         "pos": "combined_charlm",
@@ -5551,7 +5560,7 @@
         "ner": "iahlt_charlm"
       },
       "default_fast": {
-        "tokenize": "combined",
+        "tokenize": "combined_nocharlm",
         "mwt": "combined",
         "lemma": "combined_nocharlm",
         "pos": "combined_nocharlm",
@@ -5559,7 +5568,7 @@
         "ner": "iahlt_charlm"
       },
       "default_accurate": {
-        "tokenize": "combined",
+        "tokenize": "combined_charlm",
         "mwt": "combined",
         "lemma": "combined_charlm",
         "pos": "combined_alephbertgimmel",
@@ -5567,14 +5576,14 @@
         "ner": "iahlt_alephbertgimmel"
       },
       "combined": {
-        "tokenize": "combined",
+        "tokenize": "combined_nocharlm",
         "mwt": "combined",
         "pos": "combined_charlm",
         "lemma": "combined_nocharlm",
         "depparse": "combined_charlm"
       },
       "htb": {
-        "tokenize": "htb",
+        "tokenize": "htb_nocharlm",
         "mwt": "htb",
         "pos": "htb_charlm",
         "lemma": "htb_nocharlm",
@@ -5595,7 +5604,7 @@
         "depparse": "iahltwiki_charlm"
       }
     },
-    "default_md5": "ace5921b71af8054e84911ab7e892526",
+    "default_md5": "832dc811ab0f893fdc4b804e13125477",
     "lang_name": "Hebrew"
   },
   "hebrew": {
