@@ -12531,6 +12531,23 @@
       }
     },
     "ner": {
+      "ontonotes_electra-large": {
+        "md5": "37de2caebd2903d8709f3c9d78b4c0e2",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttext157"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "gigaword"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "gigaword"
+          }
+        ]
+      },
       "ontonotes": {
         "md5": "939a7ce435c2e6398703180f75cb652c",
         "dependencies": [
