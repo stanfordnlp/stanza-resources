@@ -5521,7 +5521,7 @@
     },
     "tokenize": {
       "combined_charlm": {
-        "md5": "01f9362e929b6d982556799a58477ef1",
+        "md5": "616c3a43fb64feceeaddcd26c0db3196",
         "dependencies": [
           {
             "model": "forward_charlm",
