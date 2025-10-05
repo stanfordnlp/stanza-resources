@@ -10290,7 +10290,7 @@
     },
     "depparse": {
       "isra_charlm": {
-        "md5": "5589a63533357a3fc0b156647fee26ef",
+        "md5": "6f3896cbff5f5f6107f94ab22457dddd",
         "dependencies": [
           {
             "model": "pretrain",
@@ -10307,7 +10307,7 @@
         ]
       },
       "isra_muril-large-cased": {
-        "md5": "98eec8101e07876b0d3911188beb3456",
+        "md5": "410eba63b1149a56eba8b7fd4eb80b50",
         "dependencies": [
           {
             "model": "pretrain",
@@ -10327,6 +10327,11 @@
     "forward_charlm": {
       "isra": {
         "md5": "82ea2209256276ed5bbc2903308c5b2e"
+      }
+    },
+    "lemma": {
+      "isra_nocharlm": {
+        "md5": "493472460997adc4e0ffd997b011363d"
       }
     },
     "ner": {
@@ -10350,7 +10355,7 @@
     },
     "pos": {
       "isra_charlm": {
-        "md5": "bccf909e44fae0dd0b024d59c868ab32",
+        "md5": "a3055b27717aa060319d3d95cf85fc94",
         "dependencies": [
           {
             "model": "pretrain",
@@ -10367,7 +10372,7 @@
         ]
       },
       "isra_muril-large-cased": {
-        "md5": "5920d60efe68449440a763ce8956b87b",
+        "md5": "1cbc350c0c585bd1128ca10098774e80",
         "dependencies": [
           {
             "model": "pretrain",
@@ -10396,7 +10401,7 @@
     },
     "default_processors": {
       "tokenize": "isra",
-      "lemma": "identity",
+      "lemma": "isra_nocharlm",
       "pos": "isra_charlm",
       "depparse": "isra_charlm",
       "ner": "siner"
@@ -10404,21 +10409,21 @@
     "packages": {
       "default": {
         "tokenize": "isra",
-        "lemma": "identity",
+        "lemma": "isra_nocharlm",
         "pos": "isra_charlm",
         "depparse": "isra_charlm",
         "ner": "siner"
       },
       "default_fast": {
         "tokenize": "isra",
-        "lemma": "identity",
+        "lemma": "isra_nocharlm",
         "pos": "isra_charlm",
         "depparse": "isra_charlm",
         "ner": "siner"
       },
       "default_accurate": {
         "tokenize": "isra",
-        "lemma": "identity",
+        "lemma": "isra_nocharlm",
         "pos": "isra_muril-large-cased",
         "depparse": "isra_muril-large-cased",
         "ner": "siner"
@@ -10426,11 +10431,11 @@
       "isra": {
         "tokenize": "isra",
         "pos": "isra_charlm",
-        "lemma": "identity",
+        "lemma": "isra_nocharlm",
         "depparse": "isra_charlm"
       }
     },
-    "default_md5": "e64d013117c14e851a68f9231e80fb1c",
+    "default_md5": "2b1e32e9062f8968ec246803c5ea6f2b",
     "lang_name": "Sindhi"
   },
   "sindhi": {
