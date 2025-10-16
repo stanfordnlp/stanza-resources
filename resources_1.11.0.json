@@ -10330,6 +10330,19 @@
       }
     },
     "lemma": {
+      "isra_charlm": {
+        "md5": "7f58d91551b1e3da48c85c2884a9f5d8",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "isra"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "isra"
+          }
+        ]
+      },
       "isra_nocharlm": {
         "md5": "493472460997adc4e0ffd997b011363d"
       }
@@ -10423,7 +10436,7 @@
       },
       "default_accurate": {
         "tokenize": "isra",
-        "lemma": "isra_nocharlm",
+        "lemma": "isra_charlm",
         "pos": "isra_muril-large-cased",
         "depparse": "isra_muril-large-cased",
         "ner": "siner"
