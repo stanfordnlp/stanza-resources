@@ -185,7 +185,7 @@
     },
     "depparse": {
       "nerthus_charlm": {
-        "md5": "a388f6a0ccd04bdfed9939f23f1f3eda",
+        "md5": "65f93653e6c1553c480e7a304391a7e2",
         "dependencies": [
           {
             "model": "pretrain",
@@ -202,7 +202,7 @@
         ]
       },
       "nerthus_nocharlm": {
-        "md5": "c4bd230b3a26436287dca441b23d30df",
+        "md5": "04941c6c701609b6a647ec51f9bdd234",
         "dependencies": [
           {
             "model": "pretrain",
@@ -223,21 +223,8 @@
       }
     },
     "lemma": {
-      "nerthus_charlm": {
-        "md5": "3e987c8354155137dbaa8bb75ed07769",
-        "dependencies": [
-          {
-            "model": "forward_charlm",
-            "package": "nerthus1024"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "nerthus1024"
-          }
-        ]
-      },
       "nerthus_nocharlm": {
-        "md5": "8be3fac46674c7f44eef0e18e45d954a"
+        "md5": "86d2920d1bbc699ae101e34e2c3d71d4"
       }
     },
     "ner": {
@@ -261,7 +248,7 @@
     },
     "pos": {
       "nerthus_charlm": {
-        "md5": "3d8e1948d0c7feea37e69faea785768f",
+        "md5": "808e860b0f05908357c24ae7a5f4b237",
         "dependencies": [
           {
             "model": "pretrain",
@@ -278,7 +265,7 @@
         ]
       },
       "nerthus_nocharlm": {
-        "md5": "f659290adf419272ecf7c105efaecef6",
+        "md5": "30e38e1cbf6105660b064ace2eb2c02c",
         "dependencies": [
           {
             "model": "pretrain",
@@ -293,12 +280,12 @@
       }
     },
     "tokenize": {
-      "nerthus": {
-        "md5": "fed3e4fd1501215944dc1b0d77ef78e3"
+      "nerthus_nocharlm": {
+        "md5": "b5c2c79ae6bdc7ea9605a42fec678500"
       }
     },
     "default_processors": {
-      "tokenize": "nerthus",
+      "tokenize": "nerthus_nocharlm",
       "lemma": "nerthus_nocharlm",
       "pos": "nerthus_charlm",
       "depparse": "nerthus_charlm",
@@ -306,34 +293,34 @@
     },
     "packages": {
       "default": {
-        "tokenize": "nerthus",
+        "tokenize": "nerthus_nocharlm",
         "lemma": "nerthus_nocharlm",
         "pos": "nerthus_charlm",
         "depparse": "nerthus_charlm",
         "ner": "oedt_charlm"
       },
       "default_fast": {
-        "tokenize": "nerthus",
+        "tokenize": "nerthus_nocharlm",
         "lemma": "nerthus_nocharlm",
         "pos": "nerthus_nocharlm",
         "depparse": "nerthus_nocharlm",
         "ner": "oedt_charlm"
       },
       "default_accurate": {
-        "tokenize": "nerthus",
-        "lemma": "nerthus_charlm",
+        "tokenize": "nerthus_nocharlm",
+        "lemma": "nerthus_nocharlm",
         "pos": "nerthus_charlm",
         "depparse": "nerthus_charlm",
         "ner": "oedt_charlm"
       },
       "nerthus": {
-        "tokenize": "nerthus",
+        "tokenize": "nerthus_nocharlm",
         "pos": "nerthus_charlm",
         "lemma": "nerthus_nocharlm",
         "depparse": "nerthus_charlm"
       }
     },
-    "default_md5": "fd611be57debc89e8573335bf3dd5d90",
+    "default_md5": "b35f36d7c2fa8f40205e1ec30842882a",
     "lang_name": "Old_English"
   },
   "old_english": {
