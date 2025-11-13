@@ -5622,7 +5622,7 @@
     },
     "coref": {
       "deeph_muril-large-cased-lora": {
-        "md5": "a2f30837a008f1d914492f451f7c2696"
+        "md5": "c9e1adcebc8c9e5c4324dc9ed57c5a9c"
       }
     },
     "depparse": {
@@ -13162,7 +13162,7 @@
   "ta": {
     "coref": {
       "kbc_muril-large-cased-lora": {
-        "md5": "42c8cf4c894baddaf6c74bed6914d992"
+        "md5": "5c99a86ab294f0d629f8753bf69ca3bb"
       }
     },
     "depparse": {
