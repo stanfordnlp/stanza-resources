@@ -1657,8 +1657,11 @@
       }
     },
     "coref": {
-      "gum_roberta-large-lora": {
+      "gum-nospeakers_roberta-large-lora": {
         "md5": "2188b1afa7c803a13cbefc3e0f95d536"
+      },
+      "gum-speakers_roberta-large-lora": {
+        "md5": "3c1974d127191519136e2de0fb501c29"
       },
       "ontonotes-singletons_roberta-large-lora": {
         "md5": "69c669ecfe8dbccb7ba36692a1dbd720"
