@@ -15756,7 +15756,10 @@
       }
     },
     "default_md5": "a471ba3af8a3b6bcca5cbdc8ef566cf0",
-    "lang_name": "Kurmanji"
+    "lang_name": "Northern_Kurdish"
+  },
+  "northern_kurdish": {
+    "alias": "kmr"
   },
   "kurmanji": {
     "alias": "kmr"
