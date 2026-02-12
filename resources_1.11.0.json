@@ -18371,11 +18371,76 @@
     "alias": "or"
   },
   "ab": {
+    "depparse": {
+      "abnc_nocharlm": {
+        "md5": "c25bb11343585c3e2fd257a875a1fc6e",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttextwiki"
+          }
+        ]
+      }
+    },
+    "lemma": {
+      "abnc_nocharlm": {
+        "md5": "1d41a3be3267d7f92aeaa74b2ffdff9b"
+      }
+    },
+    "pos": {
+      "abnc_nocharlm": {
+        "md5": "88a426c4c93ebc56ec341720d920d5f5",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttextwiki"
+          }
+        ]
+      }
+    },
     "pretrain": {
       "fasttextwiki": {
         "md5": "a19194033857d6294934d53ee34c6392"
       }
     },
+    "tokenize": {
+      "abnc_nocharlm": {
+        "md5": "ff8c9ffd8a8185ae5f0658f368a73bf5"
+      }
+    },
+    "default_processors": {
+      "tokenize": "abnc_nocharlm",
+      "lemma": "abnc_nocharlm",
+      "pos": "abnc_nocharlm",
+      "depparse": "abnc_nocharlm"
+    },
+    "packages": {
+      "default": {
+        "tokenize": "abnc_nocharlm",
+        "lemma": "abnc_nocharlm",
+        "pos": "abnc_nocharlm",
+        "depparse": "abnc_nocharlm"
+      },
+      "default_fast": {
+        "tokenize": "abnc_nocharlm",
+        "lemma": "abnc_nocharlm",
+        "pos": "abnc_nocharlm",
+        "depparse": "abnc_nocharlm"
+      },
+      "default_accurate": {
+        "tokenize": "abnc_nocharlm",
+        "lemma": "abnc_nocharlm",
+        "pos": "abnc_nocharlm",
+        "depparse": "abnc_nocharlm"
+      },
+      "abnc": {
+        "tokenize": "abnc_nocharlm",
+        "pos": "abnc_nocharlm",
+        "lemma": "abnc_nocharlm",
+        "depparse": "abnc_nocharlm"
+      }
+    },
+    "default_md5": "b4f366f23be7c66b96259352138477db",
     "lang_name": "Abkhazian"
   },
   "abkhazian": {
