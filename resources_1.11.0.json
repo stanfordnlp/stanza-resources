@@ -18370,6 +18370,20 @@
   "oriya": {
     "alias": "or"
   },
+  "ab": {
+    "pretrain": {
+      "fasttextwiki": {
+        "md5": "a19194033857d6294934d53ee34c6392"
+      }
+    },
+    "lang_name": "Abkhazian"
+  },
+  "abkhazian": {
+    "alias": "ab"
+  },
+  "abkhaz": {
+    "alias": "ab"
+  },
   "no": {
     "alias": "nb"
   },
