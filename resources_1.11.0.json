@@ -7455,6 +7455,15 @@
           }
         ]
       },
+      "combined_nocharlm": {
+        "md5": "05172034b8c085a458e0fd229db1342c",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
       "combined_rinna-roberta": {
         "md5": "1e44ebc37aa03f92a8acb0c054ff5301",
         "dependencies": [
@@ -7578,6 +7587,9 @@
           }
         ]
       },
+      "combined_nocharlm": {
+        "md5": "91d13f16629333309b674e4315e74d4e"
+      },
       "gsd_charlm": {
         "md5": "89a22f4e75e5db65215ede664cc93374",
         "dependencies": [
@@ -7648,6 +7660,15 @@
           },
           {
             "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
+      "combined_nocharlm": {
+        "md5": "b9280aa1cc4b3d96889b0afa43750899",
+        "dependencies": [
+          {
+            "model": "pretrain",
             "package": "conll17"
           }
         ]
@@ -7783,7 +7804,7 @@
     },
     "default_processors": {
       "tokenize": "combined_nocharlm",
-      "lemma": "combined_charlm",
+      "lemma": "combined_nocharlm",
       "pos": "combined_charlm",
       "depparse": "combined_charlm",
       "ner": "gsd",
@@ -7792,7 +7813,7 @@
     "packages": {
       "default": {
         "tokenize": "combined_nocharlm",
-        "lemma": "combined_charlm",
+        "lemma": "combined_nocharlm",
         "pos": "combined_charlm",
         "depparse": "combined_charlm",
         "ner": "gsd",
@@ -7800,9 +7821,9 @@
       },
       "default_fast": {
         "tokenize": "combined_nocharlm",
-        "lemma": "combined_charlm",
-        "pos": "combined_charlm",
-        "depparse": "combined_charlm",
+        "lemma": "combined_nocharlm",
+        "pos": "combined_nocharlm",
+        "depparse": "combined_nocharlm",
         "ner": "gsd"
       },
       "default_accurate": {
@@ -7816,7 +7837,7 @@
       "combined": {
         "tokenize": "combined_nocharlm",
         "pos": "combined_charlm",
-        "lemma": "combined_charlm",
+        "lemma": "combined_nocharlm",
         "depparse": "combined_charlm"
       },
       "gsd": {
@@ -7832,7 +7853,7 @@
         "depparse": "gsdluw_charlm"
       }
     },
-    "default_md5": "56d3fd0d4aaabe6e59be52a20b26fd9c",
+    "default_md5": "1908679c218c8c10697b3bd860edff2d",
     "lang_name": "Japanese"
   },
   "japanese": {
