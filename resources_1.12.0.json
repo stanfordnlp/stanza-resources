@@ -15873,7 +15873,16 @@
   "ka": {
     "depparse": {
       "glc_nocharlm": {
-        "md5": "2deafa8deaadcd835916fb1010ce707b",
+        "md5": "79c89e40ad0e1c369032664136bf447d",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttext157"
+          }
+        ]
+      },
+      "glc_xlm-roberta-large": {
+        "md5": "8b8544cfcfd7ff72abbb60fa9e38bf60",
         "dependencies": [
           {
             "model": "pretrain",
@@ -15894,7 +15903,16 @@
     },
     "pos": {
       "glc_nocharlm": {
-        "md5": "7bd40e9395e7be19680a6bf497e4389b",
+        "md5": "e1fbff83b7dec331f1a0b040a50f004e",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttext157"
+          }
+        ]
+      },
+      "glc_xlm-roberta-large": {
+        "md5": "f4cf1d3428f79261ece519d2762c1c6d",
         "dependencies": [
           {
             "model": "pretrain",
@@ -15939,8 +15957,8 @@
         "tokenize": "glc",
         "mwt": "glc",
         "lemma": "glc_nocharlm",
-        "pos": "glc_nocharlm",
-        "depparse": "glc_nocharlm"
+        "pos": "glc_xlm-roberta-large",
+        "depparse": "glc_xlm-roberta-large"
       },
       "glc": {
         "tokenize": "glc",
@@ -15950,7 +15968,7 @@
         "depparse": "glc_nocharlm"
       }
     },
-    "default_md5": "f66b652d9a978a77f6f0eba501e697c2",
+    "default_md5": "5bea8977f615c0bcf4b4874a2eb8a0e9",
     "lang_name": "Georgian"
   },
   "georgian": {
