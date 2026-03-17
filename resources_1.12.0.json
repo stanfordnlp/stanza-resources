@@ -14771,6 +14771,24 @@
   },
   "grc": {
     "depparse": {
+      "perseus-diacritics_grc-pranaydeeps": {
+        "md5": "7b57d0d58d5131612a09cbb93a090f55",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
+      "perseus-diacritics_nocharlm": {
+        "md5": "db2ca7576ddecbcda95ea550182adfee",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
       "perseus_grc-pranaydeeps": {
         "md5": "f95847ad83efc7d2c345ec84322ebe7a",
         "dependencies": [
@@ -14966,7 +14984,8 @@
       "perseus-diacritics": {
         "tokenize": "perseus-diacritics",
         "pos": "perseus-diacritics_nocharlm",
-        "lemma": "perseus-diacritics_nocharlm"
+        "lemma": "perseus-diacritics_nocharlm",
+        "depparse": "perseus-diacritics_nocharlm"
       },
       "perseus": {
         "tokenize": "perseus",
