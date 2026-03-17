@@ -10275,6 +10275,23 @@
           }
         ]
       },
+      "syntagrus_pavlov-rubert": {
+        "md5": "89140d12c0fc86c30eaf70380fe8fb5d",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "newswiki"
+          }
+        ]
+      },
       "taiga_charlm": {
         "md5": "9b1e8d2e496dfbd08dd072d86615d38f",
         "dependencies": [
@@ -10358,7 +10375,7 @@
       "default_accurate": {
         "tokenize": "syntagrus",
         "lemma": "syntagrus_charlm",
-        "pos": "syntagrus_charlm",
+        "pos": "syntagrus_pavlov-rubert",
         "depparse": "syntagrus_pavlov-rubert",
         "ner": "wikiner",
         "optional": {
