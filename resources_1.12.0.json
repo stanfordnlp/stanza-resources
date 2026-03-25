@@ -3354,7 +3354,7 @@
         ]
       },
       "combined_bertin-roberta": {
-        "md5": "8df25e4f4bf39be8dca5b3bc93f80359",
+        "md5": "3df59d1efb09561ea27db3acc51ae9c8",
         "dependencies": [
           {
             "model": "pretrain",
