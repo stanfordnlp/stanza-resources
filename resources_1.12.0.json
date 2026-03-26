@@ -7287,8 +7287,17 @@
       }
     },
     "tokenize": {
-      "combined": {
-        "md5": "f899329597f1e3fd9930328aa03b1902"
+      "combined_charlm": {
+        "md5": "0da7c591379504e8d6dae2e14c0a32d4",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
+      "combined_nocharlm": {
+        "md5": "3c924de4459eea7b70ad9d647d86f1d5"
       },
       "isdt": {
         "md5": "49ed26dc41b6259fe44a4429fcfeef87"
@@ -7316,7 +7325,7 @@
       }
     },
     "default_processors": {
-      "tokenize": "combined",
+      "tokenize": "combined_nocharlm",
       "mwt": "combined",
       "lemma": "combined_nocharlm",
       "pos": "combined_charlm",
@@ -7326,7 +7335,7 @@
     },
     "packages": {
       "default": {
-        "tokenize": "combined",
+        "tokenize": "combined_nocharlm",
         "mwt": "combined",
         "lemma": "combined_nocharlm",
         "pos": "combined_charlm",
@@ -7335,7 +7344,7 @@
         "constituency": "vit_charlm"
       },
       "default_fast": {
-        "tokenize": "combined",
+        "tokenize": "combined_nocharlm",
         "mwt": "combined",
         "lemma": "combined_nocharlm",
         "pos": "combined_nocharlm",
@@ -7343,7 +7352,7 @@
         "ner": "fbk"
       },
       "default_accurate": {
-        "tokenize": "combined",
+        "tokenize": "combined_charlm",
         "mwt": "combined",
         "lemma": "combined_charlm",
         "pos": "combined_electra",
@@ -7352,7 +7361,7 @@
         "constituency": "vit_electra"
       },
       "combined": {
-        "tokenize": "combined",
+        "tokenize": "combined_nocharlm",
         "mwt": "combined",
         "pos": "combined_charlm",
         "lemma": "combined_nocharlm",
@@ -7415,7 +7424,7 @@
         "depparse": "vit_charlm"
       }
     },
-    "default_md5": "9b04b6124b39f641ba7ac57904ced90c",
+    "default_md5": "88fb947f5b0f20ce61d2020361868bf1",
     "lang_name": "Italian"
   },
   "italian": {
