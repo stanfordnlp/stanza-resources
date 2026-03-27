@@ -1327,7 +1327,7 @@
         ]
       },
       "combined_german-nlp-electra": {
-        "md5": "ad917607fc958cae8eb4bfb590e459ae",
+        "md5": "6b079464ff41733a421b864c8ae3e1a7",
         "dependencies": [
           {
             "model": "pretrain",
