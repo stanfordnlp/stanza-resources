@@ -3354,7 +3354,7 @@
         ]
       },
       "combined_bertin-roberta": {
-        "md5": "3df59d1efb09561ea27db3acc51ae9c8",
+        "md5": "77d53af9e73a08dfc033a4f2fcd9eed1",
         "dependencies": [
           {
             "model": "pretrain",
@@ -7288,7 +7288,7 @@
     },
     "tokenize": {
       "combined_charlm": {
-        "md5": "0da7c591379504e8d6dae2e14c0a32d4",
+        "md5": "c44f751b1e6648372eff6f18c23272d3",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -7297,7 +7297,7 @@
         ]
       },
       "combined_nocharlm": {
-        "md5": "3c924de4459eea7b70ad9d647d86f1d5"
+        "md5": "0866a3c395f01e214bdd4501be29d1bf"
       },
       "isdt": {
         "md5": "49ed26dc41b6259fe44a4429fcfeef87"
@@ -7424,7 +7424,7 @@
         "depparse": "vit_charlm"
       }
     },
-    "default_md5": "88fb947f5b0f20ce61d2020361868bf1",
+    "default_md5": "bbc912aacae36c8ef75bae69702e74a5",
     "lang_name": "Italian"
   },
   "italian": {
