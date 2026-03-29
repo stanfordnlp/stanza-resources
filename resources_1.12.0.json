@@ -3121,7 +3121,7 @@
         ]
       },
       "combined_bertin-roberta": {
-        "md5": "c8feea7e7722f9ac7122ed754e07ae5b",
+        "md5": "8e8ff7394a27865c8710fec11a3f5e21",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3230,7 +3230,7 @@
         "md5": "7012c2e7f5b01d71591442d4f10aaf9b"
       },
       "combined_charlm": {
-        "md5": "ff4a217def0002c96a37516adc669e2c",
+        "md5": "d78949e63468a42f3284e2c1d5e10887",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -3267,7 +3267,7 @@
         "md5": "4e0e8133f960b6a0ad33c8ac06f41900"
       },
       "combined": {
-        "md5": "b27837acb40d7c023528b50881a39ac3"
+        "md5": "49d65726fefa262ec97ae38389f5e62b"
       },
       "gsd": {
         "md5": "c5af80326899fb1ca3ae508e811dc7b0"
@@ -3354,7 +3354,7 @@
         ]
       },
       "combined_bertin-roberta": {
-        "md5": "77d53af9e73a08dfc033a4f2fcd9eed1",
+        "md5": "6abd09ecaf765fead60a0cc0b5d669b3",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3488,7 +3488,16 @@
       "ancora": {
         "md5": "828c07d92e1aa07d1a7338428446d2c4"
       },
-      "combined": {
+      "combined_charlm": {
+        "md5": "1c24f143c624dfa243c63709ecbc6874",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "newswiki"
+          }
+        ]
+      },
+      "combined_nocharlm": {
         "md5": "3dabb752b7c9d6c26ddd3c94b6c5fb17"
       },
       "gsd": {
@@ -3496,7 +3505,7 @@
       }
     },
     "default_processors": {
-      "tokenize": "combined",
+      "tokenize": "combined_nocharlm",
       "mwt": "combined",
       "lemma": "combined_nocharlm",
       "pos": "combined_charlm",
@@ -3510,7 +3519,7 @@
     },
     "packages": {
       "default": {
-        "tokenize": "combined",
+        "tokenize": "combined_nocharlm",
         "mwt": "combined",
         "lemma": "combined_nocharlm",
         "pos": "combined_charlm",
@@ -3523,7 +3532,7 @@
         }
       },
       "default_fast": {
-        "tokenize": "combined",
+        "tokenize": "combined_nocharlm",
         "mwt": "combined",
         "lemma": "combined_nocharlm",
         "pos": "combined_nocharlm",
@@ -3535,7 +3544,7 @@
         }
       },
       "default_accurate": {
-        "tokenize": "combined",
+        "tokenize": "combined_charlm",
         "mwt": "combined",
         "lemma": "combined_charlm",
         "pos": "combined_bertin-roberta",
@@ -3555,7 +3564,7 @@
         "depparse": "ancora_charlm"
       },
       "combined": {
-        "tokenize": "combined",
+        "tokenize": "combined_nocharlm",
         "mwt": "combined",
         "pos": "combined_charlm",
         "lemma": "combined_nocharlm",
@@ -3569,7 +3578,7 @@
         "depparse": "gsd_charlm"
       }
     },
-    "default_md5": "4017b3ec156fdac267b997d0ec33099d",
+    "default_md5": "730e58b3b19309326905f99710c6aff9",
     "lang_name": "Spanish"
   },
   "spanish": {
