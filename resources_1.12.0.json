@@ -1179,7 +1179,7 @@
     },
     "lemma": {
       "combined_charlm": {
-        "md5": "d23f1233a4bd69d214dd71d721a333d0",
+        "md5": "47eac233b0533ad5728ac0a6871279d1",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -3230,7 +3230,7 @@
         "md5": "7012c2e7f5b01d71591442d4f10aaf9b"
       },
       "combined_charlm": {
-        "md5": "d78949e63468a42f3284e2c1d5e10887",
+        "md5": "cd44e0e45e35b5993f62df8cb62c2d6b",
         "dependencies": [
           {
             "model": "forward_charlm",
