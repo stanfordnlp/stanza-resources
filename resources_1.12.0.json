@@ -5736,6 +5736,74 @@
       }
     },
     "ner": {
+      "hiner_charlm": {
+        "md5": "aa28878a4b50ee23ded3b05ba56b7fc9",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
+      },
+      "hiner_muril-large-cased": {
+        "md5": "7a7e69175bad9de7b8977406b427da0d",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
+      },
+      "hinercollapsed_charlm": {
+        "md5": "bf1e172b5e7d1b18dc8fac3e2f0b8223",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
+      },
+      "hinercollapsed_muril-large-cased": {
+        "md5": "7d8c38f853fab53f0d2cb1dd5e470754",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar"
+          }
+        ]
+      },
       "ilner_charlm": {
         "md5": "f0298458c8c49a8a7b8d7d62ad02f37b",
         "dependencies": [
