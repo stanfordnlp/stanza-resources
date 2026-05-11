@@ -3927,6 +3927,49 @@
       }
     },
     "depparse": {
+      "combined_charlm": {
+        "md5": "cdf33eb11abce0f4ee4d9e35a0fe67a5",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
+      "combined_finnish-bert": {
+        "md5": "51aac1b1a4733d3f326bf99dc5c566dd",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
+      "combined_nocharlm": {
+        "md5": "ace8aa62f8bd394097ca59bae5658f62",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
       "ftb_charlm": {
         "md5": "bff8d77013839256c0b3b4892c4cc573",
         "dependencies": [
@@ -4020,6 +4063,22 @@
       }
     },
     "lemma": {
+      "combined_charlm": {
+        "md5": "9a067c1163834e33686b7ddee640c927",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
+      "combined_nocharlm": {
+        "md5": "c55fccd3e3db7d9dd3ccd8a58405faa7"
+      },
       "ftb_charlm": {
         "md5": "6bccb3dc59f561e57127456c90e08391",
         "dependencies": [
@@ -4054,6 +4113,9 @@
       }
     },
     "mwt": {
+      "combined": {
+        "md5": "f493607092ce8b88b426489c895db312"
+      },
       "ftb": {
         "md5": "c9bf19503873faf2ad6494bf26729abf"
       },
@@ -4098,6 +4160,49 @@
       }
     },
     "pos": {
+      "combined_charlm": {
+        "md5": "d7032733e505977a8b1984de0a85bd7e",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
+      "combined_finnish-bert": {
+        "md5": "4c09de542f51c51a3d32958f450f581b",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
+      "combined_nocharlm": {
+        "md5": "ecfbe9ee376a09b54fb5df51b74bd2dc",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
       "ftb_charlm": {
         "md5": "629c73ab2a03376d3d254c992a2e6284",
         "dependencies": [
@@ -4191,6 +4296,15 @@
       }
     },
     "tokenize": {
+      "combined_charlm": {
+        "md5": "cfe1379bed767d80108b4ec605be4a27",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "conll17"
+          }
+        ]
+      },
       "ftb": {
         "md5": "e8366ecfcf0ecd0e4e883a5a78a7b4d5"
       },
@@ -4199,37 +4313,44 @@
       }
     },
     "default_processors": {
-      "tokenize": "tdt",
-      "mwt": "tdt",
-      "lemma": "tdt_nocharlm",
-      "pos": "tdt_charlm",
-      "depparse": "tdt_charlm",
+      "tokenize": "combined_charlm",
+      "mwt": "combined",
+      "lemma": "combined_nocharlm",
+      "pos": "combined_charlm",
+      "depparse": "combined_charlm",
       "ner": "turku"
     },
     "packages": {
       "default": {
-        "tokenize": "tdt",
-        "mwt": "tdt",
-        "lemma": "tdt_nocharlm",
-        "pos": "tdt_charlm",
-        "depparse": "tdt_charlm",
+        "tokenize": "combined_charlm",
+        "mwt": "combined",
+        "lemma": "combined_nocharlm",
+        "pos": "combined_charlm",
+        "depparse": "combined_charlm",
         "ner": "turku"
       },
       "default_fast": {
-        "tokenize": "tdt",
-        "mwt": "tdt",
-        "lemma": "tdt_nocharlm",
-        "pos": "tdt_nocharlm",
-        "depparse": "tdt_nocharlm",
+        "tokenize": "combined_charlm",
+        "mwt": "combined",
+        "lemma": "combined_nocharlm",
+        "pos": "combined_nocharlm",
+        "depparse": "combined_nocharlm",
         "ner": "turku"
       },
       "default_accurate": {
-        "tokenize": "tdt",
-        "mwt": "tdt",
-        "lemma": "tdt_charlm",
-        "pos": "tdt_finnish-bert",
-        "depparse": "tdt_finnish-bert",
+        "tokenize": "combined_charlm",
+        "mwt": "combined",
+        "lemma": "combined_charlm",
+        "pos": "combined_finnish-bert",
+        "depparse": "combined_finnish-bert",
         "ner": "turku"
+      },
+      "combined": {
+        "tokenize": "combined_charlm",
+        "mwt": "combined",
+        "pos": "combined_charlm",
+        "lemma": "combined_nocharlm",
+        "depparse": "combined_charlm"
       },
       "ftb": {
         "tokenize": "ftb",
@@ -4246,7 +4367,7 @@
         "depparse": "tdt_charlm"
       }
     },
-    "default_md5": "a469b520a970d5f4b73495d3ae6f28f1",
+    "default_md5": "8329354bb5a45ac2453c95062c1aa0ca",
     "lang_name": "Finnish"
   },
   "finnish": {
