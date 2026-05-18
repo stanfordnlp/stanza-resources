@@ -3230,7 +3230,7 @@
         "md5": "7012c2e7f5b01d71591442d4f10aaf9b"
       },
       "combined_charlm": {
-        "md5": "89ad6b1d19f8f3ed0f93c37224f79953",
+        "md5": "31825d0875cb104dfd9b1ede18775576",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -3243,7 +3243,7 @@
         ]
       },
       "combined_nocharlm": {
-        "md5": "d34ea0e527531dc13bcbf75d63cbf52d"
+        "md5": "dc387fbf00daf76fbbb4e0adac88c315"
       },
       "gsd_charlm": {
         "md5": "2f85c36031ed0dc1f013a9755cc5ccd9",
@@ -3578,7 +3578,7 @@
         "depparse": "gsd_charlm"
       }
     },
-    "default_md5": "d9ba40f1b34d0e360d941f3cfe151179",
+    "default_md5": "55c772a917d7c7068c473f9bef7b931a",
     "lang_name": "Spanish"
   },
   "spanish": {
