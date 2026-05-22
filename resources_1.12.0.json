@@ -18940,32 +18940,36 @@
       "tokenize": "odtb_nocharlm",
       "lemma": "odtb_nocharlm",
       "pos": "odtb_muril-large-cased",
-      "depparse": "odtb_muril-large-cased"
+      "depparse": "odtb_muril-large-cased",
+      "ner": "ilner_nocharlm"
     },
     "packages": {
       "default": {
         "tokenize": "odtb_nocharlm",
         "lemma": "odtb_nocharlm",
         "pos": "odtb_muril-large-cased",
-        "depparse": "odtb_muril-large-cased"
+        "depparse": "odtb_muril-large-cased",
+        "ner": "ilner_nocharlm"
       },
       "default_fast": {
         "tokenize": "odtb_nocharlm",
         "lemma": "odtb_nocharlm",
         "pos": "odtb_muril-large-cased",
-        "depparse": "odtb_muril-large-cased"
+        "depparse": "odtb_muril-large-cased",
+        "ner": "ilner_nocharlm"
       },
       "default_accurate": {
         "tokenize": "odtb_nocharlm",
         "lemma": "odtb_nocharlm",
         "pos": "odtb_muril-large-cased",
-        "depparse": "odtb_muril-large-cased"
+        "depparse": "odtb_muril-large-cased",
+        "ner": "ilner_muril-large-cased"
       },
       "odtb": {
         "tokenize": "odtb_nocharlm"
       }
     },
-    "default_md5": "8a53951c9782ce5bf7668a099daba63f",
+    "default_md5": "3e805d47a837752c2f48ef2686ce58db",
     "lang_name": "Odia"
   },
   "odia": {
