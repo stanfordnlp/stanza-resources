@@ -2063,7 +2063,7 @@
         "md5": "4a39c9a7302efd0bd5a1b82eb28bfb3d"
       },
       "combined_charlm": {
-        "md5": "08e6c0415a3554525935db69c06bfa4f",
+        "md5": "d22b22a7ba30461d0134390ed20b71ef",
         "dependencies": [
           {
             "model": "pretrain",
