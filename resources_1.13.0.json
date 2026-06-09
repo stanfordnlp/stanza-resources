@@ -17219,11 +17219,11 @@
   "myv": {
     "depparse": {
       "jr_nocharlm": {
-        "md5": "9ccfa2312850493253d0cc4f91f0f51d",
+        "md5": "6e8be4cc70b9d02aff744b923a9d83c7",
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "mokha"
+            "package": "rootroo"
           }
         ]
       }
@@ -17240,11 +17240,11 @@
     },
     "pos": {
       "jr_nocharlm": {
-        "md5": "723aabd982e692defe68a02f128b065b",
+        "md5": "2087ec3fe45956a9090f0b08c3efbe38",
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "mokha"
+            "package": "rootroo"
           }
         ]
       }
@@ -17299,7 +17299,7 @@
         "depparse": "jr_nocharlm"
       }
     },
-    "default_md5": "1f534eab8ff6d71c49f2d4df6d73a61f",
+    "default_md5": "d9e3cebbf9bdcc20623a48b991e0c90f",
     "lang_name": "Erzya"
   },
   "erzya": {
