@@ -16409,11 +16409,11 @@
   "kpv": {
     "depparse": {
       "lattice_nocharlm": {
-        "md5": "f292885beca3f1dc209142c017f27130",
+        "md5": "0a5c0d9576ee9389afc2977f760e9a89",
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "fasttextwiki"
+            "package": "rootroo"
           }
         ]
       }
@@ -16430,11 +16430,11 @@
     },
     "pos": {
       "lattice_nocharlm": {
-        "md5": "159f62c0779228e91628e1e8bf2e8d94",
+        "md5": "24eebbfcba85b2f68f015f3193c8cbdb",
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "fasttextwiki"
+            "package": "rootroo"
           }
         ]
       }
@@ -16442,6 +16442,9 @@
     "pretrain": {
       "fasttextwiki": {
         "md5": "f68c8815314f396b3ae9d96d9d70db96"
+      },
+      "rootroo": {
+        "md5": "d438254b732a17e780855f2fd10e6a3c"
       }
     },
     "tokenize": {
@@ -16486,7 +16489,7 @@
         "depparse": "lattice_nocharlm"
       }
     },
-    "default_md5": "07f90442f8e32420b574b4beb7d48b56",
+    "default_md5": "fa6f50ea2f9bb9084faa5f6466222bb5",
     "lang_name": "Komi_Zyrian"
   },
   "komi_zyrian": {
