@@ -756,7 +756,7 @@
     },
     "constituency": {
       "arboretum_charlm": {
-        "md5": "52fc543d697f2e248cd32b193b267099",
+        "md5": "79510d45b51eb09b5d85322f4e7482d9",
         "dependencies": [
           {
             "model": "pretrain",
@@ -773,7 +773,7 @@
         ]
       },
       "arboretum_scandibert": {
-        "md5": "a1725d035441a49bcdcc25501a531d89",
+        "md5": "2b7e14287c436ad24dd3a09472a6def7",
         "dependencies": [
           {
             "model": "pretrain",
@@ -988,7 +988,7 @@
         "depparse": "ddt_charlm"
       }
     },
-    "default_md5": "b205f5abe352400c5f6a93f07181280b",
+    "default_md5": "1290ae1a3ac0383de5fed6023e87c438",
     "lang_name": "Danish"
   },
   "danish": {
@@ -1002,7 +1002,7 @@
     },
     "constituency": {
       "spmrl_charlm": {
-        "md5": "dccb20b2a2e5f6a56fc407cdaecdd2d1",
+        "md5": "a46f6e39f5f34dd0a8d06c26389dbf2b",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1019,7 +1019,7 @@
         ]
       },
       "spmrl_german-nlp-electra": {
-        "md5": "4450b5aecef4e542039972ded977a6f6",
+        "md5": "ecfa0aa508c6bf878929db97786deedf",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1585,7 +1585,7 @@
         "depparse": "hdt_charlm"
       }
     },
-    "default_md5": "d5c52697a28e0b61ea92aeaa61ffe29e",
+    "default_md5": "492c22abe41771fc785f5e446fc13f62",
     "lang_name": "German"
   },
   "german": {
@@ -1605,7 +1605,7 @@
     },
     "constituency": {
       "ptb3-revised_charlm": {
-        "md5": "ad8b8be6b0eb9ca68cdff4cdd14cc503",
+        "md5": "74dadb9e65bc7b88889550889d0a1d16",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1622,7 +1622,7 @@
         ]
       },
       "ptb3-revised_electra-large": {
-        "md5": "9b0a9af16603b03f9f6ca8847106eaa6",
+        "md5": "d17d7ebf61a9e6eff02b9db53a5dd293",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1639,7 +1639,7 @@
         ]
       },
       "ptb3_charlm": {
-        "md5": "8c98571f31d397ca1a200cbedf92af50",
+        "md5": "45d737c2172a5f8cb9324cc25af335f6",
         "dependencies": [
           {
             "model": "pretrain",
@@ -1656,7 +1656,7 @@
         ]
       },
       "ptb3_electra-large": {
-        "md5": "b6a8b833eb06a8d73e7853fb4264fdf1",
+        "md5": "caaf016de94948f50fcab2c6ff21d838",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3023,7 +3023,7 @@
         "depparse": "partut_charlm"
       }
     },
-    "default_md5": "4d58e29efa601cb1c275dbdb58ad01cd",
+    "default_md5": "30857e938c2701eebbf25b0d386221fe",
     "lang_name": "English"
   },
   "english": {
@@ -3037,7 +3037,7 @@
     },
     "constituency": {
       "combined_bertin-roberta": {
-        "md5": "89d8982a9f9c302c988ff4a5a9cf01bd",
+        "md5": "eea31f1c8b776f1c541740ad7f309743",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3054,7 +3054,7 @@
         ]
       },
       "combined_charlm": {
-        "md5": "dd3aa067c066eb1d3a6c4b23bdc38803",
+        "md5": "b9a424358dbe50a14dc4ec70eca3be6d",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3578,7 +3578,7 @@
         "depparse": "gsd_charlm"
       }
     },
-    "default_md5": "55c772a917d7c7068c473f9bef7b931a",
+    "default_md5": "c812e4603725054610c326f949536ede",
     "lang_name": "Spanish"
   },
   "spanish": {
@@ -6086,7 +6086,7 @@
     },
     "constituency": {
       "icon_charlm": {
-        "md5": "965e7d9af76772367e67777562b0dc29",
+        "md5": "6f407c725046b0f55c9d2d3b7becff50",
         "dependencies": [
           {
             "model": "pretrain",
@@ -6103,7 +6103,7 @@
         ]
       },
       "icon_indobert": {
-        "md5": "6931c5759c6a89ba3e1c2e612a8c497d",
+        "md5": "17b1e6be5a5a2136b77f6acbcd7a26e4",
         "dependencies": [
           {
             "model": "pretrain",
@@ -6403,7 +6403,7 @@
         "depparse": "gsd_charlm"
       }
     },
-    "default_md5": "3e3c3ffbbb34629135a0aec54b272489",
+    "default_md5": "921bdd3fd2522faf976b66144930cff0",
     "lang_name": "Indonesian"
   },
   "indonesian": {
@@ -6417,7 +6417,7 @@
     },
     "constituency": {
       "turin_charlm": {
-        "md5": "af902f8e670b981b57c759bbb240b00d",
+        "md5": "8308adcc0a32534cd15f10f5aab11232",
         "dependencies": [
           {
             "model": "pretrain",
@@ -6434,7 +6434,7 @@
         ]
       },
       "turin_electra": {
-        "md5": "66c056636bdc5d5dcb2563d200e20f9f",
+        "md5": "84e085dbebf0a0fd9f729f74d45688a9",
         "dependencies": [
           {
             "model": "pretrain",
@@ -6451,7 +6451,7 @@
         ]
       },
       "vit_charlm": {
-        "md5": "b3063e40d26de780fa86ca41c1763e9d",
+        "md5": "6b79d06451d2178f4be6405c4555d066",
         "dependencies": [
           {
             "model": "pretrain",
@@ -6468,7 +6468,7 @@
         ]
       },
       "vit_electra": {
-        "md5": "c19710294b41a7ff99ca7f83f9e0132e",
+        "md5": "0f24f4c426c3a3ec68ebb65cdd984c59",
         "dependencies": [
           {
             "model": "pretrain",
@@ -7622,7 +7622,7 @@
         "depparse": "vit_charlm"
       }
     },
-    "default_md5": "933bc9006f0b4438d3958650565a54f3",
+    "default_md5": "6d1b0079f088602fa50b33153c6da488",
     "lang_name": "Italian"
   },
   "italian": {
@@ -7636,7 +7636,7 @@
     },
     "constituency": {
       "alt_charlm": {
-        "md5": "7a9b54614d359878d1294987782df4ed",
+        "md5": "e15ffeea7d4027a081735c63f9f4ee1c",
         "dependencies": [
           {
             "model": "pretrain",
@@ -7653,7 +7653,7 @@
         ]
       },
       "alt_rinna-roberta": {
-        "md5": "a227abb7db9693937c05b8a8c7fa996d",
+        "md5": "db03b08da813b15eb867d6e20f0a2e1f",
         "dependencies": [
           {
             "model": "pretrain",
@@ -7810,6 +7810,10 @@
       "combined_charlm": {
         "md5": "6544d66443f4b11b77c66b6da6775338",
         "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
           {
             "model": "forward_charlm",
             "package": "conll17"
@@ -8086,7 +8090,7 @@
         "depparse": "gsdluw_charlm"
       }
     },
-    "default_md5": "bad6cd3404a3af2410bad417b89a8da1",
+    "default_md5": "f5084ce7d55b359d4120fd0b83ae0468",
     "lang_name": "Japanese"
   },
   "japanese": {
@@ -9396,7 +9400,7 @@
     },
     "constituency": {
       "cintil_bertimbau": {
-        "md5": "f20b62e61870f0ce04655ceafe25d349",
+        "md5": "90e2ab8c383b059500e72684f0f26704",
         "dependencies": [
           {
             "model": "pretrain",
@@ -9413,7 +9417,7 @@
         ]
       },
       "cintil_charlm": {
-        "md5": "56a179f851a4e3248aeb8bd940a99e4c",
+        "md5": "af25eb7d348f59b1d7486d5e2b2a0e1c",
         "dependencies": [
           {
             "model": "pretrain",
@@ -10173,7 +10177,7 @@
         "depparse": "porttinari_charlm"
       }
     },
-    "default_md5": "2c2c6fddfa338977148285aa08d68e22",
+    "default_md5": "4f9cf000a2a23650d64c016cc83ff930",
     "lang_name": "Portuguese"
   },
   "portuguese": {
@@ -11445,7 +11449,7 @@
     },
     "constituency": {
       "starlang_charlm": {
-        "md5": "7f472df19437157ad2829a3c24f1ca16",
+        "md5": "1daa2d5de159d3be777865809b8bac7e",
         "dependencies": [
           {
             "model": "pretrain",
@@ -11462,7 +11466,7 @@
         ]
       },
       "starlang_turkish-bert": {
-        "md5": "bc0232b6c488a4f62031a8d0652a090e",
+        "md5": "b576646e145f7852e07c5df960298f58",
         "dependencies": [
           {
             "model": "pretrain",
@@ -12543,7 +12547,7 @@
     },
     "constituency": {
       "vlsp22_charlm": {
-        "md5": "32c46c27cd401babcf53dd4762384135",
+        "md5": "4650e60a01d7a51ef11cab45819d48f6",
         "dependencies": [
           {
             "model": "pretrain",
@@ -12560,7 +12564,7 @@
         ]
       },
       "vlsp22_phobert-large": {
-        "md5": "0428ba1656ad1da2f9d6f24130b7549f",
+        "md5": "78261bd831d70f6593aa0c7719c56a67",
         "dependencies": [
           {
             "model": "pretrain",
@@ -12577,7 +12581,7 @@
         ]
       },
       "vlsp23_phobert-large_finetuned": {
-        "md5": "01fee74d5512cec6dd56aa353446d5bc",
+        "md5": "502349f29f0094b6f551f47ded814897",
         "dependencies": [
           {
             "model": "pretrain",
@@ -12848,7 +12852,7 @@
         "depparse": "vtb_charlm"
       }
     },
-    "default_md5": "5b15159413dbfdc2c2a65fe56b7d477c",
+    "default_md5": "77c25931faeeb110638f82dbd203d804",
     "lang_name": "Vietnamese"
   },
   "vietnamese": {
@@ -12862,7 +12866,7 @@
     },
     "constituency": {
       "ctb-51_charlm": {
-        "md5": "e1c89e571bb9649cc8f7046976eb549a",
+        "md5": "6939b1ffe31e82ff09a035c698b98f50",
         "dependencies": [
           {
             "model": "pretrain",
@@ -12879,7 +12883,7 @@
         ]
       },
       "ctb-51_electra-large": {
-        "md5": "ffc4f83dbaf3effb97619eda0c6a4b4d",
+        "md5": "d9a44db3c285c7e8673827cd75d9a1a1",
         "dependencies": [
           {
             "model": "pretrain",
@@ -13140,7 +13144,7 @@
         "depparse": "gsdsimp_charlm"
       }
     },
-    "default_md5": "1c97aa536dd2308639dd14acf668d06a",
+    "default_md5": "74d5675dd9b124a8a8c093ff6eac2c89",
     "lang_name": "Simplified_Chinese"
   },
   "simplified_chinese": {
