@@ -18157,26 +18157,30 @@
       "tokenize": "ssj",
       "lemma": "ssj_nocharlm",
       "pos": "ssj_nocharlm",
-      "depparse": "ssj_nocharlm"
+      "depparse": "ssj_nocharlm",
+      "ner": "uner-ssj_nocharlm"
     },
     "packages": {
       "default": {
         "tokenize": "ssj",
         "lemma": "ssj_nocharlm",
         "pos": "ssj_nocharlm",
-        "depparse": "ssj_nocharlm"
+        "depparse": "ssj_nocharlm",
+        "ner": "uner-ssj_nocharlm"
       },
       "default_fast": {
         "tokenize": "ssj",
         "lemma": "ssj_nocharlm",
         "pos": "ssj_nocharlm",
-        "depparse": "ssj_nocharlm"
+        "depparse": "ssj_nocharlm",
+        "ner": "uner-ssj_nocharlm"
       },
       "default_accurate": {
         "tokenize": "ssj",
         "lemma": "ssj_nocharlm",
         "pos": "ssj_crosloengual-bert",
-        "depparse": "ssj_crosloengual-bert"
+        "depparse": "ssj_crosloengual-bert",
+        "ner": "uner-ssj_crosloengual-bert"
       },
       "ssj": {
         "tokenize": "ssj",
@@ -18191,7 +18195,7 @@
         "depparse": "sst_nocharlm"
       }
     },
-    "default_md5": "9359744a3b2047cf3ea8cc78cdcbfcb8",
+    "default_md5": "06f257f9eb14d16c79d22f573979afb7",
     "lang_name": "Slovenian"
   },
   "slovenian": {
