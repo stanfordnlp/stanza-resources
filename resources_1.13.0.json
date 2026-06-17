@@ -18091,7 +18091,36 @@
         "md5": "a9affc7c54a73a5764e35ceb9b198dea"
       }
     },
+    "ner": {
+      "uner-ssj_crosloengual-bert": {
+        "md5": "a4a6211ac46547071fc34bf30d1df29a",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
+      "uner-ssj_nocharlm": {
+        "md5": "4da96f962cccd88a60119762aa9db0d0",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      }
+    },
     "pos": {
+      "ssj_crosloengual-bert": {
+        "md5": "5a88beac7ad13e8463b0549d0413e8ab",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
       "ssj_nocharlm": {
         "md5": "f5d37e80374a5ad1617e3ed9513979fa",
         "dependencies": [
@@ -18146,7 +18175,7 @@
       "default_accurate": {
         "tokenize": "ssj",
         "lemma": "ssj_nocharlm",
-        "pos": "ssj_nocharlm",
+        "pos": "ssj_crosloengual-bert",
         "depparse": "ssj_crosloengual-bert"
       },
       "ssj": {
