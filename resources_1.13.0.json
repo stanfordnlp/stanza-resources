@@ -2877,8 +2877,17 @@
       "atis": {
         "md5": "20664a4e02747c6861057a6f2804cb36"
       },
-      "combined": {
-        "md5": "89a9c52688ac0ea655ee9f5388e61fe9"
+      "combined_charlm": {
+        "md5": "331aff36c8dad37dc1e3d1219bf094f7",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "1billion"
+          }
+        ]
+      },
+      "combined_nocharlm": {
+        "md5": "743d67dfe74f6396d728e7a7aedb615a"
       },
       "craft": {
         "md5": "fc95d998b9ad6c94e4d683a2e22f4b83"
@@ -2906,7 +2915,7 @@
       }
     },
     "default_processors": {
-      "tokenize": "combined",
+      "tokenize": "combined_nocharlm",
       "mwt": "combined",
       "lemma": "combined_nocharlm",
       "pos": "combined_charlm",
@@ -2920,7 +2929,7 @@
     },
     "packages": {
       "default": {
-        "tokenize": "combined",
+        "tokenize": "combined_nocharlm",
         "mwt": "combined",
         "lemma": "combined_nocharlm",
         "pos": "combined_charlm",
@@ -2933,7 +2942,7 @@
         }
       },
       "default_fast": {
-        "tokenize": "combined",
+        "tokenize": "combined_nocharlm",
         "mwt": "combined",
         "lemma": "combined_nocharlm",
         "pos": "combined_nocharlm",
@@ -2945,7 +2954,7 @@
         }
       },
       "default_accurate": {
-        "tokenize": "combined",
+        "tokenize": "combined_charlm",
         "mwt": "combined",
         "lemma": "combined_charlm",
         "pos": "combined_electra-large",
@@ -2964,7 +2973,7 @@
         "depparse": "atis_charlm"
       },
       "combined": {
-        "tokenize": "combined",
+        "tokenize": "combined_nocharlm",
         "mwt": "combined",
         "pos": "combined_charlm",
         "lemma": "combined_nocharlm",
@@ -3023,7 +3032,7 @@
         "depparse": "partut_charlm"
       }
     },
-    "default_md5": "30857e938c2701eebbf25b0d386221fe",
+    "default_md5": "ee66790c938b78913bf44bcfc5ddc893",
     "lang_name": "English"
   },
   "english": {
