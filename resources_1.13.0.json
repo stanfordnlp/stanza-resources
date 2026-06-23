@@ -18063,13 +18063,52 @@
     "alias": "sk"
   },
   "sl": {
+    "backward_charlm": {
+      "oscar2023": {
+        "md5": "714ab47c45593356da52bd1ab8502a21"
+      }
+    },
     "depparse": {
+      "combined_crosloengual-bert": {
+        "md5": "c640d6c89966bf456a0f5ef526187550",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      },
+      "combined_nocharlm": {
+        "md5": "7b2d2d0f22ec8516a909dcf39dee30d1",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
       "ssj_crosloengual-bert": {
         "md5": "b6ee4c4d5e6d48bf8ba54572e58b0663",
         "dependencies": [
           {
             "model": "pretrain",
             "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
           }
         ]
       },
@@ -18092,7 +18131,15 @@
         ]
       }
     },
+    "forward_charlm": {
+      "oscar2023": {
+        "md5": "6cf63d4630f8144ceb2095d1cecbb721"
+      }
+    },
     "lemma": {
+      "combined_nocharlm": {
+        "md5": "9ee889e2e0b7d3e8ac6e90ec6982b6c4"
+      },
       "ssj_nocharlm": {
         "md5": "4dec22506f988669cab44666ee931e40"
       },
@@ -18107,6 +18154,14 @@
           {
             "model": "pretrain",
             "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
           }
         ]
       },
@@ -18121,12 +18176,46 @@
       }
     },
     "pos": {
+      "combined_crosloengual-bert": {
+        "md5": "aa87a5cd90d95c3b5acfd4f32740bbbc",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      },
+      "combined_nocharlm": {
+        "md5": "3e19ffc069791c81ff4a8f5fb68ce8e4",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
       "ssj_crosloengual-bert": {
         "md5": "5a88beac7ad13e8463b0549d0413e8ab",
         "dependencies": [
           {
             "model": "pretrain",
             "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
           }
         ]
       },
@@ -18155,6 +18244,9 @@
       }
     },
     "tokenize": {
+      "combined_nocharlm": {
+        "md5": "5370163852bbb5c99b4673e0c9c0f804"
+      },
       "ssj": {
         "md5": "a6b8b84173f313ee80e0f3cc18ae477d"
       },
@@ -18163,33 +18255,39 @@
       }
     },
     "default_processors": {
-      "tokenize": "ssj",
-      "lemma": "ssj_nocharlm",
-      "pos": "ssj_nocharlm",
-      "depparse": "ssj_nocharlm",
+      "tokenize": "combined_nocharlm",
+      "lemma": "combined_nocharlm",
+      "pos": "combined_nocharlm",
+      "depparse": "combined_nocharlm",
       "ner": "uner-ssj_nocharlm"
     },
     "packages": {
       "default": {
-        "tokenize": "ssj",
-        "lemma": "ssj_nocharlm",
-        "pos": "ssj_nocharlm",
-        "depparse": "ssj_nocharlm",
+        "tokenize": "combined_nocharlm",
+        "lemma": "combined_nocharlm",
+        "pos": "combined_nocharlm",
+        "depparse": "combined_nocharlm",
         "ner": "uner-ssj_nocharlm"
       },
       "default_fast": {
-        "tokenize": "ssj",
-        "lemma": "ssj_nocharlm",
-        "pos": "ssj_nocharlm",
-        "depparse": "ssj_nocharlm",
+        "tokenize": "combined_nocharlm",
+        "lemma": "combined_nocharlm",
+        "pos": "combined_nocharlm",
+        "depparse": "combined_nocharlm",
         "ner": "uner-ssj_nocharlm"
       },
       "default_accurate": {
-        "tokenize": "ssj",
-        "lemma": "ssj_nocharlm",
-        "pos": "ssj_crosloengual-bert",
-        "depparse": "ssj_crosloengual-bert",
+        "tokenize": "combined_nocharlm",
+        "lemma": "combined_nocharlm",
+        "pos": "combined_crosloengual-bert",
+        "depparse": "combined_crosloengual-bert",
         "ner": "uner-ssj_crosloengual-bert"
+      },
+      "combined": {
+        "tokenize": "combined_nocharlm",
+        "pos": "combined_nocharlm",
+        "lemma": "combined_nocharlm",
+        "depparse": "combined_nocharlm"
       },
       "ssj": {
         "tokenize": "ssj",
@@ -18204,7 +18302,7 @@
         "depparse": "sst_nocharlm"
       }
     },
-    "default_md5": "06f257f9eb14d16c79d22f573979afb7",
+    "default_md5": "0b99cf7369d8c5a0ddf1c266554a5200",
     "lang_name": "Slovenian"
   },
   "slovenian": {
