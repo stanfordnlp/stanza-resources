@@ -18138,7 +18138,7 @@
     },
     "lemma": {
       "combined_charlm": {
-        "md5": "fe2ca2d35adbec0b4f78639a3f28f64e",
+        "md5": "bec8e49a13927cc132011e5c16e76c44",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -18151,7 +18151,7 @@
         ]
       },
       "combined_nocharlm": {
-        "md5": "82ff548331d5ef4874d816b4d6a21456"
+        "md5": "b59036d16659a05bf7cc3c5d54313100"
       },
       "ssj_nocharlm": {
         "md5": "4dec22506f988669cab44666ee931e40"
@@ -18341,7 +18341,7 @@
         "depparse": "sst_nocharlm"
       }
     },
-    "default_md5": "4bf321606d9272d85b89c4f23f67ed38",
+    "default_md5": "2810ee4b50876c7f50e5d4b2e6122c57",
     "lang_name": "Slovenian"
   },
   "slovenian": {
