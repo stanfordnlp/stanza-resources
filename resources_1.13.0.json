@@ -18137,8 +18137,21 @@
       }
     },
     "lemma": {
+      "combined_charlm": {
+        "md5": "fe2ca2d35adbec0b4f78639a3f28f64e",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      },
       "combined_nocharlm": {
-        "md5": "9ee889e2e0b7d3e8ac6e90ec6982b6c4"
+        "md5": "82ff548331d5ef4874d816b4d6a21456"
       },
       "ssj_nocharlm": {
         "md5": "4dec22506f988669cab44666ee931e40"
@@ -18176,8 +18189,25 @@
       }
     },
     "pos": {
+      "combined_charlm": {
+        "md5": "74240ce9ffbbe05e79b5ca6922223fa9",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      },
       "combined_crosloengual-bert": {
-        "md5": "aa87a5cd90d95c3b5acfd4f32740bbbc",
+        "md5": "81efb4bf6671c538dae71da2b2113c0c",
         "dependencies": [
           {
             "model": "pretrain",
@@ -18194,7 +18224,7 @@
         ]
       },
       "combined_nocharlm": {
-        "md5": "3e19ffc069791c81ff4a8f5fb68ce8e4",
+        "md5": "e31c2d66cca8e894a0637faab4da1947",
         "dependencies": [
           {
             "model": "pretrain",
@@ -18244,6 +18274,15 @@
       }
     },
     "tokenize": {
+      "combined_charlm": {
+        "md5": "4d1c0d8b70440335d1ca568508103aaa",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "oscar2023"
+          }
+        ]
+      },
       "combined_nocharlm": {
         "md5": "5370163852bbb5c99b4673e0c9c0f804"
       },
@@ -18257,7 +18296,7 @@
     "default_processors": {
       "tokenize": "combined_nocharlm",
       "lemma": "combined_nocharlm",
-      "pos": "combined_nocharlm",
+      "pos": "combined_charlm",
       "depparse": "combined_nocharlm",
       "ner": "uner-ssj_nocharlm"
     },
@@ -18265,7 +18304,7 @@
       "default": {
         "tokenize": "combined_nocharlm",
         "lemma": "combined_nocharlm",
-        "pos": "combined_nocharlm",
+        "pos": "combined_charlm",
         "depparse": "combined_nocharlm",
         "ner": "uner-ssj_nocharlm"
       },
@@ -18277,15 +18316,15 @@
         "ner": "uner-ssj_nocharlm"
       },
       "default_accurate": {
-        "tokenize": "combined_nocharlm",
-        "lemma": "combined_nocharlm",
+        "tokenize": "combined_charlm",
+        "lemma": "combined_charlm",
         "pos": "combined_crosloengual-bert",
         "depparse": "combined_crosloengual-bert",
         "ner": "uner-ssj_crosloengual-bert"
       },
       "combined": {
         "tokenize": "combined_nocharlm",
-        "pos": "combined_nocharlm",
+        "pos": "combined_charlm",
         "lemma": "combined_nocharlm",
         "depparse": "combined_nocharlm"
       },
@@ -18302,7 +18341,7 @@
         "depparse": "sst_nocharlm"
       }
     },
-    "default_md5": "0b99cf7369d8c5a0ddf1c266554a5200",
+    "default_md5": "4bf321606d9272d85b89c4f23f67ed38",
     "lang_name": "Slovenian"
   },
   "slovenian": {
