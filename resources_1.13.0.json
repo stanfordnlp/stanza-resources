@@ -18141,6 +18141,10 @@
         "md5": "bec8e49a13927cc132011e5c16e76c44",
         "dependencies": [
           {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
             "model": "forward_charlm",
             "package": "oscar2023"
           },
