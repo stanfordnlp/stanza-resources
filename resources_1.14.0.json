@@ -903,6 +903,9 @@
   "bengali": {
     "alias": "bn"
   },
+  "bangla": {
+    "alias": "bn"
+  },
   "bxr": {
     "depparse": {
       "bdt_nocharlm": {
@@ -13360,6 +13363,9 @@
     "lang_name": "Old_East_Slavic"
   },
   "old_east_slavic": {
+    "alias": "orv"
+  },
+  "old_russian": {
     "alias": "orv"
   },
   "ota": {
