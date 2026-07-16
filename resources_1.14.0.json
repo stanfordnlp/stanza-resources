@@ -250,6 +250,9 @@
   "afrikaans": {
     "alias": "af"
   },
+  "afr": {
+    "alias": "af"
+  },
   "ang": {
     "backward_charlm": {
       "nerthus1024": {
@@ -714,6 +717,9 @@
   "belarusian": {
     "alias": "be"
   },
+  "bel": {
+    "alias": "be"
+  },
   "bg": {
     "backward_charlm": {
       "conll17": {
@@ -901,6 +907,9 @@
     "lang_name": "Bengali"
   },
   "bengali": {
+    "alias": "bn"
+  },
+  "ben": {
     "alias": "bn"
   },
   "bangla": {
@@ -1502,6 +1511,9 @@
     "lang_name": "Welsh"
   },
   "welsh": {
+    "alias": "cy"
+  },
+  "cym": {
     "alias": "cy"
   },
   "da": {
@@ -3919,6 +3931,9 @@
   "english": {
     "alias": "en"
   },
+  "eng": {
+    "alias": "en"
+  },
   "es": {
     "backward_charlm": {
       "newswiki": {
@@ -4472,6 +4487,9 @@
     "lang_name": "Spanish"
   },
   "spanish": {
+    "alias": "es"
+  },
+  "spa": {
     "alias": "es"
   },
   "et": {
@@ -5536,6 +5554,9 @@
   "faroese": {
     "alias": "fo"
   },
+  "fao": {
+    "alias": "fo"
+  },
   "fr": {
     "backward_charlm": {
       "newswiki": {
@@ -6348,6 +6369,9 @@
   "french": {
     "alias": "fr"
   },
+  "fra": {
+    "alias": "fr"
+  },
   "fro": {
     "depparse": {
       "profiterole_nocharlm": {
@@ -6530,6 +6554,9 @@
   "irish": {
     "alias": "ga"
   },
+  "gle": {
+    "alias": "ga"
+  },
   "gaelic": {
     "alias": "ga"
   },
@@ -6617,6 +6644,9 @@
     "lang_name": "Scottish_Gaelic"
   },
   "scottish_gaelic": {
+    "alias": "gd"
+  },
+  "gla": {
     "alias": "gd"
   },
   "gl": {
@@ -6737,6 +6767,9 @@
     "lang_name": "Galician"
   },
   "galician": {
+    "alias": "gl"
+  },
+  "glg": {
     "alias": "gl"
   },
   "got": {
@@ -8124,6 +8157,9 @@
   "hindi": {
     "alias": "hi"
   },
+  "hin": {
+    "alias": "hi"
+  },
   "hr": {
     "depparse": {
       "set_bcms-bertic": {
@@ -8556,6 +8592,9 @@
   "armenian": {
     "alias": "hy"
   },
+  "hye": {
+    "alias": "hy"
+  },
   "hyw": {
     "depparse": {
       "armtdp_nocharlm": {
@@ -8971,6 +9010,9 @@
     "lang_name": "Indonesian"
   },
   "indonesian": {
+    "alias": "id"
+  },
+  "ind": {
     "alias": "id"
   },
   "is": {
@@ -10914,6 +10956,9 @@
   "georgian": {
     "alias": "ka"
   },
+  "kat": {
+    "alias": "ka"
+  },
   "kk": {
     "backward_charlm": {
       "oscar": {
@@ -11078,6 +11123,9 @@
     "lang_name": "Kazakh"
   },
   "kazakh": {
+    "alias": "kk"
+  },
+  "kaz": {
     "alias": "kk"
   },
   "kmr": {
@@ -11468,6 +11516,9 @@
     "lang_name": "Kyrgyz"
   },
   "kyrgyz": {
+    "alias": "ky"
+  },
+  "kir": {
     "alias": "ky"
   },
   "kirghiz": {
@@ -12054,6 +12105,9 @@
   "malayalam": {
     "alias": "ml"
   },
+  "mal": {
+    "alias": "ml"
+  },
   "mr": {
     "backward_charlm": {
       "l3cube": {
@@ -12300,6 +12354,9 @@
   "marathi": {
     "alias": "mr"
   },
+  "mar": {
+    "alias": "mr"
+  },
   "mt": {
     "depparse": {
       "mudt_maltberta": {
@@ -12380,6 +12437,9 @@
   "maltese": {
     "alias": "mt"
   },
+  "mlt": {
+    "alias": "mt"
+  },
   "my": {
     "backward_charlm": {
       "oscar": {
@@ -12445,6 +12505,9 @@
     "lang_name": "Myanmar"
   },
   "myanmar": {
+    "alias": "my"
+  },
+  "mya": {
     "alias": "my"
   },
   "burmese": {
@@ -13271,6 +13334,9 @@
     "lang_name": "Odia"
   },
   "odia": {
+    "alias": "or"
+  },
+  "ory": {
     "alias": "or"
   },
   "oriya": {
@@ -14634,6 +14700,9 @@
   "portuguese": {
     "alias": "pt"
   },
+  "por": {
+    "alias": "pt"
+  },
   "qaf": {
     "depparse": {
       "arabizi_nopretrain": {
@@ -15359,6 +15428,9 @@
   "russian": {
     "alias": "ru"
   },
+  "rus": {
+    "alias": "ru"
+  },
   "sa": {
     "depparse": {
       "vedic_nocharlm": {
@@ -15433,6 +15505,9 @@
     "lang_name": "Sanskrit"
   },
   "sanskrit": {
+    "alias": "sa"
+  },
+  "san": {
     "alias": "sa"
   },
   "sd": {
@@ -15616,6 +15691,9 @@
   "sindhi": {
     "alias": "sd"
   },
+  "snd": {
+    "alias": "sd"
+  },
   "si": {
     "backward_charlm": {
       "oscar2022": {
@@ -15630,6 +15708,9 @@
     "lang_name": "Sinhala"
   },
   "sinhala": {
+    "alias": "si"
+  },
+  "sin": {
     "alias": "si"
   },
   "sinhalese": {
@@ -16682,6 +16763,9 @@
   "tamil": {
     "alias": "ta"
   },
+  "tam": {
+    "alias": "ta"
+  },
   "te": {
     "backward_charlm": {
       "oscar2022": {
@@ -16861,6 +16945,9 @@
     "lang_name": "Telugu"
   },
   "telugu": {
+    "alias": "te"
+  },
+  "tel": {
     "alias": "te"
   },
   "th": {
@@ -17963,6 +18050,9 @@
   "uyghur": {
     "alias": "ug"
   },
+  "uig": {
+    "alias": "ug"
+  },
   "uk": {
     "backward_charlm": {
       "conll17": {
@@ -18313,6 +18403,9 @@
     "lang_name": "Urdu"
   },
   "urdu": {
+    "alias": "ur"
+  },
+  "urd": {
     "alias": "ur"
   },
   "vi": {
