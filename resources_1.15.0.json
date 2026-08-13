@@ -641,6 +641,20 @@
   "arabic": {
     "alias": "ar"
   },
+  "as": {
+    "pretrain": {
+      "fasttext157": {
+        "md5": "2361e3e9342514c4374d3416c5378c83"
+      }
+    },
+    "lang_name": "Assamese"
+  },
+  "assamese": {
+    "alias": "as"
+  },
+  "asm": {
+    "alias": "as"
+  },
   "be": {
     "depparse": {
       "hse_nocharlm": {
@@ -893,6 +907,17 @@
   "bulgarian": {
     "alias": "bg"
   },
+  "bho": {
+    "pretrain": {
+      "fasttext157": {
+        "md5": "e17eb356fce440e4aa94ceb59d3b61f2"
+      }
+    },
+    "lang_name": "Bhojpuri"
+  },
+  "bhojpuri": {
+    "alias": "bho"
+  },
   "bn": {
     "backward_charlm": {
       "oscar": {
@@ -1093,6 +1118,20 @@
   },
   "catalan": {
     "alias": "ca"
+  },
+  "ckb": {
+    "pretrain": {
+      "fasttext157": {
+        "md5": "d5285b6d7a43778934279bfce64ef384"
+      }
+    },
+    "lang_name": "Sorani"
+  },
+  "sorani": {
+    "alias": "ckb"
+  },
+  "central_kurdish": {
+    "alias": "ckb"
   },
   "cop": {
     "depparse": {
@@ -8321,6 +8360,23 @@
   "upper_sorbian": {
     "alias": "hsb"
   },
+  "ht": {
+    "pretrain": {
+      "fasttext157": {
+        "md5": "d0d662d7e16f8e286574868c6d56b1c4"
+      }
+    },
+    "lang_name": "Haitian"
+  },
+  "haitian": {
+    "alias": "ht"
+  },
+  "hat": {
+    "alias": "ht"
+  },
+  "haitian_creole": {
+    "alias": "ht"
+  },
   "hu": {
     "depparse": {
       "szeged_nocharlm": {
@@ -13239,6 +13295,20 @@
   "norwegian_nynorsk": {
     "alias": "nn"
   },
+  "oc": {
+    "pretrain": {
+      "fasttext157": {
+        "md5": "992e1d7d0321dd91c280a50cdc492714"
+      }
+    },
+    "lang_name": "Occitan"
+  },
+  "occitan": {
+    "alias": "oc"
+  },
+  "oci": {
+    "alias": "oc"
+  },
   "or": {
     "depparse": {
       "odtb_muril-large-cased": {
@@ -13519,6 +13589,23 @@
   },
   "ottoman_turkish": {
     "alias": "ota"
+  },
+  "pa": {
+    "pretrain": {
+      "fasttext157gur": {
+        "md5": "0dfdb244d9a1cd204c50237d8b2f70cb"
+      },
+      "fasttext157shah": {
+        "md5": "fcb002fc46b010c2e78fb6bb0b45c3db"
+      }
+    },
+    "lang_name": "Punjabi"
+  },
+  "punjabi": {
+    "alias": "pa"
+  },
+  "pan": {
+    "alias": "pa"
   },
   "pcm": {
     "depparse": {
@@ -13908,6 +13995,20 @@
   },
   "polish": {
     "alias": "pl"
+  },
+  "ps": {
+    "pretrain": {
+      "fasttext157": {
+        "md5": "f460d8770b4e99747c9b7b28619f9a9f"
+      }
+    },
+    "lang_name": "Pashto"
+  },
+  "pashto": {
+    "alias": "ps"
+  },
+  "pbt": {
+    "alias": "ps"
   },
   "pt": {
     "backward_charlm": {
@@ -18408,6 +18509,20 @@
   "urd": {
     "alias": "ur"
   },
+  "uz": {
+    "pretrain": {
+      "fasttext157": {
+        "md5": "ce24b9e2fc685188937f54cba72462d0"
+      }
+    },
+    "lang_name": "Uzbek"
+  },
+  "uzbek": {
+    "alias": "uz"
+  },
+  "uzn": {
+    "alias": "uz"
+  },
   "vi": {
     "backward_charlm": {
       "conll17": {
@@ -18902,6 +19017,20 @@
   "classical_armenian": {
     "alias": "xcl"
   },
+  "yi": {
+    "pretrain": {
+      "fasttext157": {
+        "md5": "1f836e3b82c0c637f27aa2d3152f0ace"
+      }
+    },
+    "lang_name": "Yiddish"
+  },
+  "yiddish": {
+    "alias": "yi"
+  },
+  "ydd": {
+    "alias": "yi"
+  },
   "zh-hans": {
     "backward_charlm": {
       "gigaword": {
@@ -19269,6 +19398,20 @@
   },
   "traditional_chinese": {
     "alias": "zh-hant"
+  },
+  "zza": {
+    "pretrain": {
+      "fasttext157": {
+        "md5": "ecb737a44a52c90c79245a34c916d24d"
+      }
+    },
+    "lang_name": "Zazaki"
+  },
+  "zazaki": {
+    "alias": "zza"
+  },
+  "zaza": {
+    "alias": "zza"
   },
   "no": {
     "alias": "nb"
