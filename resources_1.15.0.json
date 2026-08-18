@@ -13591,6 +13591,26 @@
     "alias": "ota"
   },
   "pa": {
+    "ner": {
+      "shahmukhi_muril-large-cased": {
+        "md5": "5485e8fb1d5ad782181f0a12ae7a66fa",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttext157shah"
+          }
+        ]
+      },
+      "shahmukhi_nocharlm": {
+        "md5": "f3d1bf4d74e30991ac8e0f14a5c64686",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "fasttext157shah"
+          }
+        ]
+      }
+    },
     "pretrain": {
       "fasttext157gur": {
         "md5": "0dfdb244d9a1cd204c50237d8b2f70cb"
