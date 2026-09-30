@@ -4029,7 +4029,7 @@
         ]
       },
       "combined_charlm": {
-        "md5": "26eadd5b2eebe8584a63005ec8bc8037",
+        "md5": "a31dbf7269152bc85c3c79c5318ae848",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4046,7 +4046,7 @@
         ]
       },
       "combined_electra-large": {
-        "md5": "5534feb7d894e673516b6edca52ab402",
+        "md5": "f7e65d440e6653ff3f5b4ae15655c154",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4063,7 +4063,7 @@
         ]
       },
       "combined_nocharlm": {
-        "md5": "b0834076972ced0809052fad7b862f6e",
+        "md5": "005fab042873317838e692c650e8e5e9",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4608,7 +4608,7 @@
         "depparse": "partut_charlm"
       }
     },
-    "default_md5": "1763c9ea8159e7db3b8297d3ca274ed8",
+    "default_md5": "d67a8cc6a4ac3131c2145cc5d8cd928b",
     "lang_name": "English"
   },
   "english": {
