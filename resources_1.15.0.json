@@ -11926,7 +11926,7 @@
     },
     "tokenize": {
       "combined_charlm": {
-        "md5": "288f35d64a254c827c24ec68f50e70d7",
+        "md5": "fba6125aff391336deb86081652d0dfb",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -11935,10 +11935,10 @@
         ]
       },
       "combined_nocharlm": {
-        "md5": "42ba5ef2e622c5ce61d3ba71eb91f20b"
+        "md5": "b17b3d6a44195447400516f258e8d073"
       },
       "gsd_charlm": {
-        "md5": "a01a3efbb5ca4cf3f0579dd33f13c537",
+        "md5": "99ade255a695165e09de6584f810497e",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -11947,7 +11947,7 @@
         ]
       },
       "gsd_nocharlm": {
-        "md5": "dc1327046d8f47328b795be88811e704"
+        "md5": "000168006b1049016efd9b3b0194315f"
       },
       "gsdluw_charlm": {
         "md5": "5b94bb57d0456696e81f85c5b9beab6c",
@@ -12013,7 +12013,7 @@
         "depparse": "gsdluw_charlm"
       }
     },
-    "default_md5": "3b0928103e4080d5869b72f05ab61096",
+    "default_md5": "6f2c75d36b8280f73df8931bd1047a18",
     "lang_name": "Japanese"
   },
   "japanese": {
@@ -19665,7 +19665,7 @@
         "md5": "ffa4b44a0ecb6035d0815cb6bf7e5717"
       },
       "tud_charlm": {
-        "md5": "5afc3856fbb32b6161dd81ed23b70777",
+        "md5": "87c2005f48890b79d052601354e0e7f4",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -19674,7 +19674,7 @@
         ]
       },
       "tud_nocharlm": {
-        "md5": "d430637caf82ab4bacc2eb55ea88aaea"
+        "md5": "c1e8d9775bdbbdab4bc90b3cf84024c7"
       }
     },
     "default_processors": {
@@ -19716,7 +19716,7 @@
         "depparse": "tud_charlm"
       }
     },
-    "default_md5": "3ef638ab4d890b12731acc1ff147856b",
+    "default_md5": "30d1e1712830678b3499d0b6127593db",
     "lang_name": "Thai"
   },
   "thai": {
@@ -22063,7 +22063,7 @@
     },
     "tokenize": {
       "gsdsimp_charlm": {
-        "md5": "f0fe6f18e98811cd5f59fe0415a041b1",
+        "md5": "ec9837e7a0ee60eb9982a4cbd2bca564",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -22072,7 +22072,7 @@
         ]
       },
       "gsdsimp_nocharlm": {
-        "md5": "04051fd456cce142a98909f6c2d6246a"
+        "md5": "a47f8f71302c1460aed5b3606270eeab"
       }
     },
     "default_processors": {
@@ -22118,7 +22118,7 @@
         "depparse": "gsdsimp_charlm"
       }
     },
-    "default_md5": "091691e79be77e16128099a0e235c374",
+    "default_md5": "1defb798f1396f0b50a42b5854322d25",
     "lang_name": "Simplified_Chinese"
   },
   "simplified_chinese": {
@@ -22159,7 +22159,7 @@
     },
     "tokenize": {
       "gsd_nocharlm": {
-        "md5": "9c3e9e1c2880f89d6dbb73d3009723ea"
+        "md5": "758644937244c8c169b93d528a6c4967"
       }
     },
     "default_processors": {
@@ -22194,7 +22194,7 @@
         "depparse": "gsd_nocharlm"
       }
     },
-    "default_md5": "80324e9d0e413d9d04fdecf12ac20fe2",
+    "default_md5": "516a7416d454e7c93bf125093e5692f7",
     "lang_name": "Traditional_Chinese"
   },
   "traditional_chinese": {
