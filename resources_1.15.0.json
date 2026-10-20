@@ -3702,11 +3702,11 @@
         ]
       },
       "conll03_charlm": {
-        "md5": "adc994f36ee4f8fcc5e5bceb3597f02e",
+        "md5": "77c3c6145ed2efac8502b3aba4dfab9d",
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "glove"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -3719,11 +3719,11 @@
         ]
       },
       "conll03_electra-large": {
-        "md5": "892891610a5d66635904081fd6376178",
+        "md5": "76d2a81de8932838e2753cba0059d293",
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "glove"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
