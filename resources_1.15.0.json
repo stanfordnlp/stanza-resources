@@ -2319,12 +2319,12 @@
           }
         ]
       },
-      "germeval2014_dbmdz-bert-german-cased": {
-        "md5": "d496675af4b1ee6ea610a97fcfce6caf",
+      "germeval2014_charlm": {
+        "md5": "2063eb4b3ce5acbc9ec7a3f601dee016",
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "fasttextwiki"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -2337,28 +2337,11 @@
         ]
       },
       "germeval2014_german-nlp-electra": {
-        "md5": "35be8dec3ab2dbed9b6faabe84d342c8",
+        "md5": "d40dad1b879c301e73ea23d5bc399423",
         "dependencies": [
           {
             "model": "pretrain",
-            "package": "fasttextwiki"
-          },
-          {
-            "model": "forward_charlm",
-            "package": "newswiki"
-          },
-          {
-            "model": "backward_charlm",
-            "package": "newswiki"
-          }
-        ]
-      },
-      "germeval2014": {
-        "md5": "e2d33aecdfc079b18dbdbb06ec6d419a",
-        "dependencies": [
-          {
-            "model": "pretrain",
-            "package": "fasttextwiki"
+            "package": "conll17"
           },
           {
             "model": "forward_charlm",
@@ -2607,7 +2590,7 @@
       "lemma": "combined_nocharlm",
       "pos": "combined_charlm",
       "depparse": "combined_charlm",
-      "ner": "germeval2014",
+      "ner": "germeval2014_charlm",
       "sentiment": "sb10k_charlm",
       "constituency": "spmrl_charlm",
       "optional": {
@@ -2621,7 +2604,7 @@
         "lemma": "combined_nocharlm",
         "pos": "combined_charlm",
         "depparse": "combined_charlm",
-        "ner": "germeval2014",
+        "ner": "germeval2014_charlm",
         "sentiment": "sb10k_charlm",
         "constituency": "spmrl_charlm",
         "optional": {
@@ -2634,7 +2617,7 @@
         "lemma": "combined_nocharlm",
         "pos": "combined_nocharlm",
         "depparse": "combined_nocharlm",
-        "ner": "germeval2014",
+        "ner": "germeval2014_charlm",
         "sentiment": "sb10k_charlm",
         "optional": {
           "coref": "udcoref_xlm-roberta-lora"
@@ -2646,7 +2629,7 @@
         "lemma": "combined_charlm",
         "pos": "combined_german-nlp-electra",
         "depparse": "combined_german-nlp-electra",
-        "ner": "germeval2014",
+        "ner": "germeval2014_german-nlp-electra",
         "sentiment": "sb10k_german-nlp-electra",
         "constituency": "spmrl_german-nlp-electra",
         "optional": {
@@ -2675,7 +2658,7 @@
         "depparse": "hdt_charlm"
       }
     },
-    "default_md5": "cb8f6c594da6b7e4ad40ca278bf1a7ce",
+    "default_md5": "246bd616aa9a398d0900aad1a6f145f6",
     "lang_name": "German"
   },
   "german": {
