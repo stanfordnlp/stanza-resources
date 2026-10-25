@@ -11909,7 +11909,7 @@
     },
     "tokenize": {
       "combined_charlm": {
-        "md5": "fba6125aff391336deb86081652d0dfb",
+        "md5": "c2627d35ada89cd314b6259dd6493f6d",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -11918,7 +11918,7 @@
         ]
       },
       "combined_nocharlm": {
-        "md5": "b17b3d6a44195447400516f258e8d073"
+        "md5": "78300481703f4cbe0a9ba990eb2b42d2"
       },
       "gsd_charlm": {
         "md5": "99ade255a695165e09de6584f810497e",
@@ -11996,7 +11996,7 @@
         "depparse": "gsdluw_charlm"
       }
     },
-    "default_md5": "6f2c75d36b8280f73df8931bd1047a18",
+    "default_md5": "93cf83d07545813090071c17ad5c5d70",
     "lang_name": "Japanese"
   },
   "japanese": {
