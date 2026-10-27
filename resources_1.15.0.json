@@ -4925,7 +4925,7 @@
         ]
       },
       "combined_bertin-roberta": {
-        "md5": "0c20ad5ff097e4149b9990edc99aeeb7",
+        "md5": "f6ffa2d4388f5423699cb541608ace41",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4942,7 +4942,7 @@
         ]
       },
       "combined_charlm": {
-        "md5": "b04ced470ebf395535ef390e720bd297",
+        "md5": "13a02b3919a851805e4c43757e013c34",
         "dependencies": [
           {
             "model": "pretrain",
@@ -5167,7 +5167,7 @@
         "depparse": "gsd_charlm"
       }
     },
-    "default_md5": "d52f8ae9f0305b1079476c27dec7b421",
+    "default_md5": "04c9a82a0327bdfc31108349b09f61f4",
     "lang_name": "Spanish"
   },
   "spanish": {
