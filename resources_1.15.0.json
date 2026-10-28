@@ -3499,7 +3499,7 @@
         "md5": "cfce17057c0053dd595fb5bb8010b244"
       },
       "combined_charlm": {
-        "md5": "a3efc57724b629fabf427ce59d410f7e",
+        "md5": "5a88306e7aaa0f736b87ab31631d5c1f",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3516,7 +3516,7 @@
         ]
       },
       "combined_nocharlm": {
-        "md5": "8d3742b3f507e78a9e605afd72b34c92"
+        "md5": "c1919a2fd49702ddb93338c3a06c8b18"
       },
       "craft_nocharlm": {
         "md5": "62758246109e9ed243f158ce9e4294c3"
@@ -4591,7 +4591,7 @@
         "depparse": "partut_charlm"
       }
     },
-    "default_md5": "d67a8cc6a4ac3131c2145cc5d8cd928b",
+    "default_md5": "f856456788a3d8a25bcb40ea2e56cee7",
     "lang_name": "English"
   },
   "english": {
