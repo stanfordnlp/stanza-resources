@@ -4012,7 +4012,7 @@
         ]
       },
       "combined_charlm": {
-        "md5": "a31dbf7269152bc85c3c79c5318ae848",
+        "md5": "cefc83ef24c9ed0ed96e20d9c6e4374c",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4026,10 +4026,11 @@
             "model": "backward_charlm",
             "package": "1billion"
           }
-        ]
+        ],
+        "alternate_md5": "a31dbf7269152bc85c3c79c5318ae848"
       },
       "combined_electra-large": {
-        "md5": "f7e65d440e6653ff3f5b4ae15655c154",
+        "md5": "0ebbe59434e2473dade2c395c0711363",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4043,16 +4044,18 @@
             "model": "backward_charlm",
             "package": "1billion"
           }
-        ]
+        ],
+        "alternate_md5": "f7e65d440e6653ff3f5b4ae15655c154"
       },
       "combined_nocharlm": {
-        "md5": "005fab042873317838e692c650e8e5e9",
+        "md5": "6c744acbc30218b17805ee8ca5b1b234",
         "dependencies": [
           {
             "model": "pretrain",
             "package": "conll17"
           }
-        ]
+        ],
+        "alternate_md5": "005fab042873317838e692c650e8e5e9"
       },
       "craft_nocharlm": {
         "md5": "0bcb9b9712e81beb38a2ed4d7649b437",
@@ -4591,7 +4594,8 @@
         "depparse": "partut_charlm"
       }
     },
-    "default_md5": "f856456788a3d8a25bcb40ea2e56cee7",
+    "default_md5": "dc1b68c77799e724326bbc384638c8e6",
+    "alternate_default_md5": "f856456788a3d8a25bcb40ea2e56cee7",
     "lang_name": "English"
   },
   "english": {
