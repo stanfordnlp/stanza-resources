@@ -2242,7 +2242,7 @@
     },
     "lemma": {
       "combined_charlm": {
-        "md5": "72d678b7bae829693e3f643c22ae08cb",
+        "md5": "bdf1ffdc88fcb2e729fdeda2bc797c09",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -2252,10 +2252,12 @@
             "model": "backward_charlm",
             "package": "newswiki"
           }
-        ]
+        ],
+        "alternate_md5": "72d678b7bae829693e3f643c22ae08cb"
       },
       "combined_nocharlm": {
-        "md5": "207e57ac2df6fee797b163df299e0fa0"
+        "md5": "74d781cd12772e604d5ad80c6ff1d574",
+        "alternate_md5": "207e57ac2df6fee797b163df299e0fa0"
       },
       "gsd_charlm": {
         "md5": "a35012b2dd5c598080d74ddb80f39135",
@@ -2658,7 +2660,8 @@
         "depparse": "hdt_charlm"
       }
     },
-    "default_md5": "246bd616aa9a398d0900aad1a6f145f6",
+    "default_md5": "9291355c2c99bf97adbd5334257f2340",
+    "alternate_default_md5": "246bd616aa9a398d0900aad1a6f145f6",
     "lang_name": "German"
   },
   "german": {
