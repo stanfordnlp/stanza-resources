@@ -2242,7 +2242,7 @@
     },
     "lemma": {
       "combined_charlm": {
-        "md5": "bdf1ffdc88fcb2e729fdeda2bc797c09",
+        "md5": "ee065f1cd4f68b012499437afcd95b3e",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -2253,11 +2253,11 @@
             "package": "newswiki"
           }
         ],
-        "alternate_md5": "72d678b7bae829693e3f643c22ae08cb"
+        "alternate_md5": "bdf1ffdc88fcb2e729fdeda2bc797c09"
       },
       "combined_nocharlm": {
-        "md5": "74d781cd12772e604d5ad80c6ff1d574",
-        "alternate_md5": "207e57ac2df6fee797b163df299e0fa0"
+        "md5": "4aadd26d59846acc0358b1e963ae4375",
+        "alternate_md5": "74d781cd12772e604d5ad80c6ff1d574"
       },
       "gsd_charlm": {
         "md5": "a35012b2dd5c598080d74ddb80f39135",
@@ -2660,8 +2660,8 @@
         "depparse": "hdt_charlm"
       }
     },
-    "default_md5": "9291355c2c99bf97adbd5334257f2340",
-    "alternate_default_md5": "246bd616aa9a398d0900aad1a6f145f6",
+    "default_md5": "d7610972ba3901c81e12317a243062c0",
+    "alternate_default_md5": "9291355c2c99bf97adbd5334257f2340",
     "lang_name": "German"
   },
   "german": {
@@ -3502,7 +3502,7 @@
         "md5": "cfce17057c0053dd595fb5bb8010b244"
       },
       "combined_charlm": {
-        "md5": "64671b0d717f76624a2e1af6386aad9a",
+        "md5": "5c496bc9d843d6eb5062f3e1b99ee2dc",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3517,11 +3517,11 @@
             "package": "1billion"
           }
         ],
-        "alternate_md5": "c7aec3fbdc496cfcdfcef02d0b722e27"
+        "alternate_md5": "1d4b731383f9123cccc116af9fda3d97"
       },
       "combined_nocharlm": {
-        "md5": "9ca996b94d24e5b06b302eac0624643c",
-        "alternate_md5": "eebdb83761b26a2e4a713309684271e2"
+        "md5": "29d8cf65331b8fe5e0ff17ba1661c39c",
+        "alternate_md5": "717accd72c370d1c3d6cfe453f4ac6e5"
       },
       "craft_nocharlm": {
         "md5": "62758246109e9ed243f158ce9e4294c3"
@@ -4599,8 +4599,8 @@
         "depparse": "partut_charlm"
       }
     },
-    "default_md5": "773eed05af3b984b712bbf3c0f4d2da6",
-    "alternate_default_md5": "ec38712d518017dddb0c614190fe058e",
+    "default_md5": "317e32f9d3fc474bfe70842c64b4f79b",
+    "alternate_default_md5": "e72e89a86f884d2ce1ece1d06d8ef529",
     "lang_name": "English"
   },
   "english": {
