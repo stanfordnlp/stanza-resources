@@ -4934,7 +4934,7 @@
         ]
       },
       "combined_bertin-roberta": {
-        "md5": "f6ffa2d4388f5423699cb541608ace41",
+        "md5": "7cf4b393a9308a1630c79a904250cc36",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4948,10 +4948,11 @@
             "model": "backward_charlm",
             "package": "newswiki"
           }
-        ]
+        ],
+        "alternate_md5": "f6ffa2d4388f5423699cb541608ace41"
       },
       "combined_charlm": {
-        "md5": "13a02b3919a851805e4c43757e013c34",
+        "md5": "fe4ecc242afe73d97fd78d9bc6c9030a",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4965,16 +4966,18 @@
             "model": "backward_charlm",
             "package": "newswiki"
           }
-        ]
+        ],
+        "alternate_md5": "13a02b3919a851805e4c43757e013c34"
       },
       "combined_nocharlm": {
-        "md5": "1b0d14590d77d21c03b6776ad9bd3d60",
+        "md5": "9955c816296a1f8bd4cb4629dcc29aa9",
         "dependencies": [
           {
             "model": "pretrain",
             "package": "conll17"
           }
-        ]
+        ],
+        "alternate_md5": "1b0d14590d77d21c03b6776ad9bd3d60"
       },
       "gsd_bertin-roberta": {
         "md5": "d7d601e24f0cfd168b309e09ad6385bd",
@@ -5176,7 +5179,8 @@
         "depparse": "gsd_charlm"
       }
     },
-    "default_md5": "04c9a82a0327bdfc31108349b09f61f4",
+    "default_md5": "0ac1c3f2d2fea1d5fec49638bee3ef8a",
+    "alternate_default_md5": "04c9a82a0327bdfc31108349b09f61f4",
     "lang_name": "Spanish"
   },
   "spanish": {
