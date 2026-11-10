@@ -4810,7 +4810,7 @@
         "md5": "cbd3c88c2bfec5d5e61f9c588912bfb2"
       },
       "combined_charlm": {
-        "md5": "56b673bf190679038f8858db3e571d5b",
+        "md5": "3f42e6cbf2767ef101cdb853f3c1ce75",
         "dependencies": [
           {
             "model": "forward_charlm",
@@ -4820,10 +4820,12 @@
             "model": "backward_charlm",
             "package": "newswiki"
           }
-        ]
+        ],
+        "alternate_md5": "56b673bf190679038f8858db3e571d5b"
       },
       "combined_nocharlm": {
-        "md5": "bccfc074adbcb9229efc08c94353b4bb"
+        "md5": "71766bd5dcdc4354d16374a46f701e93",
+        "alternate_md5": "bccfc074adbcb9229efc08c94353b4bb"
       },
       "gsd_charlm": {
         "md5": "6aaf4ff2fff0f4497aa399def44ca9a4",
@@ -5179,8 +5181,8 @@
         "depparse": "gsd_charlm"
       }
     },
-    "default_md5": "0ac1c3f2d2fea1d5fec49638bee3ef8a",
-    "alternate_default_md5": "04c9a82a0327bdfc31108349b09f61f4",
+    "default_md5": "c79b415663744529e10f1eaf6e616aae",
+    "alternate_default_md5": "0ac1c3f2d2fea1d5fec49638bee3ef8a",
     "lang_name": "Spanish"
   },
   "spanish": {
