@@ -2799,7 +2799,13 @@
         "md5": "16f93f0f0c489fceeb22b5aa973eaedb"
       },
       "gdt_nocharlm": {
-        "md5": "8c5f9ade28987579ad43b236d487530c"
+        "md5": "8c5f9ade28987579ad43b236d487530c",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
       },
       "gud_nocharlm": {
         "md5": "9a2afd53109c036b2abd950118eec8d3"
