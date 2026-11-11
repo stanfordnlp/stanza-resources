@@ -14390,6 +14390,23 @@
           }
         ]
       },
+      "combined_robbert-large": {
+        "md5": "ea64346cf7ce749597815eb6a70675fb",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "ccwiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "ccwiki"
+          }
+        ]
+      },
       "lassysmall_charlm": {
         "md5": "179ad8580f89cd44c53fc67afb29035a",
         "dependencies": [
@@ -14455,6 +14472,19 @@
       },
       "alpino_nocharlm": {
         "md5": "22f63a6e4ec243db6e6ac65898f57f0e"
+      },
+      "combined_charlm": {
+        "md5": "d2ab961dc7d4615ffe58eaabf8f6e295",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "ccwiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "ccwiki"
+          }
+        ]
       },
       "lassysmall_charlm": {
         "md5": "070ce432e7eb3afefa7bb313f00ba565",
@@ -14558,6 +14588,23 @@
           }
         ]
       },
+      "combined_robbert-large": {
+        "md5": "202d76c213602d08370d4e88643e7872",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "ccwiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "ccwiki"
+          }
+        ]
+      },
       "lassysmall_charlm": {
         "md5": "9b2bb20dcb5091972969bba428080b3e",
         "dependencies": [
@@ -14623,6 +14670,15 @@
       "alpino_nocharlm": {
         "md5": "b845a78a026bbe1310e47a44bf1ab8db"
       },
+      "combined_charlm": {
+        "md5": "5eedc8639862f2916aa5090b4a10dd8f",
+        "dependencies": [
+          {
+            "model": "forward_charlm",
+            "package": "ccwiki"
+          }
+        ]
+      },
       "lassysmall_charlm": {
         "md5": "0edca6a93dbb189d1c00454ed84465e9",
         "dependencies": [
@@ -14676,6 +14732,9 @@
         "lemma": "alpino_nocharlm",
         "depparse": "alpino_charlm"
       },
+      "combined": {
+        "tokenize": "combined_charlm"
+      },
       "lassysmall": {
         "tokenize": "lassysmall_nocharlm",
         "pos": "lassysmall_charlm",
@@ -14684,6 +14743,7 @@
       }
     },
     "default_md5": "c4edfe67e501342b80e2408202fa1fb2",
+    "alternate_default_md5": "8cdd8d41adb3127df0f011c7264bf4ba",
     "lang_name": "Dutch"
   },
   "dutch": {
