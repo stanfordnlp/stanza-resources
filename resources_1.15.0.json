@@ -3511,7 +3511,7 @@
         "md5": "cfce17057c0053dd595fb5bb8010b244"
       },
       "combined_charlm": {
-        "md5": "5c496bc9d843d6eb5062f3e1b99ee2dc",
+        "md5": "736990db1c080c8c4149f16c15a3bbdf",
         "dependencies": [
           {
             "model": "pretrain",
@@ -3526,7 +3526,7 @@
             "package": "1billion"
           }
         ],
-        "alternate_md5": "1d4b731383f9123cccc116af9fda3d97"
+        "alternate_md5": "5c496bc9d843d6eb5062f3e1b99ee2dc"
       },
       "combined_nocharlm": {
         "md5": "29d8cf65331b8fe5e0ff17ba1661c39c",
@@ -4026,7 +4026,7 @@
         ]
       },
       "combined_charlm": {
-        "md5": "516a4fb24999f06300710e2592dff0ef",
+        "md5": "cefc83ef24c9ed0ed96e20d9c6e4374c",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4041,10 +4041,10 @@
             "package": "1billion"
           }
         ],
-        "alternate_md5": "0c530fab424a76fe7c64363295335b28"
+        "alternate_md5": "516a4fb24999f06300710e2592dff0ef"
       },
       "combined_electra-large": {
-        "md5": "2e29b64a32c69ddc95d88b3e09e8825e",
+        "md5": "0ebbe59434e2473dade2c395c0711363",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4059,17 +4059,17 @@
             "package": "1billion"
           }
         ],
-        "alternate_md5": "79a03572aa3e832fa6abe5d73f060452"
+        "alternate_md5": "2e29b64a32c69ddc95d88b3e09e8825e"
       },
       "combined_nocharlm": {
-        "md5": "f717481d575d3f3d2790628c60cc413b",
+        "md5": "6c744acbc30218b17805ee8ca5b1b234",
         "dependencies": [
           {
             "model": "pretrain",
             "package": "conll17"
           }
         ],
-        "alternate_md5": "6c744acbc30218b17805ee8ca5b1b234"
+        "alternate_md5": "f717481d575d3f3d2790628c60cc413b"
       },
       "craft_nocharlm": {
         "md5": "0bcb9b9712e81beb38a2ed4d7649b437",
@@ -4608,8 +4608,8 @@
         "depparse": "partut_charlm"
       }
     },
-    "default_md5": "5da374dfeb5a8d545baf3d73a86bd149",
-    "alternate_default_md5": "317e32f9d3fc474bfe70842c64b4f79b",
+    "default_md5": "317e32f9d3fc474bfe70842c64b4f79b",
+    "alternate_default_md5": "5da374dfeb5a8d545baf3d73a86bd149",
     "lang_name": "English"
   },
   "english": {
@@ -18388,7 +18388,7 @@
     },
     "lemma": {
       "combined_charlm": {
-        "md5": "02b8c2d7b92aaa3fc470e2bd00282fa5",
+        "md5": "72bd29dc61225418ea71633ba4299553",
         "dependencies": [
           {
             "model": "pretrain",
@@ -18402,13 +18402,14 @@
             "model": "backward_charlm",
             "package": "oscar2023"
           }
-        ]
+        ],
+        "alternate_md5": "02b8c2d7b92aaa3fc470e2bd00282fa5"
       },
       "combined_nocharlm": {
         "md5": "e7de7430037b0b7f1a35cc05c2bbfb2b"
       },
       "ssj_charlm": {
-        "md5": "bb5539cd40286696696cbe1436819b46",
+        "md5": "7bfd7efdfaf2eae3ecafd330853cc7e7",
         "dependencies": [
           {
             "model": "pretrain",
@@ -18422,7 +18423,8 @@
             "model": "backward_charlm",
             "package": "oscar2023"
           }
-        ]
+        ],
+        "alternate_md5": "bb5539cd40286696696cbe1436819b46"
       },
       "ssj_nocharlm": {
         "md5": "5ba24708e792ceec34b04d08408d2456"
