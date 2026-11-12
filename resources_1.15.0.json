@@ -14403,6 +14403,32 @@
           }
         ]
       },
+      "combined_charlm": {
+        "md5": "13c361eaaaedba2c9bee8df7ff9cecfb",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "ccwiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "ccwiki"
+          }
+        ]
+      },
+      "combined_nocharlm": {
+        "md5": "fb93db80247c94c6545deec1b4529825",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
       "combined_robbert-large": {
         "md5": "ea64346cf7ce749597815eb6a70675fb",
         "dependencies": [
@@ -14498,6 +14524,9 @@
             "package": "ccwiki"
           }
         ]
+      },
+      "combined_nocharlm": {
+        "md5": "2a04d8bdca11a933f1fde1778b037502"
       },
       "lassysmall_charlm": {
         "md5": "070ce432e7eb3afefa7bb313f00ba565",
@@ -14601,6 +14630,32 @@
           }
         ]
       },
+      "combined_charlm": {
+        "md5": "cec76a86c6d1256395a4a05ca039729f",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          },
+          {
+            "model": "forward_charlm",
+            "package": "ccwiki"
+          },
+          {
+            "model": "backward_charlm",
+            "package": "ccwiki"
+          }
+        ]
+      },
+      "combined_nocharlm": {
+        "md5": "7a7231cee308d5cc827eea963290826a",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
       "combined_robbert-large": {
         "md5": "202d76c213602d08370d4e88643e7872",
         "dependencies": [
@@ -14692,6 +14747,9 @@
           }
         ]
       },
+      "combined_nocharlm": {
+        "md5": "2de072c4de28be3f45ab2e3ff8b64d31"
+      },
       "lassysmall_charlm": {
         "md5": "0edca6a93dbb189d1c00454ed84465e9",
         "dependencies": [
@@ -14706,36 +14764,32 @@
       }
     },
     "default_processors": {
-      "tokenize": "alpino_nocharlm",
-      "mwt": "alpino",
-      "lemma": "alpino_nocharlm",
-      "pos": "alpino_charlm",
-      "depparse": "alpino_charlm",
+      "tokenize": "combined_nocharlm",
+      "lemma": "combined_nocharlm",
+      "pos": "combined_charlm",
+      "depparse": "combined_charlm",
       "ner": "conll02"
     },
     "packages": {
       "default": {
-        "tokenize": "alpino_nocharlm",
-        "mwt": "alpino",
-        "lemma": "alpino_nocharlm",
-        "pos": "alpino_charlm",
-        "depparse": "alpino_charlm",
+        "tokenize": "combined_nocharlm",
+        "lemma": "combined_nocharlm",
+        "pos": "combined_charlm",
+        "depparse": "combined_charlm",
         "ner": "conll02"
       },
       "default_fast": {
-        "tokenize": "alpino_nocharlm",
-        "mwt": "alpino",
-        "lemma": "alpino_nocharlm",
-        "pos": "alpino_nocharlm",
-        "depparse": "alpino_nocharlm",
+        "tokenize": "combined_nocharlm",
+        "lemma": "combined_nocharlm",
+        "pos": "combined_nocharlm",
+        "depparse": "combined_nocharlm",
         "ner": "conll02"
       },
       "default_accurate": {
-        "tokenize": "alpino_charlm",
-        "mwt": "alpino",
-        "lemma": "alpino_charlm",
-        "pos": "alpino_robbert-large",
-        "depparse": "alpino_robbert-large",
+        "tokenize": "combined_charlm",
+        "lemma": "combined_charlm",
+        "pos": "combined_robbert-large",
+        "depparse": "combined_robbert-large",
         "ner": "conll02"
       },
       "alpino": {
@@ -14746,7 +14800,10 @@
         "depparse": "alpino_charlm"
       },
       "combined": {
-        "tokenize": "combined_charlm"
+        "tokenize": "combined_nocharlm",
+        "pos": "combined_charlm",
+        "lemma": "combined_nocharlm",
+        "depparse": "combined_charlm"
       },
       "lassysmall": {
         "tokenize": "lassysmall_nocharlm",
@@ -14755,8 +14812,8 @@
         "depparse": "lassysmall_charlm"
       }
     },
-    "default_md5": "c4edfe67e501342b80e2408202fa1fb2",
-    "alternate_default_md5": "8cdd8d41adb3127df0f011c7264bf4ba",
+    "default_md5": "ebcde96e06ed59fa60c02fe62907f9a5",
+    "alternate_default_md5": "c4edfe67e501342b80e2408202fa1fb2",
     "lang_name": "Dutch"
   },
   "dutch": {
