@@ -4026,7 +4026,7 @@
         ]
       },
       "combined_charlm": {
-        "md5": "516a4fb24999f06300710e2592dff0ef",
+        "md5": "fd65a60819a2b42e72733571077d8e85",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4041,10 +4041,10 @@
             "package": "1billion"
           }
         ],
-        "alternate_md5": "cefc83ef24c9ed0ed96e20d9c6e4374c"
+        "alternate_md5": "516a4fb24999f06300710e2592dff0ef"
       },
       "combined_electra-large": {
-        "md5": "2e29b64a32c69ddc95d88b3e09e8825e",
+        "md5": "b6e0735a779deaa431206905726059f0",
         "dependencies": [
           {
             "model": "pretrain",
@@ -4059,17 +4059,17 @@
             "package": "1billion"
           }
         ],
-        "alternate_md5": "0ebbe59434e2473dade2c395c0711363"
+        "alternate_md5": "2e29b64a32c69ddc95d88b3e09e8825e"
       },
       "combined_nocharlm": {
-        "md5": "f717481d575d3f3d2790628c60cc413b",
+        "md5": "02567e0f98a0612ea63bccbd09f5f14b",
         "dependencies": [
           {
             "model": "pretrain",
             "package": "conll17"
           }
         ],
-        "alternate_md5": "6c744acbc30218b17805ee8ca5b1b234"
+        "alternate_md5": "f717481d575d3f3d2790628c60cc413b"
       },
       "craft_nocharlm": {
         "md5": "0bcb9b9712e81beb38a2ed4d7649b437",
@@ -4608,8 +4608,8 @@
         "depparse": "partut_charlm"
       }
     },
-    "default_md5": "6acb7d681d6b516b3ceea03e4645f74c",
-    "alternate_default_md5": "317e32f9d3fc474bfe70842c64b4f79b",
+    "default_md5": "0e39ce127ece77d9fe2b4817580349f2",
+    "alternate_default_md5": "6acb7d681d6b516b3ceea03e4645f74c",
     "lang_name": "English"
   },
   "english": {
