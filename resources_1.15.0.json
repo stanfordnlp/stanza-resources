@@ -2722,6 +2722,24 @@
   },
   "el": {
     "depparse": {
+      "combined_greek-bert": {
+        "md5": "cbf05e481edc7af23fedd51e4de47ffc",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
+      "combined_nocharlm": {
+        "md5": "e20d0ea88276372b6b8fefbaf1894d5b",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
       "cretan_greek-bert": {
         "md5": "6f7f580ff92fca84f9efcc4db3c40486",
         "dependencies": [
@@ -2796,6 +2814,15 @@
       }
     },
     "lemma": {
+      "combined_nocharlm": {
+        "md5": "c1f2c6e31f6525c6ff3766ccf96654ab",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
       "cretan_nocharlm": {
         "md5": "16f93f0f0c489fceeb22b5aa973eaedb"
       },
@@ -2817,6 +2844,9 @@
       }
     },
     "mwt": {
+      "combined": {
+        "md5": "9ad0b1974254632ca6c781c1194b441a"
+      },
       "gdt": {
         "md5": "9ad0b1974254632ca6c781c1194b441a"
       },
@@ -2825,6 +2855,24 @@
       }
     },
     "pos": {
+      "combined_greek-bert": {
+        "md5": "7045535370bdb0911a8906a8708927d2",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
+      "combined_nocharlm": {
+        "md5": "4ce8ae22862694dcd30f8e5000cf4732",
+        "dependencies": [
+          {
+            "model": "pretrain",
+            "package": "conll17"
+          }
+        ]
+      },
       "cretan_greek-bert": {
         "md5": "5011c727e2828d047de53eee91893fda",
         "dependencies": [
@@ -2904,6 +2952,9 @@
       }
     },
     "tokenize": {
+      "combined_nocharlm": {
+        "md5": "6d987bf9ac7ca88147914e64c9526fa1"
+      },
       "cretan_nocharlm": {
         "md5": "fa7d8585433be4fa319cd7e2930b2fce"
       },
@@ -2918,33 +2969,40 @@
       }
     },
     "default_processors": {
-      "tokenize": "gdt_nocharlm",
-      "mwt": "gdt",
-      "lemma": "gdt_nocharlm",
-      "pos": "gdt_nocharlm",
-      "depparse": "gdt_nocharlm"
+      "tokenize": "combined_nocharlm",
+      "mwt": "combined",
+      "lemma": "combined_nocharlm",
+      "pos": "combined_nocharlm",
+      "depparse": "combined_nocharlm"
     },
     "packages": {
       "default": {
-        "tokenize": "gdt_nocharlm",
-        "mwt": "gdt",
-        "lemma": "gdt_nocharlm",
-        "pos": "gdt_nocharlm",
-        "depparse": "gdt_nocharlm"
+        "tokenize": "combined_nocharlm",
+        "mwt": "combined",
+        "lemma": "combined_nocharlm",
+        "pos": "combined_nocharlm",
+        "depparse": "combined_nocharlm"
       },
       "default_fast": {
-        "tokenize": "gdt_nocharlm",
-        "mwt": "gdt",
-        "lemma": "gdt_nocharlm",
-        "pos": "gdt_nocharlm",
-        "depparse": "gdt_nocharlm"
+        "tokenize": "combined_nocharlm",
+        "mwt": "combined",
+        "lemma": "combined_nocharlm",
+        "pos": "combined_nocharlm",
+        "depparse": "combined_nocharlm"
       },
       "default_accurate": {
-        "tokenize": "gdt_nocharlm",
-        "mwt": "gdt",
-        "lemma": "gdt_nocharlm",
-        "pos": "gdt_greek-bert",
-        "depparse": "gdt_greek-bert"
+        "tokenize": "combined_nocharlm",
+        "mwt": "combined",
+        "lemma": "combined_nocharlm",
+        "pos": "combined_greek-bert",
+        "depparse": "combined_greek-bert"
+      },
+      "combined": {
+        "tokenize": "combined_nocharlm",
+        "mwt": "combined",
+        "pos": "combined_nocharlm",
+        "lemma": "combined_nocharlm",
+        "depparse": "combined_nocharlm"
       },
       "cretan": {
         "tokenize": "cretan_nocharlm",
@@ -2973,8 +3031,8 @@
         "depparse": "messinian_nocharlm"
       }
     },
-    "default_md5": "3c239d6f31db7c4dc51f4dc29f89a802",
-    "alternate_default_md5": "19221193269c4486fc6d6e0f5bf107c5",
+    "default_md5": "4d92ab8fb7804bb682c472060dc70d6c",
+    "alternate_default_md5": "3c239d6f31db7c4dc51f4dc29f89a802",
     "lang_name": "Greek"
   },
   "greek": {
